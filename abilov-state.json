@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781677322.991471,
+  "updated_ts": 1781679722.016974,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781677322.9911711
+      "heartbeat_ts": 1781679722.016178
     }
   },
   "control": {
@@ -41,11 +41,11 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 5.21,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 5.21
+    "unrealized_pnl": -0.09,
+    "net_pnl": 5.12
   },
   "stats": {
-    "signals": 0,
+    "signals": 1,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -59,7 +59,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
+      "BTC/USDT": 65371.2,
       "ETH/USDT": 0.0
     }
   },
@@ -72,9 +72,9 @@
       "sl": 65944.602428,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 65371.2,
+      "upnl": -0.09,
+      "u_r": -0.03
     }
   ],
   "recent_trades": [
@@ -1461,6 +1461,16 @@
     },
     "news": [
       {
+        "title": "BitGo offers Europe\u2019s crypto firms a MiCA-compliance lifeline as license deadline looms",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Forget the price charts. Here's how bitcoin and S&P 500 look like when adjusted for the money printer",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto PAC's $12 million Senate candidate, Barry Moore, wins Alabama GOP primary",
         "source": "CoinDesk",
         "ts": 0
@@ -1479,24 +1489,14 @@
         "title": "Uniswap jumps 22% and altcoins rip while bitcoin stalls before the Fed",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Here is why Strategy's dividend-paying crypto stock is crashing to near-historic lows",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin miners' AI pivot faces $50 billion reality check, says VanEck",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4347.0,
-      "BTCUSD": 65805.36719,
+      "XAUUSD": 4348.1001,
+      "BTCUSD": 65536.0,
       "ETHUSD": 0.0,
-      "EURUSD": 0.0,
-      "GBPUSD": 1.34135
+      "EURUSD": 1.16117,
+      "GBPUSD": 1.34158
     },
     "period_stats": {
       "day": {
