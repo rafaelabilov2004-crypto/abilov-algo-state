@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781711462.1556532,
+  "updated_ts": 1781713375.657643,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781711462.155253
+      "heartbeat_ts": 1781713375.653713
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 5.21,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 5.21
+    "unrealized_pnl": 0.08,
+    "net_pnl": 5.29
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 65314.9,
+      "ETH/USDT": 1775.28
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 65944.602428,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 65314.9,
+      "upnl": 0.17,
+      "u_r": 0.06
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1768.538563,
       "tp": 1813.264312,
       "size": 0.168566,
-      "price": 1775.812584,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1775.28,
+      "upnl": -0.09,
+      "u_r": -0.07
     }
   ],
   "recent_trades": [
@@ -1473,6 +1473,11 @@
     },
     "news": [
       {
+        "title": "Moody\u2019s rolls out credit ratings on Solana in tokenized asset push",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
         "source": "CoinDesk",
         "ts": 0
@@ -1496,19 +1501,14 @@
         "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 3.1%, leading index lower",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "A new Bittensor proposal would turn validators into something like fund managers",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4377.6001,
-      "BTCUSD": 65782.22656,
+      "XAUUSD": 4382.6001,
+      "BTCUSD": 65853.60938,
       "ETHUSD": 0.0,
       "EURUSD": 1.15955,
-      "GBPUSD": 1.33964
+      "GBPUSD": 1.33935
     },
     "period_stats": {
       "day": {
