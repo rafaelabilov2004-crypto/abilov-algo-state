@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781691037.098905,
+  "updated_ts": 1781697681.330749,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781691037.098201
+      "heartbeat_ts": 1781697681.3300202
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 5.21,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 5.21
+    "unrealized_pnl": 0.89,
+    "net_pnl": 6.1
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 65137.9,
+      "ETH/USDT": 1775.28
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 65944.602428,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 65137.9,
+      "upnl": 0.98,
+      "u_r": 0.36
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1768.538563,
       "tp": 1813.264312,
       "size": 0.168566,
-      "price": 1775.812584,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1775.28,
+      "upnl": -0.09,
+      "u_r": -0.07
     }
   ],
   "recent_trades": [
@@ -1473,42 +1473,42 @@
     },
     "news": [
       {
+        "title": "Bitcoin's June downturn leaves $8.6 billion in options out of the money",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Heir to 135-year Gulf dynasty is moving a $6 trillion trade market onto blockchain rails",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Three Fed signals that could make bitcoin pop",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "UNI token surges while rest of crypto market looks to Fed's Warsh for guidance",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Forget retail traders: The real multi-trillion-dollar crypto future is building infrastructure for machines",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "BitGo offers Europe\u2019s crypto firms a MiCA-compliance lifeline as license deadline looms",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Forget the price charts. Here's how bitcoin and S&P 500 look like when adjusted for the money printer",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto PAC's $12 million Senate candidate, Barry Moore, wins Alabama GOP primary",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Live markets: Markets turn their focus to the Fed as oil returns to pre-war levels",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "XRP gives back breakout gains, slipping below $1.23 on heavy selling",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Uniswap jumps 22% and altcoins rip while bitcoin stalls before the Fed",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4348.5,
-      "BTCUSD": 64804.28906,
+      "XAUUSD": 4343.0,
+      "BTCUSD": 64758.57031,
       "ETHUSD": 0.0,
-      "EURUSD": 1.16077,
-      "GBPUSD": 1.34174
+      "EURUSD": 1.15955,
+      "GBPUSD": 1.34055
     },
     "period_stats": {
       "day": {
