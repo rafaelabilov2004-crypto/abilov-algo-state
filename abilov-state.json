@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781666062.53613,
+  "updated_ts": 1781673783.983768,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781666062.5356002
+      "heartbeat_ts": 1781673783.9828422
     }
   },
   "control": {
@@ -41,11 +41,11 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 5.21,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 5.21
+    "unrealized_pnl": 0.17,
+    "net_pnl": 5.38
   },
   "stats": {
-    "signals": 0,
+    "signals": 1,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -59,7 +59,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
+      "BTC/USDT": 65314.9,
       "ETH/USDT": 0.0
     }
   },
@@ -72,9 +72,9 @@
       "sl": 65944.602428,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 65314.9,
+      "upnl": 0.17,
+      "u_r": 0.06
     }
   ],
   "recent_trades": [
@@ -1461,6 +1461,21 @@
     },
     "news": [
       {
+        "title": "Live markets: A bitcoin bottom signal flashed as holders absorbed 125,000 BTC in June",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "XRP gives back breakout gains, slipping below $1.23 on heavy selling",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Uniswap jumps 22% and altcoins rip while bitcoin stalls before the Fed",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Here is why Strategy's dividend-paying crypto stock is crashing to near-historic lows",
         "source": "CoinDesk",
         "ts": 0
@@ -1474,29 +1489,14 @@
         "title": "U.S. senators urge Treasury not to leave states out of GENIUS Act stablecoin process",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Hyperliquid, Uniswap and Worldcoin buck crypto slump as traders chase AI, DeFi trends",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ripple invests in Flutterwave, pushing its stablecoin and XRP Ledger into payments across Africa",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4352.2002,
-      "BTCUSD": 65764.97656,
+      "XAUUSD": 4342.0,
+      "BTCUSD": 65718.5,
       "ETHUSD": 0.0,
-      "EURUSD": 1.16144,
-      "GBPUSD": 1.34277
+      "EURUSD": 1.16171,
+      "GBPUSD": 1.34336
     },
     "period_stats": {
       "day": {
