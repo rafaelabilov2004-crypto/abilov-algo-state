@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781679722.016974,
+  "updated_ts": 1781685733.9424782,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781679722.016178
+      "heartbeat_ts": 1781685733.941706
     }
   },
   "control": {
@@ -38,15 +38,15 @@
     "drawdown_pct": 0.02,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 5.21,
-    "unrealized_pnl": -0.09,
-    "net_pnl": 5.12
+    "unrealized_pnl": 0.89,
+    "net_pnl": 6.1
   },
   "stats": {
     "signals": 1,
-    "entries": 0,
+    "entries": 1,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 65371.2,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 65137.9,
+      "ETH/USDT": 1775.28
     }
   },
   "open_positions": [
@@ -72,9 +72,21 @@
       "sl": 65944.602428,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65371.2,
+      "price": 65137.9,
+      "upnl": 0.98,
+      "u_r": 0.36
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 1775.812584,
+      "sl": 1768.538563,
+      "tp": 1813.264312,
+      "size": 0.168566,
+      "price": 1775.28,
       "upnl": -0.09,
-      "u_r": -0.03
+      "u_r": -0.07
     }
   ],
   "recent_trades": [
@@ -1476,7 +1488,7 @@
         "ts": 0
       },
       {
-        "title": "Live markets: A bitcoin bottom signal flashed as holders absorbed 125,000 BTC in June",
+        "title": "Live markets: Markets turn their focus to the fed as oil returns to pre-war levels",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -1492,11 +1504,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4348.1001,
-      "BTCUSD": 65536.0,
+      "XAUUSD": 4338.7998,
+      "BTCUSD": 64892.0,
       "ETHUSD": 0.0,
-      "EURUSD": 1.16117,
-      "GBPUSD": 1.34158
+      "EURUSD": 1.1605,
+      "GBPUSD": 1.34176
     },
     "period_stats": {
       "day": {
