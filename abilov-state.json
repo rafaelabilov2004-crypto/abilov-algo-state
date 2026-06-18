@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781760839.804696,
+  "updated_ts": 1781765809.072688,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781760839.803881
+      "heartbeat_ts": 1781765809.071315
     }
   },
   "control": {
@@ -41,17 +41,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -2.05,
-    "unrealized_pnl": 6.21,
-    "net_pnl": 4.16
+    "unrealized_pnl": 0.0,
+    "net_pnl": -2.05
   },
   "stats": {
-    "signals": 3,
-    "entries": 2,
-    "closes": 2,
-    "updates": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 2
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63998.0,
-      "ETH/USDT": 1770.84
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 64339.075629,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 63998.0,
-      "upnl": 6.21,
-      "u_r": 1.34
+      "price": 65351.58864,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1679,6 +1679,16 @@
     },
     "news": [
       {
+        "title": "Live markets: Bitcoin and ether ETFs lost $111 million combined as rate-cut hopes died",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Strategy's STRC preferred stock hits a record low below par",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance",
         "source": "CoinDesk",
         "ts": 0
@@ -1697,24 +1707,14 @@
         "title": "Next bull run will be slower, less volatile as investors' crypto appetite evolves, Bitwise CIO says",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "CME chief executive says company plans to sue CFTC after perpetual futures approval",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Kentucky targets prediction markets, puts red state in potential clash with Trump team",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4341.1001,
-      "BTCUSD": 63849.71094,
-      "ETHUSD": 1726.02002,
-      "EURUSD": 1.15207,
-      "GBPUSD": 1.33081
+      "XAUUSD": 4324.1001,
+      "BTCUSD": 64035.98047,
+      "ETHUSD": 1734.08997,
+      "EURUSD": 1.15247,
+      "GBPUSD": 1.33163
     },
     "period_stats": {
       "day": {
