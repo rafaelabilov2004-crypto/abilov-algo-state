@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781795319.922702,
+  "updated_ts": 1781809045.239352,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781795319.922113
+      "heartbeat_ts": 1781809045.2390668
     }
   },
   "control": {
@@ -742,17 +742,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-18",
-      "end": "2026-06-19",
-      "trades": 4,
+      "start": "2026-06-19",
+      "end": "2026-06-20",
+      "trades": 0,
       "wins": 0,
-      "losses": 4,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -7.26,
-      "avg_r": -1.318,
-      "best_r": -0.968,
-      "worst_r": -1.651,
-      "fees": 2.4
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -1709,6 +1709,16 @@
     },
     "news": [
       {
+        "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act rule",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto for Advisors: Trading the bitcoin cycle",
         "source": "CoinDesk",
         "ts": 0
@@ -1727,24 +1737,14 @@
         "title": "Alchemy's AI-driven identity and payment service gains access to Visa network",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4267.6001,
-      "BTCUSD": 63572.32031,
-      "ETHUSD": 1732.40002,
-      "EURUSD": 1.14824,
-      "GBPUSD": 1.32428
+      "XAUUSD": 4241.7998,
+      "BTCUSD": 62572.73828,
+      "ETHUSD": 1681.80005,
+      "EURUSD": 1.14639,
+      "GBPUSD": 1.32079
     },
     "period_stats": {
       "day": {
