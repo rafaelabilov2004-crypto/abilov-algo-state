@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781769516.1619341,
+  "updated_ts": 1781776782.182167,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781769516.161202
+      "heartbeat_ts": 1781776782.1818292
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -2.05,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -2.05
+    "unrealized_pnl": 4.78,
+    "net_pnl": 2.73
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64177.5,
+      "ETH/USDT": 1747.23
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 64339.075629,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 64177.5,
+      "upnl": 5.39,
+      "u_r": 1.16
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1758.248595,
       "tp": 1702.094215,
       "size": 0.171998,
-      "price": 1743.686737,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 1747.23,
+      "upnl": -0.61,
+      "u_r": -0.24
     }
   ],
   "recent_trades": [
@@ -1696,7 +1696,7 @@
         "ts": 0
       },
       {
-        "title": "Live markets: Bitcoin and ether ETFs lost $111 million combined as rate-cut hopes died",
+        "title": "Live markets: Bitcoin, ether ETFs lose $111 million combined as rate-cut hopes die",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -1722,11 +1722,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4315.1001,
-      "BTCUSD": 64431.01953,
-      "ETHUSD": 1747.58997,
-      "EURUSD": 1.15168,
-      "GBPUSD": 1.32977
+      "XAUUSD": 4288.7998,
+      "BTCUSD": 64144.89062,
+      "ETHUSD": 1744.56995,
+      "EURUSD": 1.14824,
+      "GBPUSD": 1.32436
     },
     "period_stats": {
       "day": {
