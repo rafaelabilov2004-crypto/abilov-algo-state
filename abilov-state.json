@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781749311.410502,
+  "updated_ts": 1781760839.804696,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781749311.4098518
+      "heartbeat_ts": 1781760839.803881
     }
   },
   "control": {
@@ -33,25 +33,25 @@
     "donchian_breakout"
   ],
   "account": {
-    "equity": 10009.61,
+    "equity": 10006.15,
     "peak": 10015.4,
-    "drawdown_pct": 0.06,
+    "drawdown_pct": 0.09,
     "halted": false,
     "halt_reason": "",
     "open_positions": 2,
     "start_equity": 10000.0,
-    "realized_pnl": 1.4,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 1.4
+    "realized_pnl": -2.05,
+    "unrealized_pnl": 6.21,
+    "net_pnl": 4.16
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
-    "closes": 0,
-    "updates": 0,
+    "signals": 3,
+    "entries": 2,
+    "closes": 2,
+    "updates": 1,
     "rejections": {},
     "wins": 0,
-    "losses": 0
+    "losses": 2
   },
   "exchange": {
     "venue": "paper",
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 63998.0,
+      "ETH/USDT": 1770.84
     }
   },
   "open_positions": [
@@ -69,15 +69,37 @@
       "side": "SHORT",
       "strategy": "confluence",
       "entry": 65351.58864,
-      "sl": 64769.127451,
+      "sl": 64339.075629,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 63998.0,
+      "upnl": 6.21,
+      "u_r": 1.34
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry_price": 1770.308748,
+      "exit_price": 1775.277848,
+      "pnl": -1.446,
+      "r_multiple": -1.02,
+      "exit_reason": "SL",
+      "closed_ts": 1781759700.0
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry_price": 1774.372152,
+      "exit_price": 1766.030344,
+      "pnl": -2.01,
+      "r_multiple": -1.632,
+      "exit_reason": "SL",
+      "closed_ts": 1781749800.0
+    },
     {
       "symbol": "ETH/USDT",
       "side": "SHORT",
@@ -559,23 +581,31 @@
     {
       "ts": 1781740800.0,
       "cum_pnl": 1.4
+    },
+    {
+      "ts": 1781749800.0,
+      "cum_pnl": -0.61
+    },
+    {
+      "ts": 1781759700.0,
+      "cum_pnl": -2.05
     }
   ],
   "kpis": {
-    "n": 32,
-    "win_rate": 0.3438,
-    "expectancy_r": -0.1637,
-    "profit_factor": 1.027,
-    "total_pnl": 1.4
+    "n": 34,
+    "win_rate": 0.3235,
+    "expectancy_r": -0.2321,
+    "profit_factor": 0.963,
+    "total_pnl": -2.05
   },
   "gamify": {
     "level": 2,
-    "xp": 320,
-    "xp_pct": 28,
-    "score": -524,
+    "xp": 340,
+    "xp_pct": 36,
+    "score": -789,
     "current_streak": 0,
     "best_streak": 4,
-    "total_r": -5.24,
+    "total_r": -7.89,
     "badges": [
       {
         "id": "first",
@@ -605,12 +635,12 @@
     ],
     "goal_gate1": {
       "label": "GATE 1 \u00b7 \u044d\u0434\u0436 +0.20R",
-      "cur": -0.1637,
+      "cur": -0.2321,
       "target": 0.2
     },
     "goal_gate4": {
       "label": "GATE 4 \u00b7 200 \u0441\u0434\u0435\u043b\u043e\u043a",
-      "cur": 32,
+      "cur": 34,
       "target": 200
     }
   },
@@ -625,10 +655,10 @@
       },
       {
         "key": "confluence",
-        "n": 27,
-        "win_rate": 0.37,
-        "expectancy_r": -0.219,
-        "total_pnl": 0.66
+        "n": 29,
+        "win_rate": 0.345,
+        "expectancy_r": -0.295,
+        "total_pnl": -2.79
       },
       {
         "key": "donchian_breakout",
@@ -648,10 +678,10 @@
       },
       {
         "key": "ETH/USDT",
-        "n": 16,
-        "win_rate": 0.312,
-        "expectancy_r": -0.28,
-        "total_pnl": 2.57
+        "n": 18,
+        "win_rate": 0.278,
+        "expectancy_r": -0.396,
+        "total_pnl": -0.89
       },
       {
         "key": "SOL/USDT",
@@ -685,7 +715,7 @@
       "id": 4,
       "name": "Track record \u2265200 + \u0431\u0438\u0437\u043d\u0435\u0441",
       "done": false,
-      "note": "32/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.164R"
+      "note": "34/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.232R"
     }
   ],
   "phase4": {
@@ -702,43 +732,43 @@
       "period": "day",
       "start": "2026-06-18",
       "end": "2026-06-19",
-      "trades": 2,
+      "trades": 4,
       "wins": 0,
-      "losses": 2,
+      "losses": 4,
       "win_rate": 0.0,
-      "pnl": -3.81,
-      "avg_r": -1.309,
+      "pnl": -7.26,
+      "avg_r": -1.318,
       "best_r": -0.968,
       "worst_r": -1.651,
-      "fees": 1.2
+      "fees": 2.4
     },
     "week": {
       "period": "week",
       "start": "2026-06-15",
       "end": "2026-06-22",
-      "trades": 5,
+      "trades": 7,
       "wins": 2,
-      "losses": 3,
-      "win_rate": 0.4,
-      "pnl": 16.84,
-      "avg_r": -0.06,
+      "losses": 5,
+      "win_rate": 0.286,
+      "pnl": 13.39,
+      "avg_r": -0.422,
       "best_r": 2.02,
       "worst_r": -1.651,
-      "fees": 3.02
+      "fees": 4.23
     },
     "month": {
       "period": "month",
       "start": "2026-06-01",
       "end": "2026-07-01",
-      "trades": 32,
+      "trades": 34,
       "wins": 11,
-      "losses": 21,
-      "win_rate": 0.344,
-      "pnl": 1.4,
-      "avg_r": -0.164,
+      "losses": 23,
+      "win_rate": 0.324,
+      "pnl": -2.05,
+      "avg_r": -0.232,
       "best_r": 2.489,
       "worst_r": -1.651,
-      "fees": 18.86
+      "fees": 20.07
     },
     "attribution": [
       {
@@ -748,16 +778,7 @@
         "win_rate": 0.25,
         "pnl": 2.24,
         "avg_r": 0.479,
-        "share_pct": 159.6
-      },
-      {
-        "strategy": "confluence",
-        "trades": 27,
-        "wins": 10,
-        "win_rate": 0.37,
-        "pnl": 0.66,
-        "avg_r": -0.219,
-        "share_pct": 47.4
+        "share_pct": -108.9
       },
       {
         "strategy": "donchian_breakout",
@@ -766,7 +787,16 @@
         "win_rate": 0.0,
         "pnl": -1.5,
         "avg_r": -1.25,
-        "share_pct": -107.0
+        "share_pct": 73.0
+      },
+      {
+        "strategy": "confluence",
+        "trades": 29,
+        "wins": 10,
+        "win_rate": 0.345,
+        "pnl": -2.79,
+        "avg_r": -0.295,
+        "share_pct": 135.9
       }
     ]
   },
@@ -1649,70 +1679,70 @@
     },
     "news": [
       {
-        "title": "Crypto market treads thin ice following Warsh FOMC, Trump Iran comments",
-        "source": "Cointelegraph",
+        "title": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Here\u2019s what happened in crypto today",
-        "source": "Cointelegraph",
+        "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Gaming groups urge Congress to ban prediction markets sports betting in CLARITY Act",
-        "source": "Cointelegraph",
+        "title": "Bitcoin, ether slide after a hawkish Fed, even as Trump's signed Iran deal lifts stocks",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto-backed GOP candidate wins Alabama Senate runoff with June primaries looming",
-        "source": "Cointelegraph",
+        "title": "Next bull run will be slower, less volatile as investors' crypto appetite evolves, Bitwise CIO says",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin capitulation \u2018twice as weak\u2019 after spot liquidity turns supportive: Glassnode",
-        "source": "Cointelegraph",
+        "title": "CME chief executive says company plans to sue CFTC after perpetual futures approval",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bybit lands on Singapore MAS Investor Alert List",
-        "source": "Cointelegraph",
+        "title": "Kentucky targets prediction markets, puts red state in potential clash with Trump team",
+        "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4340.6001,
-      "BTCUSD": 64649.98828,
-      "ETHUSD": 1755.0,
-      "EURUSD": 1.15234,
-      "GBPUSD": 1.33154
+      "XAUUSD": 4341.1001,
+      "BTCUSD": 63849.71094,
+      "ETHUSD": 1726.02002,
+      "EURUSD": 1.15207,
+      "GBPUSD": 1.33081
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 4,
         "win_rate": 0.0,
-        "total_pnl": -3.81,
-        "total_r": -2.62
+        "total_pnl": -7.26,
+        "total_r": -5.27
       },
       "week": {
-        "n": 5,
-        "win_rate": 0.4,
-        "total_pnl": 16.84,
-        "total_r": -0.3
+        "n": 7,
+        "win_rate": 0.286,
+        "total_pnl": 13.39,
+        "total_r": -2.95
       },
       "month": {
-        "n": 32,
-        "win_rate": 0.344,
-        "total_pnl": 1.4,
-        "total_r": -5.24
+        "n": 34,
+        "win_rate": 0.324,
+        "total_pnl": -2.05,
+        "total_r": -7.89
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1042.75,
+    "balance": 1034.93,
     "currency": "$",
-    "total_return_pct": 4.28,
-    "closed": 35,
+    "total_return_pct": 3.49,
+    "closed": 37,
     "wins": 11,
     "peak": 1065.25
   }
