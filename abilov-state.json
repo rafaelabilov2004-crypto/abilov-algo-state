@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781776782.182167,
+  "updated_ts": 1781783063.4298508,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781776782.1818292
+      "heartbeat_ts": 1781783063.429365
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -2.05,
-    "unrealized_pnl": 4.78,
-    "net_pnl": 2.73
+    "unrealized_pnl": 0.0,
+    "net_pnl": -2.05
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64177.5,
-      "ETH/USDT": 1747.23
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 64339.075629,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 64177.5,
-      "upnl": 5.39,
-      "u_r": 1.16
+      "price": 65351.58864,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1758.248595,
       "tp": 1702.094215,
       "size": 0.171998,
-      "price": 1747.23,
-      "upnl": -0.61,
-      "u_r": -0.24
+      "price": 1743.686737,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1691,42 +1691,42 @@
     },
     "news": [
       {
+        "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin's nemesis, the Dollar Index, is on the verge of a major breakout",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Aster popped over 10% on radical 'buyback and burn' upgrade. But gains were short-lived",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto market positioning is 'defensive and thin' after Fed, Marex\u00a0 analysts say",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Malta's financial regulator explores bringing parts of DeFi under MiCA's orbit",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "The bond market is flashing a clear signal on interest rates. Bitcoin bulls should take note",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Live markets: Bitcoin, ether ETFs lose $111 million combined as rate-cut hopes die",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Strategy's STRC preferred stock hits a record low below par",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin, ether slide after a hawkish Fed, even as Trump's signed Iran deal lifts stocks",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4288.7998,
-      "BTCUSD": 64144.89062,
-      "ETHUSD": 1744.56995,
-      "EURUSD": 1.14824,
-      "GBPUSD": 1.32436
+      "XAUUSD": 4266.6001,
+      "BTCUSD": 63873.10156,
+      "ETHUSD": 1740.55005,
+      "EURUSD": 1.14626,
+      "GBPUSD": 1.32167
     },
     "period_stats": {
       "day": {
