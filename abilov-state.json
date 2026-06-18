@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781743114.05009,
+  "updated_ts": 1781749311.410502,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781743114.0497332
+      "heartbeat_ts": 1781749311.4098518
     }
   },
   "control": {
@@ -41,17 +41,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 1.4,
-    "unrealized_pnl": 5.39,
-    "net_pnl": 6.79
+    "unrealized_pnl": 0.0,
+    "net_pnl": 1.4
   },
   "stats": {
-    "signals": 2,
-    "entries": 1,
-    "closes": 2,
-    "updates": 2,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 2
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64177.6,
-      "ETH/USDT": 1775.28
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 64769.127451,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 64177.6,
-      "upnl": 5.39,
-      "u_r": 2.02
+      "price": 65351.58864,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1649,49 +1649,49 @@
     },
     "news": [
       {
-        "title": "Kentucky targets prediction markets, puts red state in potential clash with Trump team",
-        "source": "CoinDesk",
+        "title": "Crypto market treads thin ice following Warsh FOMC, Trump Iran comments",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Fidelity joins Wall Street's race to manage stablecoin reserves",
-        "source": "CoinDesk",
+        "title": "Here\u2019s what happened in crypto today",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Here is how Coinbase plan to survive the crypto downturn by ditching its reliance on trading fees",
-        "source": "CoinDesk",
+        "title": "Gaming groups urge Congress to ban prediction markets sports betting in CLARITY Act",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Bitcoin layer-2s face a bear-market reality check",
-        "source": "CoinDesk",
+        "title": "Crypto-backed GOP candidate wins Alabama Senate runoff with June primaries looming",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "FIFA wanted Avalanche's blockchain to help curb World Cup ticket scalping. Here's how it's going",
-        "source": "CoinDesk",
+        "title": "Bitcoin capitulation \u2018twice as weak\u2019 after spot liquidity turns supportive: Glassnode",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Fed holds rates steady in first decision under new Chairman Kevin Warsh",
-        "source": "CoinDesk",
+        "title": "Bybit lands on Singapore MAS Investor Alert List",
+        "source": "Cointelegraph",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4316.6001,
-      "BTCUSD": 64491.87109,
-      "ETHUSD": 1754.56006,
-      "EURUSD": 1.15154,
-      "GBPUSD": 1.33078
+      "XAUUSD": 4340.6001,
+      "BTCUSD": 64649.98828,
+      "ETHUSD": 1755.0,
+      "EURUSD": 1.15234,
+      "GBPUSD": 1.33154
     },
     "period_stats": {
       "day": {
-        "n": 3,
+        "n": 2,
         "win_rate": 0.0,
-        "total_pnl": -5.79,
-        "total_r": -4.27
+        "total_pnl": -3.81,
+        "total_r": -2.62
       },
       "week": {
         "n": 5,
@@ -1711,7 +1711,7 @@
     "start": 1000.0,
     "balance": 1042.75,
     "currency": "$",
-    "total_return_pct": 4.27,
+    "total_return_pct": 4.28,
     "closed": 35,
     "wins": 11,
     "peak": 1065.25
