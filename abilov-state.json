@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781765809.072688,
+  "updated_ts": 1781769502.579551,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781765809.071315
+      "heartbeat_ts": 1781769502.578517
     }
   },
   "control": {
@@ -38,15 +38,15 @@
     "drawdown_pct": 0.09,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -2.05,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -2.05
+    "unrealized_pnl": 5.83,
+    "net_pnl": 3.78
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 1,
+    "entries": 1,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64028.4,
+      "ETH/USDT": 1745.07
     }
   },
   "open_positions": [
@@ -72,9 +72,21 @@
       "sl": 64339.075629,
       "tp": 63650.992716,
       "size": 0.004589,
-      "price": 65351.58864,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 64028.4,
+      "upnl": 6.07,
+      "u_r": 1.31
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 1743.686737,
+      "sl": 1758.248595,
+      "tp": 1702.094215,
+      "size": 0.171998,
+      "price": 1745.07,
+      "upnl": -0.24,
+      "u_r": -0.09
     }
   ],
   "recent_trades": [
@@ -1679,6 +1691,11 @@
     },
     "news": [
       {
+        "title": "The bond market is flashing a clear signal on interest rates. Bitcoin bulls should take note",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live markets: Bitcoin and ether ETFs lost $111 million combined as rate-cut hopes died",
         "source": "CoinDesk",
         "ts": 0
@@ -1702,19 +1719,14 @@
         "title": "Bitcoin, ether slide after a hawkish Fed, even as Trump's signed Iran deal lifts stocks",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Next bull run will be slower, less volatile as investors' crypto appetite evolves, Bitwise CIO says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4324.1001,
-      "BTCUSD": 64035.98047,
-      "ETHUSD": 1734.08997,
-      "EURUSD": 1.15247,
-      "GBPUSD": 1.33163
+      "XAUUSD": 4317.0,
+      "BTCUSD": 64409.57812,
+      "ETHUSD": 1746.30005,
+      "EURUSD": 1.15154,
+      "GBPUSD": 1.32975
     },
     "period_stats": {
       "day": {
