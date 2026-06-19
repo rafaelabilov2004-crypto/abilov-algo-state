@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781859911.646657,
+  "updated_ts": 1781859978.256385,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781859911.64632
+      "heartbeat_ts": 1781859978.2557068
     }
   },
   "control": {
@@ -830,64 +830,6 @@
   "signal_ideas": {
     "open": [
       {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 65704.6796875,
-        "sl": 66771.87453363,
-        "tp_levels": [
-          64584.12509906,
-          63783.72896446,
-          62983.33282986,
-          62503.0951491
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1781624771.5435572,
-        "ts": 1781624768.2455099,
-        "timeframe": "1h",
-        "msg_id": 159,
-        "updates": [
-          {
-            "t": 1781624771.5435789,
-            "kind": "open",
-            "px": 65704.6796875
-          },
-          {
-            "t": 1781724586.6479008,
-            "kind": "TP1",
-            "px": 64584.12509906,
-            "pct": 1.71
-          },
-          {
-            "t": 1781791654.36912,
-            "kind": "TP2",
-            "px": 63783.72896446,
-            "pct": 2.92
-          },
-          {
-            "t": 1781809052.7819111,
-            "kind": "TP3",
-            "px": 62983.33282986,
-            "pct": 4.14
-          }
-        ]
-      },
-      {
         "symbol": "ETHUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1085,6 +1027,75 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 65704.6796875,
+        "sl": 66771.87453363,
+        "tp_levels": [
+          64584.12509906,
+          63783.72896446,
+          62983.33282986,
+          62503.0951491
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1781624771.5435572,
+        "ts": 1781624768.2455099,
+        "timeframe": "1h",
+        "msg_id": 159,
+        "updates": [
+          {
+            "t": 1781624771.5435789,
+            "kind": "open",
+            "px": 65704.6796875
+          },
+          {
+            "t": 1781724586.6479008,
+            "kind": "TP1",
+            "px": 64584.12509906,
+            "pct": 1.71
+          },
+          {
+            "t": 1781791654.36912,
+            "kind": "TP2",
+            "px": 63783.72896446,
+            "pct": 2.92
+          },
+          {
+            "t": 1781809052.7819111,
+            "kind": "TP3",
+            "px": 62983.33282986,
+            "pct": 4.14
+          },
+          {
+            "t": 1781859917.415329,
+            "kind": "TP4",
+            "px": 62503.0951491,
+            "pct": 4.87
+          }
+        ],
+        "exit": 62503.0951491,
+        "reason": "TP4",
+        "pct": 4.873,
+        "r_multiple": 3.0,
+        "closed_ts": 1781859917.41535
+      },
       {
         "symbol": "XAUUSD",
         "side": "SHORT",
@@ -1865,11 +1876,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1103.61,
+    "balance": 1157.39,
     "currency": "$",
-    "total_return_pct": 10.36,
-    "closed": 39,
-    "wins": 13,
-    "peak": 1103.61
+    "total_return_pct": 15.74,
+    "closed": 40,
+    "wins": 14,
+    "peak": 1157.39
   }
 }
