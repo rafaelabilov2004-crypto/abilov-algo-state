@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781880109.280027,
+  "updated_ts": 1781883385.005244,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781880109.278672
+      "heartbeat_ts": 1781883385.0043678
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 12.51,
-    "unrealized_pnl": -0.57,
-    "net_pnl": 11.94
+    "unrealized_pnl": 0.0,
+    "net_pnl": 12.51
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 59743.2,
-      "ETH/USDT": 1855.2
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 60882.525384,
       "tp": 56018.023847,
       "size": 0.005028,
-      "price": 59743.2,
-      "upnl": -0.48,
-      "u_r": -0.08
+      "price": 59648.50008,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1793.986702,
       "tp": 2038.839895,
       "size": 0.161708,
-      "price": 1855.2,
-      "upnl": -0.09,
-      "u_r": -0.01
+      "price": 1855.75656,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1054,7 +1054,9 @@
             "px": 4167.5
           }
         ]
-      },
+      }
+    ],
+    "closed": [
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -1091,11 +1093,20 @@
             "t": 1781861962.5806139,
             "kind": "open",
             "px": 62354.41015625
+          },
+          {
+            "t": 1781880113.305143,
+            "kind": "SL",
+            "px": 63303.95864717,
+            "pct": -1.52
           }
-        ]
-      }
-    ],
-    "closed": [
+        ],
+        "exit": 63303.95864717,
+        "reason": "SL",
+        "pct": -1.523,
+        "r_multiple": -1.0,
+        "closed_ts": 1781880113.3051991
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -1917,10 +1928,10 @@
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 63314.58984,
-      "ETHUSD": 1705.5,
-      "EURUSD": 1.14692,
-      "GBPUSD": 1.32268
+      "BTCUSD": 63089.80859,
+      "ETHUSD": 1703.13,
+      "EURUSD": 1.14679,
+      "GBPUSD": 1.32226
     },
     "period_stats": {
       "day": {
@@ -1945,10 +1956,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1210.94,
+    "balance": 1192.5,
     "currency": "$",
-    "total_return_pct": 21.09,
-    "closed": 42,
+    "total_return_pct": 19.25,
+    "closed": 43,
     "wins": 16,
     "peak": 1210.94
   }
