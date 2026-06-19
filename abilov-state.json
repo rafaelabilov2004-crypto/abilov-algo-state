@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781844624.467893,
+  "updated_ts": 1781846356.881651,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781844624.4673312
+      "heartbeat_ts": 1781846356.8808582
     }
   },
   "control": {
@@ -41,12 +41,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 2.85,
-    "unrealized_pnl": 6.51,
-    "net_pnl": 9.36
+    "unrealized_pnl": 0.0,
+    "net_pnl": 2.85
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 62536.4,
-      "ETH/USDT": 1704.24
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1718.940529,
       "tp": 1702.094215,
       "size": 0.171998,
-      "price": 1704.24,
-      "upnl": 6.78,
-      "u_r": 1.59
+      "price": 1743.686737,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -84,9 +84,9 @@
       "sl": 63163.546202,
       "tp": 60503.761393,
       "size": 0.0048,
-      "price": 62536.4,
-      "upnl": -0.27,
-      "u_r": -0.08
+      "price": 62479.85042,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1765,6 +1765,21 @@
     },
     "news": [
       {
+        "title": "XRP falls 3% after losing $1.15 support as breakout attempt fades",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live markets: Bitcoin has traded below its mining cost for five months, squeezing miners",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin traders load up on bearish bets all the way down to $52,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin falls below $63,000 as risk assets sell off and the week's bounce fades",
         "source": "CoinDesk",
         "ts": 0
@@ -1778,36 +1793,21 @@
         "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act pitch",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto for Advisors: Trading the bitcoin cycle",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 62598.71094,
-      "ETHUSD": 1691.53003,
-      "EURUSD": 1.14338,
-      "GBPUSD": 1.31721
+      "BTCUSD": 62551.19922,
+      "ETHUSD": 1693.71997,
+      "EURUSD": 1.14233,
+      "GBPUSD": 1.31659
     },
     "period_stats": {
       "day": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total_pnl": 3.45,
-        "total_r": 0.84
+        "n": 1,
+        "win_rate": 1.0,
+        "total_pnl": 4.9,
+        "total_r": 1.86
       },
       "week": {
         "n": 8,
