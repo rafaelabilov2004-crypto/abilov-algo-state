@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781824843.7004669,
+  "updated_ts": 1781831717.159756,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781824843.69967
+      "heartbeat_ts": 1781831717.159468
     }
   },
   "control": {
@@ -41,11 +41,11 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 2.85,
-    "unrealized_pnl": 6.78,
-    "net_pnl": 9.63
+    "unrealized_pnl": 0.0,
+    "net_pnl": 2.85
   },
   "stats": {
-    "signals": 1,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1704.24
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1718.940529,
       "tp": 1702.094215,
       "size": 0.171998,
-      "price": 1704.24,
-      "upnl": 6.78,
-      "u_r": 1.59
+      "price": 1743.686737,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -735,7 +735,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 15,
+      "index": 14,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -1730,7 +1730,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 15,
+      "index": 14,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -1767,18 +1767,18 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4213.7998,
-      "BTCUSD": 62828.58984,
-      "ETHUSD": 1708.27002,
-      "EURUSD": 1.14626,
-      "GBPUSD": 1.32029
+      "XAUUSD": 4206.0,
+      "BTCUSD": 62837.01953,
+      "ETHUSD": 1707.43005,
+      "EURUSD": 1.14639,
+      "GBPUSD": 1.32048
     },
     "period_stats": {
       "day": {
-        "n": 5,
-        "win_rate": 0.2,
-        "total_pnl": -2.36,
-        "total_r": -3.41
+        "n": 3,
+        "win_rate": 0.333,
+        "total_pnl": 1.45,
+        "total_r": -0.79
       },
       "week": {
         "n": 8,
