@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781843600.631505,
+  "updated_ts": 1781844624.467893,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781843600.6308942
+      "heartbeat_ts": 1781844624.4673312
     }
   },
   "control": {
@@ -830,64 +830,6 @@
   "signal_ideas": {
     "open": [
       {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 4365.2998046875,
-        "sl": 4422.50491413,
-        "tp_levels": [
-          4313.81520619,
-          4270.91137411,
-          4228.00754203,
-          4193.68447637
-        ],
-        "tp_sizes": [
-          0.4,
-          0.3,
-          0.2,
-          0.1
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1780818585.7037241,
-        "ts": 1780818576.7090728,
-        "timeframe": "1h",
-        "msg_id": 91,
-        "updates": [
-          {
-            "t": 1780818585.703734,
-            "kind": "open",
-            "px": 4365.2998046875
-          },
-          {
-            "t": 1780907703.7115352,
-            "kind": "TP1",
-            "px": 4313.81520619,
-            "pct": 1.18
-          },
-          {
-            "t": 1781724464.4875789,
-            "kind": "TP2",
-            "px": 4270.91137411,
-            "pct": 2.16
-          },
-          {
-            "t": 1781810486.5104141,
-            "kind": "TP3",
-            "px": 4228.00754203,
-            "pct": 3.15
-          }
-        ]
-      },
-      {
         "symbol": "BTCUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1024,7 +966,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1781723506.8344362,
         "ts": 1781723504.9286048,
         "timeframe": "1h",
@@ -1040,6 +982,12 @@
             "kind": "TP1",
             "px": 1.14697079,
             "pct": 0.42
+          },
+          {
+            "t": 1781844624.150591,
+            "kind": "TP2",
+            "px": 1.14351536,
+            "pct": 0.72
           }
         ]
       },
@@ -1097,6 +1045,75 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 4365.2998046875,
+        "sl": 4422.50491413,
+        "tp_levels": [
+          4313.81520619,
+          4270.91137411,
+          4228.00754203,
+          4193.68447637
+        ],
+        "tp_sizes": [
+          0.4,
+          0.3,
+          0.2,
+          0.1
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1780818585.7037241,
+        "ts": 1780818576.7090728,
+        "timeframe": "1h",
+        "msg_id": 91,
+        "updates": [
+          {
+            "t": 1780818585.703734,
+            "kind": "open",
+            "px": 4365.2998046875
+          },
+          {
+            "t": 1780907703.7115352,
+            "kind": "TP1",
+            "px": 4313.81520619,
+            "pct": 1.18
+          },
+          {
+            "t": 1781724464.4875789,
+            "kind": "TP2",
+            "px": 4270.91137411,
+            "pct": 2.16
+          },
+          {
+            "t": 1781810486.5104141,
+            "kind": "TP3",
+            "px": 4228.00754203,
+            "pct": 3.15
+          },
+          {
+            "t": 1781844623.7823842,
+            "kind": "TP4",
+            "px": 4193.68447637,
+            "pct": 3.93
+          }
+        ],
+        "exit": 4193.68447637,
+        "reason": "TP4",
+        "pct": 3.931,
+        "r_multiple": 3.0,
+        "closed_ts": 1781844623.782402
+      },
       {
         "symbol": "EURUSD",
         "side": "LONG",
@@ -1748,6 +1765,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin falls below $63,000 as risk assets sell off and the week's bounce fades",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator",
         "source": "CoinDesk",
         "ts": 0
@@ -1771,19 +1793,14 @@
         "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 62555.21875,
-      "ETHUSD": 1689.70996,
-      "EURUSD": 1.14469,
-      "GBPUSD": 1.31883
+      "BTCUSD": 62598.71094,
+      "ETHUSD": 1691.53003,
+      "EURUSD": 1.14338,
+      "GBPUSD": 1.31721
     },
     "period_stats": {
       "day": {
@@ -1808,11 +1825,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1061.86,
+    "balance": 1103.61,
     "currency": "$",
-    "total_return_pct": 6.19,
-    "closed": 38,
-    "wins": 12,
-    "peak": 1065.25
+    "total_return_pct": 10.36,
+    "closed": 39,
+    "wins": 13,
+    "peak": 1103.61
   }
 }
