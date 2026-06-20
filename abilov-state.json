@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781966949.925339,
+  "updated_ts": 1781972608.276151,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781966949.9241989
+      "heartbeat_ts": 1781972608.275291
     }
   },
   "control": {
@@ -41,12 +41,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -4.88,
-    "unrealized_pnl": 0.29,
-    "net_pnl": -4.59
+    "unrealized_pnl": -1.43,
+    "net_pnl": -6.31
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 63431.6,
-      "ETH/USDT": 1553.28
+      "ETH/USDT": 1562.16
     }
   },
   "open_positions": [
@@ -84,9 +84,9 @@
       "sl": 1570.244326,
       "tp": 1502.387021,
       "size": 0.19314,
-      "price": 1553.28,
-      "upnl": -0.09,
-      "u_r": -0.03
+      "price": 1562.16,
+      "upnl": -1.81,
+      "u_r": -0.54
     }
   ],
   "recent_trades": [
@@ -1964,6 +1964,11 @@
     },
     "news": [
       {
+        "title": "AI is making crypto security cheaper, faster and harder to ignore",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
         "source": "CoinDesk",
         "ts": 0
@@ -1987,26 +1992,21 @@
         "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Digital credit market hit by huge selloff as Strive CEO blames leverage liquidations",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 63851.44922,
-      "ETHUSD": 1733.44995,
+      "BTCUSD": 0.0,
+      "ETHUSD": 1730.43994,
       "EURUSD": 1.14692,
       "GBPUSD": 1.32371
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 0,
         "win_rate": 0.0,
-        "total_pnl": -17.39,
-        "total_r": -2.18
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 12,
