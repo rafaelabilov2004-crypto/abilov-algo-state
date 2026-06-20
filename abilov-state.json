@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781893446.097139,
+  "updated_ts": 1781959434.7570932,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781893446.0962749
+      "heartbeat_ts": 1781959434.75684
     }
   },
   "control": {
@@ -782,9 +782,9 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 14,
+      "index": 23,
       "label": "Miedo extremo",
-      "bias": 1
+      "bias": 0
     },
     "scale_in_loaded": true,
     "trailing_loaded": true
@@ -1895,9 +1895,9 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 14,
+      "index": 23,
       "label": "Miedo extremo",
-      "bias": 1
+      "bias": 0
     },
     "news": [
       {
@@ -1933,17 +1933,17 @@
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 63092.10156,
-      "ETHUSD": 1703.78003,
-      "EURUSD": 1.14797,
-      "GBPUSD": 1.3235
+      "BTCUSD": 63564.73828,
+      "ETHUSD": 1724.40002,
+      "EURUSD": 1.14692,
+      "GBPUSD": 1.32371
     },
     "period_stats": {
       "day": {
-        "n": 5,
-        "win_rate": 0.6,
-        "total_pnl": -2.83,
-        "total_r": 3.07
+        "n": 2,
+        "win_rate": 0.0,
+        "total_pnl": -17.39,
+        "total_r": -2.18
       },
       "week": {
         "n": 12,
