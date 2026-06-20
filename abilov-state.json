@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1781972608.276151,
+  "updated_ts": 1781981749.114296,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1781972608.275291
+      "heartbeat_ts": 1781981749.1136022
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -4.88,
-    "unrealized_pnl": -1.43,
-    "net_pnl": -6.31
+    "unrealized_pnl": -2.69,
+    "net_pnl": -7.57
   },
   "stats": {
     "signals": 0,
@@ -59,7 +59,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63431.6,
+      "BTC/USDT": 63165.0,
       "ETH/USDT": 1562.16
     }
   },
@@ -72,9 +72,9 @@
       "sl": 62894.534113,
       "tp": 64642.797662,
       "size": 0.004737,
-      "price": 63431.6,
-      "upnl": 0.38,
-      "u_r": 0.18
+      "price": 63165.0,
+      "upnl": -0.88,
+      "u_r": -0.41
     },
     {
       "symbol": "ETH/USDT",
@@ -817,8 +817,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-20",
-      "end": "2026-06-21",
+      "start": "2026-06-21",
+      "end": "2026-06-22",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1996,8 +1996,8 @@
     ],
     "fx_rates": {
       "XAUUSD": 4167.5,
-      "BTCUSD": 0.0,
-      "ETHUSD": 1730.43994,
+      "BTCUSD": 63719.32031,
+      "ETHUSD": 1724.31995,
       "EURUSD": 1.14692,
       "GBPUSD": 1.32371
     },
