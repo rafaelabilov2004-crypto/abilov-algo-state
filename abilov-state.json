@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782009587.273058,
+  "updated_ts": 1782036252.74737,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782009587.2723682
+      "heartbeat_ts": 1782036252.746869
     }
   },
   "control": {
@@ -41,17 +41,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.85,
-    "unrealized_pnl": 3.12,
-    "net_pnl": -5.73
+    "unrealized_pnl": 0.0,
+    "net_pnl": -8.85
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64028.4,
-      "ETH/USDT": 1735.32
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 62894.534113,
       "tp": 64642.797662,
       "size": 0.004737,
-      "price": 64028.4,
-      "upnl": 3.21,
-      "u_r": 1.49
+      "price": 63350.59948,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.32,
-      "upnl": -0.09,
-      "u_r": -0.03
+      "price": 1735.840596,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1099,7 +1099,9 @@
             "px": 4167.5
           }
         ]
-      },
+      }
+    ],
+    "closed": [
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -1135,11 +1137,20 @@
             "t": 1781959446.751775,
             "kind": "open",
             "px": 63568.7890625
+          },
+          {
+            "t": 1782012380.7096698,
+            "kind": "SL",
+            "px": 64258.26897737,
+            "pct": -1.08
           }
-        ]
-      }
-    ],
-    "closed": [
+        ],
+        "exit": 64258.26897737,
+        "reason": "SL",
+        "pct": -1.085,
+        "r_multiple": -1.0,
+        "closed_ts": 1782012380.709686
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -1979,6 +1990,16 @@
     },
     "news": [
       {
+        "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "AI is making crypto security cheaper, faster and harder to ignore",
         "source": "CoinDesk",
         "ts": 0
@@ -1997,22 +2018,12 @@
         "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Franklin Templeton proposes new ETFs that turn corporate dividends into bitcoin",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4167.5,
-      "BTCUSD": 64159.42969,
-      "ETHUSD": 1734.33997,
+      "XAUUSD": 0.0,
+      "BTCUSD": 64139.83984,
+      "ETHUSD": 1729.98999,
       "EURUSD": 1.14692,
       "GBPUSD": 1.32371
     },
@@ -2039,10 +2050,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1116.29,
+    "balance": 1104.18,
     "currency": "$",
-    "total_return_pct": 11.63,
-    "closed": 46,
+    "total_return_pct": 10.42,
+    "closed": 47,
     "wins": 16,
     "peak": 1210.94
   }
