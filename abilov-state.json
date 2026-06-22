@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782083349.010855,
+  "updated_ts": 1782087007.351737,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782083349.006295
+      "heartbeat_ts": 1782087007.350239
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.85,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -8.85
+    "unrealized_pnl": 2.18,
+    "net_pnl": -6.67
   },
   "stats": {
     "signals": 0,
@@ -59,8 +59,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 63830.5,
+      "ETH/USDT": 1735.32
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 62894.534113,
       "tp": 64642.797662,
       "size": 0.004737,
-      "price": 63350.59948,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 63830.5,
+      "upnl": 2.27,
+      "u_r": 1.05
     },
     {
       "symbol": "ETH/USDT",
@@ -84,9 +84,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1735.32,
+      "upnl": -0.09,
+      "u_r": -0.03
     }
   ],
   "recent_trades": [
@@ -822,9 +822,9 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 23,
+      "index": 20,
       "label": "Miedo extremo",
-      "bias": 0
+      "bias": 1
     },
     "scale_in_loaded": true,
     "trailing_loaded": true
@@ -2024,46 +2024,46 @@
     "sentiment": {
       "index": 23,
       "label": "Miedo extremo",
-      "bias": 0
+      "bias": 1
     },
     "news": [
       {
-        "title": "Are perps swaps? A quick look at that CME suit: State of Crypto",
-        "source": "CoinDesk",
+        "title": "Bitcoin tipped for $66K top as trader flags &apos;suspicious&apos; BTC price gains",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
-        "source": "CoinDesk",
+        "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
-        "source": "CoinDesk",
+        "title": "Dash eyes Philippines as market for crypto payments",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "AI is making crypto security cheaper, faster and harder to ignore",
-        "source": "CoinDesk",
+        "title": "Bitcoin price is down over 40% since STRC launched: Is Strategy &apos;fine&apos;?",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
-        "source": "CoinDesk",
+        "title": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
-        "source": "CoinDesk",
+        "title": "Here\u2019s what happened in crypto today",
+        "source": "Cointelegraph",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4172.8999,
-      "BTCUSD": 63637.53125,
-      "ETHUSD": 1712.30005,
-      "EURUSD": 1.14679,
-      "GBPUSD": 1.32095
+      "XAUUSD": 4227.1001,
+      "BTCUSD": 63843.66016,
+      "ETHUSD": 1723.67004,
+      "EURUSD": 1.14745,
+      "GBPUSD": 1.32312
     },
     "period_stats": {
       "day": {
