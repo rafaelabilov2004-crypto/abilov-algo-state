@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782111892.0162292,
+  "updated_ts": 1782114569.2114549,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782111892.015261
+      "heartbeat_ts": 1782114569.210731
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": 0.68,
+    "net_pnl": -9.87
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1739.76
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1739.76,
+      "upnl": 0.68,
+      "u_r": 0.2
     }
   ],
   "recent_trades": [
@@ -1100,6 +1100,45 @@
             "px": 64043.0
           }
         ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 4219.10009765625,
+        "sl": 4292.51936573,
+        "tp_levels": [
+          4142.00986618,
+          4086.94541513,
+          4031.88096408,
+          3998.84229345
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782114569.208909,
+        "ts": 1782112629.651336,
+        "timeframe": "1h",
+        "msg_id": 239,
+        "updates": [
+          {
+            "t": 1782114569.2089112,
+            "kind": "open",
+            "px": 4219.10009765625
+          }
+        ]
       }
     ],
     "closed": [
@@ -2042,6 +2081,11 @@
     },
     "news": [
       {
+        "title": "Live markets: Bitcoin is stuck near $64,000 as ETF outflows reach a sixth week",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin developers want to fix the 'replace this transaction with a higher fee' button. Here's why",
         "source": "CoinDesk",
         "ts": 0
@@ -2065,19 +2109,14 @@
         "title": "Are perps swaps? A quick look at that CME suit: State of Crypto",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4223.7002,
-      "BTCUSD": 0.0,
-      "ETHUSD": 1743.12,
-      "EURUSD": 1.14639,
-      "GBPUSD": 1.32153
+      "XAUUSD": 4214.7002,
+      "BTCUSD": 64185.58984,
+      "ETHUSD": 1746.82996,
+      "EURUSD": 1.14482,
+      "GBPUSD": 1.31938
     },
     "period_stats": {
       "day": {
