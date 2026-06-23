@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782138465.699936,
+  "updated_ts": 1782223334.185089,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782138465.699203
+      "heartbeat_ts": 1782223334.183371
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": 1.45,
+    "net_pnl": -9.1
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1744.2
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1744.2,
+      "upnl": 1.45,
+      "u_r": 0.43
     }
   ],
   "recent_trades": [
@@ -825,9 +825,9 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 20,
+      "index": 23,
       "label": "Miedo extremo",
-      "bias": 1
+      "bias": 0
     },
     "scale_in_loaded": true,
     "trailing_loaded": true
@@ -835,17 +835,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-22",
-      "end": "2026-06-23",
-      "trades": 1,
+      "start": "2026-06-23",
+      "end": "2026-06-24",
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -1.7,
-      "avg_r": -0.82,
-      "best_r": -0.82,
-      "worst_r": -0.82,
-      "fees": 0.6
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -2138,55 +2138,55 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 20,
+      "index": 23,
       "label": "Miedo extremo",
-      "bias": 1
+      "bias": 0
     },
     "news": [
       {
-        "title": "MoneyGram joins Solana as validator amid stablecoin payment push",
+        "title": "Ethereum Foundation cuts 20% of staff amid leadership exodus",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "OKX and NYSE partner to bridge tradfi and crypto markets in joint venture led by Andrew Cuomo",
+        "title": "Bitcoin may need to plunge 15% or more to mark bottom, according to this long-time indicator",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitmine added $92 million of ETH, with Tom Lee continuing to believe in 'crypto spring'",
+        "title": "Former Robinhood Crypto COO Tanya Denisova joins stablecoin issuer Agora as head of operations",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin mining network becoming more sensitive to price swings, JPMorgan says",
+        "title": "In Clarity Act's final weeks, its path through U.S. Senate not getting much clearer",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strategy added $35 million in bitcoin, $300 million in cash reserves last week",
+        "title": "The ECB digital euro takes step forward after winning key European Parliament vote",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "TradFi fund manager Baillie Gifford introduces Solana, Ethereum tokenized fund with BNY",
+        "title": "Franklin Templeton closes 250 Digital acquisition deal and sets up new Franklin Crypto division",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4218.0,
-      "BTCUSD": 64957.46094,
-      "ETHUSD": 1755.81995,
-      "EURUSD": 1.14416,
-      "GBPUSD": 1.32587
+      "XAUUSD": 4153.8999,
+      "BTCUSD": 62481.19141,
+      "ETHUSD": 1662.79004,
+      "EURUSD": 1.13921,
+      "GBPUSD": 1.32128
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 0,
         "win_rate": 0.0,
-        "total_pnl": -1.7,
-        "total_r": -0.82
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 14,
