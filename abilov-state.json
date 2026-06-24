@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782277664.969325,
+  "updated_ts": 1782280560.4989839,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782277664.968503
+      "heartbeat_ts": 1782280560.497783
     }
   },
   "control": {
@@ -41,14 +41,14 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": 2.21,
+    "net_pnl": -8.34
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 0,
+    "updates": 1,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1748.64
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1748.64,
+      "upnl": 2.21,
+      "u_r": 0.65
     }
   ],
   "recent_trades": [
@@ -2309,6 +2309,11 @@
     },
     "news": [
       {
+        "title": "Live markets: Bitcoin could drop to $59,000 in the short-term as liquidity dries up",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin drops toward $62,000 as the chip selloff deepens for a second day",
         "source": "CoinDesk",
         "ts": 0
@@ -2332,19 +2337,14 @@
         "title": "Meta is developing a prediction market app called \u2018Arena\u2019 as sector booms: NYT",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BNY sees 'FOMO' driving asset managers into tokenized funds",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4083.0,
-      "BTCUSD": 62631.14844,
-      "ETHUSD": 1665.83997,
-      "EURUSD": 1.13675,
-      "GBPUSD": 1.31952
+      "XAUUSD": 4095.19995,
+      "BTCUSD": 62795.98828,
+      "ETHUSD": 1671.18994,
+      "EURUSD": 1.13701,
+      "GBPUSD": 1.31954
     },
     "period_stats": {
       "day": {
