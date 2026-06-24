@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782298538.2114859,
+  "updated_ts": 1782302903.012838,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782298538.2102091
+      "heartbeat_ts": 1782302903.011979
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.68,
-    "net_pnl": -9.87
+    "unrealized_pnl": 0.0,
+    "net_pnl": -10.55
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1739.76
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1739.76,
-      "upnl": 0.68,
-      "u_r": 0.2
+      "price": 1735.840596,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -934,7 +934,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1781729517.702781,
         "ts": 1781729515.558402,
         "timeframe": "1h",
@@ -956,6 +956,12 @@
             "kind": "TP2",
             "px": 1.32000212,
             "pct": 0.72
+          },
+          {
+            "t": 1782299227.782155,
+            "kind": "TP3",
+            "px": 1.3160134,
+            "pct": 1.02
           }
         ]
       },
@@ -985,7 +991,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1782114569.208909,
         "ts": 1782112629.651336,
         "timeframe": "1h",
@@ -1001,6 +1007,12 @@
             "kind": "TP1",
             "px": 4142.00986618,
             "pct": 1.83
+          },
+          {
+            "t": 1782299228.3704581,
+            "kind": "TP2",
+            "px": 4086.94541513,
+            "pct": 3.13
           }
         ]
       },
@@ -2309,6 +2321,11 @@
     },
     "news": [
       {
+        "title": "This forgotten coin could surprise everyone before its next halving",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin clings to $62,500 as bears tighten grip on crypto market",
         "source": "CoinDesk",
         "ts": 0
@@ -2332,19 +2349,14 @@
         "title": "CryptoQuant says Michael Saylor's Strategy should halt its bitcoin buying",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Trump lands in Senate's crosshairs over $500 million UAE investment in his crypto venture",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4073.30005,
-      "BTCUSD": 62277.62109,
-      "ETHUSD": 1659.01001,
-      "EURUSD": 1.13417,
-      "GBPUSD": 1.31518
+      "XAUUSD": 4063.3999,
+      "BTCUSD": 62751.03906,
+      "ETHUSD": 1674.85999,
+      "EURUSD": 1.1343,
+      "GBPUSD": 1.31612
     },
     "period_stats": {
       "day": {
