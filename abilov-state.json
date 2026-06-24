@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782250041.2493849,
+  "updated_ts": 1782277664.969325,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782250041.247246
+      "heartbeat_ts": 1782277664.968503
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 1.45,
-    "net_pnl": -9.1
+    "unrealized_pnl": 0.0,
+    "net_pnl": -10.55
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1744.2
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1744.2,
-      "upnl": 1.45,
-      "u_r": 0.43
+      "price": 1735.840596,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -825,9 +825,9 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 23,
+      "index": 17,
       "label": "Miedo extremo",
-      "bias": 0
+      "bias": 1
     },
     "scale_in_loaded": true,
     "trailing_loaded": true
@@ -835,8 +835,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-23",
-      "end": "2026-06-24",
+      "start": "2026-06-24",
+      "end": "2026-06-25",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2303,11 +2303,31 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 23,
+      "index": 17,
       "label": "Miedo extremo",
-      "bias": 0
+      "bias": 1
     },
     "news": [
+      {
+        "title": "Bitcoin drops toward $62,000 as the chip selloff deepens for a second day",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto PAC's $5.5 million Congress pick gets Maryland win, more crypto allies advance",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "AI chipmaker Cerebras down 11% after first public earnings report",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto critic Roubini joins tokenization boom with onchain 'Technodollar'",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Meta is developing a prediction market app called \u2018Arena\u2019 as sector booms: NYT",
         "source": "CoinDesk",
@@ -2317,34 +2337,14 @@
         "title": "BNY sees 'FOMO' driving asset managers into tokenized funds",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Chainlink teams up with 47 South Korean, European banks to speed up international money transfers",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Vitalik Buterin says Ethereum Foundation will cut budget 40% in major reset",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin's recent drop below $60,000 signals Fed, ETF and AI pressures: Deutsche Bank",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "The SEC delayed tokenizing stocks, and here\u2019s why that\u2019s a relief",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4129.0,
-      "BTCUSD": 62486.0,
-      "ETHUSD": 1664.31995,
-      "EURUSD": 0.0,
-      "GBPUSD": 1.32034
+      "XAUUSD": 4083.0,
+      "BTCUSD": 62631.14844,
+      "ETHUSD": 1665.83997,
+      "EURUSD": 1.13675,
+      "GBPUSD": 1.31952
     },
     "period_stats": {
       "day": {
@@ -2354,10 +2354,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 12,
-        "win_rate": 0.25,
-        "total_pnl": -17.74,
-        "total_r": -5.89
+        "n": 11,
+        "win_rate": 0.273,
+        "total_pnl": -15.76,
+        "total_r": -4.24
       },
       "month": {
         "n": 41,
