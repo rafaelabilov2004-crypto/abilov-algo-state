@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782311353.527829,
+  "updated_ts": 1782313309.146049,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782311353.525747
+      "heartbeat_ts": 1782313309.145259
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": -1.63,
+    "net_pnl": -12.18
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1726.44
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1726.44,
+      "upnl": -1.63,
+      "u_r": -0.48
     }
   ],
   "recent_trades": [
@@ -2333,6 +2333,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin just broke below the floor of its famous Rainbow Chart into the \u2018BTC is dead\u2019 zone",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "The banking lobby is wrong about stablecoins and community banks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Gold, silver and bitcoin tumble as debasement trade unwinds",
         "source": "CoinDesk",
         "ts": 0
@@ -2351,24 +2361,14 @@
         "title": "CZ, Binance founder, wants to clear up 'misunderstandings' about who he is",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Aave could soar to $3,500 by 2030 on DeFi revival, says StanChart",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "This forgotten coin could surprise everyone before its next halving",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "BTCUSD": 61070.57812,
-      "ETHUSD": 1647.18005,
-      "EURUSD": 1.1343,
-      "GBPUSD": 1.31475
+      "XAUUSD": 4027.3999,
+      "BTCUSD": 61019.96094,
+      "ETHUSD": 1644.71997,
+      "EURUSD": 1.13456,
+      "GBPUSD": 1.31499
     },
     "period_stats": {
       "day": {
