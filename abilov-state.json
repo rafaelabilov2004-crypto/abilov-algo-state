@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782322151.671641,
+  "updated_ts": 1782326927.9748192,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782322151.6710331
+      "heartbeat_ts": 1782326927.935574
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": -1.63,
+    "net_pnl": -12.18
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1726.44
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1726.44,
+      "upnl": -1.63,
+      "u_r": -0.48
     }
   ],
   "recent_trades": [
@@ -2368,7 +2368,7 @@
         "ts": 0
       },
       {
-        "title": "Bitcoin falls to $60,000 as AI trade continues to draw investor interest and capital",
+        "title": "Bitcoin falls below $60,000 as AI trade continues to draw investor interest and capital",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2394,11 +2394,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4018.30005,
-      "BTCUSD": 59603.14844,
-      "ETHUSD": 1573.76001,
-      "EURUSD": 1.13546,
-      "GBPUSD": 1.31607
+      "XAUUSD": 4001.5,
+      "BTCUSD": 59420.98047,
+      "ETHUSD": 1569.63,
+      "EURUSD": 1.13585,
+      "GBPUSD": 1.31636
     },
     "period_stats": {
       "day": {
