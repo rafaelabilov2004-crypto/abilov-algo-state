@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782291904.9850361,
+  "updated_ts": 1782298538.2114859,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782291904.9810328
+      "heartbeat_ts": 1782298538.2102091
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 3.75,
-    "net_pnl": -6.8
+    "unrealized_pnl": 0.68,
+    "net_pnl": -9.87
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1757.52
+      "ETH/USDT": 1739.76
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1757.52,
-      "upnl": 3.75,
-      "u_r": 1.1
+      "price": 1739.76,
+      "upnl": 0.68,
+      "u_r": 0.2
     }
   ],
   "recent_trades": [
@@ -2309,6 +2309,26 @@
     },
     "news": [
       {
+        "title": "Bitcoin clings to $62,500 as bears tighten grip on crypto market",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "YZi Labs ends proxy war with BNB treasury company CEA Industries",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Cboe revives S&P 500 binary options, chasing a market popularized by Polymarket, Kalshi",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "The Runes revival: Bitcoin traffic hits a two-year high as transactions blast past 820,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "CryptoQuant says Michael Saylor's Strategy should halt its bitcoin buying",
         "source": "CoinDesk",
         "ts": 0
@@ -2317,34 +2337,14 @@
         "title": "Trump lands in Senate's crosshairs over $500 million UAE investment in his crypto venture",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s \u2018OG\u2019 investors have slowed selling in a bullish sign for the market",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Live markets: Bitcoin could drop to $59,000 in the short-term as liquidity dries up",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin drops toward $62,000 as the chip selloff deepens for a second day",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto PAC's $5.5 million Congress pick gets Maryland win, more crypto allies advance",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4094.6001,
-      "BTCUSD": 62665.58984,
-      "ETHUSD": 1667.59998,
-      "EURUSD": 1.1352,
-      "GBPUSD": 1.31891
+      "XAUUSD": 4073.30005,
+      "BTCUSD": 62277.62109,
+      "ETHUSD": 1659.01001,
+      "EURUSD": 1.13417,
+      "GBPUSD": 1.31518
     },
     "period_stats": {
       "day": {
