@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782326927.9748192,
+  "updated_ts": 1782335828.280499,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782326927.935574
+      "heartbeat_ts": 1782335828.279846
     }
   },
   "control": {
@@ -41,8 +41,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": -1.63,
-    "net_pnl": -12.18
+    "unrealized_pnl": 0.0,
+    "net_pnl": -10.55
   },
   "stats": {
     "signals": 0,
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1726.44
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1716.189873,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1726.44,
-      "upnl": -1.63,
-      "u_r": -0.48
+      "price": 1735.840596,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2363,6 +2363,16 @@
     },
     "news": [
       {
+        "title": "Upheaval at the Ethereum Foundation has some of crypto\u2019s biggest names feeling bullish",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Kalshi targets a massive $40 billion valuation, widening lead over rival Polymarket",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Binance withdraws Greek MiCA bid but vows to remain in Europe",
         "source": "CoinDesk",
         "ts": 0
@@ -2381,24 +2391,14 @@
         "title": "SecondFi loses $2.4 million in Cardano wallet exploit",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Trump's refusal to sign housing bill could delay Congress and imperil Clarity Act",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ex-FCA policy insider explains the \u2018great divide\u2019 in the UK\u2019s crypto ambition",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4001.5,
-      "BTCUSD": 59420.98047,
-      "ETHUSD": 1569.63,
-      "EURUSD": 1.13585,
-      "GBPUSD": 1.31636
+      "XAUUSD": 4016.3999,
+      "BTCUSD": 60674.53906,
+      "ETHUSD": 1607.5,
+      "EURUSD": 1.13623,
+      "GBPUSD": 1.31688
     },
     "period_stats": {
       "day": {
