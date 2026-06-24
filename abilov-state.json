@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782335828.280499,
+  "updated_ts": 1782343151.1750872,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782335828.279846
+      "heartbeat_ts": 1782343151.173656
     }
   },
   "control": {
@@ -41,14 +41,14 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -10.55
+    "unrealized_pnl": 7.48,
+    "net_pnl": -3.07
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 0,
+    "updates": 1,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 1779.09
     }
   },
   "open_positions": [
@@ -69,12 +69,12 @@
       "side": "LONG",
       "strategy": "confluence",
       "entry": 1735.840596,
-      "sl": 1716.189873,
+      "sl": 1755.406633,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1735.840596,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1779.09,
+      "upnl": 7.48,
+      "u_r": 2.21
     }
   ],
   "recent_trades": [
@@ -835,8 +835,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-24",
-      "end": "2026-06-25",
+      "start": "2026-06-25",
+      "end": "2026-06-26",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2394,11 +2394,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4016.3999,
-      "BTCUSD": 60674.53906,
-      "ETHUSD": 1607.5,
-      "EURUSD": 1.13623,
-      "GBPUSD": 1.31688
+      "XAUUSD": 4008.5,
+      "BTCUSD": 60791.89844,
+      "ETHUSD": 1614.03003,
+      "EURUSD": 1.13598,
+      "GBPUSD": 1.31657
     },
     "period_stats": {
       "day": {
