@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782419867.851219,
+  "updated_ts": 1782420506.4122748,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782419867.850641
+      "heartbeat_ts": 1782420506.411423
     }
   },
   "control": {
@@ -1084,6 +1084,46 @@
             "t": 1782411921.3674371,
             "kind": "open",
             "px": 4048.60009765625
+          }
+        ]
+      },
+      {
+        "symbol": "ETHUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1562.5,
+        "sl": 1618.12848152,
+        "tp_levels": [
+          1504.09009441,
+          1462.36873327,
+          1420.64737213,
+          1395.61455545
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782419877.254699,
+        "ts": 1782419874.461983,
+        "timeframe": "1h",
+        "msg_id": 277,
+        "updates": [
+          {
+            "t": 1782419877.2547069,
+            "kind": "open",
+            "px": 1562.5
           }
         ]
       }
@@ -2459,11 +2499,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4044.5,
-      "BTCUSD": 59464.23047,
-      "ETHUSD": 1562.5,
-      "EURUSD": 1.13766,
-      "GBPUSD": 1.31975
+      "XAUUSD": 4040.8999,
+      "BTCUSD": 59382.35938,
+      "ETHUSD": 1558.63,
+      "EURUSD": 1.13753,
+      "GBPUSD": 1.31957
     },
     "period_stats": {
       "day": {
