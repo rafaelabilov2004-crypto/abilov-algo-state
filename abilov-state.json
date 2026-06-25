@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782405257.228311,
+  "updated_ts": 1782407931.1015491,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782405257.227283
+      "heartbeat_ts": 1782407931.100908
     }
   },
   "control": {
@@ -1066,45 +1066,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 3998.60009765625,
-        "sl": 4056.08260884,
-        "tp_levels": [
-          3938.24346091,
-          3895.13157752,
-          3852.01969413,
-          3826.15256409
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1782385019.665774,
-        "ts": 1782385017.413811,
-        "timeframe": "1h",
-        "msg_id": 270,
-        "updates": [
-          {
-            "t": 1782385019.665786,
-            "kind": "open",
-            "px": 3998.60009765625
-          }
-        ]
-      },
-      {
         "symbol": "BTCUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1146,6 +1107,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 3998.60009765625,
+        "sl": 4056.08260884,
+        "tp_levels": [
+          3938.24346091,
+          3895.13157752,
+          3852.01969413,
+          3826.15256409
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "stoch",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782385019.665774,
+        "ts": 1782385017.413811,
+        "timeframe": "1h",
+        "msg_id": 270,
+        "updates": [
+          {
+            "t": 1782385019.665786,
+            "kind": "open",
+            "px": 3998.60009765625
+          },
+          {
+            "t": 1782405263.904691,
+            "kind": "SL",
+            "px": 4056.08260884,
+            "pct": -1.44
+          }
+        ],
+        "exit": 4056.08260884,
+        "reason": "SL",
+        "pct": -1.438,
+        "r_multiple": -1.0,
+        "closed_ts": 1782405263.9047182
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -2387,41 +2398,6 @@
         "reason": "BE",
         "pct": 0.0,
         "closed_ts": 1780663049.03685
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 4481.7998046875,
-        "sl": 4499.72700391,
-        "tp_levels": [
-          4465.66532539,
-          4452.21992598,
-          4438.77452656,
-          4428.01820703
-        ],
-        "tp_sizes": [
-          0.4,
-          0.3,
-          0.2,
-          0.1
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1780642678.534105,
-        "ts": 1780642677.228987,
-        "timeframe": "30m",
-        "exit": 4499.72700391,
-        "reason": "SL",
-        "pct": -0.4,
-        "closed_ts": 1780660933.1138968
       }
     ]
   },
@@ -2432,6 +2408,16 @@
       "bias": 1
     },
     "news": [
+      {
+        "title": "Kraken in talks to buy 15% stake in DeFi lender Aave at $385 million valuation",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "a16z-backed crypto firm rebrands, shifts focus to solving AI\u2019s global copyright headache",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "BlackBerry is making a massive comeback as an 'uncrashable' software layer for AI and robotics",
         "source": "CoinDesk",
@@ -2451,24 +2437,14 @@
         "title": "Bitcoin tumbles to new multi-year low of $58,000, but a short-squeeze setup emerges",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto for Advisors: Bitcoin: planning for inheritance",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4058.1001,
-      "BTCUSD": 59306.14844,
-      "ETHUSD": 1564.15002,
-      "EURUSD": 1.13856,
-      "GBPUSD": 1.32153
+      "XAUUSD": 4046.6001,
+      "BTCUSD": 59421.10156,
+      "ETHUSD": 1568.67004,
+      "EURUSD": 1.13779,
+      "GBPUSD": 1.32039
     },
     "period_stats": {
       "day": {
@@ -2493,10 +2469,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1199.91,
+    "balance": 1182.66,
     "currency": "$",
-    "total_return_pct": 19.99,
-    "closed": 56,
+    "total_return_pct": 18.27,
+    "closed": 57,
     "wins": 20,
     "peak": 1210.94
   }
