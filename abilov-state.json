@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782344221.386338,
+  "updated_ts": 1782348071.002383,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782344221.385885
+      "heartbeat_ts": 1782348071.0016909
     }
   },
   "control": {
@@ -41,14 +41,14 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -10.55,
-    "unrealized_pnl": 7.48,
-    "net_pnl": -3.07
+    "unrealized_pnl": 0.0,
+    "net_pnl": -10.55
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 1,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1779.09
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -72,9 +72,9 @@
       "sl": 1755.406633,
       "tp": 1792.710381,
       "size": 0.172879,
-      "price": 1779.09,
-      "upnl": 7.48,
-      "u_r": 2.21
+      "price": 1735.840596,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -825,7 +825,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 17,
+      "index": 12,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -2357,7 +2357,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 17,
+      "index": 12,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -2394,11 +2394,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4015.19995,
-      "BTCUSD": 60935.14844,
-      "ETHUSD": 1618.47998,
-      "EURUSD": 1.13585,
-      "GBPUSD": 1.31643
+      "XAUUSD": 3994.5,
+      "BTCUSD": 60723.28906,
+      "ETHUSD": 1616.16003,
+      "EURUSD": 1.13572,
+      "GBPUSD": 1.31647
     },
     "period_stats": {
       "day": {
@@ -2408,10 +2408,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 11,
-        "win_rate": 0.273,
-        "total_pnl": -15.76,
-        "total_r": -4.24
+        "n": 9,
+        "win_rate": 0.333,
+        "total_pnl": -11.95,
+        "total_r": -1.62
       },
       "month": {
         "n": 41,
