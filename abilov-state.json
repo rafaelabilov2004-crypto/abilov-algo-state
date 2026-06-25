@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782397934.7169652,
+  "updated_ts": 1782399859.6258402,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782397934.7163332
+      "heartbeat_ts": 1782399859.6254232
     }
   },
   "control": {
@@ -968,64 +968,6 @@
         ]
       },
       {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 62483.0,
-        "sl": 63460.7937699,
-        "tp_levels": [
-          61456.3165416,
-          60722.97121418,
-          59989.62588675,
-          59549.6186903
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1782223348.283699,
-        "ts": 1782223342.215498,
-        "timeframe": "1h",
-        "msg_id": 249,
-        "updates": [
-          {
-            "t": 1782223348.2837079,
-            "kind": "open",
-            "px": 62483.0
-          },
-          {
-            "t": 1782310226.2055612,
-            "kind": "TP1",
-            "px": 61456.3165416,
-            "pct": 1.64
-          },
-          {
-            "t": 1782318522.368743,
-            "kind": "TP2",
-            "px": 60722.97121418,
-            "pct": 2.82
-          },
-          {
-            "t": 1782321209.5502532,
-            "kind": "TP3",
-            "px": 59989.62588675,
-            "pct": 3.99
-          }
-        ]
-      },
-      {
         "symbol": "EURUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1161,9 +1103,118 @@
             "px": 3998.60009765625
           }
         ]
+      },
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 59182.7109375,
+        "sl": 60936.64138377,
+        "tp_levels": [
+          57341.08396892,
+          56025.63613422,
+          54710.18829952,
+          53920.9195987
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782399859.62381,
+        "ts": 1782397945.1290271,
+        "timeframe": "1h",
+        "msg_id": null,
+        "updates": [
+          {
+            "t": 1782399859.623822,
+            "kind": "open",
+            "px": 59182.7109375
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 62483.0,
+        "sl": 63460.7937699,
+        "tp_levels": [
+          61456.3165416,
+          60722.97121418,
+          59989.62588675,
+          59549.6186903
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1782223348.283699,
+        "ts": 1782223342.215498,
+        "timeframe": "1h",
+        "msg_id": 249,
+        "updates": [
+          {
+            "t": 1782223348.2837079,
+            "kind": "open",
+            "px": 62483.0
+          },
+          {
+            "t": 1782310226.2055612,
+            "kind": "TP1",
+            "px": 61456.3165416,
+            "pct": 1.64
+          },
+          {
+            "t": 1782318522.368743,
+            "kind": "TP2",
+            "px": 60722.97121418,
+            "pct": 2.82
+          },
+          {
+            "t": 1782321209.5502532,
+            "kind": "TP3",
+            "px": 59989.62588675,
+            "pct": 3.99
+          },
+          {
+            "t": 1782397944.040446,
+            "kind": "TP4",
+            "px": 59549.6186903,
+            "pct": 4.69
+          }
+        ],
+        "exit": 59549.6186903,
+        "reason": "TP4",
+        "pct": 4.695,
+        "r_multiple": 3.0,
+        "closed_ts": 1782397944.040479
+      },
       {
         "symbol": "XAUUSD",
         "side": "SHORT",
@@ -2371,39 +2422,6 @@
         "reason": "SL",
         "pct": -0.4,
         "closed_ts": 1780660933.1138968
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "donchian_breakout",
-        "entry": 4462.2998046875,
-        "sl": 4480.14900391,
-        "tp_levels": [
-          4451.59028516,
-          4442.66568555,
-          4433.74108594,
-          4426.60140625
-        ],
-        "tp_sizes": [
-          0.4,
-          0.3,
-          0.2,
-          0.1
-        ],
-        "reasons": [
-          "close<donchian20",
-          "adx>20",
-          "breakout_dn"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1780640767.237304,
-        "ts": 1780640765.494158,
-        "timeframe": "30m",
-        "exit": 4480.14900391,
-        "reason": "SL",
-        "pct": -0.4,
-        "r": -1.0,
-        "closed_ts": 1780642675.930779
       }
     ]
   },
@@ -2414,6 +2432,21 @@
       "bias": 1
     },
     "news": [
+      {
+        "title": "Bitcoin plunges to new multi-year low of $58,000, but a short-squeeze setup emerges",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto for Advisors: Bitcoin: planning for inheritance",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Kraken sues crypto derivatives firm PowerTrade over 'misappropriated' funds claim",
         "source": "CoinDesk",
@@ -2428,29 +2461,14 @@
         "title": "Uniswap, Spark aim to build stablecoin FX market as banks, fintechs enter the industry",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Post-prison CZ says time behind bars didn't hurt the billionaire's business after Binance",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Circle and Nomura join forces to target a $440 billion daily foreign exchange market in Japan",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4036.19995,
-      "BTCUSD": 59136.01172,
-      "ETHUSD": 1559.96997,
-      "EURUSD": 1.13753,
-      "GBPUSD": 1.31994
+      "XAUUSD": 4031.19995,
+      "BTCUSD": 59040.64062,
+      "ETHUSD": 1557.66003,
+      "EURUSD": 1.1383,
+      "GBPUSD": 1.32081
     },
     "period_stats": {
       "day": {
@@ -2475,11 +2493,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1146.1,
+    "balance": 1199.91,
     "currency": "$",
-    "total_return_pct": 14.61,
-    "closed": 55,
-    "wins": 19,
+    "total_return_pct": 19.99,
+    "closed": 56,
+    "wins": 20,
     "peak": 1210.94
   }
 }
