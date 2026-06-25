@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782387964.8469188,
+  "updated_ts": 1782388018.1695209,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782387964.845908
+      "heartbeat_ts": 1782388018.1692228
     }
   },
   "control": {
@@ -47,10 +47,10 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -60,7 +60,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 1638.33
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -2446,30 +2446,30 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3992.19995,
-      "BTCUSD": 61221.64844,
-      "ETHUSD": 1629.69995,
-      "EURUSD": 1.13417,
-      "GBPUSD": 1.3161
+      "XAUUSD": 3988.80005,
+      "BTCUSD": 61192.51172,
+      "ETHUSD": 1629.55005,
+      "EURUSD": 1.13392,
+      "GBPUSD": 1.3156
     },
     "period_stats": {
       "day": {
-        "n": 0,
-        "win_rate": 0.0,
-        "total_pnl": 0.0,
-        "total_r": 0.0
+        "n": 1,
+        "win_rate": 1.0,
+        "total_pnl": 3.4,
+        "total_r": 1.03
       },
       "week": {
-        "n": 7,
-        "win_rate": 0.429,
-        "total_pnl": -8.5,
-        "total_r": 1.04
+        "n": 8,
+        "win_rate": 0.5,
+        "total_pnl": -5.1,
+        "total_r": 2.06
       },
       "month": {
-        "n": 41,
-        "win_rate": 0.341,
-        "total_pnl": -10.55,
-        "total_r": -6.86
+        "n": 42,
+        "win_rate": 0.357,
+        "total_pnl": -7.15,
+        "total_r": -5.83
       }
     }
   },
