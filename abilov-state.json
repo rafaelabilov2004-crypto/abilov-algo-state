@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782424133.790038,
+  "updated_ts": 1782427195.9244668,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782424133.789587
+      "heartbeat_ts": 1782427195.9191208
     }
   },
   "control": {
@@ -837,17 +837,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-25",
-      "end": "2026-06-26",
-      "trades": 1,
-      "wins": 1,
+      "start": "2026-06-26",
+      "end": "2026-06-27",
+      "trades": 0,
+      "wins": 0,
       "losses": 0,
-      "win_rate": 1.0,
-      "pnl": 3.4,
-      "avg_r": 1.028,
-      "best_r": 1.028,
-      "worst_r": 1.028,
-      "fees": 0.6
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -2499,11 +2499,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4041.6001,
-      "BTCUSD": 59815.33984,
-      "ETHUSD": 1571.62,
-      "EURUSD": 1.13779,
-      "GBPUSD": 1.31989
+      "XAUUSD": 4039.3999,
+      "BTCUSD": 59687.96875,
+      "ETHUSD": 1567.79004,
+      "EURUSD": 1.13727,
+      "GBPUSD": 1.31924
     },
     "period_stats": {
       "day": {
@@ -2513,10 +2513,10 @@
         "total_r": 1.03
       },
       "week": {
-        "n": 8,
-        "win_rate": 0.5,
-        "total_pnl": -5.1,
-        "total_r": 2.06
+        "n": 7,
+        "win_rate": 0.429,
+        "total_pnl": -10.0,
+        "total_r": 0.2
       },
       "month": {
         "n": 42,
