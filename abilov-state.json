@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782501889.018694,
+  "updated_ts": 1782501961.01056,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782501889.018296
+      "heartbeat_ts": 1782501961.009127
     }
   },
   "control": {
@@ -1091,6 +1091,46 @@
         "symbol": "EURUSD",
         "side": "LONG",
         "strategy": "confluence",
+        "entry": 1.1385631561279297,
+        "sl": 1.1340089,
+        "tp_levels": [
+          1.14334512,
+          1.14676081,
+          1.1501765,
+          1.15222591
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "ema_trend",
+          "vol_expansion",
+          "supertrend",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782501900.737343,
+        "ts": 1782501897.342358,
+        "timeframe": "1h",
+        "msg_id": 284,
+        "updates": [
+          {
+            "t": 1782501900.737351,
+            "kind": "open",
+            "px": 1.1385631561279297
+          }
+        ]
+      }
+    ],
+    "closed": [
+      {
+        "symbol": "EURUSD",
+        "side": "LONG",
+        "strategy": "confluence",
         "entry": 1.1432491540908813,
         "sl": 1.13867616,
         "tp_levels": [
@@ -1124,11 +1164,20 @@
             "t": 1782478747.4718552,
             "kind": "open",
             "px": 1.1432491540908813
+          },
+          {
+            "t": 1782501896.641649,
+            "kind": "SL",
+            "px": 1.13867616,
+            "pct": -0.4
           }
-        ]
-      }
-    ],
-    "closed": [
+        ],
+        "exit": 1.13867616,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1782501896.641668
+      },
       {
         "symbol": "EURUSD",
         "side": "SHORT",
@@ -2439,38 +2488,6 @@
         "reason": "TP4",
         "pct": 1.2,
         "closed_ts": 1780673032.281043
-      },
-      {
-        "symbol": "EURUSD",
-        "side": "LONG",
-        "strategy": "keltner_squeeze_breakout",
-        "entry": 1.162520408630371,
-        "sl": 1.15787033,
-        "tp_levels": [
-          1.16531046,
-          1.1676355,
-          1.16996054,
-          1.17182057
-        ],
-        "tp_sizes": [
-          0.4,
-          0.3,
-          0.2,
-          0.1
-        ],
-        "reasons": [
-          "post_squeeze",
-          "close>keltner_up",
-          "vol_expansion_up"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1780641669.223298,
-        "ts": 1780641667.1063092,
-        "timeframe": "30m",
-        "exit": 1.15787033,
-        "reason": "SL",
-        "pct": -0.4,
-        "closed_ts": 1780667562.8038201
       }
     ]
   },
@@ -2542,10 +2559,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1249.77,
+    "balance": 1244.77,
     "currency": "$",
-    "total_return_pct": 24.98,
-    "closed": 59,
+    "total_return_pct": 24.48,
+    "closed": 60,
     "wins": 21,
     "peak": 1254.79
   }
