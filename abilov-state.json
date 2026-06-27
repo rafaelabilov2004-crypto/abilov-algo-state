@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782503491.104628,
+  "updated_ts": 1782540472.067622,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782503491.104061
+      "heartbeat_ts": 1782540472.067012
     }
   },
   "control": {
@@ -827,7 +827,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 13,
+      "index": 15,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -837,8 +837,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-26",
-      "end": "2026-06-27",
+      "start": "2026-06-27",
+      "end": "2026-06-28",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2493,11 +2493,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 13,
+      "index": 15,
       "label": "Miedo extremo",
       "bias": 1
     },
     "news": [
+      {
+        "title": "Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "U.S. House Democrat, who may soon run key committee, condemns crypto in 401(k)s",
         "source": "CoinDesk",
@@ -2522,19 +2527,14 @@
         "title": "Securitize expects to raise $400 million as tokenization firm nears public debut",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4083.0,
-      "BTCUSD": 59771.55078,
-      "ETHUSD": 1575.47998,
+      "XAUUSD": 4096.2998,
+      "BTCUSD": 60098.39844,
+      "ETHUSD": 1574.78003,
       "EURUSD": 1.13895,
-      "GBPUSD": 1.32001
+      "GBPUSD": 1.3198
     },
     "period_stats": {
       "day": {
