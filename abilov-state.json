@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782673306.148107,
+  "updated_ts": 1782701727.904896,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782673306.146691
+      "heartbeat_ts": 1782701727.9040608
     }
   },
   "control": {
@@ -827,7 +827,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 18,
+      "index": 12,
       "label": "Miedo extremo",
       "bias": 1
     },
@@ -837,8 +837,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-28",
-      "end": "2026-06-29",
+      "start": "2026-06-29",
+      "end": "2026-06-30",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -851,17 +851,17 @@
     },
     "week": {
       "period": "week",
-      "start": "2026-06-22",
-      "end": "2026-06-29",
-      "trades": 2,
-      "wins": 1,
-      "losses": 1,
-      "win_rate": 0.5,
-      "pnl": 1.7,
-      "avg_r": 0.104,
-      "best_r": 1.028,
-      "worst_r": -0.82,
-      "fees": 1.2
+      "start": "2026-06-29",
+      "end": "2026-07-06",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "month": {
       "period": "month",
@@ -2493,11 +2493,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 18,
+      "index": 12,
       "label": "Miedo extremo",
       "bias": 1
     },
     "news": [
+      {
+        "title": "CZ wants to make the U.S. the 'capital of crypto': State of Crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Samson Mow says bitcoin bottom is in despite skepticism from analysts",
         "source": "CoinDesk",
@@ -2522,19 +2527,14 @@
         "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Why a selloff in gold and silver is dragging bitcoin down",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "BTCUSD": 59487.01172,
-      "ETHUSD": 0.0,
-      "EURUSD": 1.13895,
-      "GBPUSD": 1.3198
+      "XAUUSD": 4080.30005,
+      "BTCUSD": 60061.03906,
+      "ETHUSD": 1584.45996,
+      "EURUSD": 1.13921,
+      "GBPUSD": 1.32055
     },
     "period_stats": {
       "day": {
@@ -2544,10 +2544,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total_pnl": 1.7,
-        "total_r": 0.21
+        "n": 1,
+        "win_rate": 1.0,
+        "total_pnl": 3.4,
+        "total_r": 1.03
       },
       "month": {
         "n": 42,
