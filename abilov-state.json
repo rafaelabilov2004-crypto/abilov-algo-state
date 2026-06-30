@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782851350.9667861,
+  "updated_ts": 1782858647.590961,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782851350.966377
+      "heartbeat_ts": 1782858647.589509
     }
   },
   "control": {
@@ -839,8 +839,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-06-30",
-      "end": "2026-07-01",
+      "start": "2026-07-01",
+      "end": "2026-07-02",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -867,17 +867,17 @@
     },
     "month": {
       "period": "month",
-      "start": "2026-06-01",
-      "end": "2026-07-01",
-      "trades": 42,
-      "wins": 15,
-      "losses": 27,
-      "win_rate": 0.357,
-      "pnl": -7.15,
-      "avg_r": -0.139,
-      "best_r": 2.489,
-      "worst_r": -1.651,
-      "fees": 24.85
+      "start": "2026-07-01",
+      "end": "2026-08-01",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "attribution": [
       {
@@ -2753,6 +2753,16 @@
     },
     "news": [
       {
+        "title": "Trump pocketed more than $1 billion from crypto ties as industry headed toward slump",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Companies spending the most on AI are growing jobs, Ramp study finds",
         "source": "CoinDesk",
         "ts": 0
@@ -2771,27 +2781,17 @@
         "title": "Chinese exile once linked to Trump strategist gets 30-year sentence in $1 billion fraud",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4034.1001,
-      "BTCUSD": 58650.03906,
-      "ETHUSD": 1574.14001,
-      "EURUSD": 1.14273,
-      "GBPUSD": 1.32642,
-      "USDJPY": 162.55499,
-      "XAGUSD": 59.675,
-      "AUDUSD": 0.69238
+      "XAUUSD": 4027.1001,
+      "BTCUSD": 58511.0,
+      "ETHUSD": 1566.97998,
+      "EURUSD": 1.14247,
+      "GBPUSD": 1.326,
+      "USDJPY": 162.62,
+      "XAGUSD": 59.19,
+      "AUDUSD": 0.69209
     },
     "period_stats": {
       "day": {
