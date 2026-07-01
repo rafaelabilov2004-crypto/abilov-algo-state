@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782874851.451222,
+  "updated_ts": 1782878490.113772,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782874851.448246
+      "heartbeat_ts": 1782878490.1135511
     }
   },
   "control": {
@@ -1263,46 +1263,6 @@
         ]
       },
       {
-        "symbol": "AUDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.692233145236969,
-        "sl": 0.68946421,
-        "tp_levels": [
-          0.69514052,
-          0.69721722,
-          0.69929392,
-          0.70053994
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1782846479.992474,
-        "ts": 1782846477.8886201,
-        "timeframe": "1h",
-        "msg_id": 309,
-        "updates": [
-          {
-            "t": 1782846479.992479,
-            "kind": "open",
-            "px": 0.692233145236969
-          }
-        ]
-      },
-      {
         "symbol": "ETHUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1343,6 +1303,57 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "AUDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.692233145236969,
+        "sl": 0.68946421,
+        "tp_levels": [
+          0.69514052,
+          0.69721722,
+          0.69929392,
+          0.70053994
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782846479.992474,
+        "ts": 1782846477.8886201,
+        "timeframe": "1h",
+        "msg_id": 309,
+        "updates": [
+          {
+            "t": 1782846479.992479,
+            "kind": "open",
+            "px": 0.692233145236969
+          },
+          {
+            "t": 1782875884.6263309,
+            "kind": "SL",
+            "px": 0.68946421,
+            "pct": -0.4
+          }
+        ],
+        "exit": 0.68946421,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1782875884.626349
+      },
       {
         "symbol": "AUDUSD",
         "side": "SHORT",
@@ -2693,55 +2704,6 @@
         "reason": "SL",
         "pct": -0.4,
         "closed_ts": 1781000257.71005
-      },
-      {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 61260.359375,
-        "sl": 62503.10392067,
-        "tp_levels": [
-          59955.47760204,
-          59023.41919279,
-          58091.36078354,
-          57532.12573798
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1780859956.307679,
-        "ts": 1780859941.5807161,
-        "timeframe": "1h",
-        "msg_id": 104,
-        "updates": [
-          {
-            "t": 1780859956.3076859,
-            "kind": "open",
-            "px": 61260.359375
-          },
-          {
-            "t": 1780871244.231564,
-            "kind": "SL",
-            "px": 62503.10392067,
-            "pct": -2.03
-          }
-        ],
-        "exit": 62503.10392067,
-        "reason": "SL",
-        "pct": -2.029,
-        "closed_ts": 1780871244.2315898
       }
     ]
   },
@@ -2784,14 +2746,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3997.0,
-      "BTCUSD": 58951.21094,
-      "ETHUSD": 1583.02002,
-      "EURUSD": 1.1409,
-      "GBPUSD": 1.32368,
-      "USDJPY": 0.0,
-      "XAGUSD": 58.365,
-      "AUDUSD": 0.68932
+      "XAUUSD": 0.0,
+      "BTCUSD": 59013.21094,
+      "ETHUSD": 1589.81995,
+      "EURUSD": 1.14077,
+      "GBPUSD": 1.32356,
+      "USDJPY": 162.79601,
+      "XAGUSD": 0.0,
+      "AUDUSD": 0.68927
     },
     "period_stats": {
       "day": {
@@ -2816,10 +2778,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1135.84,
+    "balance": 1131.3,
     "currency": "$",
-    "total_return_pct": 13.58,
-    "closed": 64,
+    "total_return_pct": 13.13,
+    "closed": 65,
     "wins": 21,
     "peak": 1254.79
   }
