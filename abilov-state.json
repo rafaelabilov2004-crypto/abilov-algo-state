@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782889410.595746,
+  "updated_ts": 1782893049.892264,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782889410.594744
+      "heartbeat_ts": 1782893049.89202
     }
   },
   "control": {
@@ -1219,6 +1219,46 @@
             "t": 1782847809.3324559,
             "kind": "open",
             "px": 1574.5400390625
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 3986.300048828125,
+        "sl": 4026.73433152,
+        "tp_levels": [
+          3943.844052,
+          3913.51833998,
+          3883.19262796,
+          3864.99720074
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782889418.4024389,
+        "ts": 1782889415.999423,
+        "timeframe": "1h",
+        "msg_id": 317,
+        "updates": [
+          {
+            "t": 1782889418.402448,
+            "kind": "open",
+            "px": 3986.300048828125
           }
         ]
       }
@@ -2638,6 +2678,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin\u2019s 20% June crash looks even deadlier on the charts. Here\u2019s why",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live markets: U.S. spot bitcoin ETFs had their worst month ever in June, shedding $4.5 billion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls",
         "source": "CoinDesk",
         "ts": 0
@@ -2656,27 +2706,17 @@
         "title": "U.S. senators seek to block foreign adversaries from AI technology in new bill",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Trump pocketed more than $1 billion from crypto ties as industry headed toward slump",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3986.1001,
-      "BTCUSD": 58595.17188,
-      "ETHUSD": 1573.37,
-      "EURUSD": 1.14038,
-      "GBPUSD": 1.32424,
-      "USDJPY": 162.661,
-      "XAGUSD": 57.955,
-      "AUDUSD": 0.68923
+      "XAUUSD": 3984.69995,
+      "BTCUSD": 58650.51172,
+      "ETHUSD": 1573.88,
+      "EURUSD": 1.14051,
+      "GBPUSD": 1.32422,
+      "USDJPY": 162.674,
+      "XAGUSD": 58.02,
+      "AUDUSD": 0.68937
     },
     "period_stats": {
       "day": {
