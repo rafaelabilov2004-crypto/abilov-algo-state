@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782928472.881696,
+  "updated_ts": 1782928540.527331,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782928472.8803918
+      "heartbeat_ts": 1782928540.527103
     }
   },
   "control": {
@@ -28,12 +28,13 @@
     "aggressive"
   ],
   "strategies": [
-    "keltner_squeeze_breakout",
-    "momentum_roc",
-    "donchian_breakout",
     "supertrend_follow",
-    "grid_range",
-    "grid_entry"
+    "keltner_squeeze_breakout",
+    "donchian_breakout",
+    "momentum_roc",
+    "trend_runner",
+    "grid_entry",
+    "grid_range"
   ],
   "account": {
     "equity": 10001.06,
@@ -2800,12 +2801,12 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4085.69995,
-      "BTCUSD": 60166.60156,
-      "ETHUSD": 1622.56006,
-      "EURUSD": 1.13843,
-      "TSLA": 426.155,
-      "AAPL": 294.60999
+      "XAUUSD": 4084.5,
+      "BTCUSD": 60143.16016,
+      "ETHUSD": 1622.30005,
+      "EURUSD": 1.1383,
+      "TSLA": 426.035,
+      "AAPL": 294.01001
     },
     "period_stats": {
       "day": {
