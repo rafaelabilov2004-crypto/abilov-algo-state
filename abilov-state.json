@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782915293.672354,
+  "updated_ts": 1782915362.254247,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782915293.6719942
+      "heartbeat_ts": 1782915362.253349
     }
   },
   "control": {
@@ -1182,7 +1182,9 @@
             "px": 52536.0
           }
         ]
-      },
+      }
+    ],
+    "closed": [
       {
         "symbol": "ETHUSD",
         "side": "SHORT",
@@ -1219,11 +1221,20 @@
             "t": 1782847809.3324559,
             "kind": "open",
             "px": 1574.5400390625
+          },
+          {
+            "t": 1782915301.79676,
+            "kind": "SL",
+            "px": 1605.62285342,
+            "pct": -1.97
           }
-        ]
-      }
-    ],
-    "closed": [
+        ],
+        "exit": 1605.62285342,
+        "reason": "SL",
+        "pct": -1.974,
+        "r_multiple": -1.0,
+        "closed_ts": 1782915301.79683
+      },
       {
         "symbol": "XAUUSD",
         "side": "SHORT",
@@ -2575,60 +2586,6 @@
         "reason": "SL",
         "pct": -0.4,
         "closed_ts": 1781723504.025374
-      },
-      {
-        "symbol": "GBPUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 1.3367375135421753,
-        "sl": 1.33139056,
-        "tp_levels": [
-          1.34235181,
-          1.34636202,
-          1.35037224,
-          1.35277836
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "sentiment"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1780918489.4628742,
-        "ts": 1780918474.421982,
-        "timeframe": "1h",
-        "msg_id": 127,
-        "updates": [
-          {
-            "t": 1780918489.462892,
-            "kind": "open",
-            "px": 1.3367375135421753
-          },
-          {
-            "t": 1781642384.733141,
-            "kind": "TP1",
-            "px": 1.34235181,
-            "pct": 0.42
-          },
-          {
-            "t": 1781723503.7484438,
-            "kind": "SL",
-            "px": 1.33139056,
-            "pct": -0.4
-          }
-        ],
-        "exit": 1.33139056,
-        "reason": "SL",
-        "pct": -0.4,
-        "closed_ts": 1781723503.7484539
       }
     ]
   },
@@ -2703,10 +2660,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1073.04,
+    "balance": 1051.86,
     "currency": "$",
-    "total_return_pct": 7.3,
-    "closed": 68,
+    "total_return_pct": 5.19,
+    "closed": 69,
     "wins": 21,
     "peak": 1254.79
   }
