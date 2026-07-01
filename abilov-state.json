@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782915009.929358,
+  "updated_ts": 1782915149.93997,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782915009.927687
+      "heartbeat_ts": 1782915149.939023
     }
   },
   "control": {
@@ -1221,7 +1221,9 @@
             "px": 1574.5400390625
           }
         ]
-      },
+      }
+    ],
+    "closed": [
       {
         "symbol": "XAUUSD",
         "side": "SHORT",
@@ -1259,11 +1261,20 @@
             "t": 1782889418.402448,
             "kind": "open",
             "px": 3986.300048828125
+          },
+          {
+            "t": 1782915017.8270478,
+            "kind": "SL",
+            "px": 4026.73433152,
+            "pct": -1.01
           }
-        ]
-      }
-    ],
-    "closed": [
+        ],
+        "exit": 4026.73433152,
+        "reason": "SL",
+        "pct": -1.014,
+        "r_multiple": -1.0,
+        "closed_ts": 1782915017.827081
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -2618,55 +2629,6 @@
         "reason": "SL",
         "pct": -0.4,
         "closed_ts": 1781723503.7484539
-      },
-      {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 61938.0,
-        "sl": 63055.18356922,
-        "tp_levels": [
-          60764.95725232,
-          59927.0695754,
-          59089.18189848,
-          58586.44929233
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1781014615.613338,
-        "ts": 1781014610.577068,
-        "timeframe": "1h",
-        "msg_id": 157,
-        "updates": [
-          {
-            "t": 1781014615.6133509,
-            "kind": "open",
-            "px": 61938.0
-          },
-          {
-            "t": 1781624766.2951732,
-            "kind": "SL",
-            "px": 63055.18356922,
-            "pct": -1.8
-          }
-        ],
-        "exit": 63055.18356922,
-        "reason": "SL",
-        "pct": -1.804,
-        "closed_ts": 1781624766.295187
       }
     ]
   },
@@ -2741,10 +2703,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1084.04,
+    "balance": 1073.04,
     "currency": "$",
-    "total_return_pct": 8.4,
-    "closed": 67,
+    "total_return_pct": 7.3,
+    "closed": 68,
     "wins": 21,
     "peak": 1254.79
   }
