@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782994101.531096,
+  "updated_ts": 1782996560.6244879,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782994101.5287318
+      "heartbeat_ts": 1782996560.623774
     }
   },
   "control": {
@@ -1080,7 +1080,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1782925121.650115,
         "ts": 1782925119.159183,
         "timeframe": "1h",
@@ -1090,6 +1090,12 @@
             "t": 1782925121.650136,
             "kind": "open",
             "px": 4087.5
+          },
+          {
+            "t": 1782996559.497013,
+            "kind": "TP1",
+            "px": 4147.85679894,
+            "pct": 1.48
           }
         ]
       },
@@ -2649,6 +2655,11 @@
     },
     "news": [
       {
+        "title": "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink",
         "source": "CoinDesk",
         "ts": 0
@@ -2664,7 +2675,7 @@
         "ts": 0
       },
       {
-        "title": "Bitcoin zooms above $61,000 as inflation fears soften",
+        "title": "Bitcoin rises 4% to above $61,000 as inflation fears soften",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2672,18 +2683,13 @@
         "title": "ChatGPT developer OpenAI said to discuss offering U.S. government a 5% stake: FT",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4080.19995,
-      "BTCUSD": 61242.48828,
-      "ETHUSD": 1648.38,
-      "EURUSD": 1.14025,
+      "XAUUSD": 4148.7002,
+      "BTCUSD": 61349.14062,
+      "ETHUSD": 1659.43994,
+      "EURUSD": 1.14639,
       "TSLA": 425.37,
       "AAPL": 294.25
     },
