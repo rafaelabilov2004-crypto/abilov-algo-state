@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1782991275.282811,
+  "updated_ts": 1782992139.68914,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1782991275.2813902
+      "heartbeat_ts": 1782992139.687833
     }
   },
   "control": {
@@ -914,46 +914,6 @@
   "signal_ideas": {
     "open": [
       {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 59182.7109375,
-        "sl": 60936.64138377,
-        "tp_levels": [
-          57341.08396892,
-          56025.63613422,
-          54710.18829952,
-          53920.9195987
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1782399859.62381,
-        "ts": 1782397945.1290271,
-        "timeframe": "1h",
-        "msg_id": null,
-        "updates": [
-          {
-            "t": 1782399859.623822,
-            "kind": "open",
-            "px": 59182.7109375
-          }
-        ]
-      },
-      {
         "symbol": "EURUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -1251,9 +1211,100 @@
             "px": 1620.2900390625
           }
         ]
+      },
+      {
+        "symbol": "BTCUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 61190.140625,
+        "sl": 60013.34424798,
+        "tp_levels": [
+          62425.77682087,
+          63308.37410364,
+          64190.9713864,
+          64720.52975606
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782991294.231675,
+        "ts": 1782991289.494911,
+        "timeframe": "1h",
+        "msg_id": 331,
+        "updates": [
+          {
+            "t": 1782991294.231688,
+            "kind": "open",
+            "px": 61190.140625
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 59182.7109375,
+        "sl": 60936.64138377,
+        "tp_levels": [
+          57341.08396892,
+          56025.63613422,
+          54710.18829952,
+          53920.9195987
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1782399859.62381,
+        "ts": 1782397945.1290271,
+        "timeframe": "1h",
+        "msg_id": null,
+        "updates": [
+          {
+            "t": 1782399859.623822,
+            "kind": "open",
+            "px": 59182.7109375
+          },
+          {
+            "t": 1782991286.3217332,
+            "kind": "SL",
+            "px": 60936.64138377,
+            "pct": -2.96
+          }
+        ],
+        "exit": 60936.64138377,
+        "reason": "SL",
+        "pct": -2.964,
+        "r_multiple": -1.0,
+        "closed_ts": 1782991286.3217568
+      },
       {
         "symbol": "USDJPY",
         "side": "LONG",
@@ -2587,75 +2638,6 @@
         "pct": -1.523,
         "r_multiple": -1.0,
         "closed_ts": 1781880113.3051991
-      },
-      {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 65704.6796875,
-        "sl": 66771.87453363,
-        "tp_levels": [
-          64584.12509906,
-          63783.72896446,
-          62983.33282986,
-          62503.0951491
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1781624771.5435572,
-        "ts": 1781624768.2455099,
-        "timeframe": "1h",
-        "msg_id": 159,
-        "updates": [
-          {
-            "t": 1781624771.5435789,
-            "kind": "open",
-            "px": 65704.6796875
-          },
-          {
-            "t": 1781724586.6479008,
-            "kind": "TP1",
-            "px": 64584.12509906,
-            "pct": 1.71
-          },
-          {
-            "t": 1781791654.36912,
-            "kind": "TP2",
-            "px": 63783.72896446,
-            "pct": 2.92
-          },
-          {
-            "t": 1781809052.7819111,
-            "kind": "TP3",
-            "px": 62983.33282986,
-            "pct": 4.14
-          },
-          {
-            "t": 1781859917.415329,
-            "kind": "TP4",
-            "px": 62503.0951491,
-            "pct": 4.87
-          }
-        ],
-        "exit": 62503.0951491,
-        "reason": "TP4",
-        "pct": 4.873,
-        "r_multiple": 3.0,
-        "closed_ts": 1781859917.41535
       }
     ]
   },
@@ -2666,6 +2648,11 @@
       "bias": 1
     },
     "news": [
+      {
+        "title": "Smaller tokens lead as bitcoin, sol rally in 'first real bounce of the selloff'",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Bitcoin zooms above $61,000 as inflation fears soften",
         "source": "CoinDesk",
@@ -2690,18 +2677,13 @@
         "title": "Taiko fully restores cross-chain bridge just 10 days after a $1.7 million hack",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Solana launches onchain governance and sets entry fee at 100,000 SOL staked",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4072.8999,
-      "BTCUSD": 61190.14062,
-      "ETHUSD": 1645.43005,
-      "EURUSD": 1.14168,
+      "XAUUSD": 4076.6001,
+      "BTCUSD": 61206.12109,
+      "ETHUSD": 1644.07996,
+      "EURUSD": 1.14155,
       "TSLA": 425.37,
       "AAPL": 294.25
     },
@@ -2713,10 +2695,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 1,
-        "win_rate": 1.0,
-        "total_pnl": 3.4,
-        "total_r": 1.03
+        "n": 0,
+        "win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "month": {
         "n": 42,
@@ -2728,10 +2710,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1047.65,
+    "balance": 1016.6,
     "currency": "$",
-    "total_return_pct": 4.77,
-    "closed": 71,
+    "total_return_pct": 1.66,
+    "closed": 72,
     "wins": 21,
     "peak": 1254.79
   }
