@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783114919.887316,
+  "updated_ts": 1783125578.319278,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783114919.886348
+      "heartbeat_ts": 1783125578.319009
     }
   },
   "control": {
@@ -831,7 +831,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 21,
+      "index": 22,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-03",
-      "end": "2026-07-04",
+      "start": "2026-07-04",
+      "end": "2026-07-05",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1087,7 +1087,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1782991294.231675,
         "ts": 1782991289.494911,
         "timeframe": "1h",
@@ -1097,6 +1097,12 @@
             "t": 1782991294.231688,
             "kind": "open",
             "px": 61190.140625
+          },
+          {
+            "t": 1783115890.926398,
+            "kind": "TP1",
+            "px": 62425.77682087,
+            "pct": 2.02
           }
         ]
       },
@@ -2590,7 +2596,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 21,
+      "index": 22,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -2628,8 +2634,8 @@
     ],
     "fx_rates": {
       "XAUUSD": 4188.5,
-      "BTCUSD": 62699.03125,
-      "ETHUSD": 1762.68005,
+      "BTCUSD": 62462.39062,
+      "ETHUSD": 1746.0,
       "EURUSD": 1.14403,
       "TSLA": 392.82001,
       "AAPL": 308.22
