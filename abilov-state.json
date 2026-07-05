@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783273144.331126,
+  "updated_ts": 1783294882.6571531,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783273144.329567
+      "heartbeat_ts": 1783294882.6563141
     }
   },
   "control": {
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-05",
-      "end": "2026-07-06",
+      "start": "2026-07-06",
+      "end": "2026-07-07",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -855,8 +855,8 @@
     },
     "week": {
       "period": "week",
-      "start": "2026-06-29",
-      "end": "2026-07-06",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2608,6 +2608,11 @@
     },
     "news": [
       {
+        "title": "Clarity and Congress's summer break: State of Crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Americans traded $571 million on Polymarket politic bets despite U.S. ban",
         "source": "CoinDesk",
         "ts": 0
@@ -2631,17 +2636,12 @@
         "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Tokenization's next use case is personalized portfolios, NYLIM executive says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "BTCUSD": 62639.78125,
-      "ETHUSD": 1780.20996,
+      "XAUUSD": 4211.6001,
+      "BTCUSD": 63620.46875,
+      "ETHUSD": 1787.63,
       "EURUSD": 1.14403,
       "TSLA": 392.82001,
       "AAPL": 308.22
@@ -2660,10 +2660,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 33,
-        "win_rate": 0.394,
-        "total_pnl": -3.85,
-        "total_r": -4.54
+        "n": 32,
+        "win_rate": 0.406,
+        "total_pnl": -1.74,
+        "total_r": -3.14
       }
     }
   },
