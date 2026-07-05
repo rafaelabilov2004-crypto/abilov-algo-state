@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783183444.775892,
+  "updated_ts": 1783260405.9012082,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783183444.7737012
+      "heartbeat_ts": 1783260405.896628
     }
   },
   "control": {
@@ -831,7 +831,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 22,
+      "index": 23,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-04",
-      "end": "2026-07-05",
+      "start": "2026-07-05",
+      "end": "2026-07-06",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2602,46 +2602,46 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 22,
+      "index": 23,
       "label": "Miedo extremo",
       "bias": 0
     },
     "news": [
       {
-        "title": "Why bitcoin's disconnect from record-high stocks won't last",
+        "title": "Banks have stopped asking if stablecoins belong in finance, now they're considering how",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Trump's crypto token buyers are down $3.8 billion, blockchain data shows",
+        "title": "Collateral, not yield, will decide which stablecoins win",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Europe led on crypto regulation. Now implementation must match ambition",
+        "title": "Kalshi and prediction market sector embroiled in mixed bag of legal fights across U.S.",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
+        "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout",
+        "title": "Tokenization's next use case is personalized portfolios, NYLIM executive says",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "XRP climbs 8% as record holder losses signal better risk-reward for buyers",
+        "title": "Bitcoin jumps above $63,000, reversing end-June losses",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4188.5,
-      "BTCUSD": 62851.10156,
-      "ETHUSD": 1786.90002,
+      "XAUUSD": 0.0,
+      "BTCUSD": 62686.16016,
+      "ETHUSD": 1765.70996,
       "EURUSD": 1.14403,
       "TSLA": 392.82001,
       "AAPL": 308.22
@@ -2660,10 +2660,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 42,
-        "win_rate": 0.357,
-        "total_pnl": -7.15,
-        "total_r": -5.83
+        "n": 33,
+        "win_rate": 0.394,
+        "total_pnl": -3.85,
+        "total_r": -4.54
       }
     }
   },
