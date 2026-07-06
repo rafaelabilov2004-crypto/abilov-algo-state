@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783295787.589272,
+  "updated_ts": 1783308813.719199,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783295787.588702
+      "heartbeat_ts": 1783308813.718834
     }
   },
   "control": {
@@ -831,7 +831,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 23,
+      "index": 24,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -1087,7 +1087,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1782991294.231675,
         "ts": 1782991289.494911,
         "timeframe": "1h",
@@ -1103,6 +1103,12 @@
             "kind": "TP1",
             "px": 62425.77682087,
             "pct": 2.02
+          },
+          {
+            "t": 1783296803.339509,
+            "kind": "TP2",
+            "px": 63308.37410364,
+            "pct": 3.46
           }
         ]
       },
@@ -2602,7 +2608,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 23,
+      "index": 24,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -2639,11 +2645,11 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4206.6001,
-      "BTCUSD": 63515.03906,
-      "ETHUSD": 1782.19995,
-      "EURUSD": 1.1439,
-      "TSLA": 0.0,
+      "XAUUSD": 0.0,
+      "BTCUSD": 63186.12109,
+      "ETHUSD": 1776.60999,
+      "EURUSD": 1.14351,
+      "TSLA": 392.82001,
       "AAPL": 308.22
     },
     "period_stats": {
