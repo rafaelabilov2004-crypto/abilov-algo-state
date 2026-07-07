@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783366927.692322,
+  "updated_ts": 1783412907.9644969,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783366927.6913002
+      "heartbeat_ts": 1783412907.963319
     }
   },
   "control": {
@@ -831,8 +831,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 24,
-      "label": "Miedo extremo",
+      "index": 27,
+      "label": "Miedo",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-06",
-      "end": "2026-07-07",
+      "start": "2026-07-07",
+      "end": "2026-07-08",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2620,49 +2620,49 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 24,
-      "label": "Miedo extremo",
+      "index": 27,
+      "label": "Miedo",
       "bias": 0
     },
     "news": [
       {
-        "title": "Circle\u2019s USDC is leaving Tether behind in the stablecoin volume race, new data from Visa shows",
+        "title": "Binance taps into Bitcoin holders\u2019 hunger for yield with new covered call yield play",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strategy selling hundreds of millions worth of bitcoin raises question about its capital-allocation playbook",
+        "title": "Bitcoin's recent macro relief faces a challenge from Japanese interest rates",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ethereum developers embrace Vitalik Buterin's long-term vision but urge quicker execution",
+        "title": "Live markets: Bitcoin and ether ETFs drew inflows on Monday",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
+        "title": "BONK faces $20 million treasury drain after attacker spends $4 million to pass malicious proposal",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "DeFi protocol Summer.fi halts Lazy Summer vaults after $6 million exploit",
+        "title": "XRP stalls near $1.14 as breakout attempt struggles for volume",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Cantor says Strategy's recovery hinges on restoring STRC to par",
+        "title": "Bitcoin drops after a run at $64,000, shrugging off Strategy's $213 million BTC sale",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4174.2002,
-      "BTCUSD": 63729.30078,
-      "ETHUSD": 1793.19995,
-      "EURUSD": 1.1443,
-      "TSLA": 416.86499,
-      "AAPL": 313.61011
+      "XAUUSD": 4147.6001,
+      "BTCUSD": 63022.71875,
+      "ETHUSD": 1770.10999,
+      "EURUSD": 1.14364,
+      "TSLA": 419.76999,
+      "AAPL": 312.81
     },
     "period_stats": {
       "day": {
@@ -2678,10 +2678,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 28,
-        "win_rate": 0.464,
-        "total_pnl": 5.3,
-        "total_r": 1.22
+        "n": 27,
+        "win_rate": 0.444,
+        "total_pnl": 4.03,
+        "total_r": 0.17
       }
     }
   },
