@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783633234.555024,
+  "updated_ts": 1783648329.29614,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783633234.554425
+      "heartbeat_ts": 1783648329.2959201
     }
   },
   "control": {
@@ -831,7 +831,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 22,
+      "index": 23,
       "label": "Miedo extremo",
       "bias": 0
     },
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-09",
-      "end": "2026-07-10",
+      "start": "2026-07-10",
+      "end": "2026-07-11",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2547,11 +2547,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 22,
+      "index": 23,
       "label": "Miedo extremo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "New Hampshire snuffs out trailblazing state-government bitcoin bond effort",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Grayscale's CFO exits after 7 years with crypto asset manager",
         "source": "CoinDesk",
@@ -2576,18 +2581,13 @@
         "title": "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap, says analyst",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4132.6001,
-      "BTCUSD": 63209.37891,
-      "ETHUSD": 1745.42004,
-      "EURUSD": 1.14325,
+      "XAUUSD": 4123.0,
+      "BTCUSD": 63867.55078,
+      "ETHUSD": 1774.30005,
+      "EURUSD": 1.14495,
       "TSLA": 406.54001,
       "AAPL": 316.17999
     },
