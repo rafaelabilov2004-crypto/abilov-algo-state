@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783780399.8758578,
+  "updated_ts": 1783782453.456382,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783780399.875129
+      "heartbeat_ts": 1783782453.456096
     }
   },
   "control": {
@@ -1158,7 +1158,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1783648340.304681,
         "ts": 1783648338.1722538,
         "timeframe": "1h",
@@ -1168,6 +1168,12 @@
             "t": 1783648340.304683,
             "kind": "open",
             "px": 1773.1500244140625
+          },
+          {
+            "t": 1783781013.630068,
+            "kind": "TP1",
+            "px": 1805.26452303,
+            "pct": 1.81
           }
         ]
       }
@@ -2558,40 +2564,40 @@
     },
     "news": [
       {
-        "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
-        "source": "Cointelegraph",
+        "title": "The UK has finally shown it\u2019s serious about crypto",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?",
-        "source": "Cointelegraph",
+        "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bonzo Lend loses $9M in oracle exploit on Hedera",
-        "source": "Cointelegraph",
+        "title": "AI found an Ethereum bug that could take validators offline, but humans had to prove it",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
-        "source": "Cointelegraph",
+        "title": "Bitcoin analysts predict $300,000\u2013$500,000 price in 2029. The math says no",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Dollar stablecoins could improve FX access but amplify currency runs: IMF paper",
-        "source": "Cointelegraph",
+        "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Here\u2019s what happened in crypto today",
-        "source": "Cointelegraph",
+        "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
+        "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 4113.7002,
-      "BTCUSD": 64380.32031,
-      "ETHUSD": 1812.68005,
+      "BTCUSD": 64315.21094,
+      "ETHUSD": 1813.0,
       "EURUSD": 1.14194,
       "TSLA": 407.745,
       "AAPL": 315.3299
