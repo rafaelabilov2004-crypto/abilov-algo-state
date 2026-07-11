@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783705099.9573429,
+  "updated_ts": 1783731371.261097,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783705099.9570482
+      "heartbeat_ts": 1783731371.2597902
     }
   },
   "control": {
@@ -831,8 +831,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 23,
-      "label": "Miedo extremo",
+      "index": 26,
+      "label": "Miedo",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -841,8 +841,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-10",
-      "end": "2026-07-11",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2552,11 +2552,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 23,
-      "label": "Miedo extremo",
+      "index": 26,
+      "label": "Miedo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
         "source": "CoinDesk",
@@ -2581,20 +2586,15 @@
         "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto defies equity weakness as altcoin optimism builds into the weekend",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4114.7998,
-      "BTCUSD": 63993.16016,
-      "ETHUSD": 1793.04004,
-      "EURUSD": 1.14247,
-      "TSLA": 409.14001,
-      "AAPL": 314.17001
+      "XAUUSD": 4128.8999,
+      "BTCUSD": 64089.55078,
+      "ETHUSD": 1791.56006,
+      "EURUSD": 1.14194,
+      "TSLA": 407.745,
+      "AAPL": 315.3299
     },
     "period_stats": {
       "day": {
