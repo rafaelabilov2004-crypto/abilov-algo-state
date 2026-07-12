@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783875421.937384,
+  "updated_ts": 1783882740.2467918,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 73,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783875421.9362948
+      "heartbeat_ts": 1783882740.246428
     }
   },
   "control": {
@@ -45,12 +45,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -7.15,
-    "unrealized_pnl": 0.2,
-    "net_pnl": -6.95
+    "unrealized_pnl": 0.0,
+    "net_pnl": -7.15
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64050.3,
-      "ETH/USDT": 1815.24
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63775.6728,
       "tp": 64800.1816,
       "size": 0.004685,
-      "price": 64050.3,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 64051.00954,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1806.25596,
       "tp": 1835.27212,
       "size": 0.165425,
-      "price": 1815.24,
-      "upnl": 0.2,
-      "u_r": 0.15
+      "price": 1814.054053,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2589,6 +2589,11 @@
     },
     "news": [
       {
+        "title": "Signs of life?: State of Crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
         "source": "CoinDesk",
         "ts": 0
@@ -2612,17 +2617,12 @@
         "title": "Bitcoin\u2019s BIP 110 fork deadline nears with miner support at zero",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Lending protocol Bonzo loses 77% of value locked as $9 million oracle exploit rattles Hedera",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 0.0,
-      "BTCUSD": 64073.16016,
-      "ETHUSD": 1819.16003,
+      "BTCUSD": 64094.03125,
+      "ETHUSD": 1820.06995,
       "EURUSD": 1.14194,
       "TSLA": 407.745,
       "AAPL": 315.3299
