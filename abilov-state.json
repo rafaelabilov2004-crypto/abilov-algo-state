@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783785123.004981,
+  "updated_ts": 1783873361.2054,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 43,
+      "loop_n": 44,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783785123.0041862
+      "heartbeat_ts": 1783873361.2004092
     }
   },
   "control": {
@@ -40,17 +40,17 @@
     "equity": 10001.06,
     "peak": 10020.72,
     "drawdown_pct": 0.2,
-    "halted": true,
-    "halt_reason": "consecutive_losses:4>=4",
-    "open_positions": 1,
+    "halted": false,
+    "halt_reason": "",
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -7.15,
-    "unrealized_pnl": 0,
-    "net_pnl": -7.15
+    "unrealized_pnl": 0.14,
+    "net_pnl": -7.01
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 2,
+    "entries": 2,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,11 +63,36 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64038.0,
+      "ETH/USDT": 1815.24
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 64051.00954,
+      "sl": 63775.6728,
+      "tp": 64800.1816,
+      "size": 0.004685,
+      "price": 64038.0,
+      "upnl": -0.06,
+      "u_r": -0.05
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 1814.054053,
+      "sl": 1806.25596,
+      "tp": 1835.27212,
+      "size": 0.165425,
+      "price": 1815.24,
+      "upnl": 0.2,
+      "u_r": 0.15
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "ETH/USDT",
@@ -841,8 +866,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-11",
-      "end": "2026-07-12",
+      "start": "2026-07-12",
+      "end": "2026-07-13",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2564,40 +2589,40 @@
     },
     "news": [
       {
-        "title": "The UK has finally shown it\u2019s serious about crypto",
+        "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+        "title": "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "AI found an Ethereum bug that could take validators offline, but humans had to prove it",
+        "title": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin analysts predict $300,000\u2013$500,000 price in 2029. The math says no",
+        "title": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+        "title": "Bitcoin\u2019s BIP 110 fork deadline nears with miner support at zero",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
+        "title": "Lending protocol Bonzo loses 77% of value locked as $9 million oracle exploit rattles Hedera",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4113.7002,
-      "BTCUSD": 63997.03906,
-      "ETHUSD": 1808.68005,
+      "XAUUSD": 0.0,
+      "BTCUSD": 64087.05859,
+      "ETHUSD": 1820.52002,
       "EURUSD": 1.14194,
       "TSLA": 407.745,
       "AAPL": 315.3299
