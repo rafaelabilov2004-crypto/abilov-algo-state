@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783973586.11131,
+  "updated_ts": 1783973651.988203,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 32,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783973586.110191
+      "heartbeat_ts": 1783973651.987915
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.9,
-    "unrealized_pnl": 3.97,
-    "net_pnl": -4.93
+    "unrealized_pnl": 0.0,
+    "net_pnl": -8.9
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 62984.0,
-      "ETH/USDT": 1769.56
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 1773.011736,
       "tp": 1764.43956,
       "size": 0.167985,
-      "price": 1769.56,
-      "upnl": 2.65,
-      "u_r": 1.28
+      "price": 1785.334239,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 63535.5296,
       "tp": 62523.0112,
       "size": 0.004741,
-      "price": 62984.0,
-      "upnl": 1.32,
-      "u_r": 1.03
+      "price": 63263.41528,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2683,10 +2683,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4010.0,
+      "XAUUSD": 4011.69995,
       "BTCUSD": 64198.71875,
       "ETHUSD": 1833.08997,
-      "EURUSD": 1.13843,
+      "EURUSD": 1.1383,
       "TSLA": 394.75,
       "AAPL": 317.42001
     },
