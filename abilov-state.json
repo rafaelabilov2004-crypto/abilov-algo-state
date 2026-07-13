@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783909862.8285708,
+  "updated_ts": 1783918389.368298,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783909862.827602
+      "heartbeat_ts": 1783918389.367994
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -7.15,
-    "unrealized_pnl": -0.56,
-    "net_pnl": -7.71
+    "unrealized_pnl": 0.0,
+    "net_pnl": -7.15
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64150.2,
-      "ETH/USDT": 1807.89
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63775.6728,
       "tp": 64800.1816,
       "size": 0.004685,
-      "price": 64150.2,
-      "upnl": 0.46,
-      "u_r": 0.36
+      "price": 64051.00954,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1806.25596,
       "tp": 1835.27212,
       "size": 0.165425,
-      "price": 1807.89,
-      "upnl": -1.02,
-      "u_r": -0.79
+      "price": 1814.054053,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2549,6 +2549,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Signs of life?: State of Crypto",
         "source": "CoinDesk",
         "ts": 0
@@ -2572,18 +2577,13 @@
         "title": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s BIP 110 fork deadline nears with miner support at zero",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4083.8999,
+      "XAUUSD": 4062.1001,
       "BTCUSD": 0.0,
       "ETHUSD": 0.0,
-      "EURUSD": 1.14025,
+      "EURUSD": 1.14064,
       "TSLA": 407.745,
       "AAPL": 315.3299
     },
