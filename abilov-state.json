@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783925651.778965,
+  "updated_ts": 1783929325.72314,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783925651.778673
+      "heartbeat_ts": 1783929325.7178519
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.43,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -8.43
+    "unrealized_pnl": 2.42,
+    "net_pnl": -6.01
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 0,
+    "updates": 2,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64177.6,
+      "ETH/USDT": 1781.56
     }
   },
   "open_positions": [
@@ -76,21 +76,21 @@
       "sl": 63775.6728,
       "tp": 64800.1816,
       "size": 0.004685,
-      "price": 64051.00954,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 64177.6,
+      "upnl": 0.59,
+      "u_r": 0.46
     },
     {
       "symbol": "ETH/USDT",
       "side": "SHORT",
       "strategy": "confluence",
       "entry": 1792.502088,
-      "sl": 1800.21216,
+      "sl": 1785.509232,
       "tp": 1771.52352,
       "size": 0.167314,
-      "price": 1792.502088,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 1781.56,
+      "upnl": 1.83,
+      "u_r": 1.56
     }
   ],
   "recent_trades": [
@@ -2564,7 +2564,7 @@
     },
     "news": [
       {
-        "title": "Bitcoin slips below $63,000 in an Asian-session leverage flush",
+        "title": "Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2595,10 +2595,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4068.6001,
+      "XAUUSD": 4066.5,
       "BTCUSD": 0.0,
       "ETHUSD": 0.0,
-      "EURUSD": 1.14051,
+      "EURUSD": 1.14286,
       "TSLA": 407.745,
       "AAPL": 315.3299
     },
