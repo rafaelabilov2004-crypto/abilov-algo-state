@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783919889.37231,
+  "updated_ts": 1783925651.778965,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783919889.3715641
+      "heartbeat_ts": 1783925651.778673
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.43,
-    "unrealized_pnl": 2.6,
-    "net_pnl": -5.83
+    "unrealized_pnl": 0.0,
+    "net_pnl": -8.43
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64468.1,
-      "ETH/USDT": 1788.6
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63775.6728,
       "tp": 64800.1816,
       "size": 0.004685,
-      "price": 64468.1,
-      "upnl": 1.95,
-      "u_r": 1.51
+      "price": 64051.00954,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1800.21216,
       "tp": 1771.52352,
       "size": 0.167314,
-      "price": 1788.6,
-      "upnl": 0.65,
-      "u_r": 0.51
+      "price": 1792.502088,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2564,6 +2564,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin slips below $63,000 in an Asian-session leverage flush",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
         "source": "CoinDesk",
         "ts": 0
@@ -2587,18 +2592,13 @@
         "title": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4074.19995,
+      "XAUUSD": 4068.6001,
       "BTCUSD": 0.0,
       "ETHUSD": 0.0,
-      "EURUSD": 1.14103,
+      "EURUSD": 1.14051,
       "TSLA": 407.745,
       "AAPL": 315.3299
     },
