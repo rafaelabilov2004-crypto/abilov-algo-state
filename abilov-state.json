@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783950624.466431,
+  "updated_ts": 1783953585.176,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 143,
+      "loop_n": 144,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783950624.465167
+      "heartbeat_ts": 1783953585.175195
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.9,
-    "unrealized_pnl": 3.05,
-    "net_pnl": -5.85
+    "unrealized_pnl": 2.52,
+    "net_pnl": -6.38
   },
   "stats": {
     "signals": 1,
@@ -64,7 +64,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 63133.2,
-      "ETH/USDT": 1770.84
+      "ETH/USDT": 1774.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 1778.369346,
       "tp": 1764.43956,
       "size": 0.167985,
-      "price": 1770.84,
-      "upnl": 2.43,
-      "u_r": 2.08
+      "price": 1774.0,
+      "upnl": 1.9,
+      "u_r": 1.63
     },
     {
       "symbol": "BTC/USDT",
@@ -2640,6 +2640,16 @@
     },
     "news": [
       {
+        "title": "UK Treasury report on tokenization cites Ripple as convergence model",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity",
         "source": "CoinDesk",
         "ts": 0
@@ -2658,25 +2668,15 @@
         "title": "SBI Holdings' blockchain initiative pivots to Solana for tokenization, stablecoin issuance",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BlackRock, Goldman Sachs, JPMorgan, Morgan Stanley join UK government's tokenization taskforce",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4064.30005,
+      "XAUUSD": 4024.1001,
       "BTCUSD": 63995.73828,
       "ETHUSD": 1810.43994,
-      "EURUSD": 1.1422,
-      "TSLA": 396.07999,
-      "AAPL": 322.78
+      "EURUSD": 1.14064,
+      "TSLA": 398.86499,
+      "AAPL": 318.87
     },
     "period_stats": {
       "day": {
