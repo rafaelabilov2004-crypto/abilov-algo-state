@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783898786.798296,
+  "updated_ts": 1783902869.935488,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783898786.7977228
+      "heartbeat_ts": 1783902869.9351199
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -7.15,
-    "unrealized_pnl": 0.1,
-    "net_pnl": -7.05
+    "unrealized_pnl": 0.0,
+    "net_pnl": -7.15
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64104.6,
-      "ETH/USDT": 1813.13
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63775.6728,
       "tp": 64800.1816,
       "size": 0.004685,
-      "price": 64104.6,
-      "upnl": 0.25,
-      "u_r": 0.19
+      "price": 64051.00954,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1806.25596,
       "tp": 1835.27212,
       "size": 0.165425,
-      "price": 1813.13,
-      "upnl": -0.15,
-      "u_r": -0.12
+      "price": 1814.054053,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -856,7 +856,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 26,
+      "index": 28,
       "label": "Miedo",
       "bias": 0
     },
@@ -2543,7 +2543,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 26,
+      "index": 28,
       "label": "Miedo",
       "bias": 0
     },
@@ -2580,10 +2580,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4080.8999,
-      "BTCUSD": 63778.33984,
-      "ETHUSD": 1806.14001,
-      "EURUSD": 1.14025,
+      "XAUUSD": 4091.19995,
+      "BTCUSD": 0.0,
+      "ETHUSD": 0.0,
+      "EURUSD": 1.14051,
       "TSLA": 407.745,
       "AAPL": 315.3299
     },
