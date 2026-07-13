@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783953585.176,
+  "updated_ts": 1783959935.759509,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 144,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783953585.175195
+      "heartbeat_ts": 1783959935.7591538
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.9,
-    "unrealized_pnl": 2.52,
-    "net_pnl": -6.38
+    "unrealized_pnl": 0.0,
+    "net_pnl": -8.9
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
-    "updates": 2,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63133.2,
-      "ETH/USDT": 1774.0
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 1778.369346,
       "tp": 1764.43956,
       "size": 0.167985,
-      "price": 1774.0,
-      "upnl": 1.9,
-      "u_r": 1.63
+      "price": 1785.334239,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 63535.5296,
       "tp": 62523.0112,
       "size": 0.004741,
-      "price": 63133.2,
-      "upnl": 0.62,
-      "u_r": 0.48
+      "price": 63263.41528,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2640,6 +2640,26 @@
     },
     "news": [
       {
+        "title": "Bitcoin panic-selling may be ending as sellers' profit margins disappear",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Robinhood built a blockchain for tokenized stocks. Memecoins took over",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bolivia weighs adding Tether's USDT to its national payments system",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "UK Treasury report on tokenization cites Ripple as convergence model",
         "source": "CoinDesk",
         "ts": 0
@@ -2648,35 +2668,15 @@
         "title": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Robinhood Chain surges into top five by DEX volume: Bernstein",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Michael Saylor\u2019s Strategy added $467 million in cash, made no changes to bitcoin holdings",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "SBI Holdings' blockchain initiative pivots to Solana for tokenization, stablecoin issuance",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4024.1001,
-      "BTCUSD": 63995.73828,
-      "ETHUSD": 1810.43994,
-      "EURUSD": 1.14064,
-      "TSLA": 398.86499,
-      "AAPL": 318.87
+      "XAUUSD": 4019.8999,
+      "BTCUSD": 64171.98828,
+      "ETHUSD": 1833.08997,
+      "EURUSD": 1.13999,
+      "TSLA": 393.995,
+      "AAPL": 317.26001
     },
     "period_stats": {
       "day": {
