@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783938277.948538,
+  "updated_ts": 1783941592.187608,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783938277.9482088
+      "heartbeat_ts": 1783941592.186605
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 0.21,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -8.9,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -8.9
+    "unrealized_pnl": 0.77,
+    "net_pnl": -8.13
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 1,
+    "entries": 1,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 63282.4,
+      "ETH/USDT": 1780.21
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 1793.01348,
       "tp": 1764.43956,
       "size": 0.167985,
-      "price": 1785.334239,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 1780.21,
+      "upnl": 0.86,
+      "u_r": 0.67
+    },
+    {
+      "symbol": "BTC/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 63263.41528,
+      "sl": 63535.5296,
+      "tp": 62523.0112,
+      "size": 0.004741,
+      "price": 63282.4,
+      "upnl": -0.09,
+      "u_r": -0.07
     }
   ],
   "recent_trades": [
@@ -2622,6 +2634,11 @@
     },
     "news": [
       {
+        "title": "Profit-taking, MidEast hostilities drag crypto lower after bullish week",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
         "source": "CoinDesk",
         "ts": 0
@@ -2645,18 +2662,13 @@
         "title": "Signs of life?: State of Crypto",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4075.6001,
+      "XAUUSD": 4072.5,
       "BTCUSD": 63995.73828,
       "ETHUSD": 1810.43994,
-      "EURUSD": 1.14338,
+      "EURUSD": 1.14312,
       "TSLA": 407.745,
       "AAPL": 315.3299
     },
