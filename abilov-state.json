@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1783977264.630595,
+  "updated_ts": 1784036991.943889,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 6,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1783977264.6294348
+      "heartbeat_ts": 1784036991.942395
     }
   },
   "control": {
@@ -901,8 +901,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 28,
-      "label": "Miedo",
+      "index": 22,
+      "label": "Miedo extremo",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -911,17 +911,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-13",
-      "end": "2026-07-14",
-      "trades": 3,
-      "wins": 1,
-      "losses": 2,
-      "win_rate": 0.333,
-      "pnl": -1.75,
-      "avg_r": -0.487,
-      "best_r": 0.664,
-      "worst_r": -1.062,
-      "fees": 1.8
+      "start": "2026-07-14",
+      "end": "2026-07-15",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -2646,56 +2646,56 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 28,
-      "label": "Miedo",
+      "index": 22,
+      "label": "Miedo extremo",
       "bias": 0
     },
     "news": [
       {
-        "title": "Binance.US CEO says exchange is rebuilding, eyes return to 20% U.S. market share",
+        "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Franklin Crypto CIO says crypto prices are disconnected from fundamentals",
+        "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "TeraWulf CEO: 'Not All Megawatts Are Created Equally' in AI Race",
+        "title": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials",
+        "title": "Japan\u2019s biggest card network taps Circle to bring stablecoins to 40 million merchants",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks",
+        "title": "U.S.-Iran escalation weighs on bitcoin, stocks as oil climbs",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin panic-selling may be ending as sellers' profit margins disappear",
+        "title": "Bitcoin's BIP-110 sparked a fight over who gets to decide the future of Bitcoin",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4008.69995,
-      "BTCUSD": 64198.71875,
-      "ETHUSD": 1833.08997,
-      "EURUSD": 1.13869,
-      "TSLA": 394.75,
-      "AAPL": 317.42001
+      "XAUUSD": 4093.6001,
+      "BTCUSD": 0.0,
+      "ETHUSD": 0.0,
+      "EURUSD": 1.14548,
+      "TSLA": 397.14499,
+      "AAPL": 313.48001
     },
     "period_stats": {
       "day": {
-        "n": 3,
-        "win_rate": 0.333,
-        "total_pnl": -1.75,
-        "total_r": -1.46
+        "n": 0,
+        "win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 3,
