@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784061233.1404421,
+  "updated_ts": 1784063110.090593,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 155,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784061233.1388721
+      "heartbeat_ts": 1784063110.090081
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -7.48,
-    "unrealized_pnl": 3.96,
-    "net_pnl": -3.52
+    "unrealized_pnl": 0.0,
+    "net_pnl": -7.48
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 3,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63128.7,
-      "ETH/USDT": 1817.92
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63535.5296,
       "tp": 62523.0112,
       "size": 0.004741,
-      "price": 63128.7,
-      "upnl": 0.64,
-      "u_r": 0.5
+      "price": 63263.41528,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1810.421856,
       "tp": 1819.04976,
       "size": 0.1669,
-      "price": 1817.92,
-      "upnl": 3.32,
-      "u_r": 1.6
+      "price": 1798.019244,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2667,6 +2667,11 @@
     },
     "news": [
       {
+        "title": "U.S. CFTC moves to stop Kalshi from canceling trades as ordered by Michigan court",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
         "source": "CoinDesk",
         "ts": 0
@@ -2690,18 +2695,13 @@
         "title": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S., UK move to align rules for tokenized finance across world's largest financial markets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4060.1001,
+      "XAUUSD": 4058.8999,
       "BTCUSD": 0.0,
       "ETHUSD": 0.0,
-      "EURUSD": 1.14233,
+      "EURUSD": 1.14273,
       "TSLA": 396.06,
       "AAPL": 314.92001
     },
