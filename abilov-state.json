@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784125089.42506,
+  "updated_ts": 1784125156.44168,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784125089.424151
+      "heartbeat_ts": 1784125156.4350898
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 0.18,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 1,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.04,
-    "unrealized_pnl": 0,
-    "net_pnl": -5.04
+    "unrealized_pnl": 0.13,
+    "net_pnl": -4.91
   },
   "stats": {
     "signals": 2,
-    "entries": 0,
+    "entries": 2,
     "closes": 2,
     "updates": 3,
     "rejections": {},
@@ -64,10 +64,35 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 64625.2,
-      "ETH/USDT": 1919.38
+      "ETH/USDT": 1921.34
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 64644.58756,
+      "sl": 64306.005502,
+      "tp": 65582.783496,
+      "size": 0.004642,
+      "price": 64625.2,
+      "upnl": -0.09,
+      "u_r": -0.06
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 1919.955814,
+      "sl": 1908.175726,
+      "tp": 1952.992822,
+      "size": 0.1563,
+      "price": 1921.34,
+      "upnl": 0.22,
+      "u_r": 0.12
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "ETH/USDT",
@@ -2735,12 +2760,12 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4072.0,
-      "BTCUSD": 65242.0,
-      "ETHUSD": 1927.07996,
+      "XAUUSD": 4070.1001,
+      "BTCUSD": 65297.25,
+      "ETHUSD": 1929.62,
       "EURUSD": 1.14364,
-      "TSLA": 397.815,
-      "AAPL": 325.29501
+      "TSLA": 397.52499,
+      "AAPL": 325.51001
     },
     "period_stats": {
       "day": {
