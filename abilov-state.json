@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784119923.900952,
+  "updated_ts": 1784121403.525465,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 5,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784119923.900251
+      "heartbeat_ts": 1784121403.524117
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -0.25,
-    "net_pnl": -5.87
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.62
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63254.9,
-      "ETH/USDT": 1879.28
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63535.5296,
       "tp": 62523.0112,
       "size": 0.004741,
-      "price": 63254.9,
-      "upnl": 0.04,
-      "u_r": 0.03
+      "price": 63263.41528,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1873.0278,
       "tp": 1903.1166,
       "size": 0.159528,
-      "price": 1879.28,
-      "upnl": -0.29,
-      "u_r": -0.23
+      "price": 1881.114165,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1213,7 +1213,7 @@
           "supertrend",
           "pat_pin_bar"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1784117804.176876,
         "ts": 1784117799.829229,
         "timeframe": "1h",
@@ -1223,6 +1223,12 @@
             "t": 1784117804.176884,
             "kind": "open",
             "px": 1882.3299560546875
+          },
+          {
+            "t": 1784119928.240096,
+            "kind": "TP1",
+            "px": 1912.67956414,
+            "pct": 1.61
           }
         ]
       },
@@ -2718,10 +2724,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4066.8999,
-      "BTCUSD": 65034.0,
-      "ETHUSD": 1914.88,
-      "EURUSD": 1.14286,
+      "XAUUSD": 4078.19995,
+      "BTCUSD": 65377.98828,
+      "ETHUSD": 1937.93994,
+      "EURUSD": 1.14312,
       "TSLA": 396.06,
       "AAPL": 314.92001
     },
@@ -2748,9 +2754,9 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1022.38,
+    "balance": 1068.87,
     "currency": "$",
-    "total_return_pct": 2.24,
+    "total_return_pct": 6.89,
     "closed": 91,
     "wins": 28,
     "peak": 1254.79
