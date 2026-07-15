@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784136768.560173,
+  "updated_ts": 1784138265.588332,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 200,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784136768.559007
+      "heartbeat_ts": 1784138265.587801
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.04,
-    "unrealized_pnl": 0.31,
-    "net_pnl": -4.73
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.04
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 2,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
-    "losses": 1
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64625.2,
-      "ETH/USDT": 1922.51
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64625.2,
-      "upnl": -0.09,
-      "u_r": -0.06
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1908.175726,
       "tp": 1952.992822,
       "size": 0.1563,
-      "price": 1922.51,
-      "upnl": 0.4,
-      "u_r": 0.22
+      "price": 1919.955814,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2766,12 +2766,12 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4042.6001,
-      "BTCUSD": 65023.46875,
-      "ETHUSD": 1924.43994,
-      "EURUSD": 1.14626,
-      "TSLA": 396.39001,
-      "AAPL": 326.92001
+      "XAUUSD": 4070.19995,
+      "BTCUSD": 65010.51953,
+      "ETHUSD": 1925.94995,
+      "EURUSD": 1.14771,
+      "TSLA": 398.785,
+      "AAPL": 327.64499
     },
     "period_stats": {
       "day": {
