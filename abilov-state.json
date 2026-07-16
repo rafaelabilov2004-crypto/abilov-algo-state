@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784178334.2637498,
+  "updated_ts": 1784180310.009965,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 11,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784178334.2621682
+      "heartbeat_ts": 1784180310.009648
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.04,
-    "unrealized_pnl": 0.36,
-    "net_pnl": -4.68
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.04
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64772.1,
-      "ETH/USDT": 1918.51
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64772.1,
-      "upnl": 0.59,
-      "u_r": 0.38
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1908.175726,
       "tp": 1952.992822,
       "size": 0.1563,
-      "price": 1918.51,
-      "upnl": -0.23,
-      "u_r": -0.12
+      "price": 1919.955814,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2741,12 +2741,17 @@
     },
     "news": [
       {
+        "title": "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Two Groups of bitcoin Investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
+        "title": "Two groups of bitcoin Investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2764,17 +2769,12 @@
         "title": "Cantor and Securitize collaborate on blockchain-based IPOs",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ostium suffers $18 million exploit as oracle attack wave continues to hit DeFi",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4039.6001,
-      "BTCUSD": 64583.10938,
-      "ETHUSD": 1917.25,
+      "XAUUSD": 4032.69995,
+      "BTCUSD": 64867.64844,
+      "ETHUSD": 1922.83997,
       "EURUSD": 1.14705,
       "TSLA": 394.19,
       "AAPL": 327.57001
