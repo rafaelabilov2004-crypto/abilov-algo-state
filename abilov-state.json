@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784225823.433419,
+  "updated_ts": 1784227950.7655349,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784225823.42926
+      "heartbeat_ts": 1784227950.765207
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -0.07,
-    "net_pnl": -5.69
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.62
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64476.0,
-      "ETH/USDT": 1875.96
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64476.0,
-      "upnl": -0.78,
-      "u_r": -0.5
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1888.50392,
       "tp": 1858.40824,
       "size": 0.159491,
-      "price": 1875.96,
-      "upnl": 0.71,
-      "u_r": 0.55
+      "price": 1880.415706,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2769,6 +2769,11 @@
     },
     "news": [
       {
+        "title": "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion",
         "source": "CoinDesk",
         "ts": 0
@@ -2792,20 +2797,15 @@
         "title": "The Clarity Act is the most important consumer protection effort in years",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto for Advisors: Strengthening defenses against AI fraud",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3990.8999,
-      "BTCUSD": 64430.67188,
-      "ETHUSD": 1877.44995,
-      "EURUSD": 1.14416,
-      "TSLA": 389.23001,
-      "AAPL": 331.10001
+      "XAUUSD": 3985.3999,
+      "BTCUSD": 64098.78125,
+      "ETHUSD": 1876.76001,
+      "EURUSD": 1.14403,
+      "TSLA": 390.29001,
+      "AAPL": 333.26001
     },
     "period_stats": {
       "day": {
