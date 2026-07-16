@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784167575.799482,
+  "updated_ts": 1784178334.2637498,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 10,
+      "loop_n": 11,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784167575.795712
+      "heartbeat_ts": 1784178334.2621682
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.04,
-    "unrealized_pnl": -0.51,
-    "net_pnl": -5.55
+    "unrealized_pnl": 0.36,
+    "net_pnl": -4.68
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64491.0,
-      "ETH/USDT": 1921.21
+      "BTC/USDT": 64772.1,
+      "ETH/USDT": 1918.51
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64491.0,
-      "upnl": -0.71,
-      "u_r": -0.45
+      "price": 64772.1,
+      "upnl": 0.59,
+      "u_r": 0.38
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1908.175726,
       "tp": 1952.992822,
       "size": 0.1563,
-      "price": 1921.21,
-      "upnl": 0.2,
-      "u_r": 0.11
+      "price": 1918.51,
+      "upnl": -0.23,
+      "u_r": -0.12
     }
   ],
   "recent_trades": [
@@ -2741,6 +2741,16 @@
     },
     "news": [
       {
+        "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Two Groups of bitcoin Investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Coinbase's Jesse Pollak steps back from Base app leadership after admitting his crypto social strategy failed",
         "source": "CoinDesk",
         "ts": 0
@@ -2759,23 +2769,13 @@
         "title": "Ostium suffers $18 million exploit as oracle attack wave continues to hit DeFi",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The privacy paradox of protecting kids online",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto Long & Short: To ETH or not to ETH \u2014 is SOL the better diversifier?",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4040.69995,
-      "BTCUSD": 64588.58984,
-      "ETHUSD": 1919.09998,
-      "EURUSD": 1.14666,
+      "XAUUSD": 4039.6001,
+      "BTCUSD": 64583.10938,
+      "ETHUSD": 1917.25,
+      "EURUSD": 1.14705,
       "TSLA": 394.19,
       "AAPL": 327.57001
     },
