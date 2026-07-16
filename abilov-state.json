@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784209053.0575209,
+  "updated_ts": 1784209117.6005619,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 32,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784209053.0561469
+      "heartbeat_ts": 1784209117.600063
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -0.91,
-    "net_pnl": -6.53
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.62
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 2,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64476.0,
-      "ETH/USDT": 1881.24
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64476.0,
-      "upnl": -0.78,
-      "u_r": -0.5
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1888.50392,
       "tp": 1858.40824,
       "size": 0.159491,
-      "price": 1881.24,
-      "upnl": -0.13,
-      "u_r": -0.1
+      "price": 1880.415706,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2796,12 +2796,12 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4004.0,
-      "BTCUSD": 64357.76172,
-      "ETHUSD": 1884.63,
-      "EURUSD": 1.14587,
-      "TSLA": 387.62,
-      "AAPL": 327.73999
+      "XAUUSD": 4008.30005,
+      "BTCUSD": 64266.44922,
+      "ETHUSD": 1881.98999,
+      "EURUSD": 1.146,
+      "TSLA": 389.19,
+      "AAPL": 327.42999
     },
     "period_stats": {
       "day": {
