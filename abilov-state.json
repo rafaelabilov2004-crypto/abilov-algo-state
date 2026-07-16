@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784180310.009965,
+  "updated_ts": 1784186129.798174,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784180310.009648
+      "heartbeat_ts": 1784186129.797024
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.04,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -5.04
+    "unrealized_pnl": -0.77,
+    "net_pnl": -5.81
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64525.4,
+      "ETH/USDT": 1918.53
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64644.58756,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 64525.4,
+      "upnl": -0.55,
+      "u_r": -0.35
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1908.175726,
       "tp": 1952.992822,
       "size": 0.1563,
-      "price": 1919.955814,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 1918.53,
+      "upnl": -0.22,
+      "u_r": -0.12
     }
   ],
   "recent_trades": [
@@ -2741,6 +2741,16 @@
     },
     "news": [
       {
+        "title": "Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
         "source": "CoinDesk",
         "ts": 0
@@ -2759,23 +2769,13 @@
         "title": "Coinbase's Jesse Pollak steps back from Base app leadership after admitting his crypto social strategy failed",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "DTCC moves tokenized securities into live trading, marking a milestone for Wall Street's blockchain push",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Cantor and Securitize collaborate on blockchain-based IPOs",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4032.69995,
-      "BTCUSD": 64867.64844,
-      "ETHUSD": 1922.83997,
-      "EURUSD": 1.14705,
+      "XAUUSD": 0.0,
+      "BTCUSD": 64400.0,
+      "ETHUSD": 1914.56006,
+      "EURUSD": 1.14718,
       "TSLA": 394.19,
       "AAPL": 327.57001
     },
