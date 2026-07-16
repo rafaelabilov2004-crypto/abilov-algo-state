@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784215369.8917801,
+  "updated_ts": 1784216518.646453,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 99,
+      "loop_n": 100,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784215369.890379
+      "heartbeat_ts": 1784216518.644792
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -1.22,
-    "net_pnl": -6.84
+    "unrealized_pnl": -1.06,
+    "net_pnl": -6.68
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64482.5,
-      "ETH/USDT": 1883.36
+      "BTC/USDT": 64485.8,
+      "ETH/USDT": 1882.44
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64482.5,
-      "upnl": -0.75,
-      "u_r": -0.48
+      "price": 64485.8,
+      "upnl": -0.74,
+      "u_r": -0.47
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1888.50392,
       "tp": 1858.40824,
       "size": 0.159491,
-      "price": 1883.36,
-      "upnl": -0.47,
-      "u_r": -0.36
+      "price": 1882.44,
+      "upnl": -0.32,
+      "u_r": -0.25
     }
   ],
   "recent_trades": [
@@ -2769,6 +2769,11 @@
     },
     "news": [
       {
+        "title": "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "The Clarity Act is the most important consumer protection effort in years",
         "source": "CoinDesk",
         "ts": 0
@@ -2792,20 +2797,15 @@
         "title": "Galaxy targets institutional stablecoin yield with new DeFi vaults",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The most popular bitcoin call option has slipped by $10,000",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3997.0,
-      "BTCUSD": 64472.51172,
-      "ETHUSD": 1877.39001,
-      "EURUSD": 1.14456,
-      "TSLA": 392.89499,
-      "AAPL": 330.23999
+      "XAUUSD": 4013.3999,
+      "BTCUSD": 64698.05859,
+      "ETHUSD": 1880.93994,
+      "EURUSD": 1.14521,
+      "TSLA": 392.64499,
+      "AAPL": 331.98001
     },
     "period_stats": {
       "day": {
