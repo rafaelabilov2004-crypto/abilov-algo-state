@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784216518.646453,
+  "updated_ts": 1784224113.349548,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 100,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784216518.644792
+      "heartbeat_ts": 1784224113.3491971
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -1.06,
-    "net_pnl": -6.68
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.62
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64485.8,
-      "ETH/USDT": 1882.44
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64485.8,
-      "upnl": -0.74,
-      "u_r": -0.47
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1888.50392,
       "tp": 1858.40824,
       "size": 0.159491,
-      "price": 1882.44,
-      "upnl": -0.32,
-      "u_r": -0.25
+      "price": 1880.415706,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2769,6 +2769,16 @@
     },
     "news": [
       {
+        "title": "Stripe\u2019s $53 billion PayPal bid is a high-stakes play to own the future of digital payments",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
         "source": "CoinDesk",
         "ts": 0
@@ -2787,25 +2797,15 @@
         "title": "Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ledger wants AI agents to manage crypto without holding your keys",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Galaxy targets institutional stablecoin yield with new DeFi vaults",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4013.3999,
-      "BTCUSD": 64698.05859,
-      "ETHUSD": 1880.93994,
-      "EURUSD": 1.14521,
-      "TSLA": 392.64499,
-      "AAPL": 331.98001
+      "XAUUSD": 3988.3999,
+      "BTCUSD": 64430.67188,
+      "ETHUSD": 1877.44995,
+      "EURUSD": 1.1439,
+      "TSLA": 388.55991,
+      "AAPL": 332.14499
     },
     "period_stats": {
       "day": {
