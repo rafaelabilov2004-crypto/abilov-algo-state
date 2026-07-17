@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784301509.275027,
+  "updated_ts": 1784301590.8097348,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784301509.27394
+      "heartbeat_ts": 1784301590.8086221
     }
   },
   "control": {
@@ -1145,7 +1145,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1783518153.45921,
         "ts": 1783518151.605749,
         "timeframe": "1h",
@@ -1155,6 +1155,12 @@
             "t": 1783518153.459213,
             "kind": "open",
             "px": 397.739990234375
+          },
+          {
+            "t": 1784301520.544497,
+            "kind": "TP1",
+            "px": 382.72903509,
+            "pct": 3.77
           }
         ]
       },
@@ -1235,7 +1241,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1784204223.1451972,
         "ts": 1784204219.970103,
         "timeframe": "1h",
@@ -1251,6 +1257,12 @@
             "kind": "TP1",
             "px": 1843.49727838,
             "pct": 1.82
+          },
+          {
+            "t": 1784301521.69546,
+            "kind": "TP2",
+            "px": 1819.06679781,
+            "pct": 3.12
           }
         ]
       },
