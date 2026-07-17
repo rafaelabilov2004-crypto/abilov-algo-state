@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784292181.236068,
+  "updated_ts": 1784301509.275027,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 65,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784292181.2346969
+      "heartbeat_ts": 1784301509.27394
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.93,
-    "unrealized_pnl": -0.14,
-    "net_pnl": -6.07
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.93
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 2,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
-    "losses": 1
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 63730.0,
-      "ETH/USDT": 1835.68
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 63984.92,
       "tp": 62965.24,
       "size": 0.004707,
-      "price": 63730.0,
-      "upnl": -0.09,
-      "u_r": -0.07
+      "price": 63710.881,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1843.26368,
       "tp": 1813.88896,
       "size": 0.163406,
-      "price": 1835.68,
-      "upnl": -0.05,
-      "u_r": -0.04
+      "price": 1835.369224,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2784,12 +2784,22 @@
     },
     "news": [
       {
+        "title": "Japan's SBI Group is building Asia's first cross-border digital asset empire",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin faces fresh headwinds as China\u2019s Kimi beats Claude, GPT in coding benchmark",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
+        "title": "Live markets: Bitcoin slips below $63,000 as the chip rout goes global",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2802,32 +2812,22 @@
         "title": "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ether falls twice as hard as bitcoin and HYPE drops 10% as the chip trade unwinds",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "This $28 million ether market bet aims to profit from pure market chaos",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3986.1001,
-      "BTCUSD": 63044.32812,
-      "ETHUSD": 1827.40002,
-      "EURUSD": 1.14299,
-      "TSLA": 391.10001,
-      "AAPL": 333.26999
+      "XAUUSD": 4011.80005,
+      "BTCUSD": 62938.0,
+      "ETHUSD": 1812.95996,
+      "EURUSD": 1.1443,
+      "TSLA": 380.215,
+      "AAPL": 333.66
     },
     "period_stats": {
       "day": {
-        "n": 3,
-        "win_rate": 0.667,
-        "total_pnl": 1.55,
-        "total_r": 1.63
+        "n": 2,
+        "win_rate": 0.5,
+        "total_pnl": -0.31,
+        "total_r": 0.08
       },
       "week": {
         "n": 11,
