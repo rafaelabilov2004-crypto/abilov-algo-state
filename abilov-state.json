@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784288887.855972,
+  "updated_ts": 1784288953.789969,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784288887.854362
+      "heartbeat_ts": 1784288953.788342
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 0.18,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 1,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.93,
-    "unrealized_pnl": 0,
-    "net_pnl": -5.93
+    "unrealized_pnl": -0.42,
+    "net_pnl": -6.35
   },
   "stats": {
     "signals": 2,
-    "entries": 0,
+    "entries": 2,
     "closes": 2,
     "updates": 3,
     "rejections": {},
@@ -64,10 +64,35 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 63730.0,
-      "ETH/USDT": 1835.92
+      "ETH/USDT": 1837.38
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 63710.881,
+      "sl": 63984.92,
+      "tp": 62965.24,
+      "size": 0.004707,
+      "price": 63730.0,
+      "upnl": -0.09,
+      "u_r": -0.07
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 1835.369224,
+      "sl": 1843.26368,
+      "tp": 1813.88896,
+      "size": 0.163406,
+      "price": 1837.38,
+      "upnl": -0.33,
+      "u_r": -0.25
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "ETH/USDT",
@@ -2759,6 +2784,11 @@
     },
     "news": [
       {
+        "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
         "source": "CoinDesk",
         "ts": 0
@@ -2782,18 +2812,13 @@
         "title": "This $28 million ether market bet aims to profit from pure market chaos",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "DOG Mode vs. BIP-110: Inside the Bitcoin client built to bypass data restrictions",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3995.80005,
-      "BTCUSD": 63253.42188,
-      "ETHUSD": 1840.67004,
-      "EURUSD": 1.14364,
+      "XAUUSD": 3996.80005,
+      "BTCUSD": 63233.44922,
+      "ETHUSD": 1839.25,
+      "EURUSD": 1.14377,
       "TSLA": 391.10001,
       "AAPL": 333.26999
     },
