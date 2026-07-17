@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784230136.263113,
+  "updated_ts": 1784287049.401681,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 35,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784230136.262131
+      "heartbeat_ts": 1784287049.40062
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.62,
-    "unrealized_pnl": -0.07,
-    "net_pnl": -5.69
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.62
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64476.0,
-      "ETH/USDT": 1875.94
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64306.005502,
       "tp": 65582.783496,
       "size": 0.004642,
-      "price": 64476.0,
-      "upnl": -0.78,
-      "u_r": -0.5
+      "price": 64644.58756,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1888.50392,
       "tp": 1858.40824,
       "size": 0.159491,
-      "price": 1875.94,
-      "upnl": 0.71,
-      "u_r": 0.55
+      "price": 1880.415706,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -980,7 +980,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 25,
+      "index": 27,
       "label": "Miedo",
       "bias": 0
     },
@@ -990,17 +990,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-16",
-      "end": "2026-07-17",
-      "trades": 2,
-      "wins": 1,
-      "losses": 1,
-      "win_rate": 0.5,
-      "pnl": -0.58,
-      "avg_r": 0.078,
-      "best_r": 1.55,
-      "worst_r": -1.393,
-      "fees": 1.2
+      "start": "2026-07-17",
+      "end": "2026-07-18",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -2763,56 +2763,56 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 25,
+      "index": 27,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
       {
-        "title": "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF",
+        "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion",
+        "title": "Risk-off wave drags bitcoin below $63,000 as AI selloff spreads from stocks to crypto",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Stripe\u2019s $53 billion PayPal bid is a high-stakes play to own the future of digital payments",
+        "title": "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+        "title": "Ether falls twice as hard as bitcoin and HYPE drops 10% as the chip trade unwinds",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
+        "title": "This $28 million ether market bet aims to profit from pure market chaos",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The Clarity Act is the most important consumer protection effort in years",
+        "title": "DOG Mode vs. BIP-110: Inside the Bitcoin client built to bypass data restrictions",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3985.1001,
-      "BTCUSD": 64213.82812,
-      "ETHUSD": 1870.79004,
-      "EURUSD": 1.14377,
-      "TSLA": 390.07999,
-      "AAPL": 333.39499
+      "XAUUSD": 3995.19995,
+      "BTCUSD": 63002.96875,
+      "ETHUSD": 1831.98999,
+      "EURUSD": 1.14312,
+      "TSLA": 391.10001,
+      "AAPL": 333.26999
     },
     "period_stats": {
       "day": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total_pnl": -0.58,
-        "total_r": 0.16
+        "n": 1,
+        "win_rate": 1.0,
+        "total_pnl": 1.86,
+        "total_r": 1.55
       },
       "week": {
         "n": 9,
@@ -2821,10 +2821,10 @@
         "total_r": 1.91
       },
       "month": {
-        "n": 24,
-        "win_rate": 0.458,
-        "total_pnl": 9.82,
-        "total_r": 1.02
+        "n": 21,
+        "win_rate": 0.429,
+        "total_pnl": -10.83,
+        "total_r": -1.3
       }
     }
   },
