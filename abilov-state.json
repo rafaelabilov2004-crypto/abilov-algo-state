@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784306429.8969789,
+  "updated_ts": 1784365361.2517388,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784306429.896231
+      "heartbeat_ts": 1784365361.251053
     }
   },
   "control": {
@@ -988,7 +988,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 27,
+      "index": 25,
       "label": "Miedo",
       "bias": 0
     },
@@ -998,17 +998,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-17",
-      "end": "2026-07-18",
-      "trades": 2,
-      "wins": 1,
-      "losses": 1,
-      "win_rate": 0.5,
-      "pnl": -0.31,
-      "avg_r": 0.042,
-      "best_r": 1.55,
-      "worst_r": -1.465,
-      "fees": 1.2
+      "start": "2026-07-18",
+      "end": "2026-07-19",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -2790,18 +2790,28 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 27,
+      "index": 25,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Polymarket traders cut Clarity Act passage odds to record low as Senate delay drags on",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Stripe and Swift race to control the next generation of global payments infrastructure",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Cardano hands core development to outside teams in decentralization push",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Inside Robinhood\u2019s high-stakes bet to onboard 10 million casual users onto decentralized finance",
+        "title": "Inside Robinhood\u2019s high-stakes bet to onboard millions of casual users onto decentralized finance",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -2814,25 +2824,15 @@
         "title": "Bitcoin faces fresh headwinds as China\u2019s Kimi beats Claude, GPT in coding benchmark",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4025.1001,
-      "BTCUSD": 63410.07031,
-      "ETHUSD": 1833.57996,
-      "EURUSD": 1.1443,
-      "TSLA": 383.69,
-      "AAPL": 331.97
+      "XAUUSD": 4018.80005,
+      "BTCUSD": 63956.05859,
+      "ETHUSD": 1846.28003,
+      "EURUSD": 1.14456,
+      "TSLA": 380.69,
+      "AAPL": 333.73999
     },
     "period_stats": {
       "day": {
@@ -2848,10 +2848,10 @@
         "total_r": 2.0
       },
       "month": {
-        "n": 23,
-        "win_rate": 0.435,
-        "total_pnl": -11.14,
-        "total_r": -1.21
+        "n": 19,
+        "win_rate": 0.526,
+        "total_pnl": -3.88,
+        "total_r": 4.06
       }
     }
   },
