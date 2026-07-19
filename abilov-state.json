@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784469445.725632,
+  "updated_ts": 1784473707.844814,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784469445.724736
+      "heartbeat_ts": 1784473707.844529
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -13.59,
-    "unrealized_pnl": 0.64,
-    "net_pnl": -12.95
+    "unrealized_pnl": 0.0,
+    "net_pnl": -13.59
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64333.1,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 63920.8896,
       "tp": 64947.7312,
       "size": 0.004675,
-      "price": 64333.1,
-      "upnl": 0.64,
-      "u_r": 0.49
+      "price": 64196.85328,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2810,6 +2810,11 @@
     },
     "news": [
       {
+        "title": "AI is destroying the internet. Math is our only hope.",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
         "source": "CoinDesk",
         "ts": 0
@@ -2833,17 +2838,12 @@
         "title": "France orders country's internet service providers to block Polymarket",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto executives say digital native generations may never need a bank account",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 0.0,
-      "BTCUSD": 64449.60938,
-      "ETHUSD": 1871.0,
+      "BTCUSD": 64519.10156,
+      "ETHUSD": 1873.42004,
       "EURUSD": 1.14456,
       "TSLA": 380.69,
       "AAPL": 333.73999
