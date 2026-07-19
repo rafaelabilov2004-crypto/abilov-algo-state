@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784496998.16721,
+  "updated_ts": 1784500095.390037,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784496998.1653671
+      "heartbeat_ts": 1784500095.389696
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -13.59,
-    "unrealized_pnl": 1.28,
-    "net_pnl": -12.31
+    "unrealized_pnl": 0.0,
+    "net_pnl": -13.59
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64470.1,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 63920.8896,
       "tp": 64947.7312,
       "size": 0.004675,
-      "price": 64470.1,
-      "upnl": 1.28,
-      "u_r": 0.99
+      "price": 64196.85328,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1002,8 +1002,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-07-19",
-      "end": "2026-07-20",
+      "start": "2026-07-20",
+      "end": "2026-07-21",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1016,17 +1016,17 @@
     },
     "week": {
       "period": "week",
-      "start": "2026-07-13",
-      "end": "2026-07-20",
-      "trades": 15,
-      "wins": 6,
-      "losses": 9,
-      "win_rate": 0.4,
-      "pnl": -6.43,
-      "avg_r": -0.292,
-      "best_r": 1.55,
-      "worst_r": -1.649,
-      "fees": 8.99
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "month": {
       "period": "month",
@@ -2841,9 +2841,9 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "BTCUSD": 64389.12891,
-      "ETHUSD": 1861.08997,
+      "XAUUSD": 4001.19995,
+      "BTCUSD": 64726.5,
+      "ETHUSD": 1869.66003,
       "EURUSD": 1.14456,
       "TSLA": 380.69,
       "AAPL": 333.73999
