@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784506778.435572,
+  "updated_ts": 1784506900.725066,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784506778.434679
+      "heartbeat_ts": 1784506900.7247202
     }
   },
   "control": {
@@ -1221,56 +1221,6 @@
         ]
       },
       {
-        "symbol": "ETHUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 1877.699951171875,
-        "sl": 1910.27392526,
-        "tp_levels": [
-          1843.49727838,
-          1819.06679781,
-          1794.63631725,
-          1779.97802891
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1784204223.1451972,
-        "ts": 1784204219.970103,
-        "timeframe": "1h",
-        "msg_id": 443,
-        "updates": [
-          {
-            "t": 1784204223.145211,
-            "kind": "open",
-            "px": 1877.699951171875
-          },
-          {
-            "t": 1784287057.592876,
-            "kind": "TP1",
-            "px": 1843.49727838,
-            "pct": 1.82
-          },
-          {
-            "t": 1784301521.69546,
-            "kind": "TP2",
-            "px": 1819.06679781,
-            "pct": 3.12
-          }
-        ]
-      },
-      {
         "symbol": "AAPL",
         "side": "LONG",
         "strategy": "confluence",
@@ -1359,9 +1309,110 @@
             "pct": 1.38
           }
         ]
+      },
+      {
+        "symbol": "ETHUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1885.22998046875,
+        "sl": 1859.96314108,
+        "tp_levels": [
+          1911.76016183,
+          1930.71029137,
+          1949.66042091,
+          1961.03049864
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "donchian",
+          "supertrend",
+          "pat_star"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1784506787.427094,
+        "ts": 1784506785.443906,
+        "timeframe": "1h",
+        "msg_id": 487,
+        "updates": [
+          {
+            "t": 1784506787.427105,
+            "kind": "open",
+            "px": 1885.22998046875
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "ETHUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1877.699951171875,
+        "sl": 1910.27392526,
+        "tp_levels": [
+          1843.49727838,
+          1819.06679781,
+          1794.63631725,
+          1779.97802891
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1784204223.1451972,
+        "ts": 1784204219.970103,
+        "timeframe": "1h",
+        "msg_id": 443,
+        "updates": [
+          {
+            "t": 1784204223.145211,
+            "kind": "open",
+            "px": 1877.699951171875
+          },
+          {
+            "t": 1784287057.592876,
+            "kind": "TP1",
+            "px": 1843.49727838,
+            "pct": 1.82
+          },
+          {
+            "t": 1784301521.69546,
+            "kind": "TP2",
+            "px": 1819.06679781,
+            "pct": 3.12
+          },
+          {
+            "t": 1784506784.4654799,
+            "kind": "BE",
+            "px": 1877.699951171875,
+            "pct": -0.0
+          }
+        ],
+        "exit": 1877.699951171875,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1784506784.465495
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -2749,56 +2800,6 @@
         "pct": -0.0,
         "r_multiple": -0.0,
         "closed_ts": 1782975840.622943
-      },
-      {
-        "symbol": "ETHUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 1574.5400390625,
-        "sl": 1605.62285342,
-        "tp_levels": [
-          1541.90308399,
-          1518.59097322,
-          1495.27886245,
-          1481.29159599
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1782847809.332438,
-        "ts": 1782847806.809083,
-        "timeframe": "1h",
-        "msg_id": 310,
-        "updates": [
-          {
-            "t": 1782847809.3324559,
-            "kind": "open",
-            "px": 1574.5400390625
-          },
-          {
-            "t": 1782915301.79676,
-            "kind": "SL",
-            "px": 1605.62285342,
-            "pct": -1.97
-          }
-        ],
-        "exit": 1605.62285342,
-        "reason": "SL",
-        "pct": -1.974,
-        "r_multiple": -1.0,
-        "closed_ts": 1782915301.79683
       }
     ]
   },
@@ -2841,9 +2842,9 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3993.8999,
-      "BTCUSD": 64974.62891,
-      "ETHUSD": 1885.92004,
+      "XAUUSD": 3995.69995,
+      "BTCUSD": 64872.28125,
+      "ETHUSD": 1880.20996,
       "EURUSD": 1.14351,
       "TSLA": 380.69,
       "AAPL": 333.73999
@@ -2874,7 +2875,7 @@
     "balance": 1080.25,
     "currency": "$",
     "total_return_pct": 8.02,
-    "closed": 107,
+    "closed": 108,
     "wins": 32,
     "peak": 1254.79
   }
