@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784569555.680542,
+  "updated_ts": 1784570913.675331,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784569555.6802518
+      "heartbeat_ts": 1784570913.674458
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -13.59,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -13.59
+    "unrealized_pnl": 1.67,
+    "net_pnl": -11.92
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
+      "BTC/USDT": 64554.2,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 63920.8896,
       "tp": 64947.7312,
       "size": 0.004675,
-      "price": 64196.85328,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 64554.2,
+      "upnl": 1.67,
+      "u_r": 1.29
     }
   ],
   "recent_trades": [
@@ -1149,7 +1149,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1783518153.45921,
         "ts": 1783518151.605749,
         "timeframe": "1h",
@@ -1165,6 +1165,12 @@
             "kind": "TP1",
             "px": 382.72903509,
             "pct": 3.77
+          },
+          {
+            "t": 1784569565.345834,
+            "kind": "TP2",
+            "px": 372.00692428,
+            "pct": 6.47
           }
         ]
       },
@@ -2827,12 +2833,12 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4016.19995,
-      "BTCUSD": 65369.98828,
-      "ETHUSD": 1897.66003,
-      "EURUSD": 1.14168,
-      "TSLA": 371.54001,
-      "AAPL": 324.81
+      "XAUUSD": 4008.30005,
+      "BTCUSD": 65547.10938,
+      "ETHUSD": 1909.92004,
+      "EURUSD": 1.14181,
+      "TSLA": 373.60001,
+      "AAPL": 325.32001
     },
     "period_stats": {
       "day": {
