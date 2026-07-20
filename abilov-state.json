@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784515236.524862,
+  "updated_ts": 1784555761.153057,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784515236.52419
+      "heartbeat_ts": 1784555761.152568
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -13.59,
-    "unrealized_pnl": 1.36,
-    "net_pnl": -12.23
+    "unrealized_pnl": 0.0,
+    "net_pnl": -13.59
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64488.5,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 63920.8896,
       "tp": 64947.7312,
       "size": 0.004675,
-      "price": 64488.5,
-      "upnl": 1.36,
-      "u_r": 1.06
+      "price": 64196.85328,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2811,43 +2811,43 @@
     },
     "news": [
       {
-        "title": "The GENIUS Act turns 1: State of Crypto",
+        "title": "Exodus to cut 25% of global workforce in payments shift",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+        "title": "Hut 8 surges on $9.8 billion AI data-center lease, lifting compute sector",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "AI is destroying the internet. Math is our only hope.",
+        "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+        "title": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Kraken says simpler options can unlock crypto's next derivatives market",
+        "title": "Brazil\u2019s securities regulator sets up task force with 60-day deadline for tokenization proposal",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin\u2019s quantum problem gets a recovery tool, but not for Satoshi\u2019s 1.1 million coins",
+        "title": "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4012.5,
-      "BTCUSD": 64687.07812,
-      "ETHUSD": 1872.5,
-      "EURUSD": 1.1443,
-      "TSLA": 380.69,
-      "AAPL": 333.73999
+      "XAUUSD": 4015.0,
+      "BTCUSD": 64219.58984,
+      "ETHUSD": 1861.30005,
+      "EURUSD": 1.14207,
+      "TSLA": 378.39999,
+      "AAPL": 328.76501
     },
     "period_stats": {
       "day": {
@@ -2857,10 +2857,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 15,
-        "win_rate": 0.4,
-        "total_pnl": -6.43,
-        "total_r": -4.38
+        "n": 12,
+        "win_rate": 0.417,
+        "total_pnl": -4.68,
+        "total_r": -2.92
       },
       "month": {
         "n": 18,
