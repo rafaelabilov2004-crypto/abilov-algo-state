@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784614924.043605,
+  "updated_ts": 1784617408.036692,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784614924.043325
+      "heartbeat_ts": 1784617408.033236
     }
   },
   "control": {
@@ -1166,58 +1166,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 4066.5,
-        "sl": 4109.19683348,
-        "tp_levels": [
-          4021.66832485,
-          3989.64569974,
-          3957.62307464,
-          3938.40949957
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1783929335.037243,
-        "ts": 1783929332.7562082,
-        "timeframe": "1h",
-        "msg_id": 398,
-        "updates": [
-          {
-            "t": 1783929335.037245,
-            "kind": "open",
-            "px": 4066.5
-          },
-          {
-            "t": 1783959945.077594,
-            "kind": "TP1",
-            "px": 4021.66832485,
-            "pct": 1.1
-          },
-          {
-            "t": 1784207582.5369642,
-            "kind": "TP2",
-            "px": 3989.64569974,
-            "pct": 1.89
-          }
-        ]
-      },
-      {
         "symbol": "ETHUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -1348,6 +1296,69 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 4066.5,
+        "sl": 4109.19683348,
+        "tp_levels": [
+          4021.66832485,
+          3989.64569974,
+          3957.62307464,
+          3938.40949957
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1783929335.037243,
+        "ts": 1783929332.7562082,
+        "timeframe": "1h",
+        "msg_id": 398,
+        "updates": [
+          {
+            "t": 1783929335.037245,
+            "kind": "open",
+            "px": 4066.5
+          },
+          {
+            "t": 1783959945.077594,
+            "kind": "TP1",
+            "px": 4021.66832485,
+            "pct": 1.1
+          },
+          {
+            "t": 1784207582.5369642,
+            "kind": "TP2",
+            "px": 3989.64569974,
+            "pct": 1.89
+          },
+          {
+            "t": 1784614931.8778229,
+            "kind": "BE",
+            "px": 4066.5,
+            "pct": -0.0
+          }
+        ],
+        "exit": 4066.5,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1784614931.877845
+      },
       {
         "symbol": "BTCUSD",
         "side": "LONG",
@@ -2737,57 +2748,6 @@
         "pct": -3.601,
         "r_multiple": -1.0,
         "closed_ts": 1783003376.461223
-      },
-      {
-        "symbol": "TSLA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 426.1000061035156,
-        "sl": 412.59647163,
-        "tp_levels": [
-          440.2787173,
-          450.40636815,
-          460.53401901,
-          466.61060952
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1782925649.828618,
-        "ts": 1782925647.4527411,
-        "timeframe": "1h",
-        "msg_id": 323,
-        "updates": [
-          {
-            "t": 1782925649.8286211,
-            "kind": "open",
-            "px": 426.1000061035156
-          },
-          {
-            "t": 1783000488.581026,
-            "kind": "SL",
-            "px": 412.59647163,
-            "pct": -3.17
-          }
-        ],
-        "exit": 412.59647163,
-        "reason": "SL",
-        "pct": -3.169,
-        "r_multiple": -1.0,
-        "closed_ts": 1783000488.581044
       }
     ]
   },
@@ -2798,6 +2758,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "UK Parliament begins inquiry into banking chokepoint for crypto businesses",
         "source": "CoinDesk",
@@ -2822,18 +2787,13 @@
         "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4074.69995,
-      "BTCUSD": 65641.00781,
-      "ETHUSD": 1928.76001,
-      "EURUSD": 1.14233,
+      "XAUUSD": 4084.5,
+      "BTCUSD": 65878.46094,
+      "ETHUSD": 1934.81006,
+      "EURUSD": 1.14286,
       "TSLA": 369.59,
       "AAPL": 326.70001
     },
@@ -2863,7 +2823,7 @@
     "balance": 1073.92,
     "currency": "$",
     "total_return_pct": 7.39,
-    "closed": 112,
+    "closed": 113,
     "wins": 34,
     "peak": 1254.79
   }
