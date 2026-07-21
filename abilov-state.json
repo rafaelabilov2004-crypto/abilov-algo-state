@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784617408.036692,
+  "updated_ts": 1784621050.132982,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784617408.033236
+      "heartbeat_ts": 1784621050.1326
     }
   },
   "control": {
@@ -1291,6 +1291,45 @@
             "t": 1784570922.225135,
             "kind": "open",
             "px": 65547.109375
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4084.39990234375,
+        "sl": 4042.58271961,
+        "tp_levels": [
+          4128.30794422,
+          4159.67083127,
+          4191.03371832,
+          4209.85145055
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1784617415.135724,
+        "ts": 1784617412.6664379,
+        "timeframe": "1h",
+        "msg_id": 505,
+        "updates": [
+          {
+            "t": 1784617415.135735,
+            "kind": "open",
+            "px": 4084.39990234375
           }
         ]
       }
@@ -2759,6 +2798,11 @@
     },
     "news": [
       {
+        "title": "XRP jumps 4% as traders watch 'triangle breakout' toward $1.35",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April",
         "source": "CoinDesk",
         "ts": 0
@@ -2782,18 +2826,13 @@
         "title": "Exodus to cut 25% of global workforce in payments shift",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4084.5,
-      "BTCUSD": 65878.46094,
-      "ETHUSD": 1934.81006,
-      "EURUSD": 1.14286,
+      "XAUUSD": 4075.5,
+      "BTCUSD": 66180.21875,
+      "ETHUSD": 1933.66003,
+      "EURUSD": 1.1426,
       "TSLA": 369.59,
       "AAPL": 326.70001
     },
