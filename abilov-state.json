@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784678936.398874,
+  "updated_ts": 1784690876.001409,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784678936.398571
+      "heartbeat_ts": 1784690876.001087
     }
   },
   "control": {
@@ -1326,7 +1326,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1784617415.135724,
         "ts": 1784617412.6664379,
         "timeframe": "1h",
@@ -1336,6 +1336,12 @@
             "t": 1784617415.135735,
             "kind": "open",
             "px": 4084.39990234375
+          },
+          {
+            "t": 1784690875.717856,
+            "kind": "TP1",
+            "px": 4128.30794422,
+            "pct": 1.08
           }
         ]
       }
@@ -2835,10 +2841,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4083.8999,
-      "BTCUSD": 66613.32812,
-      "ETHUSD": 1934.41003,
-      "EURUSD": 1.14051,
+      "XAUUSD": 4142.8999,
+      "BTCUSD": 66259.75,
+      "ETHUSD": 1930.77002,
+      "EURUSD": 1.14103,
       "TSLA": 378.91989,
       "AAPL": 327.59
     },
@@ -2856,10 +2862,10 @@
         "total_r": -2.92
       },
       "month": {
-        "n": 18,
-        "win_rate": 0.444,
-        "total_pnl": -3.31,
-        "total_r": -2.99
+        "n": 17,
+        "win_rate": 0.471,
+        "total_pnl": -1.61,
+        "total_r": -2.16
       }
     }
   },
