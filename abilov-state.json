@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784809487.484985,
+  "updated_ts": 1784810523.510742,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784809487.4846878
+      "heartbeat_ts": 1784810523.5101728
     }
   },
   "control": {
@@ -1247,6 +1247,44 @@
             "kind": "TP1",
             "px": 66570.48544847,
             "pct": 1.56
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 4083.699951171875,
+        "sl": 4122.31482762,
+        "tp_levels": [
+          4043.1543309,
+          4014.19317357,
+          3985.23201623,
+          3967.85532183
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1784809496.184381,
+        "ts": 1784809494.6170712,
+        "timeframe": "1h",
+        "msg_id": 516,
+        "updates": [
+          {
+            "t": 1784809496.184392,
+            "kind": "open",
+            "px": 4083.699951171875
           }
         ]
       }
@@ -2763,10 +2801,10 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4084.6001,
-      "BTCUSD": 65379.60156,
-      "ETHUSD": 1918.5,
-      "EURUSD": 1.13856,
+      "XAUUSD": 4074.6001,
+      "BTCUSD": 65103.53906,
+      "ETHUSD": 1905.0,
+      "EURUSD": 1.1383,
       "TSLA": 374.05099,
       "AAPL": 325.87
     },
