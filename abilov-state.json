@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1784810523.510742,
+  "updated_ts": 1784811577.61544,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1784810523.5101728
+      "heartbeat_ts": 1784811577.615253
     }
   },
   "control": {
@@ -1285,6 +1285,46 @@
             "t": 1784809496.184392,
             "kind": "open",
             "px": 4083.699951171875
+          }
+        ]
+      },
+      {
+        "symbol": "EURUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1.1383039951324463,
+        "sl": 1.14285721,
+        "tp_levels": [
+          1.13352312,
+          1.13010821,
+          1.12669329,
+          1.12464435
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "donchian",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1784810531.215946,
+        "ts": 1784810529.3969321,
+        "timeframe": "1h",
+        "msg_id": 517,
+        "updates": [
+          {
+            "t": 1784810531.215956,
+            "kind": "open",
+            "px": 1.1383039951324463
           }
         ]
       }
@@ -2770,6 +2810,11 @@
     },
     "news": [
       {
+        "title": "BlackRock, Coinbase, Strategy in group pledging $15 million to prepare Bitcoin for quantum threats",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Abu Dhabi's Mubadala Capital joins tokenization push as Coinbase takes stake in onchain fund",
         "source": "CoinDesk",
         "ts": 0
@@ -2793,18 +2838,13 @@
         "title": "Live markets: Bitcoin slips back as Iran war expansion sends oil surging above $90 per barrel",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BitMEX, the exchange that invented perps, is shutting down",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4074.6001,
-      "BTCUSD": 65103.53906,
-      "ETHUSD": 1905.0,
-      "EURUSD": 1.1383,
+      "XAUUSD": 4067.1001,
+      "BTCUSD": 65102.67188,
+      "ETHUSD": 1902.81995,
+      "EURUSD": 1.13882,
       "TSLA": 374.05099,
       "AAPL": 325.87
     },
