@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1785481392.166257,
+  "updated_ts": 1785486103.17385,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1785481392.165709
+      "heartbeat_ts": 1785486103.173088
     }
   },
   "control": {
@@ -983,7 +983,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": null,
+      "index": 25,
       "label": "Miedo",
       "bias": 0
     },
@@ -2763,6 +2763,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin\u2019s calm is back and so is the setup for a volatility explosion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Bitcoin steady as Japan holds rates at 1%, keeping the yen carry trade alive",
         "source": "CoinDesk",
         "ts": 0
@@ -2786,18 +2791,13 @@
         "title": "Coinbase sinks 5% after missing second quarter revenue estimates",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4130.7002,
-      "BTCUSD": 63926.48047,
-      "ETHUSD": 1888.93994,
-      "EURUSD": 1.15207,
+      "XAUUSD": 4120.8999,
+      "BTCUSD": 63865.25,
+      "ETHUSD": 1889.91003,
+      "EURUSD": 1.15088,
       "TSLA": 308.89001,
       "AAPL": 333.85001
     },
