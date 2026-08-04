@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1785874869.0368488,
+  "updated_ts": 1785875066.391814,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1785874869.036056
+      "heartbeat_ts": 1785875066.391544
     }
   },
   "control": {
@@ -2755,11 +2755,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 25,
+      "index": null,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
         "source": "CoinDesk",
@@ -2784,18 +2789,13 @@
         "title": "Bitcoin\u2019s $63,000 zone emerges as key battleground for buyers: Glassnode",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4135.7998,
-      "BTCUSD": 64054.39844,
-      "ETHUSD": 1869.02002,
-      "EURUSD": 1.15367,
+      "XAUUSD": 4132.6001,
+      "BTCUSD": 64308.17969,
+      "ETHUSD": 1876.41003,
+      "EURUSD": 1.15354,
       "TSLA": 327.42001,
       "AAPL": 309.39001
     },
