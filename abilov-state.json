@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786110917.364501,
+  "updated_ts": 1786118185.7849028,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786110917.364259
+      "heartbeat_ts": 1786118185.784616
     }
   },
   "control": {
@@ -1223,7 +1223,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1785941261.2679412,
         "ts": 1785941259.245437,
         "timeframe": "1h",
@@ -1239,6 +1239,12 @@
             "kind": "TP1",
             "px": 4344.76712152,
             "pct": 1.26
+          },
+          {
+            "t": 1786110924.966971,
+            "kind": "TP2",
+            "px": 4383.52935118,
+            "pct": 2.17
           }
         ]
       },
@@ -2761,6 +2767,26 @@
     },
     "news": [
       {
+        "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "How a five-second trick let traders drain millions from Polymarket",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "A part of FTX survived, and it\u2019s the case for the CLARITY Act",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
         "source": "CoinDesk",
         "ts": 0
@@ -2769,35 +2795,15 @@
         "title": "After a Clarity Act funeral, the crypto world would keep turning",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t.",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4419.6001,
-      "BTCUSD": 65099.01953,
-      "ETHUSD": 1926.40002,
-      "EURUSD": 1.15687,
-      "TSLA": 328.25,
-      "AAPL": 311.92999
+      "XAUUSD": 4409.3999,
+      "BTCUSD": 64900.98047,
+      "ETHUSD": 1917.45996,
+      "EURUSD": 1.1562,
+      "TSLA": 331.685,
+      "AAPL": 312.23999
     },
     "period_stats": {
       "day": {
