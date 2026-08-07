@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786105870.654165,
+  "updated_ts": 1786109112.567179,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786105870.65394
+      "heartbeat_ts": 1786109112.566993
     }
   },
   "control": {
@@ -1223,7 +1223,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1785941261.2679412,
         "ts": 1785941259.245437,
         "timeframe": "1h",
@@ -1233,6 +1233,12 @@
             "t": 1785941261.267942,
             "kind": "open",
             "px": 4290.5
+          },
+          {
+            "t": 1786105881.100839,
+            "kind": "TP1",
+            "px": 4344.76712152,
+            "pct": 1.26
           }
         ]
       },
@@ -2755,6 +2761,11 @@
     },
     "news": [
       {
+        "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "After a Clarity Act funeral, the crypto world would keep turning",
         "source": "CoinDesk",
         "ts": 0
@@ -2778,18 +2789,13 @@
         "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4374.1001,
-      "BTCUSD": 64963.17188,
-      "ETHUSD": 1926.12,
-      "EURUSD": 1.15674,
+      "XAUUSD": 4409.0,
+      "BTCUSD": 65119.96094,
+      "ETHUSD": 1925.29004,
+      "EURUSD": 1.15768,
       "TSLA": 319.62,
       "AAPL": 312.45001
     },
