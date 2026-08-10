@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786391319.959578,
+  "updated_ts": 1786392445.5496151,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,17 +8,17 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 81,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786391319.958745
+      "heartbeat_ts": 1786392445.500007
     }
   },
   "control": {
     "mode": "custom",
-    "risk_pct": 0.02,
+    "risk_pct": 0.06,
     "leverage": 20,
-    "max_trades_per_day": 10,
+    "max_trades_per_day": 30,
     "paused": false,
     "enabled_strategies": null
   },
@@ -3433,6 +3433,11 @@
     },
     "news": [
       {
+        "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn\u2019t enough for investors",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
         "source": "CoinDesk",
         "ts": 0
@@ -3456,22 +3461,17 @@
         "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4446.1001,
-      "XAGUSD": 66.035,
+      "XAUUSD": 4447.0,
+      "XAGUSD": 65.91,
       "EURUSD": 1.1546,
-      "GBPUSD": 1.35077,
-      "USDJPY": 159.312,
-      "AUDUSD": 0.70592,
-      "NZDUSD": 0.58844,
-      "US100": 29778.75
+      "GBPUSD": 1.351,
+      "USDJPY": 159.30499,
+      "AUDUSD": 0.70572,
+      "NZDUSD": 0.58841,
+      "US100": 29734.25
     },
     "period_stats": {
       "day": {
