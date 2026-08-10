@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786392445.5496151,
+  "updated_ts": 1786393401.6138828,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786392445.500007
+      "heartbeat_ts": 1786393401.6131709
     }
   },
   "control": {
@@ -1980,6 +1980,44 @@
             "px": 7776.0
           }
         ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 217.55999755859375,
+        "sl": 222.85786035,
+        "tp_levels": [
+          211.99724162,
+          208.02384453,
+          204.05044743,
+          201.66640917
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "pat_engulfing",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1786392463.2014139,
+        "ts": 1786392459.818742,
+        "timeframe": "1h",
+        "msg_id": 607,
+        "updates": [
+          {
+            "t": 1786392463.2014232,
+            "kind": "open",
+            "px": 217.55999755859375
+          }
+        ]
       }
     ],
     "closed": [
@@ -3433,6 +3471,11 @@
     },
     "news": [
       {
+        "title": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn\u2019t enough for investors",
         "source": "CoinDesk",
         "ts": 0
@@ -3456,22 +3499,17 @@
         "title": "Solana gets its first Strategy STRC product through Solstice Finance",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4447.0,
-      "XAGUSD": 65.91,
+      "XAUUSD": 4449.5,
+      "XAGUSD": 65.92,
       "EURUSD": 1.1546,
-      "GBPUSD": 1.351,
-      "USDJPY": 159.30499,
-      "AUDUSD": 0.70572,
-      "NZDUSD": 0.58841,
-      "US100": 29734.25
+      "GBPUSD": 1.35077,
+      "USDJPY": 159.31799,
+      "AUDUSD": 0.70562,
+      "NZDUSD": 0.58834,
+      "US100": 29749.0
     },
     "period_stats": {
       "day": {
