@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786644677.160162,
+  "updated_ts": 1786644745.448551,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 4,
+      "loop_n": 5,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786644677.159859
+      "heartbeat_ts": 1786644745.44715
     }
   },
   "control": {
@@ -2088,6 +2088,44 @@
             "t": 1786644490.3585641,
             "kind": "open",
             "px": 4413.2998046875
+          }
+        ]
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.5850347876548767,
+        "sl": 0.58269465,
+        "tp_levels": [
+          0.58749193,
+          0.58924704,
+          0.59100214,
+          0.59205521
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1786644745.4413671,
+        "ts": 1786644743.879359,
+        "timeframe": "1h",
+        "msg_id": 636,
+        "updates": [
+          {
+            "t": 1786644745.441374,
+            "kind": "open",
+            "px": 0.5850347876548767
           }
         ]
       }
