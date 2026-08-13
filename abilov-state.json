@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786645127.8373601,
+  "updated_ts": 1786645386.010366,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 11,
+      "loop_n": 12,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786645127.836283
+      "heartbeat_ts": 1786645386.0099132
     }
   },
   "control": {
@@ -1593,7 +1593,7 @@
           "stoch",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1786389240.492024,
         "ts": 1786389238.276005,
         "timeframe": "1h",
@@ -1603,6 +1603,12 @@
             "t": 1786389240.492029,
             "kind": "open",
             "px": 329.5299987792969
+          },
+          {
+            "t": 1786645382.104624,
+            "kind": "TP1",
+            "px": 337.9911399,
+            "pct": 2.57
           }
         ]
       },
@@ -2126,6 +2132,82 @@
             "t": 1786644745.441374,
             "kind": "open",
             "px": 0.5850347876548767
+          }
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 303.4549865722656,
+        "sl": 298.74635211,
+        "tp_levels": [
+          308.39905275,
+          311.9305286,
+          315.46200444,
+          317.58088995
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "macd",
+          "stoch",
+          "pat_engulfing",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1786645135.3592582,
+        "ts": 1786645133.328683,
+        "timeframe": "1h",
+        "msg_id": 637,
+        "updates": [
+          {
+            "t": 1786645135.3593311,
+            "kind": "open",
+            "px": 303.4549865722656
+          }
+        ]
+      },
+      {
+        "symbol": "AUDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.7059653997421265,
+        "sl": 0.70878926,
+        "tp_levels": [
+          0.70300035,
+          0.70088245,
+          0.69876455,
+          0.69749381
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "ema_trend",
+          "rsi",
+          "stoch",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1786645386.006461,
+        "ts": 1786645384.218399,
+        "timeframe": "1h",
+        "msg_id": 639,
+        "updates": [
+          {
+            "t": 1786645386.0064662,
+            "kind": "open",
+            "px": 0.7059653997421265
           }
         ]
       }
@@ -3544,14 +3626,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4415.2002,
-      "XAGUSD": 64.83,
-      "EURUSD": 1.1534,
-      "GBPUSD": 1.34862,
-      "USDJPY": 159.46201,
-      "AUDUSD": 0.70607,
-      "NZDUSD": 0.5851,
-      "US100": 30199.25
+      "XAUUSD": 4418.3999,
+      "XAGUSD": 64.92,
+      "EURUSD": 1.15327,
+      "GBPUSD": 1.34833,
+      "USDJPY": 159.489,
+      "AUDUSD": 0.70597,
+      "NZDUSD": 0.585,
+      "US100": 30200.5
     },
     "period_stats": {
       "day": {
