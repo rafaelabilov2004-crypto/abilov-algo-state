@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786697388.874298,
+  "updated_ts": 1786704658.873833,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786697388.873707
+      "heartbeat_ts": 1786704658.8732219
     }
   },
   "control": {
@@ -1991,7 +1991,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1786644745.4413671,
         "ts": 1786644743.879359,
         "timeframe": "1h",
@@ -2001,6 +2001,12 @@
             "t": 1786644745.441374,
             "kind": "open",
             "px": 0.5850347876548767
+          },
+          {
+            "t": 1786697533.0408902,
+            "kind": "TP1",
+            "px": 0.58749193,
+            "pct": 0.42
           }
         ]
       },
@@ -3442,6 +3448,16 @@
     },
     "news": [
       {
+        "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live updates: Bitcoin slips below $63,000 as oil, yields climb",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
         "source": "CoinDesk",
         "ts": 0
@@ -3460,27 +3476,17 @@
         "title": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4403.8999,
-      "XAGUSD": 64.86,
-      "EURUSD": 1.15567,
-      "GBPUSD": 1.35212,
-      "USDJPY": 159.151,
-      "AUDUSD": 0.70746,
-      "NZDUSD": 0.58782,
-      "US100": 30236.5
+      "XAUUSD": 4407.1001,
+      "XAGUSD": 64.8,
+      "EURUSD": 1.1558,
+      "GBPUSD": 1.35285,
+      "USDJPY": 159.157,
+      "AUDUSD": 0.70781,
+      "NZDUSD": 0.58837,
+      "US100": 30229.5
     },
     "period_stats": {
       "day": {
