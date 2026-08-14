@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786678937.073427,
+  "updated_ts": 1786693877.258225,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786678937.0728462
+      "heartbeat_ts": 1786693877.257716
     }
   },
   "control": {
@@ -983,7 +983,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 29,
+      "index": null,
       "label": "Miedo",
       "bias": 0
     },
@@ -3442,6 +3442,21 @@
     },
     "news": [
       {
+        "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI\u2019s new proposal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
         "source": "CoinDesk",
         "ts": 0
@@ -3455,32 +3470,17 @@
         "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto for Advisors: The crypto advice gap",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4381.2002,
-      "XAGUSD": 64.27,
-      "EURUSD": 1.15407,
-      "GBPUSD": 1.34962,
-      "USDJPY": 159.35699,
-      "AUDUSD": 0.70631,
-      "NZDUSD": 0.58685,
-      "US100": 30167.5
+      "XAUUSD": 4400.7998,
+      "XAGUSD": 64.71,
+      "EURUSD": 1.1558,
+      "GBPUSD": 1.35241,
+      "USDJPY": 159.077,
+      "AUDUSD": 0.70756,
+      "NZDUSD": 0.58792,
+      "US100": 30222.75
     },
     "period_stats": {
       "day": {
