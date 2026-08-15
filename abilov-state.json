@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786744203.1709929,
+  "updated_ts": 1786801734.312119,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 7,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786744203.170403
+      "heartbeat_ts": 1786801734.311317
     }
   },
   "control": {
@@ -983,7 +983,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 29,
+      "index": 34,
       "label": "Miedo",
       "bias": 0
     },
@@ -993,8 +993,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-14",
-      "end": "2026-08-15",
+      "start": "2026-08-15",
+      "end": "2026-08-16",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3527,11 +3527,26 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 29,
+      "index": 34,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
         "source": "CoinDesk",
@@ -3546,32 +3561,17 @@
         "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Israel\u2019s largest bank to offer crypto trading with Galaxy",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4432.0,
-      "XAGUSD": 64.825,
+      "XAUUSD": 4437.2998,
+      "XAGUSD": 65.108,
       "EURUSD": 1.15727,
       "GBPUSD": 1.35358,
       "USDJPY": 159.30499,
       "AUDUSD": 0.70867,
       "NZDUSD": 0.58938,
-      "US100": 30154.0
+      "US100": 30141.75
     },
     "period_stats": {
       "day": {
@@ -3587,10 +3587,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 9,
-        "win_rate": 0.333,
-        "total_pnl": -7.12,
-        "total_r": -4.95
+        "n": 7,
+        "win_rate": 0.286,
+        "total_pnl": -6.54,
+        "total_r": -5.11
       }
     }
   },
