@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786916649.173706,
+  "updated_ts": 1786967474.610952,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 122,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786916649.172859
+      "heartbeat_ts": 1786967474.610689
     }
   },
   "control": {
@@ -983,7 +983,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 34,
+      "index": 31,
       "label": "Miedo",
       "bias": 0
     },
@@ -993,8 +993,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-16",
-      "end": "2026-08-17",
+      "start": "2026-08-17",
+      "end": "2026-08-18",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1007,8 +1007,8 @@
     },
     "week": {
       "period": "week",
-      "start": "2026-08-10",
-      "end": "2026-08-17",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3565,51 +3565,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 34,
+      "index": 31,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
       {
-        "title": "The SEC meeting that wasn't: State of Crypto",
+        "title": "Bitcoin options remain expensive despite summer calm. Here's why it matters",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
+        "title": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+        "title": "Bitpanda fined 70,000 euros in Austria\u2019s first published MiCA enforcement case",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+        "title": "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+        "title": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
+        "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "XAGUSD": 0.0,
-      "EURUSD": 1.15727,
-      "GBPUSD": 1.35358,
-      "USDJPY": 159.30499,
-      "AUDUSD": 0.70867,
-      "NZDUSD": 0.58938,
-      "US100": 0.0
+      "XAUUSD": 4458.5,
+      "XAGUSD": 65.91,
+      "EURUSD": 1.15929,
+      "GBPUSD": 1.3554,
+      "USDJPY": 159.271,
+      "AUDUSD": 0.71256,
+      "NZDUSD": 0.59165,
+      "US100": 30297.0
     },
     "period_stats": {
       "day": {
@@ -3625,10 +3625,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 5,
-        "win_rate": 0.2,
-        "total_pnl": -6.23,
-        "total_r": -5.19
+        "n": 4,
+        "win_rate": 0.25,
+        "total_pnl": -4.34,
+        "total_r": -3.61
       }
     }
   },
