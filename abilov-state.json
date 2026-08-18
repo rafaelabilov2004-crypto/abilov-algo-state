@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1786997392.1298182,
+  "updated_ts": 1787064544.0302458,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 175,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1786997392.124869
+      "heartbeat_ts": 1787064544.029567
     }
   },
   "control": {
@@ -983,7 +983,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 31,
+      "index": 41,
       "label": "Miedo",
       "bias": 0
     },
@@ -993,8 +993,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-17",
-      "end": "2026-08-18",
+      "start": "2026-08-18",
+      "end": "2026-08-19",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3450,51 +3450,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 31,
+      "index": 41,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
       {
-        "title": "Saylor says share buyback isn\u2019t priority as Strategy builds $4.8 billion cash reserve",
+        "title": "Bitcoin miners\u2019 AI pivot pays off, but mining could revive with one twist",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+        "title": "Global bond yields surge as debt fears test bitcoin\u2019s hedge narrative",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Compound bets $52 million, new leadership team in switch to institutional focus",
+        "title": "Japan's Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+        "title": "HashKey taps Hong Kong's first regulated stablecoin to settle insurance and trade deals",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The Coldcard hack proves reputation is not a security model",
+        "title": "Citi plans to launch bitcoin custody for institutional clients later this year",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+        "title": "Crypto\u2019s easy-money era is ending in a wave of failures",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4476.3999,
-      "XAGUSD": 66.06,
-      "EURUSD": 1.15808,
-      "GBPUSD": 1.35428,
-      "USDJPY": 159.48,
-      "AUDUSD": 0.71073,
-      "NZDUSD": 0.59053,
-      "US100": 30091.25
+      "XAUUSD": 4443.7002,
+      "XAGUSD": 64.65,
+      "EURUSD": 1.15888,
+      "GBPUSD": 1.3549,
+      "USDJPY": 159.491,
+      "AUDUSD": 0.71068,
+      "NZDUSD": 0.58882,
+      "US100": 29663.5
     },
     "period_stats": {
       "day": {
@@ -3510,10 +3510,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total_pnl": -0.47,
-        "total_r": -0.39
+        "n": 1,
+        "win_rate": 1.0,
+        "total_pnl": 1.42,
+        "total_r": 1.19
       }
     }
   },
