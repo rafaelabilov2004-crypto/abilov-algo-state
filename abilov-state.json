@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787083548.1075342,
+  "updated_ts": 1787083630.200141,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787083548.107111
+      "heartbeat_ts": 1787083630.199161
     }
   },
   "control": {
@@ -1610,44 +1610,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4440.7001953125,
-        "sl": 4399.70672193,
-        "tp_levels": [
-          4483.74334236,
-          4514.4884474,
-          4545.23355244,
-          4563.68061546
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1786720265.437423,
-        "ts": 1786720260.959022,
-        "timeframe": "1h",
-        "msg_id": 653,
-        "updates": [
-          {
-            "t": 1786720265.4374359,
-            "kind": "open",
-            "px": 4440.7001953125
-          }
-        ]
-      },
-      {
         "symbol": "US500",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2152,6 +2114,55 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4440.7001953125,
+        "sl": 4399.70672193,
+        "tp_levels": [
+          4483.74334236,
+          4514.4884474,
+          4545.23355244,
+          4563.68061546
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1786720265.437423,
+        "ts": 1786720260.959022,
+        "timeframe": "1h",
+        "msg_id": 653,
+        "updates": [
+          {
+            "t": 1786720265.4374359,
+            "kind": "open",
+            "px": 4440.7001953125
+          },
+          {
+            "t": 1787083563.345091,
+            "kind": "SL",
+            "px": 4399.70672193,
+            "pct": -0.92
+          }
+        ],
+        "exit": 4399.70672193,
+        "reason": "SL",
+        "pct": -0.923,
+        "r_multiple": -1.0,
+        "closed_ts": 1787083563.3451169
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -3447,56 +3458,6 @@
         "pct": -0.4,
         "r_multiple": -1.0,
         "closed_ts": 1786568214.36919
-      },
-      {
-        "symbol": "XAGUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 65.04000091552734,
-        "sl": 66.22262475,
-        "tp_levels": [
-          63.79824588,
-          62.91127801,
-          62.02431013,
-          61.4921294
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "stoch",
-          "supertrend",
-          "pat_engulfing"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1786462317.777719,
-        "ts": 1786462315.595066,
-        "timeframe": "1h",
-        "msg_id": 612,
-        "updates": [
-          {
-            "t": 1786462317.777726,
-            "kind": "open",
-            "px": 65.04000091552734
-          },
-          {
-            "t": 1786543547.9229472,
-            "kind": "SL",
-            "px": 66.22262475,
-            "pct": -1.82
-          }
-        ],
-        "exit": 66.22262475,
-        "reason": "SL",
-        "pct": -1.818,
-        "r_multiple": -1.0,
-        "closed_ts": 1786543547.9229949
       }
     ]
   },
@@ -3571,10 +3532,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 879.13,
+    "balance": 871.01,
     "currency": "$",
-    "total_return_pct": -12.09,
-    "closed": 161,
+    "total_return_pct": -12.9,
+    "closed": 162,
     "wins": 40,
     "peak": 1254.79
   }
