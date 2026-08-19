@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787124510.6537879,
+  "updated_ts": 1787125375.632263,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 5,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787124510.65063
+      "heartbeat_ts": 1787125375.6318562
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 115.01,
-    "unrealized_pnl": -73.08,
-    "net_pnl": 41.93
+    "unrealized_pnl": 0.0,
+    "net_pnl": 115.01
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64561.5,
-      "ETH/USDT": 1971.22
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64561.5,
-      "upnl": -16.3,
-      "u_r": -0.76
+      "price": 64772.62596,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1953.186407,
       "tp": 2145.560778,
       "size": 2.498401,
-      "price": 1971.22,
-      "upnl": -56.78,
-      "u_r": -0.56
+      "price": 1993.948005,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -2112,6 +2112,46 @@
             "px": 219.27870178222656
           }
         ]
+      },
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7712.25,
+        "sl": 7743.099,
+        "tp_levels": [
+          7679.85855,
+          7656.7218,
+          7633.58505,
+          7619.703
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "vol_expansion",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787124526.915791,
+        "ts": 1787124524.705954,
+        "timeframe": "1h",
+        "msg_id": 728,
+        "updates": [
+          {
+            "t": 1787124526.915801,
+            "kind": "open",
+            "px": 7712.25
+          }
+        ]
       }
     ],
     "closed": [
@@ -3494,7 +3534,7 @@
         "ts": 0
       },
       {
-        "title": "Robot maker Unitree\u2019s IPO surges 600%, outpacing crypto traders\u2019 premarket bets",
+        "title": "Robot maker Unitree\u2019s IPO surges 600% , outpacing crypto traders\u2019 premarket bets",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3520,14 +3560,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4402.3999,
-      "XAGUSD": 63.185,
-      "EURUSD": 1.15969,
-      "GBPUSD": 1.35505,
-      "USDJPY": 159.177,
-      "AUDUSD": 0.70731,
-      "NZDUSD": 0.58734,
-      "US100": 29538.75
+      "XAUUSD": 4412.2002,
+      "XAGUSD": 63.3,
+      "EURUSD": 1.15996,
+      "GBPUSD": 1.3554,
+      "USDJPY": 159.15199,
+      "AUDUSD": 0.70741,
+      "NZDUSD": 0.58737,
+      "US100": 29575.75
     },
     "period_stats": {
       "day": {
