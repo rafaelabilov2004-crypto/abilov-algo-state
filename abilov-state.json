@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787138120.798336,
+  "updated_ts": 1787138205.6767979,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 36,
+      "loop_n": 37,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787138120.7967842
+      "heartbeat_ts": 1787138205.6756659
     }
   },
   "control": {
@@ -2200,6 +2200,45 @@
             "px": 64240.37890625
           }
         ]
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.58833909034729,
+        "sl": 0.58598573,
+        "tp_levels": [
+          0.59081011,
+          0.59257513,
+          0.59434015,
+          0.59539916
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787138205.671411,
+        "ts": 1787138190.880481,
+        "timeframe": "1h",
+        "msg_id": 736,
+        "updates": [
+          {
+            "t": 1787138205.671417,
+            "kind": "open",
+            "px": 0.58833909034729
+          }
+        ]
       }
     ],
     "closed": [
@@ -3577,6 +3616,11 @@
     },
     "news": [
       {
+        "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades",
         "source": "CoinDesk",
         "ts": 0
@@ -3600,22 +3644,17 @@
         "title": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4425.3999,
-      "XAGUSD": 63.465,
+      "XAUUSD": 4427.7002,
+      "XAGUSD": 63.51,
       "EURUSD": 1.1609,
-      "GBPUSD": 1.35551,
-      "USDJPY": 159.121,
-      "AUDUSD": 0.70776,
-      "NZDUSD": 0.5881,
-      "US100": 29550.75
+      "GBPUSD": 1.35558,
+      "USDJPY": 159.108,
+      "AUDUSD": 0.70786,
+      "NZDUSD": 0.58834,
+      "US100": 29559.5
     },
     "period_stats": {
       "day": {
