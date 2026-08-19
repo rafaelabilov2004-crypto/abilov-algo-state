@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787127490.582895,
+  "updated_ts": 1787135733.3754141,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 25,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787127490.581811
+      "heartbeat_ts": 1787135733.374767
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 115.01,
-    "unrealized_pnl": -89.09,
-    "net_pnl": 25.92
+    "unrealized_pnl": 0.0,
+    "net_pnl": 115.01
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64542.5,
-      "ETH/USDT": 1965.4
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64542.5,
-      "upnl": -17.77,
-      "u_r": -0.83
+      "price": 64772.62596,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1953.186407,
       "tp": 2145.560778,
       "size": 2.498401,
-      "price": 1965.4,
-      "upnl": -71.32,
-      "u_r": -0.7
+      "price": 1993.948005,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3567,45 +3567,45 @@
     },
     "news": [
       {
+        "title": "Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "TikTok code includes peer-to-peer payments over messaging: Bloomberg",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ripple raises $275 million in senior notes for prime brokerage push",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Robot maker Unitree\u2019s IPO surges 600% , outpacing crypto traders\u2019 premarket bets",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin holds $64,000 and solana leads gains amid 7% Korean chip stock slide",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "\u2018It has to pass\u2019: Andrew Cuomo warns U.S. is falling behind on crypto rules",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4412.0,
-      "XAGUSD": 63.255,
-      "EURUSD": 1.16077,
-      "GBPUSD": 1.35656,
+      "XAUUSD": 4422.3999,
+      "XAGUSD": 63.395,
+      "EURUSD": 1.16144,
+      "GBPUSD": 1.35632,
       "USDJPY": 159.05901,
-      "AUDUSD": 0.70837,
-      "NZDUSD": 0.5881,
-      "US100": 29630.75
+      "AUDUSD": 0.70806,
+      "NZDUSD": 0.58834,
+      "US100": 29520.5
     },
     "period_stats": {
       "day": {
