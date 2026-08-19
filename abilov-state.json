@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787150792.9051661,
+  "updated_ts": 1787150863.922134,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 177,
+      "loop_n": 178,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787150792.9021351
+      "heartbeat_ts": 1787150863.918545
     }
   },
   "control": {
@@ -1835,63 +1835,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4436.0,
-        "sl": 4398.33137449,
-        "tp_levels": [
-          4475.55205679,
-          4503.80352592,
-          4532.05499506,
-          4549.00587654
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1787143485.592122,
-        "ts": 1787143464.14132,
-        "timeframe": "1h",
-        "msg_id": 742,
-        "updates": [
-          {
-            "t": 1787143485.592138,
-            "kind": "open",
-            "px": 4436.0
-          },
-          {
-            "t": 1787144585.656131,
-            "kind": "TP1",
-            "px": 4475.55205679,
-            "pct": 0.89
-          },
-          {
-            "t": 1787145802.154192,
-            "kind": "TP2",
-            "px": 4503.80352592,
-            "pct": 1.53
-          },
-          {
-            "t": 1787150000.208689,
-            "kind": "TP3",
-            "px": 4532.05499506,
-            "pct": 2.17
-          }
-        ]
-      },
-      {
         "symbol": "XAGUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2048,9 +1991,117 @@
             "px": 1937.219970703125
           }
         ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4550.10009765625,
+        "sl": 4494.60680032,
+        "tp_levels": [
+          4608.36805986,
+          4649.98803286,
+          4691.60800586,
+          4716.57998966
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "macd",
+          "donchian",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787150803.176436,
+        "ts": 1787150800.902921,
+        "timeframe": "1h",
+        "msg_id": 775,
+        "updates": [
+          {
+            "t": 1787150803.1764421,
+            "kind": "open",
+            "px": 4550.10009765625
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4436.0,
+        "sl": 4398.33137449,
+        "tp_levels": [
+          4475.55205679,
+          4503.80352592,
+          4532.05499506,
+          4549.00587654
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1787143485.592122,
+        "ts": 1787143464.14132,
+        "timeframe": "1h",
+        "msg_id": 742,
+        "updates": [
+          {
+            "t": 1787143485.592138,
+            "kind": "open",
+            "px": 4436.0
+          },
+          {
+            "t": 1787144585.656131,
+            "kind": "TP1",
+            "px": 4475.55205679,
+            "pct": 0.89
+          },
+          {
+            "t": 1787145802.154192,
+            "kind": "TP2",
+            "px": 4503.80352592,
+            "pct": 1.53
+          },
+          {
+            "t": 1787150000.208689,
+            "kind": "TP3",
+            "px": 4532.05499506,
+            "pct": 2.17
+          },
+          {
+            "t": 1787150799.392693,
+            "kind": "TP4",
+            "px": 4549.00587654,
+            "pct": 2.55
+          }
+        ],
+        "exit": 4549.00587654,
+        "reason": "TP4",
+        "pct": 2.547,
+        "r_multiple": 3.0,
+        "closed_ts": 1787150799.392716
+      },
       {
         "symbol": "TSLA",
         "side": "SHORT",
@@ -3404,57 +3455,6 @@
         "pct": 1.2,
         "r_multiple": 3.0,
         "closed_ts": 1786976360.4028401
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 4413.2998046875,
-        "sl": 4464.29691842,
-        "tp_levels": [
-          4359.75283526,
-          4321.50499996,
-          4283.25716466,
-          4260.30846348
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend",
-          "pat_engulfing"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1786644490.358559,
-        "ts": 1786644487.9739652,
-        "timeframe": "1h",
-        "msg_id": 635,
-        "updates": [
-          {
-            "t": 1786644490.3585641,
-            "kind": "open",
-            "px": 4413.2998046875
-          },
-          {
-            "t": 1786975753.3469949,
-            "kind": "SL",
-            "px": 4464.29691842,
-            "pct": -1.16
-          }
-        ],
-        "exit": 4464.29691842,
-        "reason": "SL",
-        "pct": -1.156,
-        "r_multiple": -1.0,
-        "closed_ts": 1786975753.347014
       }
     ]
   },
@@ -3465,6 +3465,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
         "source": "CoinDesk",
@@ -3489,22 +3494,17 @@
         "title": "China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4544.7998,
-      "XAGUSD": 65.68,
-      "EURUSD": 1.16795,
-      "GBPUSD": 1.36262,
-      "USDJPY": 158.12199,
+      "XAUUSD": 4547.0,
+      "XAGUSD": 65.77,
+      "EURUSD": 1.16781,
+      "GBPUSD": 1.36243,
+      "USDJPY": 158.226,
       "AUDUSD": 0.71301,
-      "NZDUSD": 0.59344,
-      "US100": 29483.25
+      "NZDUSD": 0.59365,
+      "US100": 29540.0
     },
     "period_stats": {
       "day": {
