@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787111931.8056629,
+  "updated_ts": 1787112176.388371,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 5,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787111931.804487
+      "heartbeat_ts": 1787112176.387977
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -56.22,
-    "unrealized_pnl": -24.12,
-    "net_pnl": -80.34
+    "unrealized_pnl": 0.0,
+    "net_pnl": -56.22
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64660.0,
-      "ETH/USDT": 1980.79
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64660.0,
-      "upnl": -8.7,
-      "u_r": -0.4
+      "price": 64772.62596,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1945.091247,
       "tp": 2110.006259,
       "size": 2.517218,
-      "price": 1980.79,
-      "upnl": -15.42,
-      "u_r": -0.15
+      "price": 1986.915896,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3510,14 +3510,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4410.7002,
-      "XAGUSD": 63.185,
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
       "EURUSD": 1.15848,
       "GBPUSD": 1.35384,
-      "USDJPY": 159.423,
+      "USDJPY": 159.407,
       "AUDUSD": 0.70756,
-      "NZDUSD": 0.5873,
-      "US100": 29517.25
+      "NZDUSD": 0.58737,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
