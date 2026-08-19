@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787114653.078099,
+  "updated_ts": 1787119882.7400079,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787114653.07674
+      "heartbeat_ts": 1787119882.739477
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 0.0,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 115.01,
-    "unrealized_pnl": -10.29,
-    "net_pnl": 104.72
+    "unrealized_pnl": -24.94,
+    "net_pnl": 90.07
   },
   "stats": {
     "signals": 1,
-    "entries": 0,
+    "entries": 1,
     "closes": 1,
     "updates": 3,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64639.3,
-      "ETH/USDT": 2001.28
+      "BTC/USDT": 64597.2,
+      "ETH/USDT": 1989.39
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64639.3,
-      "upnl": -10.29,
-      "u_r": -0.48
+      "price": 64597.2,
+      "upnl": -13.55,
+      "u_r": -0.63
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 1993.948005,
+      "sl": 1953.186407,
+      "tp": 2145.560778,
+      "size": 2.498401,
+      "price": 1989.39,
+      "upnl": -11.39,
+      "u_r": -0.11
     }
   ],
   "recent_trades": [
@@ -3471,6 +3483,11 @@
     },
     "news": [
       {
+        "title": "Robot maker Unitree\u2019s IPO surges 600%, outpacing crypto traders\u2019 premarket bets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Solana leads bitcoin and ether higher while Korean chip stocks slide 7%",
         "source": "CoinDesk",
         "ts": 0
@@ -3494,22 +3511,17 @@
         "title": "U.S. SEC proposes first major crypto rule in surprise announcement",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4403.8999,
-      "XAGUSD": 62.91,
-      "EURUSD": 1.15861,
-      "GBPUSD": 1.35373,
-      "USDJPY": 159.373,
+      "XAUUSD": 4392.2998,
+      "XAGUSD": 62.795,
+      "EURUSD": 1.15942,
+      "GBPUSD": 1.35457,
+      "USDJPY": 159.209,
       "AUDUSD": 0.70711,
-      "NZDUSD": 0.58713,
-      "US100": 29508.0
+      "NZDUSD": 0.58727,
+      "US100": 29453.75
     },
     "period_stats": {
       "day": {
