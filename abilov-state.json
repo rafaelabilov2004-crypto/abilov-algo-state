@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787102976.431759,
+  "updated_ts": 1787105035.294417,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 73,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787102976.430628
+      "heartbeat_ts": 1787105035.293809
     }
   },
   "control": {
@@ -1806,7 +1806,7 @@
           "pat_engulfing",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1786988356.947895,
         "ts": 1786988354.682739,
         "timeframe": "1h",
@@ -1816,6 +1816,12 @@
             "t": 1786988356.947901,
             "kind": "open",
             "px": 0.7108330726623535
+          },
+          {
+            "t": 1787103990.7235389,
+            "kind": "TP1",
+            "px": 0.70784757,
+            "pct": 0.42
           }
         ]
       },
@@ -3469,6 +3475,11 @@
     },
     "news": [
       {
+        "title": "\u2018It has to pass\u2019: Andrew Cuomo warns U.S. is falling behind on crypto rules",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
         "source": "CoinDesk",
         "ts": 0
@@ -3492,22 +3503,17 @@
         "title": "Bitcoin has gone quiet as traders chase \u20185x or 10x\u2019 payoffs elsewhere",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4390.7998,
-      "XAGUSD": 62.77,
-      "EURUSD": 1.15768,
-      "GBPUSD": 1.35274,
-      "USDJPY": 159.506,
-      "AUDUSD": 0.70756,
-      "NZDUSD": 0.58661,
-      "US100": 29594.0
+      "XAUUSD": 4406.5,
+      "XAGUSD": 63.16,
+      "EURUSD": 1.15808,
+      "GBPUSD": 1.35309,
+      "USDJPY": 159.47099,
+      "AUDUSD": 0.70776,
+      "NZDUSD": 0.58716,
+      "US100": 29572.0
     },
     "period_stats": {
       "day": {
