@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787105035.294417,
+  "updated_ts": 1787105522.9033852,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 73,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787105035.293809
+      "heartbeat_ts": 1787105522.903062
     }
   },
   "control": {
@@ -45,12 +45,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -12.16,
-    "unrealized_pnl": -1.52,
-    "net_pnl": -13.68
+    "unrealized_pnl": 0.0,
+    "net_pnl": -12.16
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64727.4,
-      "ETH/USDT": 1915.74
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64727.4,
-      "upnl": -3.49,
-      "u_r": -0.16
+      "price": 64772.62596,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1929.541022,
       "tp": 1879.656934,
       "size": 2.608147,
-      "price": 1915.74,
-      "upnl": 1.97,
-      "u_r": 0.06
+      "price": 1916.494879,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3506,14 +3506,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4406.5,
-      "XAGUSD": 63.16,
-      "EURUSD": 1.15808,
-      "GBPUSD": 1.35309,
-      "USDJPY": 159.47099,
-      "AUDUSD": 0.70776,
-      "NZDUSD": 0.58716,
-      "US100": 29572.0
+      "XAUUSD": 4409.5,
+      "XAGUSD": 63.245,
+      "EURUSD": 1.15835,
+      "GBPUSD": 1.35345,
+      "USDJPY": 159.405,
+      "AUDUSD": 0.70791,
+      "NZDUSD": 0.58727,
+      "US100": 29566.0
     },
     "period_stats": {
       "day": {
