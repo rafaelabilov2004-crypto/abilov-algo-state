@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787120435.6582222,
+  "updated_ts": 1787121543.937718,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 4,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787120435.656894
+      "heartbeat_ts": 1787121543.9338381
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 115.01,
-    "unrealized_pnl": -29.0,
-    "net_pnl": 86.01
+    "unrealized_pnl": -56.95,
+    "net_pnl": 58.06
   },
   "stats": {
     "signals": 1,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64590.6,
-      "ETH/USDT": 1987.97
+      "BTC/USDT": 64584.5,
+      "ETH/USDT": 1976.97
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 64494.1872,
       "tp": 65530.2384,
       "size": 0.077216,
-      "price": 64590.6,
-      "upnl": -14.06,
-      "u_r": -0.65
+      "price": 64584.5,
+      "upnl": -14.53,
+      "u_r": -0.68
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 1953.186407,
       "tp": 2145.560778,
       "size": 2.498401,
-      "price": 1987.97,
-      "upnl": -14.94,
-      "u_r": -0.15
+      "price": 1976.97,
+      "upnl": -42.42,
+      "u_r": -0.42
     }
   ],
   "recent_trades": [
@@ -1937,7 +1937,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1787064593.563086,
         "ts": 1787064566.500139,
         "timeframe": "1h",
@@ -1947,6 +1947,12 @@
             "t": 1787064593.563092,
             "kind": "open",
             "px": 29659.0
+          },
+          {
+            "t": 1787120442.690976,
+            "kind": "TP1",
+            "px": 29438.99793349,
+            "pct": 0.74
           }
         ]
       },
@@ -3483,6 +3489,11 @@
     },
     "news": [
       {
+        "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Robot maker Unitree\u2019s IPO surges 600%, outpacing crypto traders\u2019 premarket bets",
         "source": "CoinDesk",
         "ts": 0
@@ -3506,22 +3517,17 @@
         "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S. SEC proposes first major crypto rule in surprise announcement",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4392.3999,
-      "XAGUSD": 62.805,
-      "EURUSD": 1.15982,
-      "GBPUSD": 1.3552,
-      "USDJPY": 159.186,
-      "AUDUSD": 0.70761,
+      "XAUUSD": 4394.8999,
+      "XAGUSD": 62.9,
+      "EURUSD": 1.15996,
+      "GBPUSD": 1.35512,
+      "USDJPY": 159.157,
+      "AUDUSD": 0.70771,
       "NZDUSD": 0.58758,
-      "US100": 29432.25
+      "US100": 29480.0
     },
     "period_stats": {
       "day": {
