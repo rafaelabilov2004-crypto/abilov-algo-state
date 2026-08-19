@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787162773.717327,
+  "updated_ts": 1787164943.912478,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 346,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787162773.715008
+      "heartbeat_ts": 1787164943.9121778
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -32.94,
-    "unrealized_pnl": -0.48,
-    "net_pnl": -33.42
+    "unrealized_pnl": 0.0,
+    "net_pnl": -32.94
   },
   "stats": {
-    "signals": 5,
-    "entries": 5,
-    "closes": 5,
-    "updates": 6,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 2,
-    "losses": 3
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 68163.7,
-      "ETH/USDT": 2047.93
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 67837.250904,
       "tp": 70375.847287,
       "size": 0.073023,
-      "price": 68163.7,
-      "upnl": -24.01,
-      "u_r": -0.5
+      "price": 68492.44157,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2002.831365,
       "tp": 2142.425904,
       "size": 2.453711,
-      "price": 2047.93,
-      "upnl": 23.53,
-      "u_r": 0.27
+      "price": 2038.341319,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3566,6 +3566,11 @@
     },
     "news": [
       {
+        "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
         "source": "CoinDesk",
         "ts": 0
@@ -3589,22 +3594,17 @@
         "title": "Crypto Long & Short: Where DeFi yield really comes from (and why it broke this spring)",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "HSBC, Standard Chartered execute first live banking transaction on Swift\u2019s 24/7 ledger",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4544.1001,
-      "XAGUSD": 65.82,
-      "EURUSD": 1.16713,
-      "GBPUSD": 1.35995,
-      "USDJPY": 158.399,
-      "AUDUSD": 0.7121,
-      "NZDUSD": 0.5933,
-      "US100": 29548.5
+      "XAUUSD": 4532.0,
+      "XAGUSD": 65.64,
+      "EURUSD": 1.16768,
+      "GBPUSD": 1.36064,
+      "USDJPY": 158.282,
+      "AUDUSD": 0.7123,
+      "NZDUSD": 0.59365,
+      "US100": 29566.75
     },
     "period_stats": {
       "day": {
@@ -3629,11 +3629,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 901.19,
+    "balance": 953.9,
     "currency": "$",
-    "total_return_pct": -9.88,
-    "closed": 170,
-    "wins": 44,
+    "total_return_pct": -4.61,
+    "closed": 185,
+    "wins": 49,
     "peak": 1254.79
   }
 }
