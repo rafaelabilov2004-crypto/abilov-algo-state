@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787168716.0082262,
+  "updated_ts": 1787173362.524481,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 56,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787168716.007246
+      "heartbeat_ts": 1787173362.523135
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -32.94,
-    "unrealized_pnl": 37.53,
-    "net_pnl": 4.59
+    "unrealized_pnl": 0.0,
+    "net_pnl": -32.94
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 68200.3,
-      "ETH/USDT": 2062.33
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 67837.250904,
       "tp": 70375.847287,
       "size": 0.073023,
-      "price": 68200.3,
-      "upnl": -21.33,
-      "u_r": -0.45
+      "price": 68492.44157,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2002.831365,
       "tp": 2142.425904,
       "size": 2.453711,
-      "price": 2062.33,
-      "upnl": 58.86,
-      "u_r": 0.68
+      "price": 2038.341319,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3566,6 +3566,16 @@
     },
     "news": [
       {
+        "title": "HYPE jumps 11% as Trump says CFTC is working to bring Hyperliquid to U.S.",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Trump pushes Congress to move on Clarity Act during White House crypto event",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
         "source": "CoinDesk",
         "ts": 0
@@ -3584,27 +3594,17 @@
         "title": "Coinbase, Circle and Bullish jump as Clarity Act proponents express optimism about bill",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "AI could supercharge crypto but there\u2019s a catch, Fidelity Digital Assets says",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Crypto Long & Short: Where DeFi yield really comes from (and why it broke this spring)",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4567.6001,
-      "XAGUSD": 66.52,
-      "EURUSD": 1.16768,
-      "GBPUSD": 1.36073,
-      "USDJPY": 158.23,
-      "AUDUSD": 0.71281,
-      "NZDUSD": 0.59368,
-      "US100": 29580.25
+      "XAUUSD": 4580.0,
+      "XAGUSD": 66.905,
+      "EURUSD": 0.0,
+      "GBPUSD": 1.36086,
+      "USDJPY": 158.10201,
+      "AUDUSD": 0.71271,
+      "NZDUSD": 0.59319,
+      "US100": 29561.0
     },
     "period_stats": {
       "day": {
