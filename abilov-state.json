@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787230026.2481658,
+  "updated_ts": 1787230090.4673789,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787230026.2466
+      "heartbeat_ts": 1787230090.465342
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 223.89,
-    "unrealized_pnl": 1.41,
-    "net_pnl": 225.3
+    "unrealized_pnl": 5.69,
+    "net_pnl": 229.58
   },
   "stats": {
     "signals": 2,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 72173.4,
-      "ETH/USDT": 2231.3
+      "BTC/USDT": 72167.2,
+      "ETH/USDT": 2233.4
     }
   },
   "open_positions": [
@@ -76,8 +76,8 @@
       "sl": 71454.703114,
       "tp": 74351.890658,
       "size": 0.069272,
-      "price": 72173.4,
-      "upnl": -1.89,
+      "price": 72167.2,
+      "upnl": -2.32,
       "u_r": -0.04
     },
     {
@@ -88,9 +88,9 @@
       "sl": 2163.864244,
       "tp": 2425.047268,
       "size": 2.242997,
-      "price": 2231.3,
-      "upnl": 3.3,
-      "u_r": 0.02
+      "price": 2233.4,
+      "upnl": 8.01,
+      "u_r": 0.05
     }
   ],
   "recent_trades": [
@@ -3544,21 +3544,21 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4508.3999,
-      "XAGUSD": 66.065,
-      "EURUSD": 1.16918,
-      "GBPUSD": 1.36379,
-      "USDJPY": 158.63901,
-      "AUDUSD": 0.71154,
-      "NZDUSD": 0.59534,
-      "US100": 29270.75
+      "XAUUSD": 4513.5,
+      "XAGUSD": 66.225,
+      "EURUSD": 1.16904,
+      "GBPUSD": 1.36372,
+      "USDJPY": 158.66,
+      "AUDUSD": 0.71164,
+      "NZDUSD": 0.59531,
+      "US100": 29261.5
     },
     "period_stats": {
       "day": {
-        "n": 6,
-        "win_rate": 0.667,
-        "total_pnl": 220.58,
-        "total_r": 4.93
+        "n": 5,
+        "win_rate": 0.8,
+        "total_pnl": 309.82,
+        "total_r": 6.11
       },
       "week": {
         "n": 9,
