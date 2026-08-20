@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787243549.2337909,
+  "updated_ts": 1787243618.312137,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 172,
+      "loop_n": 173,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787243549.232723
+      "heartbeat_ts": 1787243618.307573
     }
   },
   "control": {
@@ -1987,6 +1987,45 @@
             "t": 1787242026.592961,
             "kind": "open",
             "px": 68.38500213623047
+          }
+        ]
+      },
+      {
+        "symbol": "EURUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1.1674060821533203,
+        "sl": 1.17207571,
+        "tp_levels": [
+          1.16250298,
+          1.15900076,
+          1.15549854,
+          1.15339721
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "donchian",
+          "supertrend",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787243618.2884,
+        "ts": 1787243616.037869,
+        "timeframe": "1h",
+        "msg_id": 852,
+        "updates": [
+          {
+            "t": 1787243618.2884102,
+            "kind": "open",
+            "px": 1.1674060821533203
           }
         ]
       }
