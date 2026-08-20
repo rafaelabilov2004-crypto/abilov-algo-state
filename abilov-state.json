@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787179650.106592,
+  "updated_ts": 1787228035.056781,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787179650.106156
+      "heartbeat_ts": 1787228035.055797
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 137.13,
-    "unrealized_pnl": -17.34,
-    "net_pnl": 119.79
+    "unrealized_pnl": 0.0,
+    "net_pnl": 137.13
   },
   "stats": {
-    "signals": 1,
+    "signals": 0,
     "entries": 0,
-    "closes": 1,
-    "updates": 3,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 68255.0,
-      "ETH/USDT": 2256.21
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 67837.250904,
       "tp": 70375.847287,
       "size": 0.073023,
-      "price": 68255.0,
-      "upnl": -17.34,
-      "u_r": -0.36
+      "price": 68492.44157,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1028,8 +1028,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 46,
-      "label": "Neutral",
+      "index": 62,
+      "label": "Codicia",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -3547,58 +3547,58 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 46,
-      "label": "Neutral",
+      "index": 62,
+      "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+        "title": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "HYPE jumps 11% as Trump says CFTC is working to bring Hyperliquid to U.S.",
+        "title": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Trump pushes Congress to move on Clarity Act during White House crypto event",
+        "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
+        "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
+        "title": "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
+        "title": "Elon Musk's X is exploring stablecoins to pay influencers and content providers",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4575.6001,
-      "XAGUSD": 66.995,
-      "EURUSD": 1.16795,
-      "GBPUSD": 1.36069,
-      "USDJPY": 158.12,
-      "AUDUSD": 0.71286,
-      "NZDUSD": 0.59389,
-      "US100": 29624.5
+      "XAUUSD": 4514.8999,
+      "XAGUSD": 66.02,
+      "EURUSD": 1.16891,
+      "GBPUSD": 1.36333,
+      "USDJPY": 158.73199,
+      "AUDUSD": 0.71109,
+      "NZDUSD": 0.59488,
+      "US100": 29336.0
     },
     "period_stats": {
       "day": {
-        "n": 8,
-        "win_rate": 0.5,
-        "total_pnl": 149.29,
-        "total_r": 2.43
+        "n": 5,
+        "win_rate": 0.6,
+        "total_pnl": 133.82,
+        "total_r": 3.06
       },
       "week": {
         "n": 8,
@@ -3607,20 +3607,20 @@
         "total_r": 2.43
       },
       "month": {
-        "n": 9,
-        "win_rate": 0.556,
-        "total_pnl": 150.72,
-        "total_r": 3.61
+        "n": 8,
+        "win_rate": 0.5,
+        "total_pnl": 149.29,
+        "total_r": 2.43
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1002.61,
+    "balance": 1054.27,
     "currency": "$",
-    "total_return_pct": 0.26,
-    "closed": 186,
-    "wins": 50,
+    "total_return_pct": 5.43,
+    "closed": 187,
+    "wins": 51,
     "peak": 1254.79
   }
 }
