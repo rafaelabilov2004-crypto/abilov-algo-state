@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787326143.424942,
+  "updated_ts": 1787326208.879114,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 15,
+      "loop_n": 16,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787326143.420929
+      "heartbeat_ts": 1787326208.8780859
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 0.0,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 318.78,
-    "unrealized_pnl": 354.76,
-    "net_pnl": 673.54
+    "unrealized_pnl": 338.32,
+    "net_pnl": 657.1
   },
   "stats": {
     "signals": 1,
-    "entries": 0,
+    "entries": 1,
     "closes": 1,
     "updates": 6,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77799.2,
-      "ETH/USDT": 2387.99
+      "BTC/USDT": 77494.2,
+      "ETH/USDT": 2390.07
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 2297.720544,
       "tp": 2425.047268,
       "size": 2.242997,
-      "price": 2387.99,
-      "upnl": 354.76,
-      "u_r": 2.33
+      "price": 2390.07,
+      "upnl": 359.42,
+      "u_r": 2.36
+    },
+    {
+      "symbol": "BTC/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 77822.53976,
+      "sl": 77433.185059,
+      "tp": 78897.244823,
+      "size": 0.064268,
+      "price": 77494.2,
+      "upnl": -21.1,
+      "u_r": -0.84
     }
   ],
   "recent_trades": [
@@ -3522,14 +3534,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4653.7998,
-      "XAGUSD": 69.315,
-      "EURUSD": 1.16768,
-      "GBPUSD": 1.36271,
-      "USDJPY": 159.004,
-      "AUDUSD": 0.717,
-      "NZDUSD": 0.59751,
-      "US100": 29348.25
+      "XAUUSD": 4654.2998,
+      "XAGUSD": 69.38,
+      "EURUSD": 1.16795,
+      "GBPUSD": 1.36305,
+      "USDJPY": 158.974,
+      "AUDUSD": 0.71731,
+      "NZDUSD": 0.59776,
+      "US100": 29340.5
     },
     "period_stats": {
       "day": {
