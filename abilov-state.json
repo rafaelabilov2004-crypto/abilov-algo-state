@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787254271.182438,
+  "updated_ts": 1787325148.641631,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 252,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787254271.1818712
+      "heartbeat_ts": 1787325148.640747
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 223.89,
-    "unrealized_pnl": 126.81,
-    "net_pnl": 350.7
+    "unrealized_pnl": 0.0,
+    "net_pnl": 223.89
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 1,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 72211.7,
-      "ETH/USDT": 2286.02
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 71454.703114,
       "tp": 74351.890658,
       "size": 0.069272,
-      "price": 72211.7,
-      "upnl": 0.77,
-      "u_r": 0.01
+      "price": 72200.6537,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2163.864244,
       "tp": 2425.047268,
       "size": 2.242997,
-      "price": 2286.02,
-      "upnl": 126.04,
-      "u_r": 0.85
+      "price": 2229.828748,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1044,7 +1044,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 62,
+      "index": 72,
       "label": "Codicia",
       "bias": 0
     },
@@ -1054,17 +1054,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-20",
-      "end": "2026-08-21",
-      "trades": 1,
-      "wins": 1,
+      "start": "2026-08-21",
+      "end": "2026-08-22",
+      "trades": 0,
+      "wins": 0,
       "losses": 0,
-      "win_rate": 1.0,
-      "pnl": 86.76,
-      "avg_r": 1.872,
-      "best_r": 1.872,
-      "worst_r": 1.872,
-      "fees": 10.1
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3528,58 +3528,58 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 62,
+      "index": 72,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
+        "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Treasury buybacks could set up Bitcoin\u2019s next move toward $180,000, says strategist",
+        "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
+        "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto for Advisors: What are tokenized deposits?",
+        "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users",
+        "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern",
+        "title": "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4581.3999,
-      "XAGUSD": 68.21,
-      "EURUSD": 1.16809,
-      "GBPUSD": 0.0,
-      "USDJPY": 159.12601,
-      "AUDUSD": 0.71139,
-      "NZDUSD": 0.59435,
-      "US100": 29330.25
+      "XAUUSD": 4645.7002,
+      "XAGUSD": 69.075,
+      "EURUSD": 1.16768,
+      "GBPUSD": 1.36258,
+      "USDJPY": 158.976,
+      "AUDUSD": 0.71695,
+      "NZDUSD": 0.59755,
+      "US100": 29338.0
     },
     "period_stats": {
       "day": {
-        "n": 2,
-        "win_rate": 1.0,
-        "total_pnl": 256.83,
-        "total_r": 3.86
+        "n": 0,
+        "win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 9,
@@ -3597,11 +3597,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1139.1,
+    "balance": 1146.94,
     "currency": "$",
-    "total_return_pct": 13.91,
-    "closed": 193,
-    "wins": 54,
+    "total_return_pct": 14.69,
+    "closed": 196,
+    "wins": 55,
     "peak": 1254.79
   }
 }
