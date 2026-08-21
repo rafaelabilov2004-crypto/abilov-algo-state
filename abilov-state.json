@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787338977.85676,
+  "updated_ts": 1787339041.443815,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 210,
+      "loop_n": 211,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787338977.855124
+      "heartbeat_ts": 1787339041.442375
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 318.78,
-    "unrealized_pnl": 392.02,
-    "net_pnl": 710.8
+    "unrealized_pnl": 388.85,
+    "net_pnl": 707.63
   },
   "stats": {
     "signals": 1,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77457.7,
-      "ETH/USDT": 2415.06
+      "BTC/USDT": 77450.5,
+      "ETH/USDT": 2413.85
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2346.692361,
       "tp": 2425.047268,
       "size": 2.242997,
-      "price": 2415.06,
-      "upnl": 415.47,
-      "u_r": 1.59
+      "price": 2413.85,
+      "upnl": 412.76,
+      "u_r": 1.57
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 77433.185059,
       "tp": 78897.244823,
       "size": 0.064268,
-      "price": 77457.7,
-      "upnl": -23.45,
-      "u_r": -0.94
+      "price": 77450.5,
+      "upnl": -23.91,
+      "u_r": -0.96
     }
   ],
   "recent_trades": [
@@ -3710,6 +3710,11 @@
     },
     "news": [
       {
+        "title": "Pass the Clarity Act",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
         "source": "CoinDesk",
         "ts": 0
@@ -3733,22 +3738,17 @@
         "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4682.6001,
-      "XAGUSD": 69.645,
-      "EURUSD": 1.16863,
-      "GBPUSD": 1.36521,
-      "USDJPY": 159.01601,
+      "XAUUSD": 4682.2002,
+      "XAGUSD": 69.63,
+      "EURUSD": 1.1685,
+      "GBPUSD": 1.36517,
+      "USDJPY": 159.01401,
       "AUDUSD": 0.71808,
       "NZDUSD": 0.59855,
-      "US100": 29392.75
+      "US100": 29390.0
     },
     "period_stats": {
       "day": {
