@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787343717.773032,
+  "updated_ts": 1787390620.33164,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 282,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787343717.771635
+      "heartbeat_ts": 1787390620.328657
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 282.29,
-    "unrealized_pnl": 416.1,
-    "net_pnl": 698.39
+    "unrealized_pnl": 0.0,
+    "net_pnl": 282.29
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 2,
-    "updates": 7,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
-    "losses": 1
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77415.6,
-      "ETH/USDT": 2416.38
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2346.692361,
       "tp": 2425.047268,
       "size": 2.242997,
-      "price": 2416.38,
-      "upnl": 418.43,
-      "u_r": 1.6
+      "price": 2229.828748,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 77118.786,
       "tp": 78357.642,
       "size": 0.064576,
-      "price": 77415.6,
-      "upnl": -2.33,
-      "u_r": -0.11
+      "price": 77451.72855,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1052,7 +1052,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 72,
+      "index": 71,
       "label": "Codicia",
       "bias": 0
     },
@@ -1062,17 +1062,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-21",
-      "end": "2026-08-22",
-      "trades": 2,
-      "wins": 1,
-      "losses": 1,
-      "win_rate": 0.5,
-      "pnl": 58.39,
-      "avg_r": 0.17,
-      "best_r": 1.891,
-      "worst_r": -1.551,
-      "fees": 20.08
+      "start": "2026-08-22",
+      "end": "2026-08-23",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3703,11 +3703,26 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 72,
+      "index": 71,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to \u2018next bitcoin\u2019 buzz",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto advocates join in suing Illinois over digital asset tax",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Pass the Clarity Act",
         "source": "CoinDesk",
@@ -3722,32 +3737,17 @@
         "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4673.6001,
-      "XAGUSD": 69.335,
-      "EURUSD": 1.16822,
-      "GBPUSD": 1.36474,
-      "USDJPY": 158.991,
-      "AUDUSD": 0.71751,
-      "NZDUSD": 0.59812,
-      "US100": 29380.25
+      "XAUUSD": 4680.6001,
+      "XAGUSD": 69.53,
+      "EURUSD": 1.16781,
+      "GBPUSD": 1.3648,
+      "USDJPY": 158.94,
+      "AUDUSD": 0.71746,
+      "NZDUSD": 0.59773,
+      "US100": 29387.75
     },
     "period_stats": {
       "day": {
