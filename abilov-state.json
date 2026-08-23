@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787504392.311124,
+  "updated_ts": 1787510827.766258,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 94,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787504392.3092601
+      "heartbeat_ts": 1787510827.76488
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 863.3,
-    "unrealized_pnl": -162.13,
-    "net_pnl": 701.17
+    "unrealized_pnl": 0.0,
+    "net_pnl": 863.3
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77108.1,
-      "ETH/USDT": 2423.76
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 76591.3044,
       "tp": 77821.6868,
       "size": 0.06502,
-      "price": 77108.1,
-      "upnl": 11.73,
-      "u_r": 0.54
+      "price": 76927.77141,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2424.786099,
       "tp": 2089.801702,
       "size": 2.135803,
-      "price": 2423.76,
-      "upnl": -173.86,
-      "u_r": -0.99
+      "price": 2342.357082,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3810,6 +3810,11 @@
     },
     "news": [
       {
+        "title": "Regulation Crypto is here: State of Crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
         "source": "CoinDesk",
         "ts": 0
@@ -3833,11 +3838,6 @@
         "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Tokenized stocks risk repeating Wall Street\u2019s 1960s \u2018paper crisis,\u2019 Fairmint CEO says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -3852,10 +3852,10 @@
     },
     "period_stats": {
       "day": {
-        "n": 3,
-        "win_rate": 0.333,
-        "total_pnl": -40.79,
-        "total_r": -1.97
+        "n": 2,
+        "win_rate": 0.0,
+        "total_pnl": -54.07,
+        "total_r": -2.63
       },
       "week": {
         "n": 17,
