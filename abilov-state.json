@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787595240.590658,
+  "updated_ts": 1787595316.7332292,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787595240.589112
+      "heartbeat_ts": 1787595316.731978
     }
   },
   "control": {
@@ -1613,7 +1613,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1787179650.103864,
         "ts": 1787179647.60584,
         "timeframe": "1h",
@@ -1635,6 +1635,12 @@
             "kind": "TP2",
             "px": 2413.78038626,
             "pct": 7.1
+          },
+          {
+            "t": 1787595248.352035,
+            "kind": "TP3",
+            "px": 2480.44303093,
+            "pct": 10.06
           }
         ]
       },
@@ -2267,6 +2273,46 @@
             "t": 1787594449.562895,
             "kind": "open",
             "px": 0.5955571532249451
+          }
+        ]
+      },
+      {
+        "symbol": "USOIL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 84.80999755859375,
+        "sl": 86.35522163,
+        "tp_levels": [
+          83.18751228,
+          82.02859423,
+          80.86967617,
+          80.17432534
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "stoch",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787595256.400212,
+        "ts": 1787595253.891019,
+        "timeframe": "1h",
+        "msg_id": 927,
+        "updates": [
+          {
+            "t": 1787595256.400223,
+            "kind": "open",
+            "px": 84.80999755859375
           }
         ]
       }
