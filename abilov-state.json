@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787609513.125226,
+  "updated_ts": 1787611366.6594088,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787609513.1235049
+      "heartbeat_ts": 1787611366.6581812
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 677.07,
-    "unrealized_pnl": 0.0,
-    "net_pnl": 677.07
+    "unrealized_pnl": 57.53,
+    "net_pnl": 734.6
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 76974.6,
+      "ETH/USDT": 2462.48
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 76591.3044,
       "tp": 77821.6868,
       "size": 0.06502,
-      "price": 76927.77141,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 76974.6,
+      "upnl": 3.04,
+      "u_r": 0.14
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2374.578652,
       "tp": 2617.104043,
       "size": 2.053211,
-      "price": 2435.940563,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 2462.48,
+      "upnl": 54.49,
+      "u_r": 0.43
     }
   ],
   "recent_trades": [
@@ -3943,21 +3943,21 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4714.0,
-      "XAGUSD": 68.995,
-      "EURUSD": 1.16673,
-      "GBPUSD": 1.36331,
-      "USDJPY": 159.084,
-      "AUDUSD": 0.0,
-      "NZDUSD": 0.59616,
-      "US100": 29125.0
+      "XAUUSD": 4714.8999,
+      "XAGUSD": 69.005,
+      "EURUSD": 1.16686,
+      "GBPUSD": 1.36333,
+      "USDJPY": 159.11099,
+      "AUDUSD": 0.71526,
+      "NZDUSD": 0.59623,
+      "US100": 29123.25
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 0,
         "win_rate": 0.0,
-        "total_pnl": -186.23,
-        "total_r": -1.04
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 18,
