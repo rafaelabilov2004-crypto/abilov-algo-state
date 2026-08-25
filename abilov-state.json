@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787663456.801644,
+  "updated_ts": 1787663526.524431,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 15,
+      "loop_n": 16,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787663456.800131
+      "heartbeat_ts": 1787663526.523247
     }
   },
   "control": {
@@ -2367,6 +2367,44 @@
             "t": 1787663008.367862,
             "kind": "open",
             "px": 29337.75
+          }
+        ]
+      },
+      {
+        "symbol": "USDJPY",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 159.1699981689453,
+        "sl": 159.80667816,
+        "tp_levels": [
+          158.50148418,
+          158.02397418,
+          157.54646419,
+          157.25995819
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_engulfing"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787663526.5120919,
+        "ts": 1787663524.234733,
+        "timeframe": "1h",
+        "msg_id": 942,
+        "updates": [
+          {
+            "t": 1787663526.5120928,
+            "kind": "open",
+            "px": 159.1699981689453
           }
         ]
       }
