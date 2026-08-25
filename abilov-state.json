@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787686180.8160279,
+  "updated_ts": 1787688175.198828,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 256,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787686180.814288
+      "heartbeat_ts": 1787688175.198485
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 526.63,
-    "unrealized_pnl": -129.74,
-    "net_pnl": 396.89
+    "unrealized_pnl": 0.0,
+    "net_pnl": 526.63
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 3
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78377.3,
-      "ETH/USDT": 2422.94
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2426.688122,
       "tp": 2169.335634,
       "size": 2.116536,
-      "price": 2422.94,
-      "upnl": -129.74,
-      "u_r": -0.94
+      "price": 2361.641295,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3892,6 +3892,11 @@
     },
     "news": [
       {
+        "title": "South Korea trade giant POSCO brings trade receivables to Avalanche in latest tokenization move",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
         "source": "CoinDesk",
         "ts": 0
@@ -3915,22 +3920,17 @@
         "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "A 3% token move just triggered $36 million in Ethereum DeFi liquidations",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4724.6001,
-      "XAGUSD": 69.265,
-      "EURUSD": 1.16781,
-      "GBPUSD": 1.3648,
-      "USDJPY": 159.196,
-      "AUDUSD": 0.71633,
-      "NZDUSD": 0.59773,
-      "US100": 29227.25
+      "XAUUSD": 4723.0,
+      "XAGUSD": 69.04,
+      "EURUSD": 1.16795,
+      "GBPUSD": 1.36513,
+      "USDJPY": 159.12,
+      "AUDUSD": 0.71674,
+      "NZDUSD": 0.59812,
+      "US100": 29258.25
     },
     "period_stats": {
       "day": {
