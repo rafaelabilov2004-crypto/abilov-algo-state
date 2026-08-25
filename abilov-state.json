@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787613160.862394,
+  "updated_ts": 1787662483.842001,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787613160.860924
+      "heartbeat_ts": 1787662483.839401
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 677.07,
-    "unrealized_pnl": 66.11,
-    "net_pnl": 743.18
+    "unrealized_pnl": 0.0,
+    "net_pnl": 677.07
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 76985.9,
-      "ETH/USDT": 2466.3
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 76591.3044,
       "tp": 77821.6868,
       "size": 0.06502,
-      "price": 76985.9,
-      "upnl": 3.78,
-      "u_r": 0.17
+      "price": 76927.77141,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2374.578652,
       "tp": 2617.104043,
       "size": 2.053211,
-      "price": 2466.3,
-      "upnl": 62.33,
-      "u_r": 0.49
+      "price": 2435.940563,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1080,7 +1080,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 73,
+      "index": 74,
       "label": "Codicia",
       "bias": 0
     },
@@ -1479,64 +1479,6 @@
             "kind": "TP1",
             "px": 1.16930602,
             "pct": 0.42
-          }
-        ]
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4550.10009765625,
-        "sl": 4494.60680032,
-        "tp_levels": [
-          4608.36805986,
-          4649.98803286,
-          4691.60800586,
-          4716.57998966
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1787150803.176436,
-        "ts": 1787150800.902921,
-        "timeframe": "1h",
-        "msg_id": 775,
-        "updates": [
-          {
-            "t": 1787150803.1764421,
-            "kind": "open",
-            "px": 4550.10009765625
-          },
-          {
-            "t": 1787325163.121203,
-            "kind": "TP1",
-            "px": 4608.36805986,
-            "pct": 1.28
-          },
-          {
-            "t": 1787325322.233469,
-            "kind": "TP2",
-            "px": 4649.98803286,
-            "pct": 2.2
-          },
-          {
-            "t": 1787590765.109747,
-            "kind": "TP3",
-            "px": 4691.60800586,
-            "pct": 3.11
           }
         ]
       },
@@ -2408,6 +2350,75 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4550.10009765625,
+        "sl": 4494.60680032,
+        "tp_levels": [
+          4608.36805986,
+          4649.98803286,
+          4691.60800586,
+          4716.57998966
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "macd",
+          "donchian",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1787150803.176436,
+        "ts": 1787150800.902921,
+        "timeframe": "1h",
+        "msg_id": 775,
+        "updates": [
+          {
+            "t": 1787150803.1764421,
+            "kind": "open",
+            "px": 4550.10009765625
+          },
+          {
+            "t": 1787325163.121203,
+            "kind": "TP1",
+            "px": 4608.36805986,
+            "pct": 1.28
+          },
+          {
+            "t": 1787325322.233469,
+            "kind": "TP2",
+            "px": 4649.98803286,
+            "pct": 2.2
+          },
+          {
+            "t": 1787590765.109747,
+            "kind": "TP3",
+            "px": 4691.60800586,
+            "pct": 3.11
+          },
+          {
+            "t": 1787613171.8201091,
+            "kind": "TP4",
+            "px": 4716.57998966,
+            "pct": 3.66
+          }
+        ],
+        "exit": 4716.57998966,
+        "reason": "TP4",
+        "pct": 3.659,
+        "r_multiple": 3.0,
+        "closed_ts": 1787613171.820147
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -3834,123 +3845,56 @@
         "pct": 2.532,
         "r_multiple": 3.0,
         "closed_ts": 1787151342.3720052
-      },
-      {
-        "symbol": "AAPL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 303.4549865722656,
-        "sl": 298.74635211,
-        "tp_levels": [
-          308.39905275,
-          311.9305286,
-          315.46200444,
-          317.58088995
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "macd",
-          "stoch",
-          "pat_engulfing",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1786645135.3592582,
-        "ts": 1786645133.328683,
-        "timeframe": "1h",
-        "msg_id": 637,
-        "updates": [
-          {
-            "t": 1786645135.3593311,
-            "kind": "open",
-            "px": 303.4549865722656
-          },
-          {
-            "t": 1787064558.2863529,
-            "kind": "TP1",
-            "px": 308.39905275,
-            "pct": 1.63
-          },
-          {
-            "t": 1787146787.117075,
-            "kind": "TP2",
-            "px": 311.9305286,
-            "pct": 2.79
-          },
-          {
-            "t": 1787149995.055648,
-            "kind": "TP3",
-            "px": 315.46200444,
-            "pct": 3.96
-          },
-          {
-            "t": 1787151341.590993,
-            "kind": "TP4",
-            "px": 317.58088995,
-            "pct": 4.66
-          }
-        ],
-        "exit": 317.58088995,
-        "reason": "TP4",
-        "pct": 4.655,
-        "r_multiple": 3.0,
-        "closed_ts": 1787151341.591012
       }
     ]
   },
   "market_extras": {
     "sentiment": {
-      "index": 73,
+      "index": 74,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+        "title": "A 3% token move just triggered $36 million in Ethereum DeFi liquidations",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto political group details list of U.S. congressional allies its backing this year",
+        "title": "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+        "title": "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+        "title": "A bitcoin short squeeze for the ages as futures open interest collapses",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "New Solana vote could ramp daily SOL burns to $800,000 and slow new token creation",
+        "title": "Bitcoin extends 7-day advance to roughly 25%",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
+        "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4725.0,
-      "XAGUSD": 69.23,
-      "EURUSD": 1.16686,
-      "GBPUSD": 1.36349,
-      "USDJPY": 159.058,
-      "AUDUSD": 0.71515,
-      "NZDUSD": 0.59634,
-      "US100": 29121.25
+      "XAUUSD": 4694.7002,
+      "XAGUSD": 67.935,
+      "EURUSD": 1.16673,
+      "GBPUSD": 1.36316,
+      "USDJPY": 159.27699,
+      "AUDUSD": 0.71546,
+      "NZDUSD": 0.59648,
+      "US100": 29326.25
     },
     "period_stats": {
       "day": {
@@ -3975,11 +3919,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1443.64,
+    "balance": 1496.46,
     "currency": "$",
-    "total_return_pct": 44.36,
-    "closed": 213,
-    "wins": 63,
+    "total_return_pct": 49.65,
+    "closed": 214,
+    "wins": 64,
     "peak": 1591.97
   }
 }
