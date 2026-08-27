@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787767145.1853938,
+  "updated_ts": 1787826936.353209,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 56,
+      "loop_n": 57,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787767145.183847
+      "heartbeat_ts": 1787826936.301207
     }
   },
   "control": {
@@ -40,17 +40,17 @@
     "equity": 10087.99,
     "peak": 10626.53,
     "drawdown_pct": 5.07,
-    "halted": true,
-    "halt_reason": "daily_loss_limit:-484.48",
-    "open_positions": 1,
+    "halted": false,
+    "halt_reason": "",
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 378.82,
-    "unrealized_pnl": 0,
-    "net_pnl": 378.82
+    "unrealized_pnl": 0.55,
+    "net_pnl": 379.37
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 2,
+    "entries": 2,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,11 +63,36 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77269.6,
+      "ETH/USDT": 2489.19
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 77239.12131,
+      "sl": 77571.3492,
+      "tp": 76335.1524,
+      "size": 0.064715,
+      "price": 77269.6,
+      "upnl": -1.97,
+      "u_r": -0.09
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 2487.936157,
+      "sl": 2468.176193,
+      "tp": 2544.23142,
+      "size": 2.010301,
+      "price": 2489.19,
+      "upnl": 2.52,
+      "u_r": 0.06
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "ETH/USDT",
@@ -1071,7 +1096,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 65,
+      "index": 71,
       "label": "Codicia",
       "bias": 0
     },
@@ -1081,8 +1106,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-26",
-      "end": "2026-08-27",
+      "start": "2026-08-27",
+      "end": "2026-08-28",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3904,64 +3929,64 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 65,
+      "index": 71,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+        "title": "Bitcoin steadies above $79,000 as ETF inflows hit longest streak since April",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
+        "title": "Bitfinex Securities raises $50 million in push to offer tokenized nickel trading",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
+        "title": "BlackRock's Mitchnick says macro case for bitcoin is strengthening after record trading in positive week",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The evidence doesn't support the banks' case against stablecoin rewards",
+        "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
+        "title": "Britain plans new Bank of England objective for stablecoins",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "ECB claims digital euro will offer 'maximum level of privacy' amid surveillance fears",
+        "title": "Live updates: Bitcoin tops $80,000 as ETF inflows hit eight straight days",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4652.7998,
-      "XAGUSD": 68.01,
-      "EURUSD": 1.16564,
-      "GBPUSD": 1.35942,
-      "USDJPY": 159.399,
-      "AUDUSD": 0.71751,
-      "NZDUSD": 0.59442,
-      "US100": 29270.0
+      "XAUUSD": 4633.8999,
+      "XAGUSD": 68.995,
+      "EURUSD": 1.16455,
+      "GBPUSD": 1.35781,
+      "USDJPY": 159.472,
+      "AUDUSD": 0.71824,
+      "NZDUSD": 0.59439,
+      "US100": 29580.5
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 0,
         "win_rate": 0.0,
-        "total_pnl": -147.81,
-        "total_r": -1.09
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
-        "n": 15,
-        "win_rate": 0.467,
-        "total_pnl": 411.76,
-        "total_r": 2.41
+        "n": 14,
+        "win_rate": 0.429,
+        "total_pnl": 241.69,
+        "total_r": 0.43
       },
       "month": {
         "n": 22,
