@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787842714.30208,
+  "updated_ts": 1787842783.965993,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 64,
+      "loop_n": 65,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787842714.30087
+      "heartbeat_ts": 1787842783.960941
     }
   },
   "control": {
@@ -2219,45 +2219,6 @@
         ]
       },
       {
-        "symbol": "US30",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 53453.0,
-        "sl": 53673.19603137,
-        "tp_levels": [
-          53221.79416706,
-          53056.64714353,
-          52891.50012,
-          52792.41190588
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_engulfing"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1787763538.359343,
-        "ts": 1787763536.4813051,
-        "timeframe": "1h",
-        "msg_id": 956,
-        "updates": [
-          {
-            "t": 1787763538.3593512,
-            "kind": "open",
-            "px": 53453.0
-          }
-        ]
-      },
-      {
         "symbol": "TSLA",
         "side": "LONG",
         "strategy": "confluence",
@@ -2451,6 +2412,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "US30",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 53453.0,
+        "sl": 53673.19603137,
+        "tp_levels": [
+          53221.79416706,
+          53056.64714353,
+          52891.50012,
+          52792.41190588
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend",
+          "pat_engulfing"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787763538.359343,
+        "ts": 1787763536.4813051,
+        "timeframe": "1h",
+        "msg_id": 956,
+        "updates": [
+          {
+            "t": 1787763538.3593512,
+            "kind": "open",
+            "px": 53453.0
+          },
+          {
+            "t": 1787842782.011159,
+            "kind": "SL",
+            "px": 53673.19603137,
+            "pct": -0.41
+          }
+        ],
+        "exit": 53673.19603137,
+        "reason": "SL",
+        "pct": -0.412,
+        "r_multiple": -1.0,
+        "closed_ts": 1787842782.011172
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -3819,74 +3830,6 @@
         "pct": -1.934,
         "r_multiple": -1.0,
         "closed_ts": 1787233744.855572
-      },
-      {
-        "symbol": "NZDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.58833909034729,
-        "sl": 0.58598573,
-        "tp_levels": [
-          0.59081011,
-          0.59257513,
-          0.59434015,
-          0.59539916
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1787138205.671411,
-        "ts": 1787138190.880481,
-        "timeframe": "1h",
-        "msg_id": 736,
-        "updates": [
-          {
-            "t": 1787138205.671417,
-            "kind": "open",
-            "px": 0.58833909034729
-          },
-          {
-            "t": 1787144853.585222,
-            "kind": "TP1",
-            "px": 0.59081011,
-            "pct": 0.42
-          },
-          {
-            "t": 1787146504.524021,
-            "kind": "TP2",
-            "px": 0.59257513,
-            "pct": 0.72
-          },
-          {
-            "t": 1787228047.376053,
-            "kind": "TP3",
-            "px": 0.59434015,
-            "pct": 1.02
-          },
-          {
-            "t": 1787230366.799637,
-            "kind": "TP4",
-            "px": 0.59539916,
-            "pct": 1.2
-          }
-        ],
-        "exit": 0.59539916,
-        "reason": "TP4",
-        "pct": 1.2,
-        "r_multiple": 3.0,
-        "closed_ts": 1787230366.799664
       }
     ]
   },
