@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787849162.062023,
+  "updated_ts": 1787852299.194808,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787849162.0594282
+      "heartbeat_ts": 1787852299.1941261
     }
   },
   "control": {
@@ -1519,7 +1519,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1787242026.592952,
         "ts": 1787242024.290339,
         "timeframe": "1h",
@@ -1529,6 +1529,12 @@
             "t": 1787242026.592961,
             "kind": "open",
             "px": 68.38500213623047
+          },
+          {
+            "t": 1787849179.156736,
+            "kind": "TP1",
+            "px": 70.01580778,
+            "pct": 2.38
           }
         ]
       },
@@ -1973,45 +1979,6 @@
         ]
       },
       {
-        "symbol": "XAGUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 68.54499816894531,
-        "sl": 69.90256237,
-        "tp_levels": [
-          67.11955576,
-          66.10138261,
-          65.08320945,
-          64.47230556
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1787599307.94607,
-        "ts": 1787599305.726348,
-        "timeframe": "1h",
-        "msg_id": 930,
-        "updates": [
-          {
-            "t": 1787599307.946079,
-            "kind": "open",
-            "px": 68.54499816894531
-          }
-        ]
-      },
-      {
         "symbol": "XAUUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2411,6 +2378,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAGUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 68.54499816894531,
+        "sl": 69.90256237,
+        "tp_levels": [
+          67.11955576,
+          66.10138261,
+          65.08320945,
+          64.47230556
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787599307.94607,
+        "ts": 1787599305.726348,
+        "timeframe": "1h",
+        "msg_id": 930,
+        "updates": [
+          {
+            "t": 1787599307.946079,
+            "kind": "open",
+            "px": 68.54499816894531
+          },
+          {
+            "t": 1787850255.589298,
+            "kind": "SL",
+            "px": 69.90256237,
+            "pct": -1.98
+          }
+        ],
+        "exit": 69.90256237,
+        "reason": "SL",
+        "pct": -1.981,
+        "r_multiple": -1.0,
+        "closed_ts": 1787850255.589309
+      },
       {
         "symbol": "ETHUSD",
         "side": "LONG",
@@ -3798,56 +3815,6 @@
         "pct": 5.246,
         "r_multiple": 3.0,
         "closed_ts": 1787242021.9454238
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 4514.2001953125,
-        "sl": 4557.11234184,
-        "tp_levels": [
-          4469.14244146,
-          4436.95833157,
-          4404.77422168,
-          4385.46375574
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1787228064.1613429,
-        "ts": 1787228061.65852,
-        "timeframe": "1h",
-        "msg_id": 832,
-        "updates": [
-          {
-            "t": 1787228064.1613529,
-            "kind": "open",
-            "px": 4514.2001953125
-          },
-          {
-            "t": 1787241285.457758,
-            "kind": "SL",
-            "px": 4557.11234184,
-            "pct": -0.95
-          }
-        ],
-        "exit": 4557.11234184,
-        "reason": "SL",
-        "pct": -0.951,
-        "r_multiple": -1.0,
-        "closed_ts": 1787241285.457778
       }
     ]
   },
@@ -3858,6 +3825,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
         "source": "CoinDesk",
@@ -3882,22 +3854,17 @@
         "title": "Crypto for Advisors: How staking on Ethereum is changing in 2026",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4662.3999,
-      "XAGUSD": 70.055,
-      "EURUSD": 1.16577,
-      "GBPUSD": 1.35977,
-      "USDJPY": 159.271,
-      "AUDUSD": 0.71994,
-      "NZDUSD": 0.59538,
-      "US100": 29617.75
+      "XAUUSD": 4666.8999,
+      "XAGUSD": 70.345,
+      "EURUSD": 1.16523,
+      "GBPUSD": 1.35895,
+      "USDJPY": 159.383,
+      "AUDUSD": 0.71984,
+      "NZDUSD": 0.5952,
+      "US100": 29640.0
     },
     "period_stats": {
       "day": {
@@ -3922,10 +3889,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1484.39,
+    "balance": 1454.99,
     "currency": "$",
-    "total_return_pct": 48.44,
-    "closed": 230,
+    "total_return_pct": 45.5,
+    "closed": 231,
     "wins": 66,
     "peak": 1591.97
   }
