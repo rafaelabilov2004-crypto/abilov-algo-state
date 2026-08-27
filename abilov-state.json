@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787828455.683427,
+  "updated_ts": 1787828518.333327,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 80,
+      "loop_n": 81,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787828455.6811001
+      "heartbeat_ts": 1787828518.327866
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 378.82,
-    "unrealized_pnl": 4.3,
-    "net_pnl": 383.12
+    "unrealized_pnl": 7.5,
+    "net_pnl": 386.32
   },
   "stats": {
     "signals": 2,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77274.1,
-      "ETH/USDT": 2491.2
+      "BTC/USDT": 77279.9,
+      "ETH/USDT": 2492.98
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 77571.3492,
       "tp": 76335.1524,
       "size": 0.064715,
-      "price": 77274.1,
-      "upnl": -2.26,
-      "u_r": -0.11
+      "price": 77279.9,
+      "upnl": -2.64,
+      "u_r": -0.12
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2468.176193,
       "tp": 2544.23142,
       "size": 2.010301,
-      "price": 2491.2,
-      "upnl": 6.56,
-      "u_r": 0.17
+      "price": 2492.98,
+      "upnl": 10.14,
+      "u_r": 0.26
     }
   ],
   "recent_trades": [
@@ -3884,6 +3884,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin tests its largest supply wall at $80,000, near ETF holders\u2019 average price",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Unstoppable Domains drops $2 million plan to bring .crypto and .bitcoin to standard internet",
         "source": "CoinDesk",
         "ts": 0
@@ -3907,22 +3912,17 @@
         "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Britain plans new Bank of England objective for stablecoins",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4640.0,
-      "XAGUSD": 69.075,
-      "EURUSD": 1.16442,
-      "GBPUSD": 1.35775,
-      "USDJPY": 159.476,
-      "AUDUSD": 0.71824,
+      "XAUUSD": 4641.3999,
+      "XAGUSD": 69.095,
+      "EURUSD": 1.16428,
+      "GBPUSD": 1.3574,
+      "USDJPY": 159.47501,
+      "AUDUSD": 0.71813,
       "NZDUSD": 0.59446,
-      "US100": 29593.75
+      "US100": 29577.75
     },
     "period_stats": {
       "day": {
