@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787841271.802677,
+  "updated_ts": 1787841340.943838,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 42,
+      "loop_n": 43,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787841271.801827
+      "heartbeat_ts": 1787841340.942351
     }
   },
   "control": {
@@ -2437,6 +2437,45 @@
             "px": 225.31480407714844
           }
         ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 225.33090209960938,
+        "sl": 232.19259728,
+        "tp_levels": [
+          218.12612216,
+          212.97985078,
+          207.8335794,
+          204.74581657
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "vol_expansion",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787841340.9327638,
+        "ts": 1787841338.781989,
+        "timeframe": "1h",
+        "msg_id": 984,
+        "updates": [
+          {
+            "t": 1787841340.932768,
+            "kind": "open",
+            "px": 225.33090209960938
+          }
+        ]
       }
     ],
     "closed": [
@@ -3907,6 +3946,11 @@
     },
     "news": [
       {
+        "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto traders brace for Fed Chair Kevin Warsh\u2019s Jackson Hole speech",
         "source": "CoinDesk",
         "ts": 0
@@ -3930,41 +3974,36 @@
         "title": "Bitcoin experts prefer this defined-risk strategy for the next leg higher in prices",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin tests its largest supply wall at $80,000, near ETF holders\u2019 average price",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4636.2998,
-      "XAGUSD": 69.16,
-      "EURUSD": 1.16537,
-      "GBPUSD": 1.35853,
-      "USDJPY": 159.32201,
-      "AUDUSD": 0.71948,
-      "NZDUSD": 0.59506,
-      "US100": 29576.5
+      "XAUUSD": 4627.6001,
+      "XAGUSD": 68.99,
+      "EURUSD": 1.16564,
+      "GBPUSD": 1.35882,
+      "USDJPY": 159.31599,
+      "AUDUSD": 0.71953,
+      "NZDUSD": 0.59513,
+      "US100": 29582.0
     },
     "period_stats": {
       "day": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total_pnl": 36.52,
-        "total_r": 0.17
+        "n": 3,
+        "win_rate": 0.333,
+        "total_pnl": -11.66,
+        "total_r": -1.2
       },
       "week": {
-        "n": 15,
-        "win_rate": 0.4,
-        "total_pnl": 191.45,
-        "total_r": -1.28
+        "n": 16,
+        "win_rate": 0.375,
+        "total_pnl": 143.27,
+        "total_r": -2.64
       },
       "month": {
-        "n": 24,
-        "win_rate": 0.458,
-        "total_pnl": 427.51,
-        "total_r": 3.02
+        "n": 25,
+        "win_rate": 0.44,
+        "total_pnl": 379.33,
+        "total_r": 1.66
       }
     }
   },
