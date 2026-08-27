@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787845814.981462,
+  "updated_ts": 1787849162.062023,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 111,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787845814.97936
+      "heartbeat_ts": 1787849162.0594282
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 312.22,
-    "unrealized_pnl": -7.55,
-    "net_pnl": 304.67
+    "unrealized_pnl": 0.0,
+    "net_pnl": 312.22
   },
   "stats": {
-    "signals": 3,
-    "entries": 3,
-    "closes": 3,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
-    "losses": 2
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81270.5,
-      "ETH/USDT": 2520.77
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 80424.369786,
       "tp": 84274.490643,
       "size": 0.061435,
-      "price": 81270.5,
-      "upnl": -8.65,
-      "u_r": -0.14
+      "price": 81411.31607,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2493.93086,
       "tp": 2596.047421,
       "size": 1.984552,
-      "price": 2520.77,
-      "upnl": 1.1,
-      "u_r": 0.02
+      "price": 2520.215838,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3859,6 +3859,21 @@
     },
     "news": [
       {
+        "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "MoonPay\u2019s newest integration lets AI agents handle crypto lending on Solana",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025",
         "source": "CoinDesk",
         "ts": 0
@@ -3872,32 +3887,17 @@
         "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto traders brace for Fed Chair Kevin Warsh\u2019s Jackson Hole speech",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "The Clarity Act will put Main Street banks at a disadvantage",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "AI bug reports trigger emergency warning for Bitcoin Lightning node operators",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4653.0,
-      "XAGUSD": 69.51,
-      "EURUSD": 1.16537,
-      "GBPUSD": 1.35882,
-      "USDJPY": 159.293,
-      "AUDUSD": 0.71974,
-      "NZDUSD": 0.59503,
-      "US100": 29561.5
+      "XAUUSD": 4662.3999,
+      "XAGUSD": 70.055,
+      "EURUSD": 1.16577,
+      "GBPUSD": 1.35977,
+      "USDJPY": 159.271,
+      "AUDUSD": 0.71994,
+      "NZDUSD": 0.59538,
+      "US100": 29617.75
     },
     "period_stats": {
       "day": {
@@ -3922,9 +3922,9 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1369.09,
+    "balance": 1484.39,
     "currency": "$",
-    "total_return_pct": 36.91,
+    "total_return_pct": 48.44,
     "closed": 230,
     "wins": 66,
     "peak": 1591.97
