@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787839296.59633,
+  "updated_ts": 1787839369.044499,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 12,
+      "loop_n": 13,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787839296.591764
+      "heartbeat_ts": 1787839369.0427468
     }
   },
   "control": {
@@ -2329,63 +2329,6 @@
         ]
       },
       {
-        "symbol": "NVDA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 210.63999938964844,
-        "sl": 205.89813162,
-        "tp_levels": [
-          215.61896055,
-          219.17536138,
-          222.7317622,
-          224.8656027
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_engulfing",
-          "pat_star",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1787766383.552122,
-        "ts": 1787766381.380982,
-        "timeframe": "1h",
-        "msg_id": 958,
-        "updates": [
-          {
-            "t": 1787766383.552128,
-            "kind": "open",
-            "px": 210.63999938964844
-          },
-          {
-            "t": 1787838016.9552572,
-            "kind": "TP1",
-            "px": 215.61896055,
-            "pct": 2.36
-          },
-          {
-            "t": 1787838017.464455,
-            "kind": "TP2",
-            "px": 219.17536138,
-            "pct": 4.05
-          },
-          {
-            "t": 1787838018.4877188,
-            "kind": "TP3",
-            "px": 222.7317622,
-            "pct": 5.74
-          }
-        ]
-      },
-      {
         "symbol": "USOIL",
         "side": "LONG",
         "strategy": "confluence",
@@ -2459,9 +2402,116 @@
             "px": 0.7181328535079956
           }
         ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 225.31480407714844,
+        "sl": 218.22116427,
+        "tp_levels": [
+          232.76312588,
+          238.08335573,
+          243.40358559,
+          246.5957235
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787839369.0347362,
+        "ts": 1787839364.427328,
+        "timeframe": "1h",
+        "msg_id": 977,
+        "updates": [
+          {
+            "t": 1787839369.034747,
+            "kind": "open",
+            "px": 225.31480407714844
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 210.63999938964844,
+        "sl": 205.89813162,
+        "tp_levels": [
+          215.61896055,
+          219.17536138,
+          222.7317622,
+          224.8656027
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_engulfing",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1787766383.552122,
+        "ts": 1787766381.380982,
+        "timeframe": "1h",
+        "msg_id": 958,
+        "updates": [
+          {
+            "t": 1787766383.552128,
+            "kind": "open",
+            "px": 210.63999938964844
+          },
+          {
+            "t": 1787838016.9552572,
+            "kind": "TP1",
+            "px": 215.61896055,
+            "pct": 2.36
+          },
+          {
+            "t": 1787838017.464455,
+            "kind": "TP2",
+            "px": 219.17536138,
+            "pct": 4.05
+          },
+          {
+            "t": 1787838018.4877188,
+            "kind": "TP3",
+            "px": 222.7317622,
+            "pct": 5.74
+          },
+          {
+            "t": 1787839363.637902,
+            "kind": "TP4",
+            "px": 224.8656027,
+            "pct": 6.75
+          }
+        ],
+        "exit": 224.8656027,
+        "reason": "TP4",
+        "pct": 6.754,
+        "r_multiple": 3.0,
+        "closed_ts": 1787839363.6379268
+      },
       {
         "symbol": "NVDA",
         "side": "SHORT",
@@ -3850,56 +3900,6 @@
         "pct": 5.736,
         "r_multiple": 3.0,
         "closed_ts": 1787228060.7251892
-      },
-      {
-        "symbol": "US100",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 29626.5,
-        "sl": 29346.39753596,
-        "tp_levels": [
-          29920.60758724,
-          30130.68443527,
-          30340.76128329,
-          30466.80739211
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1787152311.0136142,
-        "ts": 1787152308.971427,
-        "timeframe": "1h",
-        "msg_id": 785,
-        "updates": [
-          {
-            "t": 1787152311.013621,
-            "kind": "open",
-            "px": 29626.5
-          },
-          {
-            "t": 1787228052.7920141,
-            "kind": "SL",
-            "px": 29346.39753596,
-            "pct": -0.95
-          }
-        ],
-        "exit": 29346.39753596,
-        "reason": "SL",
-        "pct": -0.945,
-        "r_multiple": -1.0,
-        "closed_ts": 1787228052.7920299
       }
     ]
   },
@@ -3910,6 +3910,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Crypto traders brace for Fed Chair Kevin Warsh\u2019s Jackson Hole speech",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "The Clarity Act will put Main Street banks at a disadvantage",
         "source": "CoinDesk",
@@ -3934,22 +3939,17 @@
         "title": "Bitcoin tests its largest supply wall at $80,000, near ETF holders\u2019 average price",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Unstoppable Domains drops $2 million plan to bring .crypto and .bitcoin to standard internet",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4626.7998,
-      "XAGUSD": 68.58,
-      "EURUSD": 1.16577,
-      "GBPUSD": 1.35934,
-      "USDJPY": 159.35899,
-      "AUDUSD": 0.71958,
-      "NZDUSD": 0.59559,
-      "US100": 29471.5
+      "XAUUSD": 4632.8999,
+      "XAGUSD": 68.85,
+      "EURUSD": 1.16564,
+      "GBPUSD": 1.35895,
+      "USDJPY": 159.35001,
+      "AUDUSD": 0.71942,
+      "NZDUSD": 0.59534,
+      "US100": 29552.0
     },
     "period_stats": {
       "day": {
@@ -3974,11 +3974,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1275.23,
+    "balance": 1361.35,
     "currency": "$",
-    "total_return_pct": 27.52,
-    "closed": 226,
-    "wins": 64,
+    "total_return_pct": 36.13,
+    "closed": 227,
+    "wins": 65,
     "peak": 1591.97
   }
 }
