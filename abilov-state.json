@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787915835.146695,
+  "updated_ts": 1787918081.3192399,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787915835.145396
+      "heartbeat_ts": 1787918081.318186
     }
   },
   "control": {
@@ -1479,7 +1479,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1787234691.86984,
         "ts": 1787234689.904223,
         "timeframe": "1h",
@@ -1489,6 +1489,12 @@
             "t": 1787234691.8698492,
             "kind": "open",
             "px": 158.86599731445312
+          },
+          {
+            "t": 1787916772.780971,
+            "kind": "TP1",
+            "px": 159.5332345,
+            "pct": 0.42
           }
         ]
       },
@@ -2379,6 +2385,43 @@
             "t": 1787842919.960313,
             "kind": "open",
             "px": 2520.4599609375
+          }
+        ]
+      },
+      {
+        "symbol": "US30",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 53619.0,
+        "sl": 53833.476,
+        "tp_levels": [
+          53393.8002,
+          53232.9432,
+          53072.0862,
+          52975.572
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "stoch"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787918081.3120599,
+        "ts": 1787918078.883648,
+        "timeframe": "1h",
+        "msg_id": 998,
+        "updates": [
+          {
+            "t": 1787918081.312072,
+            "kind": "open",
+            "px": 53619.0
           }
         ]
       }
@@ -3832,6 +3875,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Circle's USDC takes over Chelsea's jersey in Premier League first sponsorship deal",
         "source": "CoinDesk",
         "ts": 0
@@ -3855,22 +3903,17 @@
         "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Markets turn cautious before Warsh speech as bitcoin loses overnight gains",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4648.5,
-      "XAGUSD": 71.065,
-      "EURUSD": 1.16509,
-      "GBPUSD": 1.35884,
-      "USDJPY": 159.64799,
-      "AUDUSD": 0.72005,
-      "NZDUSD": 0.59524,
-      "US100": 29612.75
+      "XAUUSD": 4646.2998,
+      "XAGUSD": 71.055,
+      "EURUSD": 1.16482,
+      "GBPUSD": 1.35851,
+      "USDJPY": 159.661,
+      "AUDUSD": 0.71974,
+      "NZDUSD": 0.59464,
+      "US100": 29608.25
     },
     "period_stats": {
       "day": {
