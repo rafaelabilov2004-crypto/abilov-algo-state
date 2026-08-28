@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787919044.6966348,
+  "updated_ts": 1787920043.299398,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787919044.696286
+      "heartbeat_ts": 1787920043.298832
     }
   },
   "control": {
@@ -2424,6 +2424,46 @@
             "px": 53619.0
           }
         ]
+      },
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 79568.546875,
+        "sl": 80591.13838017,
+        "tp_levels": [
+          78494.82579457,
+          77727.88216569,
+          76960.93853681,
+          76500.77235948
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "rsi",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_engulfing",
+          "pat_pin_bar"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787920043.292855,
+        "ts": 1787919065.15314,
+        "timeframe": "1h",
+        "msg_id": 999,
+        "updates": [
+          {
+            "t": 1787920043.292861,
+            "kind": "open",
+            "px": 79568.546875
+          }
+        ]
       }
     ],
     "closed": [
@@ -3875,6 +3915,11 @@
     },
     "news": [
       {
+        "title": "SBI buys 20% stake in Indonesia's Ajaib for $270 million to expand yen stablecoin in Southeast Asia",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
         "source": "CoinDesk",
         "ts": 0
@@ -3898,22 +3943,17 @@
         "title": "Visa doubles down on South Korea with Upbit operator Dunamu on stablecoin payments",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4645.2002,
-      "XAGUSD": 71.025,
+      "XAUUSD": 4644.7998,
+      "XAGUSD": 71.16,
       "EURUSD": 1.16469,
-      "GBPUSD": 1.35831,
-      "USDJPY": 159.673,
-      "AUDUSD": 0.71974,
-      "NZDUSD": 0.59467,
-      "US100": 29602.5
+      "GBPUSD": 1.3582,
+      "USDJPY": 0.0,
+      "AUDUSD": 0.71979,
+      "NZDUSD": 0.59464,
+      "US100": 29634.25
     },
     "period_stats": {
       "day": {
