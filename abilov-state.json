@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787921755.529495,
+  "updated_ts": 1787930470.575388,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 4,
       "errors_1h": 0,
-      "feed_ok": true,
-      "heartbeat_ts": 1787921755.528487
+      "feed_ok": false,
+      "heartbeat_ts": 1787930470.282183
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 241.64,
-    "unrealized_pnl": -37.19,
-    "net_pnl": 204.45
+    "unrealized_pnl": -44.39,
+    "net_pnl": 197.25
   },
   "stats": {
     "signals": 1,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78106.4,
-      "ETH/USDT": 2502.4
+      "BTC/USDT": 78134.4,
+      "ETH/USDT": 2499.67
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2493.93086,
       "tp": 2596.047421,
       "size": 1.984552,
-      "price": 2502.4,
-      "upnl": -35.36,
-      "u_r": -0.68
+      "price": 2499.67,
+      "upnl": -40.77,
+      "u_r": -0.78
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 78413.7052,
       "tp": 77164.0844,
       "size": 0.064019,
-      "price": 78106.4,
-      "upnl": -1.83,
-      "u_r": -0.08
+      "price": 78134.4,
+      "upnl": -3.62,
+      "u_r": -0.17
     }
   ],
   "recent_trades": [
@@ -1361,58 +1361,6 @@
         ]
       },
       {
-        "symbol": "US500",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 7747.75,
-        "sl": 7786.47093452,
-        "tp_levels": [
-          7707.09301875,
-          7678.05231786,
-          7649.01161697,
-          7631.58719643
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "stoch",
-          "vol_expansion",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1787157582.696438,
-        "ts": 1787157564.655187,
-        "timeframe": "1h",
-        "msg_id": 807,
-        "updates": [
-          {
-            "t": 1787157582.696445,
-            "kind": "open",
-            "px": 7747.75
-          },
-          {
-            "t": 1787228052.796936,
-            "kind": "TP1",
-            "px": 7707.09301875,
-            "pct": 0.52
-          },
-          {
-            "t": 1787250507.7318559,
-            "kind": "TP2",
-            "px": 7678.05231786,
-            "pct": 0.9
-          }
-        ]
-      },
-      {
         "symbol": "NZDUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -1529,7 +1477,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1787242026.592952,
         "ts": 1787242024.290339,
         "timeframe": "1h",
@@ -1545,6 +1493,12 @@
             "kind": "TP1",
             "px": 70.01580778,
             "pct": 2.38
+          },
+          {
+            "t": 1787921767.944205,
+            "kind": "TP2",
+            "px": 71.18066896,
+            "pct": 4.09
           }
         ]
       },
@@ -2468,9 +2422,110 @@
             "px": 79568.546875
           }
         ]
+      },
+      {
+        "symbol": "ETHUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 2498.2900390625,
+        "sl": 2539.95534107,
+        "tp_levels": [
+          2454.54147195,
+          2423.29249544,
+          2392.04351893,
+          2373.29413303
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_star"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1787921776.4747572,
+        "ts": 1787921773.906802,
+        "timeframe": "1h",
+        "msg_id": 1004,
+        "updates": [
+          {
+            "t": 1787921776.4747689,
+            "kind": "open",
+            "px": 2498.2900390625
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7747.75,
+        "sl": 7786.47093452,
+        "tp_levels": [
+          7707.09301875,
+          7678.05231786,
+          7649.01161697,
+          7631.58719643
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "stoch",
+          "vol_expansion",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1787157582.696438,
+        "ts": 1787157564.655187,
+        "timeframe": "1h",
+        "msg_id": 807,
+        "updates": [
+          {
+            "t": 1787157582.696445,
+            "kind": "open",
+            "px": 7747.75
+          },
+          {
+            "t": 1787228052.796936,
+            "kind": "TP1",
+            "px": 7707.09301875,
+            "pct": 0.52
+          },
+          {
+            "t": 1787250507.7318559,
+            "kind": "TP2",
+            "px": 7678.05231786,
+            "pct": 0.9
+          },
+          {
+            "t": 1787921765.0346081,
+            "kind": "BE",
+            "px": 7747.75,
+            "pct": -0.0
+          }
+        ],
+        "exit": 7747.75,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1787921765.0346298
+      },
       {
         "symbol": "XAGUSD",
         "side": "SHORT",
@@ -3840,74 +3895,6 @@
         "pct": 7.336,
         "r_multiple": 3.0,
         "closed_ts": 1787325160.858281
-      },
-      {
-        "symbol": "XAGUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 64.93499755859375,
-        "sl": 63.7995112,
-        "tp_levels": [
-          66.12725824,
-          66.97887301,
-          67.83048778,
-          68.34145665
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1787143788.6261408,
-        "ts": 1787143768.2763011,
-        "timeframe": "1h",
-        "msg_id": 746,
-        "updates": [
-          {
-            "t": 1787143788.626146,
-            "kind": "open",
-            "px": 64.93499755859375
-          },
-          {
-            "t": 1787156328.202949,
-            "kind": "TP1",
-            "px": 66.12725824,
-            "pct": 1.84
-          },
-          {
-            "t": 1787179642.150301,
-            "kind": "TP2",
-            "px": 66.97887301,
-            "pct": 3.15
-          },
-          {
-            "t": 1787241283.364444,
-            "kind": "TP3",
-            "px": 67.83048778,
-            "pct": 4.46
-          },
-          {
-            "t": 1787242021.9454029,
-            "kind": "TP4",
-            "px": 68.34145665,
-            "pct": 5.25
-          }
-        ],
-        "exit": 68.34145665,
-        "reason": "TP4",
-        "pct": 5.246,
-        "r_multiple": 3.0,
-        "closed_ts": 1787242021.9454238
       }
     ]
   },
@@ -3918,6 +3905,21 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "The Clarity Act slipped to September. Banks are building anyway",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
         "source": "CoinDesk",
@@ -3932,45 +3934,30 @@
         "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Circle's USDC takes over Chelsea's jersey in Premier League first sponsorship deal",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bullish backs USD.AI with $100 million in financing to drive GPU-backed loans",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4644.2998,
-      "XAGUSD": 71.25,
-      "EURUSD": 1.16469,
-      "GBPUSD": 1.3582,
-      "USDJPY": 159.589,
-      "AUDUSD": 0.71999,
-      "NZDUSD": 0.59474,
-      "US100": 29657.75
+      "XAUUSD": 4618.3999,
+      "XAGUSD": 70.33,
+      "EURUSD": 1.16104,
+      "GBPUSD": 1.3558,
+      "USDJPY": 159.96001,
+      "AUDUSD": 0.71777,
+      "NZDUSD": 0.59238,
+      "US100": 29752.0
     },
     "period_stats": {
       "day": {
-        "n": 4,
-        "win_rate": 0.25,
-        "total_pnl": -104.15,
-        "total_r": -2.05
+        "n": 1,
+        "win_rate": 0.0,
+        "total_pnl": -70.58,
+        "total_r": -1.19
       },
       "week": {
-        "n": 18,
-        "win_rate": 0.333,
-        "total_pnl": 17.75,
-        "total_r": -5.15
+        "n": 17,
+        "win_rate": 0.294,
+        "total_pnl": -77.14,
+        "total_r": -7.04
       },
       "month": {
         "n": 27,
