@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787864129.241842,
+  "updated_ts": 1787915835.146695,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787864129.236269
+      "heartbeat_ts": 1787915835.145396
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 312.22,
-    "unrealized_pnl": -46.04,
-    "net_pnl": 266.18
+    "unrealized_pnl": 0.0,
+    "net_pnl": 312.22
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81139.8,
-      "ETH/USDT": 2505.42
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 80424.369786,
       "tp": 84274.490643,
       "size": 0.061435,
-      "price": 81139.8,
-      "upnl": -16.68,
-      "u_r": -0.28
+      "price": 81411.31607,
+      "upnl": 0.0,
+      "u_r": 0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2493.93086,
       "tp": 2596.047421,
       "size": 1.984552,
-      "price": 2505.42,
-      "upnl": -29.36,
-      "u_r": -0.56
+      "price": 2520.215838,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1112,7 +1112,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 71,
+      "index": 73,
       "label": "Codicia",
       "bias": 0
     },
@@ -1122,17 +1122,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-27",
-      "end": "2026-08-28",
-      "trades": 4,
-      "wins": 1,
-      "losses": 3,
-      "win_rate": 0.25,
-      "pnl": -66.6,
-      "avg_r": -0.627,
-      "best_r": 1.819,
-      "worst_r": -1.651,
-      "fees": 40.03
+      "start": "2026-08-28",
+      "end": "2026-08-29",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3826,58 +3826,58 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 71,
+      "index": 73,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+        "title": "Circle's USDC takes over Chelsea's jersey in Premier League first sponsorship deal",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+        "title": "Bullish backs USD.AI with $100 million in financing to drive GPU-backed loans",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+        "title": "Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
+        "title": "Visa doubles down on South Korea with Upbit operator Dunamu on stablecoin payments",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "MoonPay\u2019s newest integration lets AI agents handle crypto lending on Solana",
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025",
+        "title": "Live updates: Markets turn cautious before Warsh speech as bitcoin loses overnight gains",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4657.8999,
-      "XAGUSD": 70.065,
-      "EURUSD": 1.16564,
-      "GBPUSD": 1.35925,
-      "USDJPY": 159.38499,
-      "AUDUSD": 0.71979,
+      "XAUUSD": 4648.5,
+      "XAGUSD": 71.065,
+      "EURUSD": 1.16509,
+      "GBPUSD": 1.35884,
+      "USDJPY": 159.64799,
+      "AUDUSD": 0.72005,
       "NZDUSD": 0.59524,
-      "US100": 29637.75
+      "US100": 29612.75
     },
     "period_stats": {
       "day": {
-        "n": 4,
-        "win_rate": 0.25,
-        "total_pnl": -66.6,
-        "total_r": -2.51
+        "n": 3,
+        "win_rate": 0.333,
+        "total_pnl": -33.58,
+        "total_r": -0.86
       },
       "week": {
         "n": 17,
