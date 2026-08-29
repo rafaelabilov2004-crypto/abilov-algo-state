@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788022113.861444,
+  "updated_ts": 1788043052.684599,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 215,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788022113.85894
+      "heartbeat_ts": 1788043052.677758
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": 77.03,
-    "unrealized_pnl": -9.0,
-    "net_pnl": 68.03
+    "unrealized_pnl": 0.0,
+    "net_pnl": 77.03
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 2,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 2
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75372.5,
-      "ETH/USDT": 2447.0
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 75560.6384,
       "tp": 74356.4848,
       "size": 0.066437,
-      "price": 75372.5,
-      "upnl": -9.0,
-      "u_r": -0.42
+      "price": 75237.02212,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1130,17 +1130,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-29",
-      "end": "2026-08-30",
-      "trades": 2,
+      "start": "2026-08-30",
+      "end": "2026-08-31",
+      "trades": 0,
       "wins": 0,
-      "losses": 2,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -133.5,
-      "avg_r": -1.216,
-      "best_r": -1.177,
-      "worst_r": -1.256,
-      "fees": 20.11
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3801,16 +3801,16 @@
     },
     "period_stats": {
       "day": {
-        "n": 4,
-        "win_rate": 0.25,
-        "total_pnl": -164.62,
-        "total_r": -2.11
+        "n": 2,
+        "win_rate": 0.0,
+        "total_pnl": -133.5,
+        "total_r": -2.43
       },
       "week": {
-        "n": 17,
-        "win_rate": 0.176,
-        "total_pnl": -827.07,
-        "total_r": -12.86
+        "n": 16,
+        "win_rate": 0.125,
+        "total_pnl": -840.34,
+        "total_r": -13.53
       },
       "month": {
         "n": 31,
