@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1787950468.2881348,
+  "updated_ts": 1788005622.55915,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 105,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1787950468.286156
+      "heartbeat_ts": 1788005622.558402
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 210.52,
-    "unrealized_pnl": -44.81,
-    "net_pnl": 165.71
+    "unrealized_pnl": 0.0,
+    "net_pnl": 210.52
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 2,
-    "updates": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
-    "losses": 1
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 74504.8,
-      "ETH/USDT": 2427.18
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 75098.541498,
       "tp": 72409.575506,
       "size": 0.067181,
-      "price": 74504.8,
-      "upnl": -6.77,
-      "u_r": -0.15
+      "price": 74403.97211,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2441.004411,
       "tp": 2315.266767,
       "size": 2.075059,
-      "price": 2427.18,
-      "upnl": -38.04,
-      "u_r": -0.57
+      "price": 2408.847129,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1124,7 +1124,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 73,
+      "index": 68,
       "label": "Codicia",
       "bias": 0
     },
@@ -1134,17 +1134,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-28",
-      "end": "2026-08-29",
-      "trades": 3,
-      "wins": 1,
-      "losses": 2,
-      "win_rate": 0.333,
-      "pnl": -101.7,
-      "avg_r": -0.29,
-      "best_r": 1.55,
-      "worst_r": -1.226,
-      "fees": 29.85
+      "start": "2026-08-29",
+      "end": "2026-08-30",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3719,11 +3719,26 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 73,
+      "index": 68,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
         "source": "CoinDesk",
@@ -3738,32 +3753,17 @@
         "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The Clarity Act slipped to September. Banks are building anyway",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "SBI buys 20% stake in Indonesia's Ajaib for $270 million to expand yen stablecoin in Southeast Asia",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4505.7998,
-      "XAGUSD": 67.075,
-      "EURUSD": 0.0,
+      "XAUUSD": 4504.1001,
+      "XAGUSD": 67.09,
+      "EURUSD": 1.15875,
       "GBPUSD": 1.35375,
       "USDJPY": 160.03799,
       "AUDUSD": 0.71644,
-      "NZDUSD": 0.59147,
-      "US100": 29515.25
+      "NZDUSD": 0.59144,
+      "US100": 29509.5
     },
     "period_stats": {
       "day": {
@@ -3773,10 +3773,10 @@
         "total_r": -0.87
       },
       "week": {
-        "n": 18,
-        "win_rate": 0.333,
-        "total_pnl": -71.76,
-        "total_r": -5.16
+        "n": 15,
+        "win_rate": 0.2,
+        "total_pnl": -693.57,
+        "total_r": -10.43
       },
       "month": {
         "n": 29,
@@ -3788,11 +3788,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1407.7,
+    "balance": 1361.81,
     "currency": "$",
-    "total_return_pct": 40.77,
-    "closed": 243,
-    "wins": 68,
+    "total_return_pct": 36.18,
+    "closed": 242,
+    "wins": 67,
     "peak": 1591.97
   }
 }
