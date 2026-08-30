@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788043052.684599,
+  "updated_ts": 1788095559.736396,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788043052.677758
+      "heartbeat_ts": 1788095559.735028
     }
   },
   "control": {
@@ -1120,7 +1120,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 68,
+      "index": null,
       "label": "Codicia",
       "bias": 0
     },
@@ -3753,18 +3753,28 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 68,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
+        "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3777,40 +3787,30 @@
         "title": "Tokenized assets are busier than the data shows",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4504.1001,
-      "XAGUSD": 67.09,
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
       "EURUSD": 1.15875,
       "GBPUSD": 1.35375,
       "USDJPY": 160.03799,
       "AUDUSD": 0.71644,
       "NZDUSD": 0.59144,
-      "US100": 29509.5
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 1,
         "win_rate": 0.0,
-        "total_pnl": -133.5,
-        "total_r": -2.43
+        "total_pnl": -76.79,
+        "total_r": -1.18
       },
       "week": {
-        "n": 16,
-        "win_rate": 0.125,
-        "total_pnl": -840.34,
-        "total_r": -13.53
+        "n": 14,
+        "win_rate": 0.143,
+        "total_pnl": -786.27,
+        "total_r": -10.9
       },
       "month": {
         "n": 31,
