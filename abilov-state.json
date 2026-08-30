@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788097043.712013,
+  "updated_ts": 1788104359.557158,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788097043.7112498
+      "heartbeat_ts": 1788104359.556918
     }
   },
   "control": {
@@ -51,11 +51,11 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78177.9,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -3750,6 +3750,11 @@
     },
     "news": [
       {
+        "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
         "source": "CoinDesk",
         "ts": 0
@@ -3773,11 +3778,6 @@
         "title": "The next trillion-dollar currency may not be a stablecoin \u2014 it might not even have a name yet",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Tokenized assets are busier than the data shows",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -3792,10 +3792,10 @@
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 1,
         "win_rate": 0.0,
-        "total_pnl": -108.31,
-        "total_r": -2.75
+        "total_pnl": -31.52,
+        "total_r": -1.58
       },
       "week": {
         "n": 15,
