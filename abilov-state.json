@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788198024.309209,
+  "updated_ts": 1788198120.6612968,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788198024.307756
+      "heartbeat_ts": 1788198120.660545
     }
   },
   "control": {
@@ -2230,6 +2230,44 @@
             "t": 1788187623.461277,
             "kind": "open",
             "px": 1.16130530834198
+          }
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 314.23748779296875,
+        "sl": 319.47947156,
+        "tp_levels": [
+          308.73340484,
+          304.80191701,
+          300.87042919,
+          298.51153649
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788198120.656492,
+        "ts": 1788198093.1474628,
+        "timeframe": "1h",
+        "msg_id": 1068,
+        "updates": [
+          {
+            "t": 1788198120.656501,
+            "kind": "open",
+            "px": 314.23748779296875
           }
         ]
       }
