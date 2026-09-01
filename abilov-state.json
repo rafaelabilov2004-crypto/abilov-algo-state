@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788205692.558927,
+  "updated_ts": 1788262228.111773,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788205692.556993
+      "heartbeat_ts": 1788262228.105741
     }
   },
   "control": {
@@ -1111,7 +1111,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 62,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
@@ -1121,8 +1121,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-08-31",
-      "end": "2026-09-01",
+      "start": "2026-09-01",
+      "end": "2026-09-02",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1149,17 +1149,17 @@
     },
     "month": {
       "period": "month",
-      "start": "2026-08-01",
-      "end": "2026-09-01",
-      "trades": 32,
-      "wins": 12,
-      "losses": 20,
-      "win_rate": 0.375,
-      "pnl": 57.67,
-      "avg_r": -0.142,
-      "best_r": 2.042,
-      "worst_r": -1.651,
-      "fees": 321.55
+      "start": "2026-09-01",
+      "end": "2026-10-01",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "attribution": [
       {
@@ -2268,6 +2268,45 @@
             "t": 1788198120.656501,
             "kind": "open",
             "px": 314.23748779296875
+          }
+        ]
+      },
+      {
+        "symbol": "ETHUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 2481.5400390625,
+        "sl": 2434.35783368,
+        "tp_levels": [
+          2531.08135472,
+          2566.46800876,
+          2601.8546628,
+          2623.08665522
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788206077.705769,
+        "ts": 1788205713.016395,
+        "timeframe": "1h",
+        "msg_id": null,
+        "updates": [
+          {
+            "t": 1788206077.705769,
+            "kind": "open",
+            "px": 2481.5400390625
           }
         ]
       }
@@ -3710,51 +3749,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 62,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
+        "title": "U.S. looks to influence Japan's monetary policy. It couldn't do that with bitcoin",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+        "title": "Singapore proposes 100% reserves and a ban on yields for stablecoin issuers",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ireland bars crypto from new tax-advantaged investment accounts",
+        "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+        "title": "Strategy spends $635M buying back STRC as perpetual preferred stock lags $100 par",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strategy returns to bitcoin buys, adding $370 million of BTC last week",
+        "title": "Live updates: Bitcoin trades around $78,000 as global bond sell-off deepens",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Robinhood Chain beats Ethereum in daily revenue as memecoin trading takes over",
+        "title": "London Stock Exchange to work with Payward to bring biggest UK stocks onchain",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4494.1001,
-      "XAGUSD": 67.21,
-      "EURUSD": 1.16198,
-      "GBPUSD": 1.35485,
-      "USDJPY": 159.785,
-      "AUDUSD": 0.71674,
-      "NZDUSD": 0.59175,
-      "US100": 29455.75
+      "XAUUSD": 4426.1001,
+      "XAGUSD": 65.36,
+      "EURUSD": 1.15982,
+      "GBPUSD": 1.35377,
+      "USDJPY": 160.07401,
+      "AUDUSD": 0.71475,
+      "NZDUSD": 0.5898,
+      "US100": 29210.5
     },
     "period_stats": {
       "day": {
