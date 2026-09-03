@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788440410.786687,
+  "updated_ts": 1788440482.823704,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 102,
+      "loop_n": 103,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788440410.785747
+      "heartbeat_ts": 1788440482.822519
     }
   },
   "control": {
@@ -2149,62 +2149,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4389.7998046875,
-        "sl": 4343.90731445,
-        "tp_levels": [
-          4437.98691944,
-          4472.40628712,
-          4506.8256548,
-          4527.47727541
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "pat_engulfing",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1788355767.007376,
-        "ts": 1788355764.017453,
-        "timeframe": "1h",
-        "msg_id": 1106,
-        "updates": [
-          {
-            "t": 1788355767.007395,
-            "kind": "open",
-            "px": 4389.7998046875
-          },
-          {
-            "t": 1788433890.539414,
-            "kind": "TP1",
-            "px": 4437.98691944,
-            "pct": 1.1
-          },
-          {
-            "t": 1788434021.841276,
-            "kind": "TP2",
-            "px": 4472.40628712,
-            "pct": 1.88
-          },
-          {
-            "t": 1788439314.775189,
-            "kind": "TP3",
-            "px": 4506.8256548,
-            "pct": 2.67
-          }
-        ]
-      },
-      {
         "symbol": "US500",
         "side": "LONG",
         "strategy": "confluence",
@@ -2513,9 +2457,116 @@
             "px": 0.5872335433959961
           }
         ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4527.7001953125,
+        "sl": 4480.742369,
+        "tp_levels": [
+          4577.00591294,
+          4612.22428267,
+          4647.4426524,
+          4668.57367424
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788440482.814898,
+        "ts": 1788440479.892637,
+        "timeframe": "1h",
+        "msg_id": 1133,
+        "updates": [
+          {
+            "t": 1788440482.814911,
+            "kind": "open",
+            "px": 4527.7001953125
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4389.7998046875,
+        "sl": 4343.90731445,
+        "tp_levels": [
+          4437.98691944,
+          4472.40628712,
+          4506.8256548,
+          4527.47727541
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "pat_engulfing",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1788355767.007376,
+        "ts": 1788355764.017453,
+        "timeframe": "1h",
+        "msg_id": 1106,
+        "updates": [
+          {
+            "t": 1788355767.007395,
+            "kind": "open",
+            "px": 4389.7998046875
+          },
+          {
+            "t": 1788433890.539414,
+            "kind": "TP1",
+            "px": 4437.98691944,
+            "pct": 1.1
+          },
+          {
+            "t": 1788434021.841276,
+            "kind": "TP2",
+            "px": 4472.40628712,
+            "pct": 1.88
+          },
+          {
+            "t": 1788439314.775189,
+            "kind": "TP3",
+            "px": 4506.8256548,
+            "pct": 2.67
+          },
+          {
+            "t": 1788440478.609369,
+            "kind": "TP4",
+            "px": 4527.47727541,
+            "pct": 3.14
+          }
+        ],
+        "exit": 4527.47727541,
+        "reason": "TP4",
+        "pct": 3.136,
+        "r_multiple": 3.0,
+        "closed_ts": 1788440478.609416
+      },
       {
         "symbol": "USOIL",
         "side": "SHORT",
@@ -3933,56 +3984,6 @@
         "pct": -0.4,
         "r_multiple": -1.0,
         "closed_ts": 1787930489.742961
-      },
-      {
-        "symbol": "AAPL",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 311.0884094238281,
-        "sl": 317.04966216,
-        "tp_levels": [
-          304.82909405,
-          300.3581545,
-          295.88721495,
-          293.20465122
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1787329189.078532,
-        "ts": 1787329186.982391,
-        "timeframe": "1h",
-        "msg_id": 884,
-        "updates": [
-          {
-            "t": 1787329189.0785332,
-            "kind": "open",
-            "px": 311.0884094238281
-          },
-          {
-            "t": 1787930486.767295,
-            "kind": "SL",
-            "px": 317.04966216,
-            "pct": -1.92
-          }
-        ],
-        "exit": 317.04966216,
-        "reason": "SL",
-        "pct": -1.916,
-        "r_multiple": -1.0,
-        "closed_ts": 1787930486.7673159
       }
     ]
   },
@@ -4025,14 +4026,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4522.3999,
-      "XAGUSD": 66.76,
-      "EURUSD": 1.16279,
-      "GBPUSD": 1.35173,
-      "USDJPY": 155.554,
-      "AUDUSD": 0.72072,
-      "NZDUSD": 0.5883,
-      "US100": 29188.0
+      "XAUUSD": 4527.7002,
+      "XAGUSD": 67.005,
+      "EURUSD": 1.16293,
+      "GBPUSD": 1.35177,
+      "USDJPY": 155.58099,
+      "AUDUSD": 0.72067,
+      "NZDUSD": 0.58813,
+      "US100": 29210.25
     },
     "period_stats": {
       "day": {
@@ -4057,11 +4058,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1355.92,
+    "balance": 1398.45,
     "currency": "$",
-    "total_return_pct": 35.59,
-    "closed": 263,
-    "wins": 72,
+    "total_return_pct": 39.84,
+    "closed": 264,
+    "wins": 73,
     "peak": 1591.97
   }
 }
