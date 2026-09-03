@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788434601.686409,
+  "updated_ts": 1788434671.204934,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 12,
+      "loop_n": 13,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788434601.684822
+      "heartbeat_ts": 1788434671.203394
     }
   },
   "control": {
@@ -2339,6 +2339,44 @@
             "px": 0.5873025059700012
           }
         ]
+      },
+      {
+        "symbol": "US100",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 29165.0,
+        "sl": 28974.42215063,
+        "tp_levels": [
+          29365.10674184,
+          29508.04012887,
+          29650.97351591,
+          29736.73354812
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "stoch",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788434671.198124,
+        "ts": 1788434666.951843,
+        "timeframe": "1h",
+        "msg_id": 1125,
+        "updates": [
+          {
+            "t": 1788434671.1981409,
+            "kind": "open",
+            "px": 29165.0
+          }
+        ]
       }
     ],
     "closed": [
@@ -3820,6 +3858,11 @@
     },
     "news": [
       {
+        "title": "The yen is surging and it\u2019s helping bitcoin, for now",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Bitcoin shrugs off higher oil prices as Japanese yen rallies",
         "source": "CoinDesk",
         "ts": 0
@@ -3843,22 +3886,17 @@
         "title": "Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s fabled golden cross is coming. And USDT may be the real signal this time",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4477.0,
-      "XAGUSD": 66.33,
-      "EURUSD": 1.16158,
-      "GBPUSD": 1.34966,
-      "USDJPY": 155.924,
-      "AUDUSD": 0.71984,
+      "XAUUSD": 4477.8999,
+      "XAGUSD": 66.375,
+      "EURUSD": 1.16144,
+      "GBPUSD": 1.34949,
+      "USDJPY": 155.94901,
+      "AUDUSD": 0.71968,
       "NZDUSD": 0.58737,
-      "US100": 29167.0
+      "US100": 29164.25
     },
     "period_stats": {
       "day": {
