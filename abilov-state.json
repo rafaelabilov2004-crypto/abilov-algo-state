@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788434862.008976,
+  "updated_ts": 1788434932.466377,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 16,
+      "loop_n": 17,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788434862.0062091
+      "heartbeat_ts": 1788434932.463541
     }
   },
   "control": {
@@ -2375,6 +2375,46 @@
             "t": 1788434671.1981409,
             "kind": "open",
             "px": 29165.0
+          }
+        ]
+      },
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 92.27999877929688,
+        "sl": 90.35910717,
+        "tp_levels": [
+          94.29693497,
+          95.73760367,
+          97.17827238,
+          98.0426736
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788434932.448689,
+        "ts": 1788434929.4777532,
+        "timeframe": "1h",
+        "msg_id": 1126,
+        "updates": [
+          {
+            "t": 1788434932.448703,
+            "kind": "open",
+            "px": 92.27999877929688
           }
         ]
       }
