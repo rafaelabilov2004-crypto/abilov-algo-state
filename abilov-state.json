@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788523880.039534,
+  "updated_ts": 1788523949.8897622,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 28,
+      "loop_n": 29,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788523880.0380852
+      "heartbeat_ts": 1788523949.8885381
     }
   },
   "control": {
@@ -2183,6 +2183,45 @@
             "px": 90.73999786376953
           }
         ]
+      },
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7756.75,
+        "sl": 7787.777,
+        "tp_levels": [
+          7724.17165,
+          7700.9014,
+          7677.63115,
+          7663.669
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_engulfing",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788523949.875544,
+        "ts": 1788523947.184344,
+        "timeframe": "1h",
+        "msg_id": 1167,
+        "updates": [
+          {
+            "t": 1788523949.8756008,
+            "kind": "open",
+            "px": 7756.75
+          }
+        ]
       }
     ],
     "closed": [
@@ -3763,14 +3802,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4512.3999,
-      "XAGUSD": 67.52,
-      "EURUSD": 1.16252,
-      "GBPUSD": 1.3532,
-      "USDJPY": 156.222,
-      "AUDUSD": 0.72062,
+      "XAUUSD": 4511.3999,
+      "XAGUSD": 67.475,
+      "EURUSD": 1.16266,
+      "GBPUSD": 1.35313,
+      "USDJPY": 156.198,
+      "AUDUSD": 0.72067,
       "NZDUSD": 0.58851,
-      "US100": 29682.5
+      "US100": 29659.75
     },
     "period_stats": {
       "day": {
