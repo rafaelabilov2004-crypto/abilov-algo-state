@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788968605.4610891,
+  "updated_ts": 1788969280.3361201,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 287,
+      "loop_n": 288,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788968605.457498
+      "heartbeat_ts": 1788969280.3323898
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 45.51,
-    "unrealized_pnl": 6.44,
-    "net_pnl": 51.95
+    "unrealized_pnl": 9.67,
+    "net_pnl": 55.18
   },
   "stats": {
     "signals": 2,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78298.4,
-      "ETH/USDT": 2502.87
+      "BTC/USDT": 78304.6,
+      "ETH/USDT": 2501.05
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 79103.693678,
       "tp": 75757.318966,
       "size": 0.063884,
-      "price": 78298.4,
-      "upnl": -3.5,
-      "u_r": -0.06
+      "price": 78304.6,
+      "upnl": -3.9,
+      "u_r": -0.07
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2526.141511,
       "tp": 2456.015468,
       "size": 1.993136,
-      "price": 2502.87,
-      "upnl": 9.94,
-      "u_r": 0.27
+      "price": 2501.05,
+      "upnl": 13.57,
+      "u_r": 0.37
     }
   ],
   "recent_trades": [
@@ -3763,6 +3763,11 @@
     },
     "news": [
       {
+        "title": "Tether pushes into private credit with $400 million fund with Fasanara",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
         "source": "CoinDesk",
         "ts": 0
@@ -3786,22 +3791,17 @@
         "title": "PayPal expands stablecoin rails with custom token issuance platform",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Hunter Biden's new LAPTOP token lost 98% of its value in under an hour after $1.6 billion debut",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4439.7002,
-      "XAGUSD": 67.75,
-      "EURUSD": 1.16347,
-      "GBPUSD": 1.35512,
-      "USDJPY": 153.40199,
+      "XAUUSD": 4448.2998,
+      "XAGUSD": 67.965,
+      "EURUSD": 1.1632,
+      "GBPUSD": 1.3549,
+      "USDJPY": 153.50101,
       "AUDUSD": 0.72213,
-      "NZDUSD": 0.58469,
-      "US100": 29407.75
+      "NZDUSD": 0.58439,
+      "US100": 29436.75
     },
     "period_stats": {
       "day": {
