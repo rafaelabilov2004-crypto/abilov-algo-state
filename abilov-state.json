@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788901614.0738509,
+  "updated_ts": 1788964821.898132,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 229,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788901614.038396
+      "heartbeat_ts": 1788964821.8969128
     }
   },
   "control": {
@@ -1111,7 +1111,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 69,
+      "index": 66,
       "label": "Codicia",
       "bias": 0
     },
@@ -1121,8 +1121,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-08",
-      "end": "2026-09-09",
+      "start": "2026-09-09",
+      "end": "2026-09-10",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2455,6 +2455,44 @@
             "t": 1788898148.3352199,
             "kind": "open",
             "px": 0.7219695448875427
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4470.0,
+        "sl": 4423.2780941,
+        "tp_levels": [
+          4519.05800119,
+          4554.09943062,
+          4589.14086004,
+          4610.1657177
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1788964821.887968,
+        "ts": 1788964812.7435892,
+        "timeframe": "1h",
+        "msg_id": 1211,
+        "updates": [
+          {
+            "t": 1788964821.887979,
+            "kind": "open",
+            "px": 4470.0
           }
         ]
       }
@@ -3926,51 +3964,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 69,
+      "index": 66,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
+        "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Circle agrees to buy cross-border payments firm Tazapay for $400 million",
+        "title": "PayPal expands stablecoin rails with custom token issuance platform",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strive\u2019s SATA nears $1 billion market cap as Strategy\u2019s STRC continues to underperform",
+        "title": "Hunter Biden's new LAPTOP token lost 98% of its value in under an hour after $1.6 billion debut",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
+        "title": "KYC data is an irresistible honeypot for hackers, and we must change how it is collected",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
+        "title": "Algorand names former Chainlink executive William Herkelrath as CEO",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
+        "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4400.0,
-      "XAGUSD": 66.375,
-      "EURUSD": 1.16279,
-      "GBPUSD": 1.35369,
-      "USDJPY": 153.93201,
-      "AUDUSD": 0.72228,
-      "NZDUSD": 0.58582,
-      "US100": 29525.75
+      "XAUUSD": 4469.5,
+      "XAGUSD": 68.82,
+      "EURUSD": 1.16496,
+      "GBPUSD": 1.35619,
+      "USDJPY": 153.23,
+      "AUDUSD": 0.72317,
+      "NZDUSD": 0.58531,
+      "US100": 29523.25
     },
     "period_stats": {
       "day": {
