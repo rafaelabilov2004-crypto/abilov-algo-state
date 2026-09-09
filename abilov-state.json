@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788983958.2037911,
+  "updated_ts": 1788984021.04376,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 36,
+      "loop_n": 37,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788983958.20313
+      "heartbeat_ts": 1788984021.0425541
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 45.51,
-    "unrealized_pnl": 41.85,
-    "net_pnl": 87.36
+    "unrealized_pnl": 66.71,
+    "net_pnl": 112.22
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 1,
+    "updates": 2,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78403.5,
-      "ETH/USDT": 2481.74
+      "BTC/USDT": 78398.2,
+      "ETH/USDT": 2469.43
     }
   },
   "open_positions": [
@@ -76,21 +76,21 @@
       "sl": 79103.693678,
       "tp": 75757.318966,
       "size": 0.063884,
-      "price": 78403.5,
-      "upnl": -10.21,
-      "u_r": -0.19
+      "price": 78398.2,
+      "upnl": -9.88,
+      "u_r": -0.18
     },
     {
       "symbol": "ETH/USDT",
       "side": "SHORT",
       "strategy": "confluence",
       "entry": 2507.857417,
-      "sl": 2526.141511,
+      "sl": 2490.201914,
       "tp": 2456.015468,
       "size": 1.993136,
-      "price": 2481.74,
-      "upnl": 52.06,
-      "u_r": 1.43
+      "price": 2469.43,
+      "upnl": 76.59,
+      "u_r": 2.18
     }
   ],
   "recent_trades": [
@@ -3839,14 +3839,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4446.5,
-      "XAGUSD": 67.94,
+      "XAUUSD": 4443.1001,
+      "XAGUSD": 67.87,
       "EURUSD": 1.16347,
       "GBPUSD": 1.35461,
-      "USDJPY": 153.59,
+      "USDJPY": 153.646,
       "AUDUSD": 0.72197,
-      "NZDUSD": 0.58398,
-      "US100": 29443.5
+      "NZDUSD": 0.58394,
+      "US100": 29441.75
     },
     "period_stats": {
       "day": {
