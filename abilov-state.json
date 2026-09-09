@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788978810.232416,
+  "updated_ts": 1788979881.903866,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 435,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788978810.229652
+      "heartbeat_ts": 1788979881.9031081
     }
   },
   "control": {
@@ -45,12 +45,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 45.51,
-    "unrealized_pnl": 24.05,
-    "net_pnl": 69.56
+    "unrealized_pnl": 0.0,
+    "net_pnl": 45.51
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78374.7,
-      "ETH/USDT": 2491.59
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 79103.693678,
       "tp": 75757.318966,
       "size": 0.063884,
-      "price": 78374.7,
-      "upnl": -8.37,
-      "u_r": -0.15
+      "price": 78243.61987,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2526.141511,
       "tp": 2456.015468,
       "size": 1.993136,
-      "price": 2491.59,
-      "upnl": 32.42,
-      "u_r": 0.89
+      "price": 2507.857417,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3839,14 +3839,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4463.2998,
-      "XAGUSD": 68.585,
-      "EURUSD": 1.16374,
-      "GBPUSD": 1.35542,
-      "USDJPY": 153.505,
-      "AUDUSD": 0.72223,
-      "NZDUSD": 0.58418,
-      "US100": 29455.75
+      "XAUUSD": 4460.7998,
+      "XAGUSD": 68.415,
+      "EURUSD": 1.1632,
+      "GBPUSD": 1.35476,
+      "USDJPY": 153.63901,
+      "AUDUSD": 0.72197,
+      "NZDUSD": 0.58391,
+      "US100": 29465.75
     },
     "period_stats": {
       "day": {
