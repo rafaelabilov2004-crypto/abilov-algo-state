@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789050803.427957,
+  "updated_ts": 1789054611.046873,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789050803.427701
+      "heartbeat_ts": 1789054611.045033
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 8.68,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 1,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -4.78,
-    "unrealized_pnl": 0,
-    "net_pnl": -4.78
+    "unrealized_pnl": 14.65,
+    "net_pnl": 9.87
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 2,
+    "entries": 2,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,11 +63,36 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77845.9,
+      "ETH/USDT": 2430.07
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 77830.14395,
+      "sl": 78479.000315,
+      "tp": 75976.999055,
+      "size": 0.064223,
+      "price": 77845.9,
+      "upnl": -1.01,
+      "u_r": -0.02
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 2437.708468,
+      "sl": 2448.19376,
+      "tp": 2409.17872,
+      "size": 2.050491,
+      "price": 2430.07,
+      "upnl": 15.66,
+      "u_r": 0.73
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "ETH/USDT",
@@ -1830,7 +1855,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1788886672.892276,
         "ts": 1788886666.947411,
         "timeframe": "1h",
@@ -1840,6 +1865,12 @@
             "t": 1788886672.892302,
             "kind": "open",
             "px": 225.8350067138672
+          },
+          {
+            "t": 1789050824.0931451,
+            "kind": "TP1",
+            "px": 220.11359561,
+            "pct": 2.53
           }
         ]
       },
@@ -3662,6 +3693,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto for Advisors: Hyperliquid and the future of finance",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
         "source": "CoinDesk",
         "ts": 0
@@ -3680,27 +3721,17 @@
         "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BIS chief warns AI capex arms race relies on opaque debt, posing systemic risks",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Treasury yields continue to rise even as Bessent doubles down on bond buybacks",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4406.3999,
-      "XAGUSD": 65.075,
-      "EURUSD": 1.16252,
-      "GBPUSD": 1.35197,
-      "USDJPY": 153.925,
-      "AUDUSD": 0.71674,
-      "NZDUSD": 0.58062,
-      "US100": 29178.5
+      "XAUUSD": 4407.3999,
+      "XAGUSD": 65.04,
+      "EURUSD": 1.1632,
+      "GBPUSD": 1.35327,
+      "USDJPY": 154.037,
+      "AUDUSD": 0.71751,
+      "NZDUSD": 0.58106,
+      "US100": 29234.0
     },
     "period_stats": {
       "day": {
