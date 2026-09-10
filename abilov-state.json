@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789043740.8914611,
+  "updated_ts": 1789044795.155752,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 22,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789043740.8905191
+      "heartbeat_ts": 1789044795.154939
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -19.49,
-    "unrealized_pnl": 73.21,
-    "net_pnl": 53.72
+    "unrealized_pnl": 0.0,
+    "net_pnl": -19.49
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81216.8,
-      "ETH/USDT": 2470.18
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2490.201914,
       "tp": 2456.015468,
       "size": 1.993136,
-      "price": 2470.18,
-      "upnl": 75.1,
-      "u_r": 2.13
+      "price": 2507.857417,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 80629.098249,
       "tp": 83005.105254,
       "size": 0.061559,
-      "price": 81216.8,
-      "upnl": -1.89,
-      "u_r": -0.05
+      "price": 81247.46693,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3771,14 +3771,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4406.5,
-      "XAGUSD": 65.79,
-      "EURUSD": 1.15982,
-      "GBPUSD": 1.35033,
-      "USDJPY": 154.58099,
-      "AUDUSD": 0.71669,
-      "NZDUSD": 0.58052,
-      "US100": 29213.75
+      "XAUUSD": 4372.7002,
+      "XAGUSD": 64.49,
+      "EURUSD": 1.16077,
+      "GBPUSD": 1.35077,
+      "USDJPY": 154.34399,
+      "AUDUSD": 0.71721,
+      "NZDUSD": 0.58096,
+      "US100": 29086.0
     },
     "period_stats": {
       "day": {
@@ -3803,10 +3803,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1420.81,
+    "balance": 1409.57,
     "currency": "$",
-    "total_return_pct": 42.08,
-    "closed": 300,
+    "total_return_pct": 40.96,
+    "closed": 301,
     "wins": 82,
     "peak": 1670.05
   }
