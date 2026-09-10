@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1788989088.5336041,
+  "updated_ts": 1789042094.307582,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 115,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1788989088.531204
+      "heartbeat_ts": 1789042094.302131
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": 45.51,
-    "unrealized_pnl": 68.82,
-    "net_pnl": 114.33
+    "unrealized_pnl": 0.0,
+    "net_pnl": 45.51
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 2,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78366.8,
-      "ETH/USDT": 2469.38
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 79103.693678,
       "tp": 75757.318966,
       "size": 0.063884,
-      "price": 78366.8,
-      "upnl": -7.87,
-      "u_r": -0.14
+      "price": 78243.61987,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2490.201914,
       "tp": 2456.015468,
       "size": 1.993136,
-      "price": 2469.38,
-      "upnl": 76.69,
-      "u_r": 2.18
+      "price": 2507.857417,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1136,7 +1136,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 66,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
@@ -1146,8 +1146,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-09",
-      "end": "2026-09-10",
+      "start": "2026-09-10",
+      "end": "2026-09-11",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3802,51 +3802,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 66,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
+        "title": "BIS chief warns AI capex arms race relies on opaque debt, posing systemic risks",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+        "title": "Treasury yields continue to rise even as Bessent doubles down on bond buybacks",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Tether pushes into private credit with $400 million fund with Fasanara",
+        "title": "Crypto exchange giant Bybit to offer European \u2018super-app\u2019 with stocks, derivatives",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+        "title": "Nasdaq invests $100 million in Kraken parent company Payward at $21 billion valuation",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Consensys to split MetaMask into its own firm while staying silent on IPO",
+        "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto Long & Short:  Inside the 300-to-1 onchain gap between the dollar and euro",
+        "title": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4447.2002,
-      "XAGUSD": 67.925,
-      "EURUSD": 1.16401,
-      "GBPUSD": 1.35483,
-      "USDJPY": 153.56799,
-      "AUDUSD": 0.72207,
-      "NZDUSD": 0.58401,
-      "US100": 29460.0
+      "XAUUSD": 4419.3999,
+      "XAGUSD": 66.19,
+      "EURUSD": 1.16198,
+      "GBPUSD": 1.35241,
+      "USDJPY": 154.162,
+      "AUDUSD": 0.71891,
+      "NZDUSD": 0.58282,
+      "US100": 29282.5
     },
     "period_stats": {
       "day": {
