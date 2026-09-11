@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789134508.705096,
+  "updated_ts": 1789134573.766033,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 86,
+      "loop_n": 87,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789134508.703667
+      "heartbeat_ts": 1789134573.761012
     }
   },
   "control": {
@@ -2405,7 +2405,7 @@
           "pat_engulfing",
           "pat_star"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1789130200.347581,
         "ts": 1789130198.0766542,
         "timeframe": "1h",
@@ -2421,6 +2421,12 @@
             "kind": "TP1",
             "px": 2518.04235698,
             "pct": 1.7
+          },
+          {
+            "t": 1789134573.4655519,
+            "kind": "TP2",
+            "px": 2548.02256313,
+            "pct": 2.91
           }
         ]
       },
@@ -4009,6 +4015,11 @@
     },
     "news": [
       {
+        "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
         "source": "CoinDesk",
         "ts": 0
@@ -4032,22 +4043,17 @@
         "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin pulls back as another golden cross fails to deliver",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4438.3999,
-      "XAGUSD": 65.58,
-      "EURUSD": 1.16077,
-      "GBPUSD": 1.35212,
-      "USDJPY": 153.429,
-      "AUDUSD": 0.71777,
-      "NZDUSD": 0.5819,
-      "US100": 29388.75
+      "XAUUSD": 4429.7002,
+      "XAGUSD": 65.395,
+      "EURUSD": 1.16104,
+      "GBPUSD": 1.35243,
+      "USDJPY": 153.43401,
+      "AUDUSD": 0.71818,
+      "NZDUSD": 0.58231,
+      "US100": 29398.25
     },
     "period_stats": {
       "day": {
