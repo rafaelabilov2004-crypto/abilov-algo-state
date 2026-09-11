@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789123113.2443259,
+  "updated_ts": 1789126774.7519732,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789123113.243501
+      "heartbeat_ts": 1789126774.750865
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -36.3,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -36.3
+    "unrealized_pnl": 38.45,
+    "net_pnl": 2.15
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 0,
+    "updates": 1,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77086.2,
+      "ETH/USDT": 2460.54
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77830.14395,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 77086.2,
+      "upnl": 47.78,
+      "u_r": 1.15
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2454.5424,
       "tp": 2493.9728,
       "size": 2.028891,
-      "price": 2465.13932,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 2460.54,
+      "upnl": -9.33,
+      "u_r": -0.43
     }
   ],
   "recent_trades": [
@@ -3713,6 +3713,21 @@
     },
     "news": [
       {
+        "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live updates: Bitcoin sinks below $77,000 ahead of U.S. CPI report",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin pulls back as another golden cross fails to deliver",
         "source": "CoinDesk",
         "ts": 0
@@ -3726,32 +3741,17 @@
         "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ripple puts AI agents inside its $1 billion corporate treasury bet",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4389.7002,
-      "XAGUSD": 64.535,
+      "XAUUSD": 4378.5,
+      "XAGUSD": 64.345,
       "EURUSD": 1.15955,
-      "GBPUSD": 1.35035,
-      "USDJPY": 154.07201,
-      "AUDUSD": 0.71721,
-      "NZDUSD": 0.58214,
-      "US100": 29313.0
+      "GBPUSD": 1.35062,
+      "USDJPY": 154.03101,
+      "AUDUSD": 0.71762,
+      "NZDUSD": 0.58241,
+      "US100": 29312.25
     },
     "period_stats": {
       "day": {
