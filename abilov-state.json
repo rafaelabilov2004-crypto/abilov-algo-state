@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789138235.585706,
+  "updated_ts": 1789138305.8418229,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 144,
+      "loop_n": 145,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789138235.5833879
+      "heartbeat_ts": 1789138305.8385699
     }
   },
   "control": {
@@ -1756,63 +1756,6 @@
         ]
       },
       {
-        "symbol": "AAPL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 315.7799987792969,
-        "sl": 309.43492965,
-        "tp_levels": [
-          322.44232136,
-          327.20112321,
-          331.95992505,
-          334.81520616
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "vol_expansion",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1788878288.8203762,
-        "ts": 1788878286.11661,
-        "timeframe": "1h",
-        "msg_id": 1201,
-        "updates": [
-          {
-            "t": 1788878288.820401,
-            "kind": "open",
-            "px": 315.7799987792969
-          },
-          {
-            "t": 1789054618.9394948,
-            "kind": "TP1",
-            "px": 322.44232136,
-            "pct": 2.11
-          },
-          {
-            "t": 1789133417.595815,
-            "kind": "TP2",
-            "px": 327.20112321,
-            "pct": 3.62
-          },
-          {
-            "t": 1789133799.4653828,
-            "kind": "TP3",
-            "px": 331.95992505,
-            "pct": 5.12
-          }
-        ]
-      },
-      {
         "symbol": "NVDA",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2566,9 +2509,117 @@
             "px": 79464.0234375
           }
         ]
+      },
+      {
+        "symbol": "AAPL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 335.139892578125,
+        "sl": 326.56714215,
+        "tp_levels": [
+          344.14128053,
+          350.57084335,
+          357.00040616,
+          360.85814386
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_10",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "donchian",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789138305.827841,
+        "ts": 1789138303.556496,
+        "timeframe": "1h",
+        "msg_id": 1317,
+        "updates": [
+          {
+            "t": 1789138305.827849,
+            "kind": "open",
+            "px": 335.139892578125
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "AAPL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 315.7799987792969,
+        "sl": 309.43492965,
+        "tp_levels": [
+          322.44232136,
+          327.20112321,
+          331.95992505,
+          334.81520616
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "vol_expansion",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1788878288.8203762,
+        "ts": 1788878286.11661,
+        "timeframe": "1h",
+        "msg_id": 1201,
+        "updates": [
+          {
+            "t": 1788878288.820401,
+            "kind": "open",
+            "px": 315.7799987792969
+          },
+          {
+            "t": 1789054618.9394948,
+            "kind": "TP1",
+            "px": 322.44232136,
+            "pct": 2.11
+          },
+          {
+            "t": 1789133417.595815,
+            "kind": "TP2",
+            "px": 327.20112321,
+            "pct": 3.62
+          },
+          {
+            "t": 1789133799.4653828,
+            "kind": "TP3",
+            "px": 331.95992505,
+            "pct": 5.12
+          },
+          {
+            "t": 1789138301.7165189,
+            "kind": "TP4",
+            "px": 334.81520616,
+            "pct": 6.03
+          }
+        ],
+        "exit": 334.81520616,
+        "reason": "TP4",
+        "pct": 6.028,
+        "r_multiple": 3.0,
+        "closed_ts": 1789138301.716542
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -3942,55 +3993,6 @@
         "pct": 5.388,
         "r_multiple": 3.0,
         "closed_ts": 1788964903.39743
-      },
-      {
-        "symbol": "TSLA",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 352.1650085449219,
-        "sl": 365.45084583,
-        "tp_levels": [
-          338.2148794,
-          328.25050143,
-          318.28612347,
-          312.30749669
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1788543703.805104,
-        "ts": 1788542697.5822458,
-        "timeframe": "1h",
-        "msg_id": 1169,
-        "updates": [
-          {
-            "t": 1788543703.805106,
-            "kind": "open",
-            "px": 352.1650085449219
-          },
-          {
-            "t": 1788880882.597282,
-            "kind": "SL",
-            "px": 365.45084583,
-            "pct": -3.77
-          }
-        ],
-        "exit": 365.45084583,
-        "reason": "SL",
-        "pct": -3.773,
-        "r_multiple": -1.0,
-        "closed_ts": 1788880882.5972989
       }
     ]
   },
