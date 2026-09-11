@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789133734.522746,
+  "updated_ts": 1789133801.154073,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 74,
+      "loop_n": 75,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789133734.521143
+      "heartbeat_ts": 1789133801.15181
     }
   },
   "control": {
@@ -1777,7 +1777,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1788878288.8203762,
         "ts": 1788878286.11661,
         "timeframe": "1h",
@@ -1799,6 +1799,12 @@
             "kind": "TP2",
             "px": 327.20112321,
             "pct": 3.62
+          },
+          {
+            "t": 1789133799.4653828,
+            "kind": "TP3",
+            "px": 331.95992505,
+            "pct": 5.12
           }
         ]
       },
@@ -3997,6 +4003,11 @@
     },
     "news": [
       {
+        "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
         "source": "CoinDesk",
         "ts": 0
@@ -4020,22 +4031,17 @@
         "title": "Bitcoin pulls back as another golden cross fails to deliver",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4425.3999,
-      "XAGUSD": 65.37,
-      "EURUSD": 1.1609,
-      "GBPUSD": 1.35232,
-      "USDJPY": 153.45399,
-      "AUDUSD": 0.71849,
-      "NZDUSD": 0.58255,
-      "US100": 29425.5
+      "XAUUSD": 4428.0,
+      "XAGUSD": 65.43,
+      "EURUSD": 1.16077,
+      "GBPUSD": 1.35214,
+      "USDJPY": 153.42999,
+      "AUDUSD": 0.71813,
+      "NZDUSD": 0.58248,
+      "US100": 29432.25
     },
     "period_stats": {
       "day": {
