@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789134316.597435,
+  "updated_ts": 1789134380.354336,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 83,
+      "loop_n": 84,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789134316.596676
+      "heartbeat_ts": 1789134380.3529751
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -36.3,
-    "unrealized_pnl": 78.68,
-    "net_pnl": 42.38
+    "unrealized_pnl": 82.23,
+    "net_pnl": 45.93
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 2,
+    "updates": 3,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77089.0,
-      "ETH/USDT": 2480.46
+      "BTC/USDT": 77095.7,
+      "ETH/USDT": 2482.42
     }
   },
   "open_positions": [
@@ -76,21 +76,21 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77089.0,
-      "upnl": 47.6,
-      "u_r": 1.14
+      "price": 77095.7,
+      "upnl": 47.17,
+      "u_r": 1.13
     },
     {
       "symbol": "ETH/USDT",
       "side": "LONG",
       "strategy": "confluence",
       "entry": 2465.13932,
-      "sl": 2454.5424,
+      "sl": 2474.75048,
       "tp": 2493.9728,
       "size": 2.028891,
-      "price": 2480.46,
-      "upnl": 31.08,
-      "u_r": 1.45
+      "price": 2482.42,
+      "upnl": 35.06,
+      "u_r": 1.8
     }
   ],
   "recent_trades": [
@@ -4040,14 +4040,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4426.0,
-      "XAGUSD": 65.31,
-      "EURUSD": 1.1605,
-      "GBPUSD": 1.35184,
-      "USDJPY": 153.463,
-      "AUDUSD": 0.71793,
-      "NZDUSD": 0.58214,
-      "US100": 29378.0
+      "XAUUSD": 4438.3999,
+      "XAGUSD": 65.58,
+      "EURUSD": 1.16077,
+      "GBPUSD": 1.35212,
+      "USDJPY": 153.429,
+      "AUDUSD": 0.71777,
+      "NZDUSD": 0.5819,
+      "US100": 29388.75
     },
     "period_stats": {
       "day": {
