@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789072913.452675,
+  "updated_ts": 1789121443.362026,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789072913.449902
+      "heartbeat_ts": 1789121443.360134
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -36.3,
-    "unrealized_pnl": 9.75,
-    "net_pnl": -26.55
+    "unrealized_pnl": 0.0,
+    "net_pnl": -36.3
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77712.7,
-      "ETH/USDT": 2466.23
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77712.7,
-      "upnl": 7.54,
-      "u_r": 0.18
+      "price": 77830.14395,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2454.5424,
       "tp": 2493.9728,
       "size": 2.028891,
-      "price": 2466.23,
-      "upnl": 2.21,
-      "u_r": 0.1
+      "price": 2465.13932,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1152,7 +1152,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 69,
+      "index": 56,
       "label": "Codicia",
       "bias": 0
     },
@@ -1162,17 +1162,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-10",
-      "end": "2026-09-11",
-      "trades": 4,
-      "wins": 1,
-      "losses": 3,
-      "win_rate": 0.25,
-      "pnl": -81.8,
-      "avg_r": -0.578,
-      "best_r": 1.796,
-      "worst_r": -1.576,
-      "fees": 39.96
+      "start": "2026-09-11",
+      "end": "2026-09-12",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -1669,50 +1669,6 @@
         ]
       },
       {
-        "symbol": "AAPL",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 319.989990234375,
-        "sl": 326.20109371,
-        "tp_levels": [
-          313.46833158,
-          308.81000397,
-          304.15167636,
-          301.3566798
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1788798892.680039,
-        "ts": 1788798890.211893,
-        "timeframe": "1h",
-        "msg_id": 1180,
-        "updates": [
-          {
-            "t": 1788798892.6800451,
-            "kind": "open",
-            "px": 319.989990234375
-          },
-          {
-            "t": 1788964905.8512151,
-            "kind": "TP1",
-            "px": 313.46833158,
-            "pct": 2.04
-          }
-        ]
-      },
-      {
         "symbol": "TSLA",
         "side": "LONG",
         "strategy": "confluence",
@@ -2152,7 +2108,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 3,
         "opened_ts": 1789042124.469978,
         "ts": 1789042117.642637,
         "timeframe": "1h",
@@ -2168,6 +2124,18 @@
             "kind": "TP1",
             "px": 100.15553852,
             "pct": 1.97
+          },
+          {
+            "t": 1789072924.263398,
+            "kind": "TP2",
+            "px": 101.53806517,
+            "pct": 3.38
+          },
+          {
+            "t": 1789072925.958941,
+            "kind": "TP3",
+            "px": 102.92059181,
+            "pct": 4.79
           }
         ]
       },
@@ -2291,6 +2259,61 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "AAPL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 319.989990234375,
+        "sl": 326.20109371,
+        "tp_levels": [
+          313.46833158,
+          308.81000397,
+          304.15167636,
+          301.3566798
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 1,
+        "opened_ts": 1788798892.680039,
+        "ts": 1788798890.211893,
+        "timeframe": "1h",
+        "msg_id": 1180,
+        "updates": [
+          {
+            "t": 1788798892.6800451,
+            "kind": "open",
+            "px": 319.989990234375
+          },
+          {
+            "t": 1788964905.8512151,
+            "kind": "TP1",
+            "px": 313.46833158,
+            "pct": 2.04
+          },
+          {
+            "t": 1789072922.7935722,
+            "kind": "SL",
+            "px": 326.20109371,
+            "pct": -1.94
+          }
+        ],
+        "exit": 326.20109371,
+        "reason": "SL",
+        "pct": -1.941,
+        "r_multiple": -1.0,
+        "closed_ts": 1789072922.7936058
+      },
       {
         "symbol": "NZDUSD",
         "side": "SHORT",
@@ -3641,67 +3664,36 @@
         "pct": -0.517,
         "r_multiple": -1.0,
         "closed_ts": 1788872042.779864
-      },
-      {
-        "symbol": "US30",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 53762.0,
-        "sl": 53477.86774667,
-        "tp_levels": [
-          54060.33886599,
-          54273.43805599,
-          54486.53724599,
-          54614.39675998
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1788461294.882133,
-        "ts": 1788461292.3084989,
-        "timeframe": "1h",
-        "msg_id": 1158,
-        "updates": [
-          {
-            "t": 1788461294.88215,
-            "kind": "open",
-            "px": 53762.0
-          },
-          {
-            "t": 1788872042.2531462,
-            "kind": "SL",
-            "px": 53477.86774667,
-            "pct": -0.53
-          }
-        ],
-        "exit": 53477.86774667,
-        "reason": "SL",
-        "pct": -0.529,
-        "r_multiple": -1.0,
-        "closed_ts": 1788872042.253162
       }
     ]
   },
   "market_extras": {
     "sentiment": {
-      "index": 69,
+      "index": 56,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ripple puts AI agents inside its $1 billion corporate treasury bet",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
         "source": "CoinDesk",
@@ -3711,37 +3703,17 @@
         "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Europe\u2019s top regulator questions Polymarket and Kalshi\u2019s EU access, warns of authorization gaps",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4358.8999,
-      "XAGUSD": 64.1,
-      "EURUSD": 1.16117,
-      "GBPUSD": 1.35097,
-      "USDJPY": 154.42799,
-      "AUDUSD": 0.71597,
-      "NZDUSD": 0.57974,
-      "US100": 29145.75
+      "XAUUSD": 4389.5,
+      "XAGUSD": 64.52,
+      "EURUSD": 1.15982,
+      "GBPUSD": 1.35071,
+      "USDJPY": 154.10699,
+      "AUDUSD": 0.71715,
+      "NZDUSD": 0.58228,
+      "US100": 29322.0
     },
     "period_stats": {
       "day": {
@@ -3766,10 +3738,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1409.4,
+    "balance": 1382.04,
     "currency": "$",
-    "total_return_pct": 40.94,
-    "closed": 309,
+    "total_return_pct": 38.2,
+    "closed": 310,
     "wins": 85,
     "peak": 1670.05
   }
