@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789160564.852863,
+  "updated_ts": 1789164900.580354,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789160564.851594
+      "heartbeat_ts": 1789164900.578659
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.39,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -5.39
+    "unrealized_pnl": 4.08,
+    "net_pnl": -1.31
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77261.0,
+      "ETH/USDT": 2539.84
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77830.14395,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 77261.0,
+      "upnl": 36.55,
+      "u_r": 0.88
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2536.257164,
       "tp": 2613.908509,
       "size": 1.956434,
-      "price": 2556.436701,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 2539.84,
+      "upnl": -32.47,
+      "u_r": -0.82
     }
   ],
   "recent_trades": [
@@ -1166,17 +1166,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-11",
-      "end": "2026-09-12",
-      "trades": 1,
-      "wins": 1,
+      "start": "2026-09-12",
+      "end": "2026-09-13",
+      "trades": 0,
+      "wins": 0,
       "losses": 0,
-      "win_rate": 1.0,
-      "pnl": 30.91,
-      "avg_r": 1.545,
-      "best_r": 1.545,
-      "worst_r": 1.545,
-      "fees": 10.04
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -4025,14 +4025,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4389.8999,
-      "XAGUSD": 64.98,
+      "XAUUSD": 4390.0,
+      "XAGUSD": 65.02,
       "EURUSD": 1.16023,
       "GBPUSD": 1.35289,
       "USDJPY": 153.554,
       "AUDUSD": 0.71726,
       "NZDUSD": 0.58163,
-      "US100": 29388.25
+      "US100": 29391.75
     },
     "period_stats": {
       "day": {
