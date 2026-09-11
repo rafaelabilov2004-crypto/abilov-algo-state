@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789138623.3962722,
+  "updated_ts": 1789145916.020983,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 150,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789138623.3943942
+      "heartbeat_ts": 1789145916.011169
     }
   },
   "control": {
@@ -45,16 +45,16 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.39,
-    "unrealized_pnl": 61.33,
-    "net_pnl": 55.94
+    "unrealized_pnl": 0.0,
+    "net_pnl": -5.39
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 4,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77124.2,
-      "ETH/USDT": 2564.61
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77124.2,
-      "upnl": 45.34,
-      "u_r": 1.09
+      "price": 77830.14395,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2536.257164,
       "tp": 2613.908509,
       "size": 1.956434,
-      "price": 2564.61,
-      "upnl": 15.99,
-      "u_r": 0.41
+      "price": 2556.436701,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -4004,6 +4004,16 @@
     },
     "news": [
       {
+        "title": "With Fed rate hike all but assured, here's how markets might react",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
         "source": "CoinDesk",
         "ts": 0
@@ -4022,27 +4032,17 @@
         "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin heads higher as investors look past looming Fed rate hike",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4417.7998,
-      "XAGUSD": 65.245,
-      "EURUSD": 1.16158,
-      "GBPUSD": 1.35303,
-      "USDJPY": 153.51199,
-      "AUDUSD": 0.71762,
-      "NZDUSD": 0.58211,
-      "US100": 29352.75
+      "XAUUSD": 4404.6001,
+      "XAGUSD": 64.99,
+      "EURUSD": 1.16023,
+      "GBPUSD": 1.35236,
+      "USDJPY": 153.71001,
+      "AUDUSD": 0.71782,
+      "NZDUSD": 0.58184,
+      "US100": 29425.5
     },
     "period_stats": {
       "day": {
@@ -4067,9 +4067,9 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1453.82,
+    "balance": 1523.63,
     "currency": "$",
-    "total_return_pct": 45.38,
+    "total_return_pct": 52.36,
     "closed": 316,
     "wins": 87,
     "peak": 1670.05
