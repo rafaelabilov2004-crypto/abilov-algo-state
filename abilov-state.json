@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789145916.020983,
+  "updated_ts": 1789147993.3326368,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789145916.011169
+      "heartbeat_ts": 1789147993.3315232
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -5.39,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -5.39
+    "unrealized_pnl": 75.43,
+    "net_pnl": 70.04
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77201.1,
+      "ETH/USDT": 2574.34
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77830.14395,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 77201.1,
+      "upnl": 40.4,
+      "u_r": 0.97
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2536.257164,
       "tp": 2613.908509,
       "size": 1.956434,
-      "price": 2556.436701,
-      "upnl": 0.0,
-      "u_r": 0.0
+      "price": 2574.34,
+      "upnl": 35.03,
+      "u_r": 0.89
     }
   ],
   "recent_trades": [
@@ -2497,7 +2497,7 @@
           "vol_expansion",
           "pat_hammer"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1789135483.924586,
         "ts": 1789135481.37313,
         "timeframe": "1h",
@@ -2507,6 +2507,12 @@
             "t": 1789135483.924597,
             "kind": "open",
             "px": 79464.0234375
+          },
+          {
+            "t": 1789145936.2881129,
+            "kind": "TP1",
+            "px": 77970.19186179,
+            "pct": 1.88
           }
         ]
       },
@@ -4004,6 +4010,11 @@
     },
     "news": [
       {
+        "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "With Fed rate hike all but assured, here's how markets might react",
         "source": "CoinDesk",
         "ts": 0
@@ -4027,22 +4038,17 @@
         "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4404.6001,
-      "XAGUSD": 64.99,
+      "XAUUSD": 4404.0,
+      "XAGUSD": 65.05,
       "EURUSD": 1.16023,
-      "GBPUSD": 1.35236,
-      "USDJPY": 153.71001,
-      "AUDUSD": 0.71782,
-      "NZDUSD": 0.58184,
-      "US100": 29425.5
+      "GBPUSD": 1.35241,
+      "USDJPY": 153.69299,
+      "AUDUSD": 0.71772,
+      "NZDUSD": 0.5819,
+      "US100": 29462.0
     },
     "period_stats": {
       "day": {
