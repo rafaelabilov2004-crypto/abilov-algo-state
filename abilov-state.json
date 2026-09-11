@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789121443.362026,
+  "updated_ts": 1789123113.2443259,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789121443.360134
+      "heartbeat_ts": 1789123113.243501
     }
   },
   "control": {
@@ -2256,6 +2256,44 @@
             "px": 363.6600036621094
           }
         ]
+      },
+      {
+        "symbol": "US100",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 29327.25,
+        "sl": 29140.52981837,
+        "tp_levels": [
+          29523.30619071,
+          29663.34632693,
+          29803.38646315,
+          29887.41054489
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789123113.1769862,
+        "ts": 1789122445.01909,
+        "timeframe": "1h",
+        "msg_id": 1285,
+        "updates": [
+          {
+            "t": 1789123113.1769888,
+            "kind": "open",
+            "px": 29327.25
+          }
+        ]
       }
     ],
     "closed": [
@@ -3675,6 +3713,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin pulls back as another golden cross fails to deliver",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
         "source": "CoinDesk",
         "ts": 0
@@ -3698,22 +3741,17 @@
         "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4389.5,
-      "XAGUSD": 64.52,
-      "EURUSD": 1.15982,
-      "GBPUSD": 1.35071,
-      "USDJPY": 154.10699,
-      "AUDUSD": 0.71715,
-      "NZDUSD": 0.58228,
-      "US100": 29322.0
+      "XAUUSD": 4389.7002,
+      "XAGUSD": 64.535,
+      "EURUSD": 1.15955,
+      "GBPUSD": 1.35035,
+      "USDJPY": 154.07201,
+      "AUDUSD": 0.71721,
+      "NZDUSD": 0.58214,
+      "US100": 29313.0
     },
     "period_stats": {
       "day": {
