@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789169396.871167,
+  "updated_ts": 1789192199.7690392,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789169396.869879
+      "heartbeat_ts": 1789192199.768704
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -54.84,
-    "unrealized_pnl": 56.46,
-    "net_pnl": 1.62
+    "unrealized_pnl": 0.0,
+    "net_pnl": -54.84
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
-    "updates": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77225.8,
-      "ETH/USDT": 2518.35
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77225.8,
-      "upnl": 38.81,
-      "u_r": 0.93
+      "price": 77830.14395,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2541.14408,
       "tp": 2500.64776,
       "size": 1.481616,
-      "price": 2518.35,
-      "upnl": 17.65,
-      "u_r": 1.09
+      "price": 2530.260694,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1160,7 +1160,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 56,
+      "index": 63,
       "label": "Codicia",
       "bias": 0
     },
@@ -3992,11 +3992,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 56,
+      "index": 63,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
         "source": "CoinDesk",
@@ -4021,22 +4026,17 @@
         "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4390.0,
-      "XAGUSD": 65.02,
+      "XAUUSD": 4408.8999,
+      "XAGUSD": 65.188,
       "EURUSD": 1.16023,
       "GBPUSD": 1.35289,
       "USDJPY": 153.554,
       "AUDUSD": 0.71726,
       "NZDUSD": 0.58163,
-      "US100": 29391.75
+      "US100": 29387.0
     },
     "period_stats": {
       "day": {
