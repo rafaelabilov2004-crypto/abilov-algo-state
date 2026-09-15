@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789471282.208857,
+  "updated_ts": 1789472413.096511,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789471282.206538
+      "heartbeat_ts": 1789472413.0958972
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -82.34,
-    "unrealized_pnl": 46.09,
-    "net_pnl": -36.25
+    "unrealized_pnl": 0.0,
+    "net_pnl": -82.34
   },
   "stats": {
-    "signals": 1,
+    "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77112.5,
-      "ETH/USDT": 2482.77
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 78479.000315,
       "tp": 75976.999055,
       "size": 0.064223,
-      "price": 77112.5,
-      "upnl": 46.09,
-      "u_r": 1.11
+      "price": 77830.14395,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3733,14 +3733,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4322.7998,
-      "XAGUSD": 63.655,
+      "XAUUSD": 4322.6001,
+      "XAGUSD": 63.67,
       "EURUSD": 1.15447,
-      "GBPUSD": 1.34856,
-      "USDJPY": 154.802,
-      "AUDUSD": 0.71332,
-      "NZDUSD": 0.57673,
-      "US100": 29419.0
+      "GBPUSD": 1.34867,
+      "USDJPY": 154.774,
+      "AUDUSD": 0.71327,
+      "NZDUSD": 0.5765,
+      "US100": 29400.25
     },
     "period_stats": {
       "day": {
@@ -3767,7 +3767,7 @@
     "start": 1000.0,
     "balance": 1324.75,
     "currency": "$",
-    "total_return_pct": 32.47,
+    "total_return_pct": 32.48,
     "closed": 330,
     "wins": 89,
     "peak": 1670.05
