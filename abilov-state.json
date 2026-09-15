@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789421464.167953,
+  "updated_ts": 1789469106.7793899,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789421464.1670022
+      "heartbeat_ts": 1789469106.771897
     }
   },
   "control": {
@@ -1164,7 +1164,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 57,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
@@ -1174,8 +1174,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-14",
-      "end": "2026-09-15",
+      "start": "2026-09-15",
+      "end": "2026-09-16",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -2055,7 +2055,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1789129555.119422,
         "ts": 1789129552.8343081,
         "timeframe": "1h",
@@ -2071,6 +2071,12 @@
             "kind": "TP1",
             "px": 7674.0964,
             "pct": 0.42
+          },
+          {
+            "t": 1789421477.856859,
+            "kind": "TP2",
+            "px": 7697.0224,
+            "pct": 0.72
           }
         ]
       },
@@ -2121,46 +2127,6 @@
             "kind": "TP2",
             "px": 0.57855481,
             "pct": 0.72
-          }
-        ]
-      },
-      {
-        "symbol": "US30",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 52635.0,
-        "sl": 52888.93593011,
-        "tp_levels": [
-          52368.36727338,
-          52177.9153258,
-          51987.46337822,
-          51873.19220967
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "stoch",
-          "vol_expansion",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1789132392.527961,
-        "ts": 1789132390.220918,
-        "timeframe": "1h",
-        "msg_id": 1302,
-        "updates": [
-          {
-            "t": 1789132392.527967,
-            "kind": "open",
-            "px": 52635.0
           }
         ]
       },
@@ -2291,6 +2257,57 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "US30",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 52635.0,
+        "sl": 52888.93593011,
+        "tp_levels": [
+          52368.36727338,
+          52177.9153258,
+          51987.46337822,
+          51873.19220967
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "stoch",
+          "vol_expansion",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789132392.527961,
+        "ts": 1789132390.220918,
+        "timeframe": "1h",
+        "msg_id": 1302,
+        "updates": [
+          {
+            "t": 1789132392.527967,
+            "kind": "open",
+            "px": 52635.0
+          },
+          {
+            "t": 1789421478.5566878,
+            "kind": "SL",
+            "px": 52888.93593011,
+            "pct": -0.48
+          }
+        ],
+        "exit": 52888.93593011,
+        "reason": "SL",
+        "pct": -0.482,
+        "r_multiple": -1.0,
+        "closed_ts": 1789421478.5567129
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -3658,107 +3675,56 @@
         "pct": 6.245,
         "r_multiple": 3.0,
         "closed_ts": 1789042109.973312
-      },
-      {
-        "symbol": "XAGUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 68.79000091552734,
-        "sl": 67.40585128,
-        "tp_levels": [
-          70.24335803,
-          71.28147026,
-          72.31958249,
-          72.94244983
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "rsi",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1788965038.998656,
-        "ts": 1788965036.626518,
-        "timeframe": "1h",
-        "msg_id": 1225,
-        "updates": [
-          {
-            "t": 1788965038.998663,
-            "kind": "open",
-            "px": 68.79000091552734
-          },
-          {
-            "t": 1788968020.1076438,
-            "kind": "SL",
-            "px": 67.40585128,
-            "pct": -2.01
-          }
-        ],
-        "exit": 67.40585128,
-        "reason": "SL",
-        "pct": -2.012,
-        "r_multiple": -1.0,
-        "closed_ts": 1788968020.1076639
       }
     ]
   },
   "market_extras": {
     "sentiment": {
-      "index": 57,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Robinhood plans share redemptions, voting rights for stock tokens, after criticism",
+        "title": "Bitcoin gives back Monday's gain as Clarity Act odds fade on Polymarket",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
+        "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
+        "title": "Nigel Farage-backed Stack BTC eyes $16 million gold dealer deal to fund bitcoin buy",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+        "title": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act",
+        "title": "Live updates: Bitcoin slides to $77,000 as Senate votes on Clarity Act",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
+        "title": "XRP Ledger is one vote away from starting its next big payments upgrade",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4340.0,
-      "XAGUSD": 63.755,
-      "EURUSD": 1.1554,
-      "GBPUSD": 1.3502,
-      "USDJPY": 154.295,
-      "AUDUSD": 0.71398,
-      "NZDUSD": 0.57807,
-      "US100": 29489.75
+      "XAUUSD": 4314.7998,
+      "XAGUSD": 63.59,
+      "EURUSD": 1.15407,
+      "GBPUSD": 1.34767,
+      "USDJPY": 154.795,
+      "AUDUSD": 0.71301,
+      "NZDUSD": 0.5765,
+      "US100": 29370.25
     },
     "period_stats": {
       "day": {
@@ -3783,10 +3749,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1323.44,
+    "balance": 1317.06,
     "currency": "$",
-    "total_return_pct": 32.34,
-    "closed": 327,
+    "total_return_pct": 31.71,
+    "closed": 328,
     "wins": 88,
     "peak": 1670.05
   }
