@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789470542.601022,
+  "updated_ts": 1789471282.208857,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -11,7 +11,7 @@
       "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789470542.600472
+      "heartbeat_ts": 1789471282.206538
     }
   },
   "control": {
@@ -2234,6 +2234,44 @@
             "px": 0.7131141424179077
           }
         ]
+      },
+      {
+        "symbol": "US30",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 52710.0,
+        "sl": 52974.83164413,
+        "tp_levels": [
+          52431.92677366,
+          52233.30304057,
+          52034.67930747,
+          51915.50506761
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789471282.1948018,
+        "ts": 1789471277.9433768,
+        "timeframe": "1h",
+        "msg_id": 1352,
+        "updates": [
+          {
+            "t": 1789471282.194891,
+            "kind": "open",
+            "px": 52710.0
+          }
+        ]
       }
     ],
     "closed": [
@@ -3664,6 +3702,11 @@
     },
     "news": [
       {
+        "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Why banks should stop worrying and learn to love the Clarity Act",
         "source": "CoinDesk",
         "ts": 0
@@ -3687,22 +3730,17 @@
         "title": "Nigel Farage-backed Stack BTC eyes $16 million gold dealer deal to fund bitcoin buy",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4321.7998,
-      "XAGUSD": 63.665,
-      "EURUSD": 1.1538,
-      "GBPUSD": 1.34782,
-      "USDJPY": 154.79201,
-      "AUDUSD": 0.71311,
-      "NZDUSD": 0.5765,
-      "US100": 29393.5
+      "XAUUSD": 4322.7998,
+      "XAGUSD": 63.655,
+      "EURUSD": 1.15447,
+      "GBPUSD": 1.34856,
+      "USDJPY": 154.802,
+      "AUDUSD": 0.71332,
+      "NZDUSD": 0.57673,
+      "US100": 29419.0
     },
     "period_stats": {
       "day": {
