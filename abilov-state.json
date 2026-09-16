@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789577391.177251,
+  "updated_ts": 1789577459.430699,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 75,
+      "loop_n": 76,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789577391.176436
+      "heartbeat_ts": 1789577459.428253
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 9.04,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -43.46,
-    "unrealized_pnl": -2.79,
-    "net_pnl": -46.25
+    "unrealized_pnl": -1.74,
+    "net_pnl": -45.2
   },
   "stats": {
     "signals": 4,
-    "entries": 3,
+    "entries": 4,
     "closes": 3,
     "updates": 5,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75606.7,
-      "ETH/USDT": 2441.33
+      "BTC/USDT": 75613.9,
+      "ETH/USDT": 2439.85
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 75930.18884,
       "tp": 74558.23348,
       "size": 0.066149,
-      "price": 75606.7,
-      "upnl": -2.79,
-      "u_r": -0.12
+      "price": 75613.9,
+      "upnl": -3.27,
+      "u_r": -0.14
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 2440.597601,
+      "sl": 2476.444068,
+      "tp": 2335.987795,
+      "size": 2.048064,
+      "price": 2439.85,
+      "upnl": 1.53,
+      "u_r": 0.02
     }
   ],
   "recent_trades": [
@@ -4016,14 +4028,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4388.0,
-      "XAGUSD": 65.03,
-      "EURUSD": 1.15407,
-      "GBPUSD": 1.34485,
-      "USDJPY": 155.105,
+      "XAUUSD": 4389.7998,
+      "XAGUSD": 65.025,
+      "EURUSD": 1.15393,
+      "GBPUSD": 1.34477,
+      "USDJPY": 155.092,
       "AUDUSD": 0.71347,
       "NZDUSD": 0.57607,
-      "US100": 29470.0
+      "US100": 29472.75
     },
     "period_stats": {
       "day": {
