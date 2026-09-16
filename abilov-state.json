@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789577165.43062,
+  "updated_ts": 1789577262.230911,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 72,
+      "loop_n": 73,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789577165.426461
+      "heartbeat_ts": 1789577262.229082
     }
   },
   "control": {
@@ -2511,6 +2511,44 @@
             "px": 0.5761364102363586
           }
         ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 216.0399932861328,
+        "sl": 212.39254616,
+        "tp_levels": [
+          219.86981277,
+          222.60539812,
+          225.34098347,
+          226.98233468
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789577262.1974761,
+        "ts": 1789577233.1227012,
+        "timeframe": "1h",
+        "msg_id": 1384,
+        "updates": [
+          {
+            "t": 1789577262.198472,
+            "kind": "open",
+            "px": 216.0399932861328
+          }
+        ]
       }
     ],
     "closed": [
@@ -3978,14 +4016,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4389.8999,
-      "XAGUSD": 65.045,
-      "EURUSD": 1.15393,
-      "GBPUSD": 1.34492,
-      "USDJPY": 155.11501,
-      "AUDUSD": 0.71352,
-      "NZDUSD": 0.5761,
-      "US100": 29467.5
+      "XAUUSD": 4388.0,
+      "XAGUSD": 65.03,
+      "EURUSD": 1.15407,
+      "GBPUSD": 1.34485,
+      "USDJPY": 155.105,
+      "AUDUSD": 0.71347,
+      "NZDUSD": 0.57607,
+      "US100": 29470.0
     },
     "period_stats": {
       "day": {
