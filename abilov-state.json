@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789582662.579474,
+  "updated_ts": 1789589922.655908,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 155,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789582662.57857
+      "heartbeat_ts": 1789589922.655489
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -43.46,
-    "unrealized_pnl": 19.58,
-    "net_pnl": -23.88
+    "unrealized_pnl": 0.0,
+    "net_pnl": -43.46
   },
   "stats": {
-    "signals": 4,
-    "entries": 4,
-    "closes": 3,
-    "updates": 5,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 2,
-    "losses": 1
+    "wins": 0,
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75631.3,
-      "ETH/USDT": 2428.88
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 75930.18884,
       "tp": 74558.23348,
       "size": 0.066149,
-      "price": 75631.3,
-      "upnl": -4.42,
-      "u_r": -0.18
+      "price": 75564.52384,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2476.444068,
       "tp": 2335.987795,
       "size": 2.048064,
-      "price": 2428.88,
-      "upnl": 24.0,
-      "u_r": 0.33
+      "price": 2440.597601,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3895,6 +3895,11 @@
     },
     "news": [
       {
+        "title": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Fed raises rates by 25 basis points in first hike since July 2023",
         "source": "CoinDesk",
         "ts": 0
@@ -3910,7 +3915,7 @@
         "ts": 0
       },
       {
-        "title": "Hamas\u2019 military wing told donors to avoid Binance. Use Bybit, OKX and others instead",
+        "title": "Hamas military wing told donors to avoid sending crypto directly from Binance, DOJ filing shows",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3918,22 +3923,17 @@
         "title": "Crypto Long & Short: Six signs a crypto winter is ending",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Payward plans to offer U.S. clients onchain perpetual futures on Hyperliquid",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4377.7998,
-      "XAGUSD": 64.835,
-      "EURUSD": 1.15035,
-      "GBPUSD": 1.341,
-      "USDJPY": 155.466,
-      "AUDUSD": 0.71159,
-      "NZDUSD": 0.57418,
-      "US100": 29518.0
+      "XAUUSD": 4307.0,
+      "XAGUSD": 63.48,
+      "EURUSD": 1.14705,
+      "GBPUSD": 1.33822,
+      "USDJPY": 156.30299,
+      "AUDUSD": 0.70907,
+      "NZDUSD": 0.5714,
+      "US100": 29263.5
     },
     "period_stats": {
       "day": {
@@ -3958,10 +3958,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1327.62,
+    "balance": 1316.93,
     "currency": "$",
-    "total_return_pct": 32.76,
-    "closed": 335,
+    "total_return_pct": 31.69,
+    "closed": 336,
     "wins": 92,
     "peak": 1670.05
   }
