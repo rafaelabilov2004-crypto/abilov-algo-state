@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789725207.879283,
+  "updated_ts": 1789725274.641637,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 12,
+      "loop_n": 13,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789725207.877592
+      "heartbeat_ts": 1789725274.640032
     }
   },
   "control": {
@@ -2025,6 +2025,45 @@
             "px": 1.1487650871276855
           }
         ]
+      },
+      {
+        "symbol": "GBPUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.3370234966278076,
+        "sl": 1.3316754,
+        "tp_levels": [
+          1.342639,
+          1.34665007,
+          1.35066114,
+          1.35306778
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789725274.6230268,
+        "ts": 1789725271.69808,
+        "timeframe": "1h",
+        "msg_id": 1433,
+        "updates": [
+          {
+            "t": 1789725274.623032,
+            "kind": "open",
+            "px": 1.3370234966278076
+          }
+        ]
       }
     ],
     "closed": [
@@ -3526,6 +3565,11 @@
     },
     "news": [
       {
+        "title": "Live updates: HYPE leads altcoin rally as bitcoin recovers toward $78,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
         "source": "CoinDesk",
         "ts": 0
@@ -3549,22 +3593,17 @@
         "title": "Ethereum confirms Glamsterdam dates, but warns 'fake' builders could stall the chain",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4420.2002,
-      "XAGUSD": 67.565,
+      "XAUUSD": 4417.5,
+      "XAGUSD": 67.605,
       "EURUSD": 1.1489,
-      "GBPUSD": 1.3369,
-      "USDJPY": 157.979,
+      "GBPUSD": 1.33702,
+      "USDJPY": 157.88699,
       "AUDUSD": 0.71286,
-      "NZDUSD": 0.57179,
-      "US100": 29847.0
+      "NZDUSD": 0.57195,
+      "US100": 29847.75
     },
     "period_stats": {
       "day": {
