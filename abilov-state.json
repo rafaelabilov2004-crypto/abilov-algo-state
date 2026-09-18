@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789744185.150594,
+  "updated_ts": 1789763119.9733272,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 73,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789744185.149546
+      "heartbeat_ts": 1789763119.972118
     }
   },
   "control": {
@@ -51,11 +51,11 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 79166.3,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -3801,6 +3801,16 @@
     },
     "news": [
       {
+        "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "DHS\u2019s predictive policing is unconstitutional, un-American and should be stopped",
         "source": "CoinDesk",
         "ts": 0
@@ -3819,27 +3829,17 @@
         "title": "XRP on the brink of a golden cross as focus switches to altcoins",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4393.2998,
-      "XAGUSD": 66.845,
-      "EURUSD": 1.14653,
-      "GBPUSD": 1.33611,
-      "USDJPY": 157.211,
-      "AUDUSD": 0.71104,
-      "NZDUSD": 0.57104,
-      "US100": 29749.25
+      "XAUUSD": 4419.1001,
+      "XAGUSD": 66.94,
+      "EURUSD": 1.14916,
+      "GBPUSD": 1.33973,
+      "USDJPY": 156.767,
+      "AUDUSD": 0.71291,
+      "NZDUSD": 0.5727,
+      "US100": 29971.0
     },
     "period_stats": {
       "day": {
@@ -3855,19 +3855,19 @@
         "total_r": -5.09
       },
       "month": {
-        "n": 43,
-        "win_rate": 0.372,
-        "total_pnl": -112.85,
-        "total_r": -8.58
+        "n": 40,
+        "win_rate": 0.35,
+        "total_pnl": -165.83,
+        "total_r": -10.83
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1522.32,
+    "balance": 1518.21,
     "currency": "$",
-    "total_return_pct": 52.23,
-    "closed": 356,
+    "total_return_pct": 51.82,
+    "closed": 357,
     "wins": 98,
     "peak": 1670.05
   }
