@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789733490.1340008,
+  "updated_ts": 1789734078.3266041,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 81,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789733490.130048
+      "heartbeat_ts": 1789734078.326251
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -155.75,
-    "unrealized_pnl": -18.36,
-    "net_pnl": -174.11
+    "unrealized_pnl": 0.0,
+    "net_pnl": -155.75
   },
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 76049.3,
-      "ETH/USDT": 2525.62
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 76271.139108,
       "tp": 74361.382676,
       "size": 0.065969,
-      "price": 76049.3,
-      "upnl": -18.36,
-      "u_r": -0.56
+      "price": 75770.96189,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1703,7 +1703,7 @@
           "donchian",
           "vol_expansion"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1789575257.025016,
         "ts": 1789575254.7154539,
         "timeframe": "1h",
@@ -1719,6 +1719,12 @@
             "kind": "TP1",
             "px": 1.33880081,
             "pct": 0.42
+          },
+          {
+            "t": 1789733498.685502,
+            "kind": "TP2",
+            "px": 1.33476747,
+            "pct": 0.72
           }
         ]
       },
@@ -3830,14 +3836,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4420.2998,
-      "XAGUSD": 67.4,
-      "EURUSD": 1.14639,
-      "GBPUSD": 1.33442,
-      "USDJPY": 157.875,
-      "AUDUSD": 0.7123,
-      "NZDUSD": 0.5712,
-      "US100": 29824.75
+      "XAUUSD": 4411.2002,
+      "XAGUSD": 67.14,
+      "EURUSD": 1.14613,
+      "GBPUSD": 1.3338,
+      "USDJPY": 157.864,
+      "AUDUSD": 0.71185,
+      "NZDUSD": 0.57091,
+      "US100": 29798.5
     },
     "period_stats": {
       "day": {
@@ -3862,11 +3868,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1487.89,
+    "balance": 1538.92,
     "currency": "$",
-    "total_return_pct": 48.79,
+    "total_return_pct": 53.89,
     "closed": 353,
-    "wins": 97,
+    "wins": 98,
     "peak": 1670.05
   }
 }
