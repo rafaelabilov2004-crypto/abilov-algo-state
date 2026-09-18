@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789766057.8103669,
+  "updated_ts": 1789768972.412698,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789766057.808984
+      "heartbeat_ts": 1789768972.411435
     }
   },
   "control": {
@@ -1181,17 +1181,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-18",
-      "end": "2026-09-19",
-      "trades": 2,
+      "start": "2026-09-19",
+      "end": "2026-09-20",
+      "trades": 0,
       "wins": 0,
-      "losses": 2,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -89.62,
-      "avg_r": -1.007,
-      "best_r": -0.648,
-      "worst_r": -1.366,
-      "fees": 20.06
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3746,10 +3746,10 @@
         "total_r": -5.09
       },
       "month": {
-        "n": 40,
-        "win_rate": 0.35,
-        "total_pnl": -165.83,
-        "total_r": -10.83
+        "n": 39,
+        "win_rate": 0.333,
+        "total_pnl": -335.9,
+        "total_r": -12.81
       }
     }
   },
