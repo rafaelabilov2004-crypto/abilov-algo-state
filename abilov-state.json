@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789739202.2056289,
+  "updated_ts": 1789743109.329856,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 56,
+      "loop_n": 57,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789739202.199968
+      "heartbeat_ts": 1789743109.328513
     }
   },
   "control": {
@@ -37,25 +37,25 @@
     "grid_range"
   ],
   "account": {
-    "equity": 9553.42,
+    "equity": 9510.39,
     "peak": 10626.53,
-    "drawdown_pct": 10.1,
+    "drawdown_pct": 10.5,
     "halted": true,
-    "halt_reason": "consecutive_losses:4>=4",
-    "open_positions": 2,
+    "halt_reason": "consecutive_losses:5>=4",
+    "open_positions": 1,
     "start_equity": 10000.0,
-    "realized_pnl": -155.75,
-    "unrealized_pnl": -21.95,
-    "net_pnl": -177.7
+    "realized_pnl": -198.77,
+    "unrealized_pnl": 0,
+    "net_pnl": -198.77
   },
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 0,
+    "closes": 1,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   "exchange": {
     "venue": "paper",
@@ -63,25 +63,23 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 76103.7,
+      "BTC/USDT": 79166.3,
       "ETH/USDT": 0.0
     }
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_trades": [
     {
       "symbol": "BTC/USDT",
       "side": "SHORT",
       "strategy": "confluence",
-      "entry": 75770.96189,
-      "sl": 76271.139108,
-      "tp": 74361.382676,
-      "size": 0.065969,
-      "price": 76103.7,
-      "upnl": -21.95,
-      "u_r": -0.67
-    }
-  ],
-  "recent_trades": [
+      "entry_price": 75770.96189,
+      "exit_price": 76271.139108,
+      "pnl": -43.026,
+      "r_multiple": -1.366,
+      "exit_reason": "SL",
+      "closed_ts": 1789740900.0
+    },
     {
       "symbol": "ETH/USDT",
       "side": "SHORT",
@@ -620,17 +618,6 @@
       "r_multiple": -1.576,
       "exit_reason": "SL",
       "closed_ts": 1784378700.0
-    },
-    {
-      "symbol": "ETH/USDT",
-      "side": "LONG",
-      "strategy": "confluence",
-      "entry_price": 1845.683539,
-      "exit_price": 1837.198155,
-      "pnl": -1.978,
-      "r_multiple": -1.649,
-      "exit_reason": "SL",
-      "closed_ts": 1784377800.0
     }
   ],
   "equity_curve": [
@@ -1049,23 +1036,27 @@
     {
       "ts": 1789723800.0,
       "cum_pnl": -155.75
+    },
+    {
+      "ts": 1789740900.0,
+      "cum_pnl": -198.77
     }
   ],
   "kpis": {
-    "n": 104,
-    "win_rate": 0.375,
-    "expectancy_r": -0.1735,
-    "profit_factor": 0.916,
-    "total_pnl": -155.75
+    "n": 105,
+    "win_rate": 0.3714,
+    "expectancy_r": -0.1848,
+    "profit_factor": 0.895,
+    "total_pnl": -198.77
   },
   "gamify": {
     "level": 5,
-    "xp": 1040,
-    "xp_pct": 16,
-    "score": -1804,
+    "xp": 1050,
+    "xp_pct": 20,
+    "score": -1941,
     "current_streak": 0,
     "best_streak": 4,
-    "total_r": -18.04,
+    "total_r": -19.41,
     "badges": [
       {
         "id": "first",
@@ -1095,12 +1086,12 @@
     ],
     "goal_gate1": {
       "label": "GATE 1 \u00b7 \u044d\u0434\u0436 +0.20R",
-      "cur": -0.1735,
+      "cur": -0.1848,
       "target": 0.2
     },
     "goal_gate4": {
       "label": "GATE 4 \u00b7 200 \u0441\u0434\u0435\u043b\u043e\u043a",
-      "cur": 104,
+      "cur": 105,
       "target": 200
     }
   },
@@ -1115,10 +1106,10 @@
       },
       {
         "key": "confluence",
-        "n": 99,
-        "win_rate": 0.384,
-        "expectancy_r": -0.189,
-        "total_pnl": -156.48
+        "n": 100,
+        "win_rate": 0.38,
+        "expectancy_r": -0.201,
+        "total_pnl": -199.51
       },
       {
         "key": "donchian_breakout",
@@ -1138,10 +1129,10 @@
       },
       {
         "key": "BTC/USDT",
-        "n": 39,
-        "win_rate": 0.359,
-        "expectancy_r": -0.19,
-        "total_pnl": -175.14
+        "n": 40,
+        "win_rate": 0.35,
+        "expectancy_r": -0.219,
+        "total_pnl": -218.16
       },
       {
         "key": "SOL/USDT",
@@ -1175,7 +1166,7 @@
       "id": 4,
       "name": "Track record \u2265200 + \u0431\u0438\u0437\u043d\u0435\u0441",
       "done": false,
-      "note": "104/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.173R"
+      "note": "105/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.185R"
     }
   ],
   "phase4": {
@@ -1192,43 +1183,43 @@
       "period": "day",
       "start": "2026-09-18",
       "end": "2026-09-19",
-      "trades": 1,
+      "trades": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "win_rate": 0.0,
-      "pnl": -46.59,
-      "avg_r": -0.648,
+      "pnl": -89.62,
+      "avg_r": -1.007,
       "best_r": -0.648,
-      "worst_r": -0.648,
-      "fees": 10.03
+      "worst_r": -1.366,
+      "fees": 20.06
     },
     "week": {
       "period": "week",
       "start": "2026-09-14",
       "end": "2026-09-21",
-      "trades": 7,
+      "trades": 8,
       "wins": 2,
-      "losses": 5,
-      "win_rate": 0.286,
-      "pnl": -113.81,
-      "avg_r": -0.438,
+      "losses": 6,
+      "win_rate": 0.25,
+      "pnl": -156.84,
+      "avg_r": -0.554,
       "best_r": 1.838,
       "worst_r": -1.574,
-      "fees": 69.93
+      "fees": 79.96
     },
     "month": {
       "period": "month",
       "start": "2026-09-01",
       "end": "2026-10-01",
-      "trades": 14,
+      "trades": 15,
       "wins": 5,
-      "losses": 9,
-      "win_rate": 0.357,
-      "pnl": -201.25,
-      "avg_r": -0.321,
+      "losses": 10,
+      "win_rate": 0.333,
+      "pnl": -244.28,
+      "avg_r": -0.39,
       "best_r": 1.838,
       "worst_r": -1.576,
-      "fees": 139.87
+      "fees": 149.9
     },
     "attribution": [
       {
@@ -1238,7 +1229,7 @@
         "win_rate": 0.25,
         "pnl": 2.24,
         "avg_r": 0.479,
-        "share_pct": -1.4
+        "share_pct": -1.1
       },
       {
         "strategy": "donchian_breakout",
@@ -1247,16 +1238,16 @@
         "win_rate": 0.0,
         "pnl": -1.5,
         "avg_r": -1.25,
-        "share_pct": 1.0
+        "share_pct": 0.8
       },
       {
         "strategy": "confluence",
-        "trades": 99,
+        "trades": 100,
         "wins": 38,
-        "win_rate": 0.384,
-        "pnl": -156.48,
-        "avg_r": -0.189,
-        "share_pct": 100.5
+        "win_rate": 0.38,
+        "pnl": -199.51,
+        "avg_r": -0.201,
+        "share_pct": 100.4
       }
     ]
   },
@@ -1486,63 +1477,6 @@
         ]
       },
       {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 79464.0234375,
-        "sl": 80886.72017627,
-        "tp_levels": [
-          77970.19186179,
-          76903.16930772,
-          75836.14675364,
-          75195.9332212
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "stoch",
-          "vol_expansion",
-          "pat_hammer"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1789135483.924586,
-        "ts": 1789135481.37313,
-        "timeframe": "1h",
-        "msg_id": 1314,
-        "updates": [
-          {
-            "t": 1789135483.924597,
-            "kind": "open",
-            "px": 79464.0234375
-          },
-          {
-            "t": 1789145936.2881129,
-            "kind": "TP1",
-            "px": 77970.19186179,
-            "pct": 1.88
-          },
-          {
-            "t": 1789472426.958111,
-            "kind": "TP2",
-            "px": 76903.16930772,
-            "pct": 3.22
-          },
-          {
-            "t": 1789575046.146275,
-            "kind": "TP3",
-            "px": 75836.14675364,
-            "pct": 4.57
-          }
-        ]
-      },
-      {
         "symbol": "AAPL",
         "side": "LONG",
         "strategy": "confluence",
@@ -1753,7 +1687,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1789577262.1974761,
         "ts": 1789577233.1227012,
         "timeframe": "1h",
@@ -1763,6 +1697,12 @@
             "t": 1789577262.198472,
             "kind": "open",
             "px": 216.0399932861328
+          },
+          {
+            "t": 1789739208.518152,
+            "kind": "TP1",
+            "px": 219.86981277,
+            "pct": 1.77
           }
         ]
       },
@@ -1838,7 +1778,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1789609614.620747,
         "ts": 1789609612.073408,
         "timeframe": "1h",
@@ -1854,6 +1794,12 @@
             "kind": "TP1",
             "px": 2493.15274166,
             "pct": 2.34
+          },
+          {
+            "t": 1789739209.49359,
+            "kind": "TP2",
+            "px": 2533.91178007,
+            "pct": 4.02
           }
         ]
       },
@@ -2290,6 +2236,74 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 79464.0234375,
+        "sl": 80886.72017627,
+        "tp_levels": [
+          77970.19186179,
+          76903.16930772,
+          75836.14675364,
+          75195.9332212
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "stoch",
+          "vol_expansion",
+          "pat_hammer"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1789135483.924586,
+        "ts": 1789135481.37313,
+        "timeframe": "1h",
+        "msg_id": 1314,
+        "updates": [
+          {
+            "t": 1789135483.924597,
+            "kind": "open",
+            "px": 79464.0234375
+          },
+          {
+            "t": 1789145936.2881129,
+            "kind": "TP1",
+            "px": 77970.19186179,
+            "pct": 1.88
+          },
+          {
+            "t": 1789472426.958111,
+            "kind": "TP2",
+            "px": 76903.16930772,
+            "pct": 3.22
+          },
+          {
+            "t": 1789575046.146275,
+            "kind": "TP3",
+            "px": 75836.14675364,
+            "pct": 4.57
+          },
+          {
+            "t": 1789739207.550431,
+            "kind": "BE",
+            "px": 79464.0234375,
+            "pct": -0.0
+          }
+        ],
+        "exit": 79464.0234375,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1789739207.5504599
+      },
       {
         "symbol": "US30",
         "side": "LONG",
@@ -3743,55 +3757,6 @@
         "pct": -0.482,
         "r_multiple": -1.0,
         "closed_ts": 1789421478.5567129
-      },
-      {
-        "symbol": "XAGUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 65.12999725341797,
-        "sl": 63.71697148,
-        "tp_levels": [
-          66.61367431,
-          67.67344364,
-          68.73321296,
-          69.36907456
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "pat_hammer",
-          "pat_star"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1789131231.005263,
-        "ts": 1789131228.7722409,
-        "timeframe": "1h",
-        "msg_id": 1297,
-        "updates": [
-          {
-            "t": 1789131231.0052722,
-            "kind": "open",
-            "px": 65.12999725341797
-          },
-          {
-            "t": 1789416895.7339149,
-            "kind": "SL",
-            "px": 63.71697148,
-            "pct": -2.17
-          }
-        ],
-        "exit": 63.71697148,
-        "reason": "SL",
-        "pct": -2.17,
-        "r_multiple": -1.0,
-        "closed_ts": 1789416895.73394
       }
     ]
   },
@@ -3834,42 +3799,42 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4394.0,
-      "XAGUSD": 66.86,
+      "XAUUSD": 4390.3999,
+      "XAGUSD": 66.805,
       "EURUSD": 1.14666,
-      "GBPUSD": 1.33492,
-      "USDJPY": 157.782,
-      "AUDUSD": 0.71164,
-      "NZDUSD": 0.57104,
-      "US100": 29830.5
+      "GBPUSD": 1.33611,
+      "USDJPY": 157.31799,
+      "AUDUSD": 0.71129,
+      "NZDUSD": 0.57127,
+      "US100": 29731.0
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 2,
         "win_rate": 0.0,
-        "total_pnl": -46.59,
-        "total_r": -0.65
+        "total_pnl": -89.62,
+        "total_r": -2.01
       },
       "week": {
-        "n": 9,
-        "win_rate": 0.333,
-        "total_pnl": -150.35,
-        "total_r": -3.72
+        "n": 10,
+        "win_rate": 0.3,
+        "total_pnl": -193.38,
+        "total_r": -5.09
       },
       "month": {
-        "n": 42,
-        "win_rate": 0.381,
-        "total_pnl": -69.82,
-        "total_r": -7.21
+        "n": 43,
+        "win_rate": 0.372,
+        "total_pnl": -112.85,
+        "total_r": -8.58
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1532.44,
+    "balance": 1522.32,
     "currency": "$",
-    "total_return_pct": 53.24,
-    "closed": 354,
+    "total_return_pct": 52.23,
+    "closed": 356,
     "wins": 98,
     "peak": 1670.05
   }
