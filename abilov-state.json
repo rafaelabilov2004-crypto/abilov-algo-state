@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789609614.626807,
+  "updated_ts": 1789724471.699563,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789609614.6258528
+      "heartbeat_ts": 1789724471.6990201
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -109.15,
-    "unrealized_pnl": 53.02,
-    "net_pnl": -56.13
+    "unrealized_pnl": 0.0,
+    "net_pnl": -109.15
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75799.4,
-      "ETH/USDT": 2413.79
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2476.444068,
       "tp": 2335.987795,
       "size": 2.048064,
-      "price": 2413.79,
-      "upnl": 54.9,
-      "u_r": 0.75
+      "price": 2440.597601,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 76271.139108,
       "tp": 74361.382676,
       "size": 0.065969,
-      "price": 75799.4,
-      "upnl": -1.88,
-      "u_r": -0.06
+      "price": 75770.96189,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1188,8 +1188,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 50,
-      "label": "Neutral",
+      "index": 56,
+      "label": "Codicia",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -1198,17 +1198,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-17",
-      "end": "2026-09-18",
-      "trades": 2,
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "trades": 0,
       "wins": 0,
-      "losses": 2,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -65.69,
-      "avg_r": -1.541,
-      "best_r": -1.508,
-      "worst_r": -1.574,
-      "fees": 20.0
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3556,70 +3556,70 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 50,
-      "label": "Neutral",
+      "index": 56,
+      "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
+        "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Fed raises rates by 25 basis points in first hike since July 2023",
+        "title": "Iran\u2019s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
+        "title": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss",
+        "title": "Corporate treasuries bought just 5,900 bitcoin in 3 months. Other demand signals look weak, too.",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Hamas military wing told donors to avoid sending crypto directly from Binance, DOJ filing shows",
+        "title": "Ethereum confirms Glamsterdam dates, but warns 'fake' builders could stall the chain",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Crypto Long & Short: Six signs a crypto winter is ending",
+        "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4329.7998,
-      "XAGUSD": 63.795,
-      "EURUSD": 1.146,
-      "GBPUSD": 1.33726,
-      "USDJPY": 156.22301,
-      "AUDUSD": 0.71003,
-      "NZDUSD": 0.57195,
-      "US100": 29426.75
+      "XAUUSD": 4427.7002,
+      "XAGUSD": 67.695,
+      "EURUSD": 1.14877,
+      "GBPUSD": 1.33661,
+      "USDJPY": 157.974,
+      "AUDUSD": 0.71276,
+      "NZDUSD": 0.57179,
+      "US100": 29866.25
     },
     "period_stats": {
       "day": {
-        "n": 5,
-        "win_rate": 0.4,
-        "total_pnl": -26.81,
-        "total_r": -1.02
+        "n": 0,
+        "win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
-        "n": 13,
-        "win_rate": 0.385,
-        "total_pnl": -154.66,
-        "total_r": -3.84
+        "n": 9,
+        "win_rate": 0.444,
+        "total_pnl": -72.86,
+        "total_r": -1.53
       },
       "month": {
-        "n": 45,
-        "win_rate": 0.378,
-        "total_pnl": -96.99,
-        "total_r": -8.37
+        "n": 43,
+        "win_rate": 0.372,
+        "total_pnl": -224.16,
+        "total_r": -8.67
       }
     }
   },
