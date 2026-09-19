@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789806555.5866518,
+  "updated_ts": 1789806619.500175,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 447,
+      "loop_n": 448,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789806555.585143
+      "heartbeat_ts": 1789806619.493373
     }
   },
   "control": {
@@ -37,25 +37,25 @@
     "grid_range"
   ],
   "account": {
-    "equity": 9510.39,
+    "equity": 9449.75,
     "peak": 10626.53,
-    "drawdown_pct": 10.5,
+    "drawdown_pct": 11.07,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 3,
+    "open_positions": 1,
     "start_equity": 10000.0,
-    "realized_pnl": -198.77,
-    "unrealized_pnl": 6.85,
-    "net_pnl": -191.92
+    "realized_pnl": -259.41,
+    "unrealized_pnl": 0,
+    "net_pnl": -259.41
   },
   "stats": {
-    "signals": 2,
+    "signals": 4,
     "entries": 2,
-    "closes": 0,
+    "closes": 2,
     "updates": 1,
     "rejections": {},
     "wins": 0,
-    "losses": 0
+    "losses": 2
   },
   "exchange": {
     "venue": "paper",
@@ -63,37 +63,34 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81056.1,
-      "ETH/USDT": 2624.24
+      "BTC/USDT": 79158.8,
+      "ETH/USDT": 2635.55
     }
   },
-  "open_positions": [
-    {
-      "symbol": "BTC/USDT",
-      "side": "LONG",
-      "strategy": "confluence",
-      "entry": 80907.36493,
-      "sl": 80559.5676,
-      "tp": 81853.6972,
-      "size": 0.061818,
-      "price": 81056.1,
-      "upnl": 9.19,
-      "u_r": 0.43
-    },
+  "open_positions": [],
+  "recent_trades": [
     {
       "symbol": "ETH/USDT",
       "side": "SHORT",
       "strategy": "confluence",
-      "entry": 2622.602983,
-      "sl": 2639.155519,
-      "tp": 2576.093443,
-      "size": 1.429448,
-      "price": 2624.24,
-      "upnl": -2.34,
-      "u_r": -0.1
-    }
-  ],
-  "recent_trades": [
+      "entry_price": 2622.602983,
+      "exit_price": 2639.947266,
+      "pnl": -27.667,
+      "r_multiple": -0.921,
+      "exit_reason": "SL",
+      "closed_ts": 1789805700.0
+    },
+    {
+      "symbol": "BTC/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry_price": 80907.36493,
+      "exit_price": 80535.39973,
+      "pnl": -32.974,
+      "r_multiple": -1.649,
+      "exit_reason": "SL",
+      "closed_ts": 1789805700.0
+    },
     {
       "symbol": "BTC/USDT",
       "side": "SHORT",
@@ -621,28 +618,6 @@
       "r_multiple": 1.186,
       "exit_reason": "SL",
       "closed_ts": 1784604600.0
-    },
-    {
-      "symbol": "ETH/USDT",
-      "side": "SHORT",
-      "strategy": "confluence",
-      "entry_price": 1837.888468,
-      "exit_price": 1845.79376,
-      "pnl": -1.891,
-      "r_multiple": -1.576,
-      "exit_reason": "SL",
-      "closed_ts": 1784410200.0
-    },
-    {
-      "symbol": "BTC/USDT",
-      "side": "SHORT",
-      "strategy": "confluence",
-      "entry_price": 63710.881,
-      "exit_price": 63984.92,
-      "pnl": -1.891,
-      "r_multiple": -1.576,
-      "exit_reason": "SL",
-      "closed_ts": 1784378700.0
     }
   ],
   "equity_curve": [
@@ -1065,23 +1040,31 @@
     {
       "ts": 1789740900.0,
       "cum_pnl": -198.77
+    },
+    {
+      "ts": 1789805700.0,
+      "cum_pnl": -231.75
+    },
+    {
+      "ts": 1789805700.0,
+      "cum_pnl": -259.41
     }
   ],
   "kpis": {
-    "n": 105,
-    "win_rate": 0.3714,
-    "expectancy_r": -0.1848,
-    "profit_factor": 0.895,
-    "total_pnl": -198.77
+    "n": 107,
+    "win_rate": 0.3645,
+    "expectancy_r": -0.2054,
+    "profit_factor": 0.867,
+    "total_pnl": -259.41
   },
   "gamify": {
     "level": 5,
-    "xp": 1050,
-    "xp_pct": 20,
-    "score": -1941,
+    "xp": 1070,
+    "xp_pct": 28,
+    "score": -2198,
     "current_streak": 0,
     "best_streak": 4,
-    "total_r": -19.41,
+    "total_r": -21.98,
     "badges": [
       {
         "id": "first",
@@ -1111,12 +1094,12 @@
     ],
     "goal_gate1": {
       "label": "GATE 1 \u00b7 \u044d\u0434\u0436 +0.20R",
-      "cur": -0.1848,
+      "cur": -0.2054,
       "target": 0.2
     },
     "goal_gate4": {
       "label": "GATE 4 \u00b7 200 \u0441\u0434\u0435\u043b\u043e\u043a",
-      "cur": 105,
+      "cur": 107,
       "target": 200
     }
   },
@@ -1131,10 +1114,10 @@
       },
       {
         "key": "confluence",
-        "n": 100,
-        "win_rate": 0.38,
-        "expectancy_r": -0.201,
-        "total_pnl": -199.51
+        "n": 102,
+        "win_rate": 0.373,
+        "expectancy_r": -0.222,
+        "total_pnl": -260.15
       },
       {
         "key": "donchian_breakout",
@@ -1147,17 +1130,17 @@
     "by_symbol": [
       {
         "key": "ETH/USDT",
-        "n": 61,
-        "win_rate": 0.393,
-        "expectancy_r": -0.135,
-        "total_pnl": 24.81
+        "n": 62,
+        "win_rate": 0.387,
+        "expectancy_r": -0.148,
+        "total_pnl": -2.86
       },
       {
         "key": "BTC/USDT",
-        "n": 40,
-        "win_rate": 0.35,
-        "expectancy_r": -0.219,
-        "total_pnl": -218.16
+        "n": 41,
+        "win_rate": 0.341,
+        "expectancy_r": -0.254,
+        "total_pnl": -251.14
       },
       {
         "key": "SOL/USDT",
@@ -1191,7 +1174,7 @@
       "id": 4,
       "name": "Track record \u2265200 + \u0431\u0438\u0437\u043d\u0435\u0441",
       "done": false,
-      "note": "105/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.185R"
+      "note": "107/200 \u0441\u0434\u0435\u043b\u043e\u043a, E=-0.205R"
     }
   ],
   "phase4": {
@@ -1208,43 +1191,43 @@
       "period": "day",
       "start": "2026-09-19",
       "end": "2026-09-20",
-      "trades": 0,
+      "trades": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "win_rate": 0.0,
-      "pnl": 0.0,
-      "avg_r": 0.0,
-      "best_r": 0.0,
-      "worst_r": 0.0,
-      "fees": 0.0
+      "pnl": -60.64,
+      "avg_r": -1.285,
+      "best_r": -0.921,
+      "worst_r": -1.649,
+      "fees": 19.99
     },
     "week": {
       "period": "week",
       "start": "2026-09-14",
       "end": "2026-09-21",
-      "trades": 8,
+      "trades": 10,
       "wins": 2,
-      "losses": 6,
-      "win_rate": 0.25,
-      "pnl": -156.84,
-      "avg_r": -0.554,
+      "losses": 8,
+      "win_rate": 0.2,
+      "pnl": -217.48,
+      "avg_r": -0.7,
       "best_r": 1.838,
-      "worst_r": -1.574,
-      "fees": 79.96
+      "worst_r": -1.649,
+      "fees": 99.96
     },
     "month": {
       "period": "month",
       "start": "2026-09-01",
       "end": "2026-10-01",
-      "trades": 15,
+      "trades": 17,
       "wins": 5,
-      "losses": 10,
-      "win_rate": 0.333,
-      "pnl": -244.28,
-      "avg_r": -0.39,
+      "losses": 12,
+      "win_rate": 0.294,
+      "pnl": -304.92,
+      "avg_r": -0.496,
       "best_r": 1.838,
-      "worst_r": -1.576,
-      "fees": 149.9
+      "worst_r": -1.649,
+      "fees": 169.9
     },
     "attribution": [
       {
@@ -1254,7 +1237,7 @@
         "win_rate": 0.25,
         "pnl": 2.24,
         "avg_r": 0.479,
-        "share_pct": -1.1
+        "share_pct": -0.9
       },
       {
         "strategy": "donchian_breakout",
@@ -1263,16 +1246,16 @@
         "win_rate": 0.0,
         "pnl": -1.5,
         "avg_r": -1.25,
-        "share_pct": 0.8
+        "share_pct": 0.6
       },
       {
         "strategy": "confluence",
-        "trades": 100,
+        "trades": 102,
         "wins": 38,
-        "win_rate": 0.38,
-        "pnl": -199.51,
-        "avg_r": -0.201,
-        "share_pct": 100.4
+        "win_rate": 0.373,
+        "pnl": -260.15,
+        "avg_r": -0.222,
+        "share_pct": 100.3
       }
     ]
   },
@@ -3877,31 +3860,31 @@
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 4,
         "win_rate": 0.0,
-        "total_pnl": -89.62,
-        "total_r": -2.01
+        "total_pnl": -150.26,
+        "total_r": -4.58
       },
       "week": {
-        "n": 8,
-        "win_rate": 0.25,
-        "total_pnl": -156.84,
-        "total_r": -4.43
+        "n": 10,
+        "win_rate": 0.2,
+        "total_pnl": -217.48,
+        "total_r": -7.0
       },
       "month": {
-        "n": 39,
-        "win_rate": 0.333,
-        "total_pnl": -335.9,
-        "total_r": -12.81
+        "n": 41,
+        "win_rate": 0.317,
+        "total_pnl": -396.54,
+        "total_r": -15.38
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1601.13,
+    "balance": 1583.23,
     "currency": "$",
-    "total_return_pct": 60.11,
-    "closed": 360,
+    "total_return_pct": 58.32,
+    "closed": 362,
     "wins": 99,
     "peak": 1670.05
   }
