@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789777059.548522,
+  "updated_ts": 1789777122.267839,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 20,
+      "loop_n": 21,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789777059.547526
+      "heartbeat_ts": 1789777122.267057
     }
   },
   "control": {
@@ -40,8 +40,8 @@
     "equity": 9510.39,
     "peak": 10626.53,
     "drawdown_pct": 10.5,
-    "halted": true,
-    "halt_reason": "consecutive_losses:5>=4",
+    "halted": false,
+    "halt_reason": "",
     "open_positions": 1,
     "start_equity": 10000.0,
     "realized_pnl": -198.77,
@@ -49,7 +49,7 @@
     "net_pnl": -198.77
   },
   "stats": {
-    "signals": 0,
+    "signals": 1,
     "entries": 0,
     "closes": 0,
     "updates": 0,
