@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789807332.998285,
+  "updated_ts": 1789821728.229707,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 459,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789807332.994364
+      "heartbeat_ts": 1789821728.229221
     }
   },
   "control": {
@@ -49,13 +49,13 @@
     "net_pnl": -259.41
   },
   "stats": {
-    "signals": 4,
-    "entries": 2,
-    "closes": 2,
-    "updates": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 2
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 79158.8,
-      "ETH/USDT": 2635.55
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3818,6 +3818,21 @@
     },
     "news": [
       {
+        "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Robinhood Chain fees collapse 97% even as transactions stay near record highs",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Why Wall Street giants build tokenization money for institutions, not regular consumers",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
         "source": "CoinDesk",
         "ts": 0
@@ -3829,21 +3844,6 @@
       },
       {
         "title": "DHS\u2019s predictive policing is unconstitutional, un-American and should be stopped",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "ECB President Christine Lagarde intervened to block Binance\u2019s EU MiCA license: WSJ",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Zcash targets November upgrade to make private payments up to three times faster",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "XRP on the brink of a golden cross as focus switches to altcoins",
         "source": "CoinDesk",
         "ts": 0
       }
@@ -3860,10 +3860,10 @@
     },
     "period_stats": {
       "day": {
-        "n": 4,
+        "n": 3,
         "win_rate": 0.0,
-        "total_pnl": -150.26,
-        "total_r": -4.58
+        "total_pnl": -103.67,
+        "total_r": -3.94
       },
       "week": {
         "n": 10,
@@ -3872,10 +3872,10 @@
         "total_r": -7.0
       },
       "month": {
-        "n": 41,
-        "win_rate": 0.317,
-        "total_pnl": -396.54,
-        "total_r": -15.38
+        "n": 40,
+        "win_rate": 0.3,
+        "total_pnl": -483.31,
+        "total_r": -17.25
       }
     }
   },
