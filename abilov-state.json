@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789867035.3735511,
+  "updated_ts": 1789944689.052649,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 141,
+      "loop_n": 146,
       "errors_1h": 0,
-      "feed_ok": true,
-      "heartbeat_ts": 1789867035.372415
+      "feed_ok": false,
+      "heartbeat_ts": 1789944689.0520499
     }
   },
   "control": {
@@ -1206,31 +1206,31 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-20",
-      "end": "2026-09-21",
-      "trades": 1,
+      "start": "2026-09-21",
+      "end": "2026-09-22",
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -64.85,
-      "avg_r": -1.214,
-      "best_r": -1.214,
-      "worst_r": -1.214,
-      "fees": 9.95
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
-      "start": "2026-09-14",
-      "end": "2026-09-21",
-      "trades": 11,
-      "wins": 2,
-      "losses": 9,
-      "win_rate": 0.182,
-      "pnl": -282.33,
-      "avg_r": -0.747,
-      "best_r": 1.838,
-      "worst_r": -1.649,
-      "fees": 109.9
+      "start": "2026-09-21",
+      "end": "2026-09-28",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "month": {
       "period": "month",
@@ -3866,21 +3866,21 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4424.8999,
-      "XAGUSD": 67.149,
-      "EURUSD": 1.1489,
-      "GBPUSD": 1.33935,
-      "USDJPY": 156.855,
-      "AUDUSD": 0.71215,
-      "NZDUSD": 0.57241,
-      "US100": 29917.25
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
+      "EURUSD": 0.0,
+      "GBPUSD": 0.0,
+      "USDJPY": 0.0,
+      "AUDUSD": 0.0,
+      "NZDUSD": 0.0,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
-        "n": 3,
+        "n": 1,
         "win_rate": 0.0,
-        "total_pnl": -125.49,
-        "total_r": -3.78
+        "total_pnl": -64.85,
+        "total_r": -1.21
       },
       "week": {
         "n": 11,
@@ -3889,10 +3889,10 @@
         "total_r": -8.22
       },
       "month": {
-        "n": 41,
-        "win_rate": 0.293,
-        "total_pnl": -548.16,
-        "total_r": -18.47
+        "n": 39,
+        "win_rate": 0.282,
+        "total_pnl": -606.55,
+        "total_r": -18.81
       }
     }
   },
