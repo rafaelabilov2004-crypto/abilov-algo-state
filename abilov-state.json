@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789959121.3253481,
+  "updated_ts": 1789968155.214703,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 100,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789959121.32471
+      "heartbeat_ts": 1789968155.214355
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -324.26,
-    "unrealized_pnl": -9.95,
-    "net_pnl": -334.21
+    "unrealized_pnl": 0.0,
+    "net_pnl": -324.26
   },
   "stats": {
     "signals": 0,
@@ -64,7 +64,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 2663.37
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2589.084903,
       "tp": 2904.265292,
       "size": 1.874147,
-      "price": 2663.37,
-      "upnl": -9.95,
-      "u_r": -0.07
+      "price": 2668.680364,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3746,11 +3746,21 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 70,
+      "index": null,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin\u2019s price has cleared a key hurdle that has historically preceded major bull runs",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Crypto platform Gemini\u2019s stock is down 80% from its IPO. That\u2019s reviving takeover speculation",
         "source": "CoinDesk",
@@ -3770,27 +3780,17 @@
         "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ripple says asset managers are preparing for XRP Ledger\u2019s next payments upgrade",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4404.8999,
-      "XAGUSD": 66.935,
-      "EURUSD": 1.14824,
-      "GBPUSD": 1.33851,
-      "USDJPY": 156.84599,
-      "AUDUSD": 0.71245,
-      "NZDUSD": 0.57202,
-      "US100": 30078.0
+      "XAUUSD": 4395.6001,
+      "XAGUSD": 66.675,
+      "EURUSD": 1.14758,
+      "GBPUSD": 1.33767,
+      "USDJPY": 157.076,
+      "AUDUSD": 0.7125,
+      "NZDUSD": 0.57208,
+      "US100": 30081.0
     },
     "period_stats": {
       "day": {
