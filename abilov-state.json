@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789981424.605972,
+  "updated_ts": 1789984560.669064,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 66,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789981424.605243
+      "heartbeat_ts": 1789984560.668842
     }
   },
   "control": {
@@ -51,10 +51,10 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
-    "updates": 3,
+    "closes": 0,
+    "updates": 0,
     "rejections": {},
-    "wins": 1,
+    "wins": 0,
     "losses": 0
   },
   "exchange": {
@@ -64,7 +64,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 2622.33
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3797,12 +3797,17 @@
     },
     "news": [
       {
+        "title": "Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Hana Bank issues South Korea\u2019s first digital bond using Euroclear\u2019s blockchain",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin rockets above $83,500 as falling oil lifts risk assets",
+        "title": "Live updates: Bitcoin hits $85,000 as short liquidations hit $300 million in an hour",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3820,22 +3825,17 @@
         "title": "Bitcoin\u2019s price has cleared a key hurdle that has historically preceded major bull runs",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto platform Gemini\u2019s stock is down 80% from its IPO. That\u2019s reviving takeover speculation",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4392.5,
-      "XAGUSD": 66.705,
-      "EURUSD": 1.14837,
-      "GBPUSD": 1.3384,
-      "USDJPY": 157.23801,
-      "AUDUSD": 0.71327,
-      "NZDUSD": 0.5729,
-      "US100": 30230.5
+      "XAUUSD": 4385.7998,
+      "XAGUSD": 66.695,
+      "EURUSD": 1.14824,
+      "GBPUSD": 1.33844,
+      "USDJPY": 157.256,
+      "AUDUSD": 0.71301,
+      "NZDUSD": 0.57274,
+      "US100": 30256.25
     },
     "period_stats": {
       "day": {
@@ -3851,20 +3851,20 @@
         "total_r": -6.17
       },
       "month": {
-        "n": 40,
-        "win_rate": 0.3,
-        "total_pnl": -304.93,
-        "total_r": -16.77
+        "n": 38,
+        "win_rate": 0.263,
+        "total_pnl": -903.02,
+        "total_r": -20.85
       }
     }
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1643.23,
+    "balance": 1476.46,
     "currency": "$",
-    "total_return_pct": 64.32,
-    "closed": 367,
-    "wins": 100,
+    "total_return_pct": 47.65,
+    "closed": 368,
+    "wins": 99,
     "peak": 1670.05
   }
 }
