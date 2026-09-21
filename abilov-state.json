@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789984560.669064,
+  "updated_ts": 1789985483.281044,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789984560.668842
+      "heartbeat_ts": 1789985483.2805278
     }
   },
   "control": {
@@ -1296,7 +1296,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1787326284.919339,
         "ts": 1787326282.5420642,
         "timeframe": "1h",
@@ -1318,6 +1318,12 @@
             "kind": "TP2",
             "px": 82083.60506488,
             "pct": 5.68
+          },
+          {
+            "t": 1789984573.545007,
+            "kind": "TP3",
+            "px": 83921.13907629,
+            "pct": 8.04
           }
         ]
       },
@@ -3828,14 +3834,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4385.7998,
-      "XAGUSD": 66.695,
-      "EURUSD": 1.14824,
-      "GBPUSD": 1.33844,
-      "USDJPY": 157.256,
-      "AUDUSD": 0.71301,
-      "NZDUSD": 0.57274,
-      "US100": 30256.25
+      "XAUUSD": 4383.5,
+      "XAGUSD": 66.64,
+      "EURUSD": 1.14837,
+      "GBPUSD": 1.33842,
+      "USDJPY": 157.25999,
+      "AUDUSD": 0.71306,
+      "NZDUSD": 0.57284,
+      "US100": 30234.75
     },
     "period_stats": {
       "day": {
