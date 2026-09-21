@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789985483.281044,
+  "updated_ts": 1789988703.303436,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789985483.2805278
+      "heartbeat_ts": 1789988703.3031528
     }
   },
   "control": {
@@ -3803,6 +3803,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "X sues its own users for running a fake bitcoin news bot farm",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
@@ -3821,27 +3831,17 @@
         "title": "Kalshi faces \u2018fake crypto volume\u2019 allegations as critic flags identical $5,500 trades",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s price has cleared a key hurdle that has historically preceded major bull runs",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4383.5,
-      "XAGUSD": 66.64,
+      "XAUUSD": 4385.2002,
+      "XAGUSD": 66.535,
       "EURUSD": 1.14837,
-      "GBPUSD": 1.33842,
-      "USDJPY": 157.25999,
-      "AUDUSD": 0.71306,
-      "NZDUSD": 0.57284,
-      "US100": 30234.75
+      "GBPUSD": 1.33824,
+      "USDJPY": 157.265,
+      "AUDUSD": 0.71327,
+      "NZDUSD": 0.5727,
+      "US100": 30254.5
     },
     "period_stats": {
       "day": {
@@ -3857,10 +3857,10 @@
         "total_r": -6.17
       },
       "month": {
-        "n": 38,
-        "win_rate": 0.263,
-        "total_pnl": -903.02,
-        "total_r": -20.85
+        "n": 37,
+        "win_rate": 0.243,
+        "total_pnl": -926.73,
+        "total_r": -22.04
       }
     }
   },
