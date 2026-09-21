@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1789948231.669377,
+  "updated_ts": 1789949188.144798,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 202,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1789948231.6686049
+      "heartbeat_ts": 1789949188.144309
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -324.26,
-    "unrealized_pnl": -53.73,
-    "net_pnl": -377.99
+    "unrealized_pnl": 0.0,
+    "net_pnl": -324.26
   },
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81810.8,
-      "ETH/USDT": 2640.01
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2589.084903,
       "tp": 2904.265292,
       "size": 1.874147,
-      "price": 2640.01,
-      "upnl": -53.73,
-      "u_r": -0.36
+      "price": 2668.680364,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -1196,7 +1196,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 71,
+      "index": 70,
       "label": "Codicia",
       "bias": 0
     },
@@ -3829,7 +3829,7 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 71,
+      "index": 70,
       "label": "Codicia",
       "bias": 0
     },
@@ -3866,21 +3866,21 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4412.7002,
-      "XAGUSD": 66.875,
+      "XAUUSD": 4410.2002,
+      "XAGUSD": 66.815,
       "EURUSD": 1.14824,
-      "GBPUSD": 1.33899,
-      "USDJPY": 157.082,
+      "GBPUSD": 1.33894,
+      "USDJPY": 156.94701,
       "AUDUSD": 0.71256,
-      "NZDUSD": 0.57221,
-      "US100": 30032.0
+      "NZDUSD": 0.57244,
+      "US100": 30032.75
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 0,
         "win_rate": 0.0,
-        "total_pnl": -64.85,
-        "total_r": -1.21
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 11,
@@ -3900,7 +3900,7 @@
     "start": 1000.0,
     "balance": 1565.85,
     "currency": "$",
-    "total_return_pct": 56.59,
+    "total_return_pct": 56.58,
     "closed": 363,
     "wins": 99,
     "peak": 1670.05
