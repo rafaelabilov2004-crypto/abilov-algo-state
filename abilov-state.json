@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790075893.342704,
+  "updated_ts": 1790075970.3311732,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790075893.341841
+      "heartbeat_ts": 1790075970.330323
     }
   },
   "control": {
@@ -2129,7 +2129,7 @@
           "adx_strong",
           "macd"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1789999155.571451,
         "ts": 1789999135.44347,
         "timeframe": "1h",
@@ -2145,6 +2145,12 @@
             "kind": "TP1",
             "px": 52428.82770356,
             "pct": 0.49
+          },
+          {
+            "t": 1790075903.453639,
+            "kind": "TP2",
+            "px": 52610.84749183,
+            "pct": 0.84
           }
         ]
       },
@@ -2222,6 +2228,45 @@
             "t": 1790073262.174033,
             "kind": "open",
             "px": 157.0489959716797
+          }
+        ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 227.25,
+        "sl": 223.54423378,
+        "tp_levels": [
+          231.14105453,
+          233.9203792,
+          236.69970386,
+          238.36729866
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790075909.314157,
+        "ts": 1790075906.769401,
+        "timeframe": "1h",
+        "msg_id": 1526,
+        "updates": [
+          {
+            "t": 1790075909.31416,
+            "kind": "open",
+            "px": 227.25
           }
         ]
       }
