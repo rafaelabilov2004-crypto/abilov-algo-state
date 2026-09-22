@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790015628.7960992,
+  "updated_ts": 1790073242.824532,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790015628.795449
+      "heartbeat_ts": 1790073242.823905
     }
   },
   "control": {
@@ -1187,8 +1187,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 70,
-      "label": "Codicia",
+      "index": 78,
+      "label": "Codicia extrema",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -1197,17 +1197,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-21",
-      "end": "2026-09-22",
-      "trades": 1,
-      "wins": 1,
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "trades": 0,
+      "wins": 0,
       "losses": 0,
-      "win_rate": 1.0,
-      "pnl": 301.62,
-      "avg_r": 2.042,
-      "best_r": 2.042,
-      "worst_r": 2.042,
-      "fees": 10.31
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3620,58 +3620,58 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 70,
-      "label": "Codicia",
+      "index": 78,
+      "label": "Codicia extrema",
       "bias": 0
     },
     "news": [
       {
-        "title": "Crypto political group plans to spend $30 million against Sherrod Brown's Senate bid",
+        "title": "Live updates: Oil falls as Iran signals possible hormuz reopening, bitcoin holds near $86,000",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "ECB plans to buy tokenized bonds with its own funds",
+        "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Why banks and offshore hubs like Dubai are winners of the Senate killing the Clarity Act",
+        "title": "Animoca Brands delays IPO plans, suspends merger talks with Currenc",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
+        "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins",
+        "title": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
+        "title": "Elon Musk's X brings bitcoin and stock trading closer to the timeline",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4389.2998,
-      "XAGUSD": 0.0,
+      "XAUUSD": 4367.2002,
+      "XAGUSD": 66.075,
       "EURUSD": 1.14666,
-      "GBPUSD": 1.3367,
-      "USDJPY": 157.47,
-      "AUDUSD": 0.71235,
-      "NZDUSD": 0.57166,
-      "US100": 30761.0
+      "GBPUSD": 1.3369,
+      "USDJPY": 157.05499,
+      "AUDUSD": 0.71174,
+      "NZDUSD": 0.57409,
+      "US100": 30801.75
     },
     "period_stats": {
       "day": {
-        "n": 1,
-        "win_rate": 1.0,
-        "total_pnl": 301.62,
-        "total_r": 2.04
+        "n": 0,
+        "win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_r": 0.0
       },
       "week": {
         "n": 12,
@@ -3680,10 +3680,10 @@
         "total_r": -6.17
       },
       "month": {
-        "n": 36,
-        "win_rate": 0.222,
-        "total_pnl": -940.01,
-        "total_r": -22.7
+        "n": 34,
+        "win_rate": 0.235,
+        "total_pnl": -885.94,
+        "total_r": -20.07
       }
     }
   },
