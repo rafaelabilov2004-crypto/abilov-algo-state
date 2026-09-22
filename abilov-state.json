@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790073242.824532,
+  "updated_ts": 1790075893.342704,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790073242.823905
+      "heartbeat_ts": 1790075893.341841
     }
   },
   "control": {
@@ -1734,7 +1734,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1789726558.144649,
         "ts": 1789726555.8567061,
         "timeframe": "1h",
@@ -1756,6 +1756,12 @@
             "kind": "TP2",
             "px": 91.84199238,
             "pct": 4.68
+          },
+          {
+            "t": 1790073253.397436,
+            "kind": "TP3",
+            "px": 89.96365651,
+            "pct": 6.63
           }
         ]
       },
@@ -1951,7 +1957,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 3,
         "opened_ts": 1789977560.7589262,
         "ts": 1789977558.697205,
         "timeframe": "1h",
@@ -1967,6 +1973,18 @@
             "kind": "TP1",
             "px": 7787.0689,
             "pct": 0.42
+          },
+          {
+            "t": 1790073256.535645,
+            "kind": "TP2",
+            "px": 7810.3324,
+            "pct": 0.72
+          },
+          {
+            "t": 1790073257.0040839,
+            "kind": "TP3",
+            "px": 7833.5959,
+            "pct": 1.02
           }
         ]
       },
@@ -2167,6 +2185,43 @@
             "t": 1790015628.789584,
             "kind": "open",
             "px": 30754.5
+          }
+        ]
+      },
+      {
+        "symbol": "USDJPY",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 157.0489959716797,
+        "sl": 157.67719196,
+        "tp_levels": [
+          156.38939019,
+          155.9182432,
+          155.44709621,
+          155.16440802
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790073262.174031,
+        "ts": 1790073259.196597,
+        "timeframe": "1h",
+        "msg_id": 1524,
+        "updates": [
+          {
+            "t": 1790073262.174033,
+            "kind": "open",
+            "px": 157.0489959716797
           }
         ]
       }
@@ -3626,6 +3681,16 @@
     },
     "news": [
       {
+        "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Oil falls as Iran signals possible hormuz reopening, bitcoin holds near $86,000",
         "source": "CoinDesk",
         "ts": 0
@@ -3644,27 +3709,17 @@
         "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Elon Musk's X brings bitcoin and stock trading closer to the timeline",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4367.2002,
-      "XAGUSD": 66.075,
-      "EURUSD": 1.14666,
-      "GBPUSD": 1.3369,
-      "USDJPY": 157.05499,
-      "AUDUSD": 0.71174,
-      "NZDUSD": 0.57409,
-      "US100": 30801.75
+      "XAUUSD": 4355.5,
+      "XAGUSD": 66.085,
+      "EURUSD": 1.14653,
+      "GBPUSD": 1.33638,
+      "USDJPY": 157.155,
+      "AUDUSD": 0.71154,
+      "NZDUSD": 0.57353,
+      "US100": 30807.25
     },
     "period_stats": {
       "day": {
@@ -3674,10 +3729,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 12,
-        "win_rate": 0.25,
-        "total_pnl": 19.29,
-        "total_r": -6.17
+        "n": 11,
+        "win_rate": 0.273,
+        "total_pnl": 59.7,
+        "total_r": -4.78
       },
       "month": {
         "n": 34,
