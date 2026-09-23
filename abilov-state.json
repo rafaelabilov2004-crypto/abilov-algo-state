@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790103555.150573,
+  "updated_ts": 1790153440.999813,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 216,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790103555.14957
+      "heartbeat_ts": 1790153440.999373
     }
   },
   "control": {
@@ -1187,8 +1187,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 78,
-      "label": "Codicia extrema",
+      "index": 71,
+      "label": "Codicia",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -1197,8 +1197,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-22",
-      "end": "2026-09-23",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -3707,51 +3707,51 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 78,
-      "label": "Codicia extrema",
+      "index": 71,
+      "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+        "title": "Coinbase users can now borrow USDC against bitcoin at a fixed rate",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+        "title": "XRP Ledger retries upgrade that lets banks split payment and compliance duties",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+        "title": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows",
+        "title": "Bitcoin's on a streak it hasn't hit since 2012",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
+        "title": "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
+        "title": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4390.2998,
-      "XAGUSD": 67.39,
-      "EURUSD": 1.14456,
-      "GBPUSD": 1.33346,
-      "USDJPY": 157.504,
-      "AUDUSD": 0.71139,
+      "XAUUSD": 4353.3999,
+      "XAGUSD": 65.865,
+      "EURUSD": 1.14233,
+      "GBPUSD": 1.33069,
+      "USDJPY": 157.827,
+      "AUDUSD": 0.70912,
       "NZDUSD": 0.0,
-      "US100": 30985.5
+      "US100": 31018.5
     },
     "period_stats": {
       "day": {
@@ -3767,10 +3767,10 @@
         "total_r": -4.78
       },
       "month": {
-        "n": 34,
-        "win_rate": 0.235,
-        "total_pnl": -885.94,
-        "total_r": -20.07
+        "n": 33,
+        "win_rate": 0.242,
+        "total_pnl": -699.71,
+        "total_r": -19.03
       }
     }
   },
