@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790163367.538516,
+  "updated_ts": 1790163437.112809,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 17,
+      "loop_n": 18,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790163367.537934
+      "heartbeat_ts": 1790163437.112292
     }
   },
   "control": {
@@ -1639,7 +1639,7 @@
           "stoch",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1789743130.420765,
         "ts": 1789743124.218613,
         "timeframe": "1h",
@@ -1649,6 +1649,12 @@
             "t": 1789743130.421839,
             "kind": "open",
             "px": 4391.10009765625
+          },
+          {
+            "t": 1790163431.3907259,
+            "kind": "TP1",
+            "px": 4341.75554944,
+            "pct": 1.12
           }
         ]
       },
@@ -3626,6 +3632,11 @@
         "ts": 0
       },
       {
+        "title": "The S&P 500 has a 'breadth' problem. Crypto doesn\u2019t.",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
         "source": "CoinDesk",
         "ts": 0
@@ -3644,22 +3655,17 @@
         "title": "AI agents will soon buy their own computing power and data using stablecoins, according to BlackRock",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Coinbase users can now borrow USDC against bitcoin at a fixed rate",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4342.6001,
-      "XAGUSD": 65.535,
-      "EURUSD": 1.14142,
-      "GBPUSD": 1.32846,
-      "USDJPY": 157.938,
-      "AUDUSD": 0.70716,
-      "NZDUSD": 0.56964,
-      "US100": 30960.5
+      "XAUUSD": 4341.1001,
+      "XAGUSD": 65.55,
+      "EURUSD": 1.14116,
+      "GBPUSD": 1.32809,
+      "USDJPY": 157.944,
+      "AUDUSD": 0.70696,
+      "NZDUSD": 0.56931,
+      "US100": 30953.75
     },
     "period_stats": {
       "day": {
