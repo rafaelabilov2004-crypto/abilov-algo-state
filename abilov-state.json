@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790159029.00702,
+  "updated_ts": 1790159119.719232,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 12,
+      "loop_n": 13,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790159029.006356
+      "heartbeat_ts": 1790159119.718693
     }
   },
   "control": {
@@ -1641,43 +1641,6 @@
         ]
       },
       {
-        "symbol": "NZDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.572573721408844,
-        "sl": 0.57028343,
-        "tp_levels": [
-          0.57497853,
-          0.57669625,
-          0.57841397,
-          0.57944461
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_3",
-          "rsi",
-          "macd",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1789765955.305732,
-        "ts": 1789765049.763093,
-        "timeframe": "1h",
-        "msg_id": 1460,
-        "updates": [
-          {
-            "t": 1789765955.305741,
-            "kind": "open",
-            "px": 0.572573721408844
-          }
-        ]
-      },
-      {
         "symbol": "ETHUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2186,6 +2149,54 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "NZDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.572573721408844,
+        "sl": 0.57028343,
+        "tp_levels": [
+          0.57497853,
+          0.57669625,
+          0.57841397,
+          0.57944461
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1789765955.305732,
+        "ts": 1789765049.763093,
+        "timeframe": "1h",
+        "msg_id": 1460,
+        "updates": [
+          {
+            "t": 1789765955.305741,
+            "kind": "open",
+            "px": 0.572573721408844
+          },
+          {
+            "t": 1790159113.157669,
+            "kind": "SL",
+            "px": 0.57028343,
+            "pct": -0.4
+          }
+        ],
+        "exit": 0.57028343,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1790159113.157707
+      },
       {
         "symbol": "GBPUSD",
         "side": "SHORT",
@@ -3504,57 +3515,6 @@
         "pct": -0.594,
         "r_multiple": -1.0,
         "closed_ts": 1789764052.565556
-      },
-      {
-        "symbol": "USDJPY",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 157.9669952392578,
-        "sl": 157.07767593,
-        "tp_levels": [
-          158.90078052,
-          159.56777,
-          160.23475949,
-          160.63495318
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1789725531.989658,
-        "ts": 1789725529.282998,
-        "timeframe": "1h",
-        "msg_id": 1434,
-        "updates": [
-          {
-            "t": 1789725531.9896698,
-            "kind": "open",
-            "px": 157.9669952392578
-          },
-          {
-            "t": 1789764050.777631,
-            "kind": "SL",
-            "px": 157.07767593,
-            "pct": -0.56
-          }
-        ],
-        "exit": 157.07767593,
-        "reason": "SL",
-        "pct": -0.563,
-        "r_multiple": -1.0,
-        "closed_ts": 1789764050.7776582
       }
     ]
   },
@@ -3565,6 +3525,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "BitMEX shuts down: perpetuals pioneer officially closes it doors after 11 years",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
         "source": "CoinDesk",
@@ -3589,22 +3554,17 @@
         "title": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin's on a streak it hasn't hit since 2012",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4353.0,
-      "XAGUSD": 65.84,
-      "EURUSD": 1.14142,
-      "GBPUSD": 1.32841,
-      "USDJPY": 157.77901,
-      "AUDUSD": 0.70837,
-      "NZDUSD": 0.57042,
-      "US100": 31026.25
+      "XAUUSD": 4353.3999,
+      "XAGUSD": 65.805,
+      "EURUSD": 1.14129,
+      "GBPUSD": 1.32813,
+      "USDJPY": 157.8,
+      "AUDUSD": 0.70817,
+      "NZDUSD": 0.57026,
+      "US100": 31030.5
     },
     "period_stats": {
       "day": {
@@ -3629,10 +3589,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1624.77,
+    "balance": 1618.28,
     "currency": "$",
-    "total_return_pct": 62.48,
-    "closed": 386,
+    "total_return_pct": 61.83,
+    "closed": 387,
     "wins": 104,
     "peak": 1686.66
   }
