@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790174142.6718762,
+  "updated_ts": 1790174215.208055,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 162,
+      "loop_n": 163,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790174142.6711302
+      "heartbeat_ts": 1790174215.206356
     }
   },
   "control": {
@@ -2269,6 +2269,45 @@
             "px": 0.7043741345405579
           }
         ]
+      },
+      {
+        "symbol": "AAPL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 337.4700927734375,
+        "sl": 343.07737045,
+        "tp_levels": [
+          331.58245122,
+          327.37699296,
+          323.17153471,
+          320.64825976
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790174154.35136,
+        "ts": 1790174152.00745,
+        "timeframe": "1h",
+        "msg_id": 1568,
+        "updates": [
+          {
+            "t": 1790174154.351367,
+            "kind": "open",
+            "px": 337.4700927734375
+          }
+        ]
       }
     ],
     "closed": [
@@ -3716,14 +3755,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4318.5,
-      "XAGUSD": 65.105,
-      "EURUSD": 1.13921,
-      "GBPUSD": 1.32587,
-      "USDJPY": 158.27,
-      "AUDUSD": 0.70398,
-      "NZDUSD": 0.56754,
-      "US100": 30661.75
+      "XAUUSD": 4316.7998,
+      "XAGUSD": 65.01,
+      "EURUSD": 1.1396,
+      "GBPUSD": 1.32608,
+      "USDJPY": 158.27699,
+      "AUDUSD": 0.70423,
+      "NZDUSD": 0.56786,
+      "US100": 30648.0
     },
     "period_stats": {
       "day": {
