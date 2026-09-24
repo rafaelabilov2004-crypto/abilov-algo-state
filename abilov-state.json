@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790263596.702066,
+  "updated_ts": 1790264408.3247218,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790263596.701875
+      "heartbeat_ts": 1790264408.324289
     }
   },
   "control": {
@@ -1589,7 +1589,7 @@
           "vol_expansion",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1789975162.2725,
         "ts": 1789975160.125063,
         "timeframe": "1h",
@@ -1611,6 +1611,12 @@
             "kind": "TP2",
             "px": 158.397793,
             "pct": 0.74
+          },
+          {
+            "t": 1790264391.891903,
+            "kind": "TP3",
+            "px": 158.88562133,
+            "pct": 1.05
           }
         ]
       },
@@ -1640,7 +1646,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1790086730.441612,
         "ts": 1790086727.983582,
         "timeframe": "1h",
@@ -1662,6 +1668,12 @@
             "kind": "TP2",
             "px": 51809.66103732,
             "pct": 1.06
+          },
+          {
+            "t": 1790264392.9455,
+            "kind": "TP3",
+            "px": 51578.26980287,
+            "pct": 1.5
           }
         ]
       },
@@ -1758,57 +1770,6 @@
             "kind": "TP1",
             "px": 1.3226016,
             "pct": 0.42
-          }
-        ]
-      },
-      {
-        "symbol": "USOIL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 89.86000061035156,
-        "sl": 87.81151708,
-        "tp_levels": [
-          92.01090832,
-          93.54727097,
-          95.08363361,
-          96.0054512
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790162245.782523,
-        "ts": 1790161479.273665,
-        "timeframe": "1h",
-        "msg_id": 1548,
-        "updates": [
-          {
-            "t": 1790162245.7825332,
-            "kind": "open",
-            "px": 89.86000061035156
-          },
-          {
-            "t": 1790172382.1385758,
-            "kind": "TP1",
-            "px": 92.01090832,
-            "pct": 2.39
-          },
-          {
-            "t": 1790241397.618827,
-            "kind": "TP2",
-            "px": 93.54727097,
-            "pct": 4.1
           }
         ]
       },
@@ -1935,7 +1896,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1790171704.1779141,
         "ts": 1790171701.9980748,
         "timeframe": "1h",
@@ -1945,6 +1906,12 @@
             "t": 1790171704.177919,
             "kind": "open",
             "px": 0.7043741345405579
+          },
+          {
+            "t": 1790264396.065977,
+            "kind": "TP1",
+            "px": 0.70141576,
+            "pct": 0.42
           }
         ]
       },
@@ -2190,9 +2157,117 @@
             "px": 30434.5
           }
         ]
+      },
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 96.38999938964844,
+        "sl": 94.01874722,
+        "tp_levels": [
+          98.87981417,
+          100.65825329,
+          102.43669242,
+          103.50375589
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "donchian",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790264408.319,
+        "ts": 1790264405.624293,
+        "timeframe": "1h",
+        "msg_id": 1603,
+        "updates": [
+          {
+            "t": 1790264408.319007,
+            "kind": "open",
+            "px": 96.38999938964844
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 89.86000061035156,
+        "sl": 87.81151708,
+        "tp_levels": [
+          92.01090832,
+          93.54727097,
+          95.08363361,
+          96.0054512
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1790162245.782523,
+        "ts": 1790161479.273665,
+        "timeframe": "1h",
+        "msg_id": 1548,
+        "updates": [
+          {
+            "t": 1790162245.7825332,
+            "kind": "open",
+            "px": 89.86000061035156
+          },
+          {
+            "t": 1790172382.1385758,
+            "kind": "TP1",
+            "px": 92.01090832,
+            "pct": 2.39
+          },
+          {
+            "t": 1790241397.618827,
+            "kind": "TP2",
+            "px": 93.54727097,
+            "pct": 4.1
+          },
+          {
+            "t": 1790264394.367269,
+            "kind": "TP3",
+            "px": 95.08363361,
+            "pct": 5.81
+          },
+          {
+            "t": 1790264395.2775512,
+            "kind": "TP4",
+            "px": 96.0054512,
+            "pct": 6.84
+          }
+        ],
+        "exit": 96.0054512,
+        "reason": "TP4",
+        "pct": 6.839,
+        "r_multiple": 3.0,
+        "closed_ts": 1790264395.277569
+      },
       {
         "symbol": "NVDA",
         "side": "LONG",
@@ -3566,73 +3641,6 @@
         "pct": 5.065,
         "r_multiple": 3.0,
         "closed_ts": 1790014689.788564
-      },
-      {
-        "symbol": "NVDA",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 225.8350067138672,
-        "sl": 231.28396967,
-        "tp_levels": [
-          220.11359561,
-          216.02687339,
-          211.94015117,
-          209.48811784
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1788886672.892276,
-        "ts": 1788886666.947411,
-        "timeframe": "1h",
-        "msg_id": 1205,
-        "updates": [
-          {
-            "t": 1788886672.892302,
-            "kind": "open",
-            "px": 225.8350067138672
-          },
-          {
-            "t": 1789050824.0931451,
-            "kind": "TP1",
-            "px": 220.11359561,
-            "pct": 2.53
-          },
-          {
-            "t": 1789416886.493959,
-            "kind": "TP2",
-            "px": 216.02687339,
-            "pct": 4.34
-          },
-          {
-            "t": 1789416887.255418,
-            "kind": "TP3",
-            "px": 211.94015117,
-            "pct": 6.15
-          },
-          {
-            "t": 1790014688.107049,
-            "kind": "BE",
-            "px": 225.8350067138672,
-            "pct": -0.0
-          }
-        ],
-        "exit": 225.8350067138672,
-        "reason": "BE",
-        "pct": -0.0,
-        "r_multiple": -0.0,
-        "closed_ts": 1790014688.107074
       }
     ]
   },
@@ -3643,6 +3651,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Bitcoin\u2019s bear markets are getting milder. Bull markets may be next",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "UK\u2019s largest banks complete world\u2019s first interbank transactions using tokenized deposits",
         "source": "CoinDesk",
@@ -3667,22 +3680,17 @@
         "title": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto investment firm RockawayX is betting $150 million on yield becoming next big use case",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "XAGUSD": 63.69,
-      "EURUSD": 1.13701,
-      "GBPUSD": 1.32141,
-      "USDJPY": 158.987,
-      "AUDUSD": 0.70146,
-      "NZDUSD": 0.56551,
-      "US100": 0.0
+      "XAUUSD": 4285.3999,
+      "XAGUSD": 63.615,
+      "EURUSD": 1.13688,
+      "GBPUSD": 1.32127,
+      "USDJPY": 158.914,
+      "AUDUSD": 0.70116,
+      "NZDUSD": 0.56542,
+      "US100": 30513.5
     },
     "period_stats": {
       "day": {
@@ -3707,11 +3715,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1625.58,
+    "balance": 1736.75,
     "currency": "$",
-    "total_return_pct": 62.56,
-    "closed": 398,
-    "wins": 109,
-    "peak": 1686.66
+    "total_return_pct": 73.67,
+    "closed": 399,
+    "wins": 110,
+    "peak": 1736.75
   }
 }
