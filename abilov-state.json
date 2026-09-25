@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790324070.8977191,
+  "updated_ts": 1790324148.717616,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790324070.897305
+      "heartbeat_ts": 1790324148.716609
     }
   },
   "control": {
@@ -2368,6 +2368,44 @@
             "t": 1790322752.6358101,
             "kind": "open",
             "px": 1.1388224363327026
+          }
+        ]
+      },
+      {
+        "symbol": "GBPUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.3239772319793701,
+        "sl": 1.31868132,
+        "tp_levels": [
+          1.32953794,
+          1.33350987,
+          1.3374818,
+          1.33986496
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "donchian",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790324087.8366039,
+        "ts": 1790324084.071139,
+        "timeframe": "1h",
+        "msg_id": 1618,
+        "updates": [
+          {
+            "t": 1790324087.836619,
+            "kind": "open",
+            "px": 1.3239772319793701
           }
         ]
       }
