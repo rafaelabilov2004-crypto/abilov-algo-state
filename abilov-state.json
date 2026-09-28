@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790594903.666462,
+  "updated_ts": 1790598578.818283,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790594903.6660638
+      "heartbeat_ts": 1790598578.817172
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -37.07,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -37.07
+    "unrealized_pnl": 1.27,
+    "net_pnl": -35.8
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 84112.6,
+      "ETH/USDT": 2661.05
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84498.14295,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 84112.6,
+      "upnl": 22.8,
+      "u_r": 0.51
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2699.751534,
       "tp": 2502.465398,
       "size": 1.886486,
-      "price": 2649.634871,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 2661.05,
+      "upnl": -21.53,
+      "u_r": -0.23
     }
   ],
   "recent_trades": [
@@ -4001,6 +4001,21 @@
     },
     "news": [
       {
+        "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Traders aren't panicking yet despite cooling crypto sentiment",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Crypto-friendly institution Franklin Templeton brings its tokenized collateral service to Bybit",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
         "source": "CoinDesk",
         "ts": 0
@@ -4014,32 +4029,17 @@
         "title": "Eyes on key U.S. employment data as crypto bulls take a breather: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin bears pay to bet on further declines as futures positions near yearly lows",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "RedotPay completes financial audit as it presses ahead with U.S. IPO plans",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "California's Newsom signs memecoin ban and calls it 'The Opposite of Trump'",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4185.0,
-      "XAGUSD": 61.76,
+      "XAUUSD": 4197.7998,
+      "XAGUSD": 61.96,
       "EURUSD": 1.13779,
-      "GBPUSD": 1.32645,
-      "USDJPY": 156.91,
-      "AUDUSD": 0.70171,
-      "NZDUSD": 0.56628,
-      "US100": 30623.75
+      "GBPUSD": 1.3261,
+      "USDJPY": 157.08299,
+      "AUDUSD": 0.70254,
+      "NZDUSD": 0.56696,
+      "US100": 30717.75
     },
     "period_stats": {
       "day": {
@@ -4055,10 +4055,10 @@
         "total_r": -0.3
       },
       "month": {
-        "n": 24,
-        "win_rate": 0.292,
-        "total_pnl": -247.6,
-        "total_r": -11.9
+        "n": 23,
+        "win_rate": 0.304,
+        "total_pnl": -190.89,
+        "total_r": -10.65
       }
     }
   },
