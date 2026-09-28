@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790591447.480869,
+  "updated_ts": 1790594903.666462,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 5,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790591447.479837
+      "heartbeat_ts": 1790594903.6660638
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -37.07,
-    "unrealized_pnl": 23.78,
-    "net_pnl": -13.29
+    "unrealized_pnl": 0.0,
+    "net_pnl": -37.07
   },
   "stats": {
-    "signals": 1,
-    "entries": 1,
-    "closes": 1,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84166.0,
-      "ETH/USDT": 2647.44
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84166.0,
-      "upnl": 19.64,
-      "u_r": 0.44
+      "price": 84498.14295,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2699.751534,
       "tp": 2502.465398,
       "size": 1.886486,
-      "price": 2647.44,
-      "upnl": 4.14,
-      "u_r": 0.04
+      "price": 2649.634871,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -4001,12 +4001,17 @@
     },
     "news": [
       {
+        "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Bitcoin sinks below $83,000 as Iran talks stall and oil climbs",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin rally takes a breather ahead of key U.S. employment data: Crypto Week Ahead",
+        "title": "Eyes on key U.S. employment data as crypto bulls take a breather: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -4024,22 +4029,17 @@
         "title": "California's Newsom signs memecoin ban and calls it 'The Opposite of Trump'",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Solana ETFs draw record $188 million in a week as Bitwise takes two-thirds of inflows",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4185.2998,
-      "XAGUSD": 61.68,
-      "EURUSD": 1.13753,
-      "GBPUSD": 1.3254,
-      "USDJPY": 157.05901,
-      "AUDUSD": 0.70111,
-      "NZDUSD": 0.56571,
-      "US100": 30570.25
+      "XAUUSD": 4185.0,
+      "XAGUSD": 61.76,
+      "EURUSD": 1.13779,
+      "GBPUSD": 1.32645,
+      "USDJPY": 156.91,
+      "AUDUSD": 0.70171,
+      "NZDUSD": 0.56628,
+      "US100": 30623.75
     },
     "period_stats": {
       "day": {
@@ -4064,10 +4064,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1663.44,
+    "balance": 1626.24,
     "currency": "$",
-    "total_return_pct": 66.34,
-    "closed": 412,
+    "total_return_pct": 62.62,
+    "closed": 413,
     "wins": 112,
     "peak": 1736.75
   }
