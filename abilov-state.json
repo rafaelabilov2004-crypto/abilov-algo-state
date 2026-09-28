@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790587626.0907059,
+  "updated_ts": 1790590404.164812,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790587626.087287
+      "heartbeat_ts": 1790590404.163434
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -37.07,
-    "unrealized_pnl": 18.9,
-    "net_pnl": -18.17
+    "unrealized_pnl": 22.74,
+    "net_pnl": -14.33
   },
   "stats": {
     "signals": 1,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84191.8,
-      "ETH/USDT": 2649.22
+      "BTC/USDT": 84170.9,
+      "ETH/USDT": 2647.84
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84191.8,
-      "upnl": 18.12,
-      "u_r": 0.41
+      "price": 84170.9,
+      "upnl": 19.35,
+      "u_r": 0.44
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2699.751534,
       "tp": 2502.465398,
       "size": 1.886486,
-      "price": 2649.22,
-      "upnl": 0.78,
-      "u_r": 0.01
+      "price": 2647.84,
+      "upnl": 3.39,
+      "u_r": 0.04
     }
   ],
   "recent_trades": [
@@ -1327,7 +1327,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1787943678.8208919,
         "ts": 1787943675.285578,
         "timeframe": "1h",
@@ -1349,6 +1349,12 @@
             "kind": "TP2",
             "px": 63.09719235,
             "pct": 5.93
+          },
+          {
+            "t": 1790587630.627827,
+            "kind": "TP3",
+            "px": 61.43977377,
+            "pct": 8.4
           }
         ]
       },
@@ -2286,44 +2292,6 @@
         ]
       },
       {
-        "symbol": "USOIL",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 93.27999877929688,
-        "sl": 95.366243,
-        "tp_levels": [
-          91.08944235,
-          89.52475918,
-          87.96007602,
-          87.02126612
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790325527.9279842,
-        "ts": 1790325525.3773491,
-        "timeframe": "1h",
-        "msg_id": 1623,
-        "updates": [
-          {
-            "t": 1790325527.92799,
-            "kind": "open",
-            "px": 93.27999877929688
-          }
-        ]
-      },
-      {
         "symbol": "AUDUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2527,9 +2495,96 @@
             "px": 4193.89990234375
           }
         ]
+      },
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7761.0,
+        "sl": 7793.06878803,
+        "tp_levels": [
+          7727.32777257,
+          7703.27618154,
+          7679.22459052,
+          7664.7936359
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "ema_trend",
+          "rsi",
+          "macd",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790587638.363783,
+        "ts": 1790587636.646676,
+        "timeframe": "1h",
+        "msg_id": 1663,
+        "updates": [
+          {
+            "t": 1790587638.363793,
+            "kind": "open",
+            "px": 7761.0
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "USOIL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 93.27999877929688,
+        "sl": 95.366243,
+        "tp_levels": [
+          91.08944235,
+          89.52475918,
+          87.96007602,
+          87.02126612
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790325527.9279842,
+        "ts": 1790325525.3773491,
+        "timeframe": "1h",
+        "msg_id": 1623,
+        "updates": [
+          {
+            "t": 1790325527.92799,
+            "kind": "open",
+            "px": 93.27999877929688
+          },
+          {
+            "t": 1790587634.952756,
+            "kind": "SL",
+            "px": 95.366243,
+            "pct": -2.24
+          }
+        ],
+        "exit": 95.366243,
+        "reason": "SL",
+        "pct": -2.237,
+        "r_multiple": -1.0,
+        "closed_ts": 1790587634.952776
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -3935,75 +3990,6 @@
         "pct": -0.4,
         "r_multiple": -1.0,
         "closed_ts": 1790159113.157707
-      },
-      {
-        "symbol": "GBPUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 1.3444474935531616,
-        "sl": 1.34982528,
-        "tp_levels": [
-          1.33880081,
-          1.33476747,
-          1.33073413,
-          1.32831412
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_8",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "donchian",
-          "vol_expansion"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1789575257.025016,
-        "ts": 1789575254.7154539,
-        "timeframe": "1h",
-        "msg_id": 1381,
-        "updates": [
-          {
-            "t": 1789575257.0250251,
-            "kind": "open",
-            "px": 1.3444474935531616
-          },
-          {
-            "t": 1789596978.227083,
-            "kind": "TP1",
-            "px": 1.33880081,
-            "pct": 0.42
-          },
-          {
-            "t": 1789733498.685502,
-            "kind": "TP2",
-            "px": 1.33476747,
-            "pct": 0.72
-          },
-          {
-            "t": 1790158296.477856,
-            "kind": "TP3",
-            "px": 1.33073413,
-            "pct": 1.02
-          },
-          {
-            "t": 1790158696.608649,
-            "kind": "TP4",
-            "px": 1.32831412,
-            "pct": 1.2
-          }
-        ],
-        "exit": 1.32831412,
-        "reason": "TP4",
-        "pct": 1.2,
-        "r_multiple": 3.0,
-        "closed_ts": 1790158696.608673
       }
     ]
   },
@@ -4014,6 +4000,21 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Live updates: Bitcoin sinks below $83,000 as Iran talks stall and oil climbs",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin rally takes a breather ahead of key U.S. employment data: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin bears pay to bet on further declines as futures positions near yearly lows",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "RedotPay completes financial audit as it presses ahead with U.S. IPO plans",
         "source": "CoinDesk",
@@ -4028,32 +4029,17 @@
         "title": "Solana ETFs draw record $188 million in a week as Bitwise takes two-thirds of inflows",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin, Nasdaq futures decline as Trump won\u2019t rule out more Iran strikes",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Vitalik Buterin maps Ethereum\u2019s shift beyond a blockchain in sweeping 2030 vision",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "How months of work on the Clarity Act all fell apart",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4174.5,
-      "XAGUSD": 61.42,
-      "EURUSD": 1.13817,
-      "GBPUSD": 1.32665,
-      "USDJPY": 157.021,
-      "AUDUSD": 0.702,
-      "NZDUSD": 0.56641,
-      "US100": 30542.25
+      "XAUUSD": 4188.7998,
+      "XAGUSD": 61.745,
+      "EURUSD": 1.13753,
+      "GBPUSD": 1.3254,
+      "USDJPY": 157.09599,
+      "AUDUSD": 0.0,
+      "NZDUSD": 0.56567,
+      "US100": 30575.75
     },
     "period_stats": {
       "day": {
