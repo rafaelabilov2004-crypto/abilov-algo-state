@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790572054.725971,
+  "updated_ts": 1790576294.250915,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790572054.72487
+      "heartbeat_ts": 1790576294.24984
     }
   },
   "control": {
@@ -45,14 +45,14 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -22.64,
-    "unrealized_pnl": 50.61,
-    "net_pnl": 27.97
+    "unrealized_pnl": 73.47,
+    "net_pnl": 50.83
   },
   "stats": {
     "signals": 0,
     "entries": 0,
     "closes": 0,
-    "updates": 1,
+    "updates": 2,
     "rejections": {},
     "wins": 0,
     "losses": 0
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84446.6,
-      "ETH/USDT": 2659.05
+      "BTC/USDT": 84415.1,
+      "ETH/USDT": 2647.78
     }
   },
   "open_positions": [
@@ -73,12 +73,12 @@
       "side": "SHORT",
       "strategy": "confluence",
       "entry": 2684.574386,
-      "sl": 2701.944477,
+      "sl": 2664.092299,
       "tp": 2628.086569,
       "size": 1.863252,
-      "price": 2659.05,
-      "upnl": 47.56,
-      "u_r": 1.47
+      "price": 2647.78,
+      "upnl": 68.56,
+      "u_r": 1.8
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84446.6,
-      "upnl": 3.05,
-      "u_r": 0.07
+      "price": 84415.1,
+      "upnl": 4.91,
+      "u_r": 0.11
     }
   ],
   "recent_trades": [
@@ -3986,14 +3986,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4228.7998,
-      "XAGUSD": 62.365,
-      "EURUSD": 1.13895,
-      "GBPUSD": 1.32429,
-      "USDJPY": 0.0,
-      "AUDUSD": 0.70284,
-      "NZDUSD": 0.56734,
-      "US100": 30667.0
+      "XAUUSD": 4212.3999,
+      "XAGUSD": 62.105,
+      "EURUSD": 1.13804,
+      "GBPUSD": 1.32349,
+      "USDJPY": 157.66299,
+      "AUDUSD": 0.702,
+      "NZDUSD": 0.56657,
+      "US100": 30658.0
     },
     "period_stats": {
       "day": {
