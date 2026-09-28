@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790565674.758752,
+  "updated_ts": 1790569340.053513,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 97,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790565674.7575612
+      "heartbeat_ts": 1790569340.05313
     }
   },
   "control": {
@@ -45,12 +45,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -22.64,
-    "unrealized_pnl": 25.84,
-    "net_pnl": 3.2
+    "unrealized_pnl": 0.0,
+    "net_pnl": -22.64
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84488.4,
-      "ETH/USDT": 2671.02
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 2701.944477,
       "tp": 2628.086569,
       "size": 1.863252,
-      "price": 2671.02,
-      "upnl": 25.26,
-      "u_r": 0.78
+      "price": 2684.574386,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "BTC/USDT",
@@ -88,9 +88,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84488.4,
-      "upnl": 0.58,
-      "u_r": 0.01
+      "price": 84498.14295,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3955,6 +3955,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin, Nasdaq futures decline as Trump won\u2019t rule out more Iran strikes",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Vitalik Buterin maps Ethereum\u2019s shift beyond a blockchain in sweeping 2030 vision",
         "source": "CoinDesk",
         "ts": 0
@@ -3978,22 +3983,17 @@
         "title": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4234.7002,
-      "XAGUSD": 62.48,
-      "EURUSD": 1.13934,
-      "GBPUSD": 1.32461,
-      "USDJPY": 157.785,
-      "AUDUSD": 0.70279,
-      "NZDUSD": 0.56731,
-      "US100": 30692.75
+      "XAUUSD": 4232.0,
+      "XAGUSD": 62.485,
+      "EURUSD": 1.13921,
+      "GBPUSD": 1.3247,
+      "USDJPY": 157.717,
+      "AUDUSD": 0.0,
+      "NZDUSD": 0.56744,
+      "US100": 30689.25
     },
     "period_stats": {
       "day": {
