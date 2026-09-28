@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790599499.623135,
+  "updated_ts": 1790611961.8524978,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790599499.622384
+      "heartbeat_ts": 1790611961.852142
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -37.07,
-    "unrealized_pnl": 1.27,
-    "net_pnl": -35.8
+    "unrealized_pnl": 0.0,
+    "net_pnl": -37.07
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84112.6,
-      "ETH/USDT": 2661.05
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 85248.045382,
       "tp": 82442.663853,
       "size": 0.059139,
-      "price": 84112.6,
-      "upnl": 22.8,
-      "u_r": 0.51
+      "price": 84498.14295,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2699.751534,
       "tp": 2502.465398,
       "size": 1.886486,
-      "price": 2661.05,
-      "upnl": -21.53,
-      "u_r": -0.23
+      "price": 2649.634871,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -4001,7 +4001,12 @@
     },
     "news": [
       {
-        "title": "Chainlink updates its crypto bridge tech months after a $292 million hack at a rival exposed risks",
+        "title": "AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -4024,22 +4029,17 @@
         "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin trims losses as oil eases on hopes of U.S. and Iran talks",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4185.3999,
-      "XAGUSD": 61.85,
-      "EURUSD": 1.13727,
-      "GBPUSD": 0.0,
-      "USDJPY": 157.17999,
-      "AUDUSD": 0.70249,
-      "NZDUSD": 0.56683,
-      "US100": 30714.0
+      "XAUUSD": 4154.2002,
+      "XAGUSD": 61.47,
+      "EURUSD": 1.13675,
+      "GBPUSD": 1.32531,
+      "USDJPY": 157.355,
+      "AUDUSD": 0.702,
+      "NZDUSD": 0.56673,
+      "US100": 30505.5
     },
     "period_stats": {
       "day": {
@@ -4055,10 +4055,10 @@
         "total_r": -0.3
       },
       "month": {
-        "n": 23,
-        "win_rate": 0.304,
-        "total_pnl": -190.89,
-        "total_r": -10.65
+        "n": 22,
+        "win_rate": 0.318,
+        "total_pnl": -114.1,
+        "total_r": -9.47
       }
     }
   },
