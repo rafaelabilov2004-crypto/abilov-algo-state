@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790612682.449194,
+  "updated_ts": 1790612750.5611851,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 12,
+      "loop_n": 13,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790612682.4481778
+      "heartbeat_ts": 1790612750.560482
     }
   },
   "control": {
@@ -1970,7 +1970,7 @@
           "rsi",
           "stoch"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790269041.384369,
         "ts": 1790269038.901856,
         "timeframe": "1h",
@@ -1986,6 +1986,12 @@
             "kind": "TP1",
             "px": 228.65364373,
             "pct": 1.89
+          },
+          {
+            "t": 1790612746.6568892,
+            "kind": "TP2",
+            "px": 231.68481521,
+            "pct": 3.24
           }
         ]
       },
@@ -3920,6 +3926,11 @@
     },
     "news": [
       {
+        "title": "The restaking gold rush is over, and top protocols are barely making a profit",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Tether is a \u2018lifeline\u2019 for Iranian regime, Senate Dems say in new report",
         "source": "CoinDesk",
         "ts": 0
@@ -3943,22 +3954,17 @@
         "title": "Traders aren't panicking yet despite cooling crypto sentiment",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto-friendly institution Franklin Templeton brings its tokenized collateral service to Bybit",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4151.7998,
-      "XAGUSD": 61.37,
-      "EURUSD": 1.13779,
-      "GBPUSD": 1.32652,
-      "USDJPY": 157.207,
-      "AUDUSD": 0.70284,
-      "NZDUSD": 0.56754,
-      "US100": 30518.75
+      "XAUUSD": 4149.7998,
+      "XAGUSD": 61.33,
+      "EURUSD": 1.13792,
+      "GBPUSD": 1.32672,
+      "USDJPY": 157.142,
+      "AUDUSD": 0.70294,
+      "NZDUSD": 0.56767,
+      "US100": 30518.25
     },
     "period_stats": {
       "day": {
