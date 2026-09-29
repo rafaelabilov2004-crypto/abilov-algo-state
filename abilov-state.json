@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790685408.822411,
+  "updated_ts": 1790685491.756105,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790685408.821829
+      "heartbeat_ts": 1790685491.7541602
     }
   },
   "control": {
@@ -1906,46 +1906,6 @@
         ]
       },
       {
-        "symbol": "USOIL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 93.9800033569336,
-        "sl": 91.19700288,
-        "tp_levels": [
-          96.90215386,
-          98.98940422,
-          101.07665458,
-          102.32900479
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790268060.5523598,
-        "ts": 1790268058.501272,
-        "timeframe": "1h",
-        "msg_id": 1610,
-        "updates": [
-          {
-            "t": 1790268060.5523682,
-            "kind": "open",
-            "px": 93.9800033569336
-          }
-        ]
-      },
-      {
         "symbol": "NVDA",
         "side": "LONG",
         "strategy": "confluence",
@@ -2205,44 +2165,6 @@
             "kind": "TP2",
             "px": 52208.94038365,
             "pct": 0.81
-          }
-        ]
-      },
-      {
-        "symbol": "AUDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.7030865550041199,
-        "sl": 0.70027421,
-        "tp_levels": [
-          0.70603952,
-          0.70814878,
-          0.71025804,
-          0.71152359
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "pat_engulfing",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790326178.190994,
-        "ts": 1790326175.644723,
-        "timeframe": "1h",
-        "msg_id": 1624,
-        "updates": [
-          {
-            "t": 1790326178.1910021,
-            "kind": "open",
-            "px": 0.7030865550041199
           }
         ]
       },
@@ -2537,6 +2459,106 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "AUDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.7030865550041199,
+        "sl": 0.70027421,
+        "tp_levels": [
+          0.70603952,
+          0.70814878,
+          0.71025804,
+          0.71152359
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "pat_engulfing",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790326178.190994,
+        "ts": 1790326175.644723,
+        "timeframe": "1h",
+        "msg_id": 1624,
+        "updates": [
+          {
+            "t": 1790326178.1910021,
+            "kind": "open",
+            "px": 0.7030865550041199
+          },
+          {
+            "t": 1790685426.3163562,
+            "kind": "SL",
+            "px": 0.70027421,
+            "pct": -0.4
+          }
+        ],
+        "exit": 0.70027421,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1790685426.316373
+      },
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 93.9800033569336,
+        "sl": 91.19700288,
+        "tp_levels": [
+          96.90215386,
+          98.98940422,
+          101.07665458,
+          102.32900479
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790268060.5523598,
+        "ts": 1790268058.501272,
+        "timeframe": "1h",
+        "msg_id": 1610,
+        "updates": [
+          {
+            "t": 1790268060.5523682,
+            "kind": "open",
+            "px": 93.9800033569336
+          },
+          {
+            "t": 1790685424.622889,
+            "kind": "SL",
+            "px": 91.19700288,
+            "pct": -2.96
+          }
+        ],
+        "exit": 91.19700288,
+        "reason": "SL",
+        "pct": -2.961,
+        "r_multiple": -1.0,
+        "closed_ts": 1790685424.62291
+      },
       {
         "symbol": "NVDA",
         "side": "SHORT",
@@ -3876,123 +3898,6 @@
         "pct": -1.756,
         "r_multiple": -1.0,
         "closed_ts": 1790179391.7131689
-      },
-      {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4366.0,
-        "sl": 4319.45634854,
-        "tp_levels": [
-          4414.87083403,
-          4449.77857262,
-          4484.68631121,
-          4505.63095437
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790095763.762644,
-        "ts": 1790095761.533563,
-        "timeframe": "1h",
-        "msg_id": 1536,
-        "updates": [
-          {
-            "t": 1790095763.76265,
-            "kind": "open",
-            "px": 4366.0
-          },
-          {
-            "t": 1790172248.634781,
-            "kind": "SL",
-            "px": 4319.45634854,
-            "pct": -1.07
-          }
-        ],
-        "exit": 4319.45634854,
-        "reason": "SL",
-        "pct": -1.066,
-        "r_multiple": -1.0,
-        "closed_ts": 1790172248.634795
-      },
-      {
-        "symbol": "AUDUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 0.7131141424179077,
-        "sl": 0.7159666,
-        "tp_levels": [
-          0.71011906,
-          0.70797972,
-          0.70584038,
-          0.70455677
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "supertrend"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1789470225.477946,
-        "ts": 1789470221.8064198,
-        "timeframe": "1h",
-        "msg_id": 1350,
-        "updates": [
-          {
-            "t": 1789470225.478003,
-            "kind": "open",
-            "px": 0.7131141424179077
-          },
-          {
-            "t": 1789596971.500958,
-            "kind": "TP1",
-            "px": 0.71011906,
-            "pct": 0.42
-          },
-          {
-            "t": 1790161473.523846,
-            "kind": "TP2",
-            "px": 0.70797972,
-            "pct": 0.72
-          },
-          {
-            "t": 1790169314.305992,
-            "kind": "TP3",
-            "px": 0.70584038,
-            "pct": 1.02
-          },
-          {
-            "t": 1790171696.669238,
-            "kind": "TP4",
-            "px": 0.70455677,
-            "pct": 1.2
-          }
-        ],
-        "exit": 0.70455677,
-        "reason": "TP4",
-        "pct": 1.2,
-        "r_multiple": 3.0,
-        "closed_ts": 1790171696.669267
       }
     ]
   },
@@ -4067,10 +3972,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1537.86,
+    "balance": 1486.35,
     "currency": "$",
-    "total_return_pct": 53.79,
-    "closed": 418,
+    "total_return_pct": 48.63,
+    "closed": 420,
     "wins": 112,
     "peak": 1736.75
   }
