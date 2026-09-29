@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790627016.33425,
+  "updated_ts": 1790685408.822411,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 231,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790627016.327552
+      "heartbeat_ts": 1790685408.821829
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -256.84,
-    "unrealized_pnl": -6.16,
-    "net_pnl": -263.0
+    "unrealized_pnl": 0.0,
+    "net_pnl": -256.84
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 3
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81480.1,
-      "ETH/USDT": 2653.92
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 82567.032463,
       "tp": 77915.702611,
       "size": 0.061422,
-      "price": 81480.1,
-      "upnl": -6.16,
-      "u_r": -0.08
+      "price": 81379.77874,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1220,7 +1220,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 74,
+      "index": 73,
       "label": "Codicia",
       "bias": 0
     },
@@ -1230,17 +1230,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-28",
-      "end": "2026-09-29",
-      "trades": 5,
-      "wins": 1,
-      "losses": 4,
-      "win_rate": 0.2,
-      "pnl": -234.2,
-      "avg_r": -0.801,
-      "best_r": 1.007,
-      "worst_r": -1.311,
-      "fees": 50.01
+      "start": "2026-09-29",
+      "end": "2026-09-30",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -3998,58 +3998,58 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 74,
+      "index": 73,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
       {
-        "title": "Goldman Sachs brings $100 billion Treasury fund into crypto\u2019s institutional plumbing",
+        "title": "Bitcoin beats gold, surge to $100,000 in play",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "The restaking gold rush is over, and top protocols are barely making a profit",
+        "title": "Zcash developers begin moving Tachyon code into faster private-payment software",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Tether is a \u2018lifeline\u2019 for Iranian regime, Senate Dems say in new report",
+        "title": "Aave leads DeFi higher as crypto shrugs off surging bond market",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns",
+        "title": "Live updates: Bitcoin rebounds above $84,000 as ETFs draw in $30 million",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
+        "title": "Blockchain.com targets $500 million IPO this year at up to $6 billion valuation",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
+        "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4151.7002,
-      "XAGUSD": 61.11,
-      "EURUSD": 1.1374,
-      "GBPUSD": 1.32526,
-      "USDJPY": 157.373,
-      "AUDUSD": 0.70185,
-      "NZDUSD": 0.5667,
-      "US100": 30559.5
+      "XAUUSD": 4184.0,
+      "XAGUSD": 61.2,
+      "EURUSD": 1.1352,
+      "GBPUSD": 1.3234,
+      "USDJPY": 157.295,
+      "AUDUSD": 0.69969,
+      "NZDUSD": 0.56542,
+      "US100": 30666.75
     },
     "period_stats": {
       "day": {
-        "n": 5,
-        "win_rate": 0.2,
-        "total_pnl": -234.2,
-        "total_r": -4.0
+        "n": 3,
+        "win_rate": 0.0,
+        "total_pnl": -219.76,
+        "total_r": -3.71
       },
       "week": {
         "n": 5,
