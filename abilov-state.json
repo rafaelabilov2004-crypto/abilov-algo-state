@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790706002.983936,
+  "updated_ts": 1790717891.461233,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 311,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790706002.98249
+      "heartbeat_ts": 1790717891.460853
     }
   },
   "control": {
@@ -51,11 +51,11 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83855.3,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -3836,6 +3836,11 @@
     },
     "news": [
       {
+        "title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
         "source": "CoinDesk",
         "ts": 0
@@ -3846,7 +3851,7 @@
         "ts": 0
       },
       {
-        "title": "Bitcoin beats gold, surge to $100,000 in play",
+        "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3859,29 +3864,24 @@
         "title": "Aave leads DeFi higher as crypto shrugs off surging bond market",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin turns lower as rates rise, consumer confidence plunges",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4190.7002,
-      "XAGUSD": 61.425,
-      "EURUSD": 1.13404,
-      "GBPUSD": 1.32266,
-      "USDJPY": 157.24001,
-      "AUDUSD": 0.69857,
-      "NZDUSD": 0.56417,
-      "US100": 30561.0
+      "XAUUSD": 4215.0,
+      "XAGUSD": 61.845,
+      "EURUSD": 1.13443,
+      "GBPUSD": 1.32308,
+      "USDJPY": 157.261,
+      "AUDUSD": 0.6993,
+      "NZDUSD": 0.56421,
+      "US100": 30652.75
     },
     "period_stats": {
       "day": {
-        "n": 2,
+        "n": 1,
         "win_rate": 0.0,
-        "total_pnl": -143.74,
-        "total_r": -2.43
+        "total_pnl": -82.99,
+        "total_r": -1.16
       },
       "week": {
         "n": 6,
@@ -3899,10 +3899,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1464.67,
+    "balance": 1466.13,
     "currency": "$",
-    "total_return_pct": 46.47,
-    "closed": 421,
+    "total_return_pct": 46.61,
+    "closed": 424,
     "wins": 112,
     "peak": 1736.75
   }
