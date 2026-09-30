@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790740864.665771,
+  "updated_ts": 1790747936.430999,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790740864.665256
+      "heartbeat_ts": 1790747936.429953
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 11.83,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 1,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -339.83,
-    "unrealized_pnl": 0,
-    "net_pnl": -339.83
+    "unrealized_pnl": -2.72,
+    "net_pnl": -342.55
   },
   "stats": {
-    "signals": 0,
-    "entries": 0,
+    "signals": 2,
+    "entries": 2,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,11 +63,36 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 83430.0,
+      "ETH/USDT": 2671.03
     }
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTC/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 83412.16884,
+      "sl": 83770.9488,
+      "tp": 82435.9536,
+      "size": 0.059925,
+      "price": 83430.0,
+      "upnl": -1.07,
+      "u_r": -0.05
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 2670.148715,
+      "sl": 2681.6338,
+      "tp": 2638.8986,
+      "size": 1.871993,
+      "price": 2671.03,
+      "upnl": -1.65,
+      "u_r": -0.08
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "BTC/USDT",
@@ -3836,6 +3861,16 @@
     },
     "news": [
       {
+        "title": "XRP Ledger starts carrying fund records from Brazil operator overseeing $4 trillion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
         "source": "CoinDesk",
         "ts": 0
@@ -3854,27 +3889,17 @@
         "title": "Democrats killed the Clarity Act",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Zcash developers begin moving Tachyon code into faster private-payment software",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "XAGUSD": 0.0,
-      "EURUSD": 1.13353,
-      "GBPUSD": 1.32263,
-      "USDJPY": 156.85201,
-      "AUDUSD": 0.69716,
-      "NZDUSD": 0.56456,
-      "US100": 0.0
+      "XAUUSD": 4207.3999,
+      "XAGUSD": 61.4,
+      "EURUSD": 1.13456,
+      "GBPUSD": 1.32424,
+      "USDJPY": 156.869,
+      "AUDUSD": 0.69784,
+      "NZDUSD": 0.565,
+      "US100": 30607.5
     },
     "period_stats": {
       "day": {
