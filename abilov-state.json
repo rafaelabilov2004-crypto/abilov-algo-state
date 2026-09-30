@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790767956.588555,
+  "updated_ts": 1790768023.911077,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 56,
+      "loop_n": 57,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790767956.587839
+      "heartbeat_ts": 1790768023.9096918
     }
   },
   "control": {
@@ -2515,6 +2515,45 @@
             "t": 1790759100.112664,
             "kind": "open",
             "px": 0.5655468702316284
+          }
+        ]
+      },
+      {
+        "symbol": "AUDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.6975446939468384,
+        "sl": 0.69475452,
+        "tp_levels": [
+          0.70047438,
+          0.70256702,
+          0.70465965,
+          0.70591523
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_star"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790768023.8965251,
+        "ts": 1790768021.6239018,
+        "timeframe": "1h",
+        "msg_id": 1706,
+        "updates": [
+          {
+            "t": 1790768023.896533,
+            "kind": "open",
+            "px": 0.6975446939468384
           }
         ]
       }
