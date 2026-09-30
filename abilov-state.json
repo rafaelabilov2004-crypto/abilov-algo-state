@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790727216.32597,
+  "updated_ts": 1790727467.0072021,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 137,
+      "loop_n": 138,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790727216.32419
+      "heartbeat_ts": 1790727467.0063832
     }
   },
   "control": {
@@ -40,8 +40,8 @@
     "equity": 9369.33,
     "peak": 10626.53,
     "drawdown_pct": 11.83,
-    "halted": true,
-    "halt_reason": "daily_loss_limit:-317.19",
+    "halted": false,
+    "halt_reason": "",
     "open_positions": 1,
     "start_equity": 10000.0,
     "realized_pnl": -339.83,
@@ -49,7 +49,7 @@
     "net_pnl": -339.83
   },
   "stats": {
-    "signals": 0,
+    "signals": 2,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -1211,7 +1211,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 73,
+      "index": 71,
       "label": "Codicia",
       "bias": 0
     },
@@ -3867,14 +3867,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4216.2998,
-      "XAGUSD": 61.84,
-      "EURUSD": 1.1343,
-      "GBPUSD": 1.32284,
-      "USDJPY": 157.338,
-      "AUDUSD": 0.69871,
+      "XAUUSD": 0.0,
+      "XAGUSD": 61.83,
+      "EURUSD": 1.13417,
+      "GBPUSD": 1.3227,
+      "USDJPY": 157.3,
+      "AUDUSD": 0.69881,
       "NZDUSD": 0.56402,
-      "US100": 30728.25
+      "US100": 30730.75
     },
     "period_stats": {
       "day": {
