@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790758463.3178072,
+  "updated_ts": 1790762775.846308,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790758463.315608
+      "heartbeat_ts": 1790762775.84494
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -339.83,
-    "unrealized_pnl": 4.69,
-    "net_pnl": -335.14
+    "unrealized_pnl": 0.0,
+    "net_pnl": -339.83
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83379.1,
-      "ETH/USDT": 2668.7
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83379.1,
-      "upnl": 1.98,
-      "u_r": 0.09
+      "price": 83412.16884,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2681.6338,
       "tp": 2638.8986,
       "size": 1.871993,
-      "price": 2668.7,
-      "upnl": 2.71,
-      "u_r": 0.13
+      "price": 2670.148715,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -2476,6 +2476,45 @@
             "px": 1.1353315114974976
           }
         ]
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.5655468702316284,
+        "sl": 0.56328468,
+        "tp_levels": [
+          0.56792217,
+          0.56961881,
+          0.57131545,
+          0.57233343
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790759100.112654,
+        "ts": 1790759096.551237,
+        "timeframe": "1h",
+        "msg_id": 1701,
+        "updates": [
+          {
+            "t": 1790759100.112664,
+            "kind": "open",
+            "px": 0.5655468702316284
+          }
+        ]
       }
     ],
     "closed": [
@@ -3905,7 +3944,7 @@
     },
     "news": [
       {
-        "title": "OpenAI seeks $30 in funding at whopping $1.4 trillion valuation after delaying IPO",
+        "title": "OpenAI seeks $30 billion in funding at whopping $1.4 trillion valuation after delaying IPO",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3936,14 +3975,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4229.3999,
-      "XAGUSD": 61.52,
-      "EURUSD": 1.13546,
-      "GBPUSD": 1.32714,
-      "USDJPY": 156.98199,
-      "AUDUSD": 0.69764,
-      "NZDUSD": 0.56542,
-      "US100": 0.0
+      "XAUUSD": 4218.5,
+      "XAGUSD": 61.18,
+      "EURUSD": 1.13662,
+      "GBPUSD": 1.3285,
+      "USDJPY": 156.91499,
+      "AUDUSD": 0.6975,
+      "NZDUSD": 0.56551,
+      "US100": 30610.0
     },
     "period_stats": {
       "day": {
