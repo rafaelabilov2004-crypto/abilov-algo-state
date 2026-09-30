@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790748171.321184,
+  "updated_ts": 1790754295.516282,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790748171.320224
+      "heartbeat_ts": 1790754295.509314
     }
   },
   "control": {
@@ -45,12 +45,12 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -339.83,
-    "unrealized_pnl": -2.72,
-    "net_pnl": -342.55
+    "unrealized_pnl": 0.0,
+    "net_pnl": -339.83
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
+    "signals": 0,
+    "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83430.0,
-      "ETH/USDT": 2671.03
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83430.0,
-      "upnl": -1.07,
-      "u_r": -0.05
+      "price": 83412.16884,
+      "upnl": -0.0,
+      "u_r": -0.0
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2681.6338,
       "tp": 2638.8986,
       "size": 1.871993,
-      "price": 2671.03,
-      "upnl": -1.65,
-      "u_r": -0.08
+      "price": 2670.148715,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -3861,6 +3861,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin bulls have one price level to defend",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "XRP Ledger starts carrying fund records from Brazil operator overseeing $4 trillion",
         "source": "CoinDesk",
         "ts": 0
@@ -3879,27 +3889,17 @@
         "title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Democrats killed the Clarity Act",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4206.6001,
-      "XAGUSD": 61.41,
-      "EURUSD": 1.13494,
-      "GBPUSD": 1.32542,
-      "USDJPY": 156.892,
-      "AUDUSD": 0.69789,
-      "NZDUSD": 0.56526,
-      "US100": 30602.75
+      "XAUUSD": 4227.0,
+      "XAGUSD": 61.73,
+      "EURUSD": 0.0,
+      "GBPUSD": 1.32649,
+      "USDJPY": 156.895,
+      "AUDUSD": 0.69764,
+      "NZDUSD": 0.56523,
+      "US100": 30687.5
     },
     "period_stats": {
       "day": {
