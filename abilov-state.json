@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790763818.8122518,
+  "updated_ts": 1790764363.141123,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790763818.810369
+      "heartbeat_ts": 1790764363.087605
     }
   },
   "control": {
@@ -42,20 +42,20 @@
     "drawdown_pct": 12.13,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -371.35,
-    "unrealized_pnl": 1.63,
-    "net_pnl": -369.72
+    "unrealized_pnl": 0.0,
+    "net_pnl": -371.35
   },
   "stats": {
-    "signals": 1,
+    "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83385.0,
-      "ETH/USDT": 2693.48
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83385.0,
-      "upnl": 1.63,
-      "u_r": 0.08
+      "price": 83412.16884,
+      "upnl": -0.0,
+      "u_r": -0.0
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "LONG",
+      "strategy": "confluence",
+      "entry": 2694.288044,
+      "sl": 2682.70608,
+      "tp": 2725.80176,
+      "size": 1.856335,
+      "price": 2694.288044,
+      "upnl": 0.0,
+      "u_r": 0.0
     }
   ],
   "recent_trades": [
@@ -3936,6 +3948,11 @@
     },
     "news": [
       {
+        "title": "Metaplanet directors push back against shareholder fury over a controversial executive payout plan",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Bitcoin below $84,000 ahead of PCE inflation data, Micron earnings",
         "source": "CoinDesk",
         "ts": 0
@@ -3959,41 +3976,36 @@
         "title": "Bitcoin bulls have one price level to defend",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Robinhood unveils an AI that trades your money 24/7, and you carry all the risk",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4218.1001,
-      "XAGUSD": 61.13,
-      "EURUSD": 1.13636,
-      "GBPUSD": 1.32924,
-      "USDJPY": 156.955,
-      "AUDUSD": 0.69759,
-      "NZDUSD": 0.56561,
-      "US100": 30587.0
+      "XAUUSD": 4218.2002,
+      "XAGUSD": 61.185,
+      "EURUSD": 1.13611,
+      "GBPUSD": 1.32959,
+      "USDJPY": 156.935,
+      "AUDUSD": 0.69735,
+      "NZDUSD": 0.56536,
+      "US100": 30593.5
     },
     "period_stats": {
       "day": {
-        "n": 1,
+        "n": 2,
         "win_rate": 0.0,
-        "total_pnl": -82.99,
-        "total_r": -1.16
+        "total_pnl": -114.51,
+        "total_r": -2.74
       },
       "week": {
-        "n": 6,
-        "win_rate": 0.167,
-        "total_pnl": -317.19,
-        "total_r": -5.17
+        "n": 7,
+        "win_rate": 0.143,
+        "total_pnl": -348.71,
+        "total_r": -6.74
       },
       "month": {
-        "n": 25,
-        "win_rate": 0.28,
-        "total_pnl": -385.34,
-        "total_r": -12.76
+        "n": 26,
+        "win_rate": 0.269,
+        "total_pnl": -416.86,
+        "total_r": -14.34
       }
     }
   },
