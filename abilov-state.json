@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790770944.9696288,
+  "updated_ts": 1790773190.803052,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 102,
+      "loop_n": 103,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790770944.964101
+      "heartbeat_ts": 1790773190.8020108
     }
   },
   "control": {
@@ -42,15 +42,15 @@
     "drawdown_pct": 12.8,
     "halted": false,
     "halt_reason": "",
-    "open_positions": 2,
+    "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -442.36,
-    "unrealized_pnl": -1.62,
-    "net_pnl": -443.98
+    "unrealized_pnl": -10.6,
+    "net_pnl": -452.96
   },
   "stats": {
     "signals": 2,
-    "entries": 1,
+    "entries": 2,
     "closes": 2,
     "updates": 0,
     "rejections": {},
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83439.2,
-      "ETH/USDT": 2658.58
+      "BTC/USDT": 83452.2,
+      "ETH/USDT": 2662.14
     }
   },
   "open_positions": [
@@ -76,9 +76,21 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83439.2,
-      "upnl": -1.62,
-      "u_r": -0.08
+      "price": 83452.2,
+      "upnl": -2.4,
+      "u_r": -0.11
+    },
+    {
+      "symbol": "ETH/USDT",
+      "side": "SHORT",
+      "strategy": "confluence",
+      "entry": 2657.782426,
+      "sl": 2673.886688,
+      "tp": 2612.659936,
+      "size": 1.880703,
+      "price": 2662.14,
+      "upnl": -8.2,
+      "u_r": -0.27
     }
   ],
   "recent_trades": [
@@ -4052,27 +4064,27 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin tentative ahead of U.S. inflation data",
+        "title": "Live updates: Bitcoin gains as yields dip following better than hoped inflation numbers",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4221.2998,
-      "XAGUSD": 61.09,
-      "EURUSD": 1.13611,
-      "GBPUSD": 1.32882,
-      "USDJPY": 157.048,
-      "AUDUSD": 0.69701,
-      "NZDUSD": 0.56472,
-      "US100": 30561.75
+      "XAUUSD": 4242.3999,
+      "XAGUSD": 61.47,
+      "EURUSD": 1.13688,
+      "GBPUSD": 1.32906,
+      "USDJPY": 156.853,
+      "AUDUSD": 0.69793,
+      "NZDUSD": 0.56564,
+      "US100": 30692.5
     },
     "period_stats": {
       "day": {
-        "n": 4,
+        "n": 3,
         "win_rate": 0.0,
-        "total_pnl": -185.53,
-        "total_r": -5.8
+        "total_pnl": -102.53,
+        "total_r": -4.64
       },
       "week": {
         "n": 9,
