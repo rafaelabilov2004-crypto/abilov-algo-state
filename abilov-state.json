@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790755430.995828,
+  "updated_ts": 1790758463.3178072,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790755430.995039
+      "heartbeat_ts": 1790758463.315608
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 3,
     "start_equity": 10000.0,
     "realized_pnl": -339.83,
-    "unrealized_pnl": 1.81,
-    "net_pnl": -338.02
+    "unrealized_pnl": 4.69,
+    "net_pnl": -335.14
   },
   "stats": {
     "signals": 0,
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83397.9,
-      "ETH/USDT": 2669.64
+      "BTC/USDT": 83379.1,
+      "ETH/USDT": 2668.7
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83397.9,
-      "upnl": 0.86,
-      "u_r": 0.04
+      "price": 83379.1,
+      "upnl": 1.98,
+      "u_r": 0.09
     },
     {
       "symbol": "ETH/USDT",
@@ -88,9 +88,9 @@
       "sl": 2681.6338,
       "tp": 2638.8986,
       "size": 1.871993,
-      "price": 2669.64,
-      "upnl": 0.95,
-      "u_r": 0.04
+      "price": 2668.7,
+      "upnl": 2.71,
+      "u_r": 0.13
     }
   ],
   "recent_trades": [
@@ -2381,7 +2381,7 @@
           "pat_engulfing",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1790687631.597694,
         "ts": 1790687629.26897,
         "timeframe": "1h",
@@ -2391,6 +2391,12 @@
             "t": 1790687631.597704,
             "kind": "open",
             "px": 4186.10009765625
+          },
+          {
+            "t": 1790755444.8704891,
+            "kind": "TP1",
+            "px": 4222.26450842,
+            "pct": 0.86
           }
         ]
       },
@@ -2430,6 +2436,44 @@
             "t": 1790694753.224224,
             "kind": "open",
             "px": 61.584999084472656
+          }
+        ]
+      },
+      {
+        "symbol": "EURUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.1353315114974976,
+        "sl": 1.13079019,
+        "tp_levels": [
+          1.1400999,
+          1.1435059,
+          1.14691189,
+          1.14895549
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_engulfing"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790755469.71779,
+        "ts": 1790755447.365674,
+        "timeframe": "1h",
+        "msg_id": 1700,
+        "updates": [
+          {
+            "t": 1790755469.717799,
+            "kind": "open",
+            "px": 1.1353315114974976
           }
         ]
       }
@@ -3861,12 +3905,27 @@
     },
     "news": [
       {
+        "title": "OpenAI seeks $30 in funding at whopping $1.4 trillion valuation after delaying IPO",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Winklevoss-owned Gemini switches Zcash software ahead of faster 25-second blocks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "How European investors can now buy bitcoin without taking on U.S. dollar risk",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin bulls have one price level to defend",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
+        "title": "Robinhood unveils an AI that trades your money 24/7, and you carry all the risk",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3874,32 +3933,17 @@
         "title": "XRP Ledger starts carrying fund records from Brazil operator overseeing $4 trillion",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4227.8999,
-      "XAGUSD": 61.66,
-      "EURUSD": 1.13533,
-      "GBPUSD": 1.32656,
-      "USDJPY": 156.86501,
-      "AUDUSD": 0.69784,
-      "NZDUSD": 0.56523,
-      "US100": 30682.75
+      "XAUUSD": 4229.3999,
+      "XAGUSD": 61.52,
+      "EURUSD": 1.13546,
+      "GBPUSD": 1.32714,
+      "USDJPY": 156.98199,
+      "AUDUSD": 0.69764,
+      "NZDUSD": 0.56542,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
