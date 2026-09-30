@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790787557.807264,
+  "updated_ts": 1790795000.1673212,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 321,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790787557.806375
+      "heartbeat_ts": 1790795000.166643
     }
   },
   "control": {
@@ -45,17 +45,17 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -484.19,
-    "unrealized_pnl": -8.85,
-    "net_pnl": -493.04
+    "unrealized_pnl": 0.0,
+    "net_pnl": -484.19
   },
   "stats": {
-    "signals": 2,
-    "entries": 2,
-    "closes": 3,
+    "signals": 0,
+    "entries": 0,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 3
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83559.9,
-      "ETH/USDT": 2701.6
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83559.9,
-      "upnl": -8.85,
-      "u_r": -0.41
+      "price": 83412.16884,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -4026,6 +4026,11 @@
     },
     "news": [
       {
+        "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'",
         "source": "CoinDesk",
         "ts": 0
@@ -4049,22 +4054,17 @@
         "title": "Cardano tapped by Brazil\u2019s state oil giant to track cleaner jet fuel and diesel",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "A stronger dollar is a weaker threat to bitcoin than traders think",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4189.3999,
-      "XAGUSD": 60.64,
-      "EURUSD": 1.13404,
-      "GBPUSD": 1.32647,
-      "USDJPY": 157.306,
-      "AUDUSD": 0.69512,
-      "NZDUSD": 0.56344,
-      "US100": 30857.75
+      "XAUUSD": 4182.5,
+      "XAGUSD": 60.565,
+      "EURUSD": 1.13353,
+      "GBPUSD": 1.32619,
+      "USDJPY": 157.353,
+      "AUDUSD": 0.69517,
+      "NZDUSD": 0.5637,
+      "US100": 30804.0
     },
     "period_stats": {
       "day": {
@@ -4089,11 +4089,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1435.77,
+    "balance": 1427.02,
     "currency": "$",
-    "total_return_pct": 43.58,
-    "closed": 428,
-    "wins": 112,
+    "total_return_pct": 42.7,
+    "closed": 430,
+    "wins": 113,
     "peak": 1736.75
   }
 }
