@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790871154.6006,
+  "updated_ts": 1790874269.950481,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790871154.6002922
+      "heartbeat_ts": 1790874269.949621
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -484.19,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -484.19
+    "unrealized_pnl": -15.99,
+    "net_pnl": -500.18
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
+      "BTC/USDT": 83679.0,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83412.16884,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 83679.0,
+      "upnl": -15.99,
+      "u_r": -0.74
     }
   ],
   "recent_trades": [
@@ -1652,58 +1652,6 @@
         ]
       },
       {
-        "symbol": "EURUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 1.138044834136963,
-        "sl": 1.14259701,
-        "tp_levels": [
-          1.13326505,
-          1.12985091,
-          1.12643678,
-          1.1243883
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790182491.064369,
-        "ts": 1790182488.755541,
-        "timeframe": "1h",
-        "msg_id": 1577,
-        "updates": [
-          {
-            "t": 1790182491.064375,
-            "kind": "open",
-            "px": 1.138044834136963
-          },
-          {
-            "t": 1790695778.527164,
-            "kind": "TP1",
-            "px": 1.13326505,
-            "pct": 0.42
-          },
-          {
-            "t": 1790848107.1284878,
-            "kind": "TP2",
-            "px": 1.12985091,
-            "pct": 0.72
-          }
-        ]
-      },
-      {
         "symbol": "US100",
         "side": "LONG",
         "strategy": "confluence",
@@ -2230,7 +2178,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1790776442.2095292,
         "ts": 1790776439.9442801,
         "timeframe": "1h",
@@ -2240,6 +2188,12 @@
             "t": 1790776442.209536,
             "kind": "open",
             "px": 0.6957489848136902
+          },
+          {
+            "t": 1790871170.737887,
+            "kind": "TP1",
+            "px": 0.69282684,
+            "pct": 0.42
           }
         ]
       },
@@ -2482,9 +2436,118 @@
             "px": 60.86000061035156
           }
         ]
+      },
+      {
+        "symbol": "EURUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1.1241008043289185,
+        "sl": 1.12859721,
+        "tp_levels": [
+          1.11937958,
+          1.11600728,
+          1.11263498,
+          1.11061159
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790871174.468883,
+        "ts": 1790871172.129334,
+        "timeframe": "1h",
+        "msg_id": 1743,
+        "updates": [
+          {
+            "t": 1790871174.4688919,
+            "kind": "open",
+            "px": 1.1241008043289185
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "EURUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1.138044834136963,
+        "sl": 1.14259701,
+        "tp_levels": [
+          1.13326505,
+          1.12985091,
+          1.12643678,
+          1.1243883
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "macd",
+          "donchian",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1790182491.064369,
+        "ts": 1790182488.755541,
+        "timeframe": "1h",
+        "msg_id": 1577,
+        "updates": [
+          {
+            "t": 1790182491.064375,
+            "kind": "open",
+            "px": 1.138044834136963
+          },
+          {
+            "t": 1790695778.527164,
+            "kind": "TP1",
+            "px": 1.13326505,
+            "pct": 0.42
+          },
+          {
+            "t": 1790848107.1284878,
+            "kind": "TP2",
+            "px": 1.12985091,
+            "pct": 0.72
+          },
+          {
+            "t": 1790871167.7919,
+            "kind": "TP3",
+            "px": 1.12643678,
+            "pct": 1.02
+          },
+          {
+            "t": 1790871168.960043,
+            "kind": "TP4",
+            "px": 1.1243883,
+            "pct": 1.2
+          }
+        ],
+        "exit": 1.1243883,
+        "reason": "TP4",
+        "pct": 1.2,
+        "r_multiple": 3.0,
+        "closed_ts": 1790871168.960067
+      },
       {
         "symbol": "US30",
         "side": "LONG",
@@ -3801,56 +3864,6 @@
         "pct": -1.058,
         "r_multiple": -1.0,
         "closed_ts": 1790557635.38731
-      },
-      {
-        "symbol": "US500",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 7755.5,
-        "sl": 7801.82892961,
-        "tp_levels": [
-          7706.85462391,
-          7672.1079267,
-          7637.36122949,
-          7616.51321117
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch",
-          "vol_expansion"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790272480.171631,
-        "ts": 1790272477.712157,
-        "timeframe": "1h",
-        "msg_id": 1613,
-        "updates": [
-          {
-            "t": 1790272480.171639,
-            "kind": "open",
-            "px": 7755.5
-          },
-          {
-            "t": 1790352841.3907478,
-            "kind": "SL",
-            "px": 7801.82892961,
-            "pct": -0.6
-          }
-        ],
-        "exit": 7801.82892961,
-        "reason": "SL",
-        "pct": -0.597,
-        "r_multiple": -1.0,
-        "closed_ts": 1790352841.3909729
       }
     ]
   },
@@ -3862,45 +3875,45 @@
     },
     "news": [
       {
-        "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
-        "source": "CoinDesk",
+        "title": "New York, Wyoming regulators sign pact to coordinate crypto oversight",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
-        "source": "CoinDesk",
+        "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Live Updates: Bitcoin holding near $84,000 ahead of Friday's U.S. jobs report",
-        "source": "CoinDesk",
+        "title": "NEAR Intents suffers $3.8M exploit after assistance with Bitget breach",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
-        "source": "CoinDesk",
+        "title": "Bitget\u2019s $388M hack pushes Q3 crypto security losses past $1B",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
-        "source": "CoinDesk",
+        "title": "LATAM stablecoin liquidity may depend on few providers, investor says",
+        "source": "Cointelegraph",
         "ts": 0
       },
       {
-        "title": "Synthetic tokenized stocks are bad for American investors",
-        "source": "CoinDesk",
+        "title": "Stablecoins can drain from banks and nations at lightning speed",
+        "source": "Cointelegraph",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4200.2002,
-      "XAGUSD": 60.975,
-      "EURUSD": 1.1241,
-      "GBPUSD": 1.31971,
-      "USDJPY": 157.552,
-      "AUDUSD": 0.69185,
-      "NZDUSD": 0.56048,
-      "US100": 30622.75
+      "XAUUSD": 4192.5,
+      "XAGUSD": 60.825,
+      "EURUSD": 1.12246,
+      "GBPUSD": 1.31888,
+      "USDJPY": 157.688,
+      "AUDUSD": 0.69199,
+      "NZDUSD": 0.56026,
+      "US100": 30594.5
     },
     "period_stats": {
       "day": {
@@ -3925,11 +3938,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1429.13,
+    "balance": 1446.28,
     "currency": "$",
-    "total_return_pct": 42.91,
-    "closed": 439,
-    "wins": 115,
+    "total_return_pct": 44.63,
+    "closed": 440,
+    "wins": 116,
     "peak": 1736.75
   }
 }
