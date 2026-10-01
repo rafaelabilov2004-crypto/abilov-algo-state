@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790848095.975012,
+  "updated_ts": 1790848174.0707688,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790848095.97439
+      "heartbeat_ts": 1790848174.069684
     }
   },
   "control": {
@@ -1567,64 +1567,6 @@
         ]
       },
       {
-        "symbol": "NZDUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 0.5687634944915771,
-        "sl": 0.57103855,
-        "tp_levels": [
-          0.56637469,
-          0.5646684,
-          0.56296211,
-          0.56193833
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_8",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "donchian",
-          "vol_expansion"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1790169061.146305,
-        "ts": 1790169058.862829,
-        "timeframe": "1h",
-        "msg_id": 1554,
-        "updates": [
-          {
-            "t": 1790169061.1463108,
-            "kind": "open",
-            "px": 0.5687634944915771
-          },
-          {
-            "t": 1790183156.4397829,
-            "kind": "TP1",
-            "px": 0.56637469,
-            "pct": 0.42
-          },
-          {
-            "t": 1790688801.1101089,
-            "kind": "TP2",
-            "px": 0.5646684,
-            "pct": 0.72
-          },
-          {
-            "t": 1790700417.027801,
-            "kind": "TP3",
-            "px": 0.56296211,
-            "pct": 1.02
-          }
-        ]
-      },
-      {
         "symbol": "AAPL",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1736,7 +1678,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790182491.064369,
         "ts": 1790182488.755541,
         "timeframe": "1h",
@@ -1752,6 +1694,12 @@
             "kind": "TP1",
             "px": 1.13326505,
             "pct": 0.42
+          },
+          {
+            "t": 1790848107.1284878,
+            "kind": "TP2",
+            "px": 1.12985091,
+            "pct": 0.72
           }
         ]
       },
@@ -1847,56 +1795,6 @@
             "kind": "TP2",
             "px": 231.68481521,
             "pct": 3.24
-          }
-        ]
-      },
-      {
-        "symbol": "USDJPY",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 158.0489959716797,
-        "sl": 158.68119196,
-        "tp_levels": [
-          157.38519019,
-          156.9110432,
-          156.43689621,
-          156.15240802
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790320778.2068422,
-        "ts": 1790320773.4882119,
-        "timeframe": "1h",
-        "msg_id": 1616,
-        "updates": [
-          {
-            "t": 1790320778.206845,
-            "kind": "open",
-            "px": 158.0489959716797
-          },
-          {
-            "t": 1790342067.97936,
-            "kind": "TP1",
-            "px": 157.38519019,
-            "pct": 0.42
-          },
-          {
-            "t": 1790583958.2907982,
-            "kind": "TP2",
-            "px": 156.9110432,
-            "pct": 0.72
           }
         ]
       },
@@ -2198,7 +2096,7 @@
           "pat_star",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1790620849.997728,
         "ts": 1790620847.301643,
         "timeframe": "1h",
@@ -2208,6 +2106,12 @@
             "t": 1790620849.997729,
             "kind": "open",
             "px": 157.43699645996094
+          },
+          {
+            "t": 1790848108.5823941,
+            "kind": "TP1",
+            "px": 158.2382658,
+            "pct": 0.51
           }
         ]
       },
@@ -2252,44 +2156,6 @@
             "kind": "TP1",
             "px": 4222.26450842,
             "pct": 0.86
-          }
-        ]
-      },
-      {
-        "symbol": "EURUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 1.1353315114974976,
-        "sl": 1.13079019,
-        "tp_levels": [
-          1.1400999,
-          1.1435059,
-          1.14691189,
-          1.14895549
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_engulfing"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790755469.71779,
-        "ts": 1790755447.365674,
-        "timeframe": "1h",
-        "msg_id": 1700,
-        "updates": [
-          {
-            "t": 1790755469.717799,
-            "kind": "open",
-            "px": 1.1353315114974976
           }
         ]
       },
@@ -2526,9 +2392,228 @@
             "px": 228.2899932861328
           }
         ]
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.560978353023529,
+        "sl": 0.56322227,
+        "tp_levels": [
+          0.55862224,
+          0.55693931,
+          0.55525637,
+          0.55424661
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend",
+          "pat_pin_bar"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790848113.7725692,
+        "ts": 1790848111.268867,
+        "timeframe": "1h",
+        "msg_id": 1733,
+        "updates": [
+          {
+            "t": 1790848113.7725708,
+            "kind": "open",
+            "px": 0.560978353023529
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "EURUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.1353315114974976,
+        "sl": 1.13079019,
+        "tp_levels": [
+          1.1400999,
+          1.1435059,
+          1.14691189,
+          1.14895549
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_engulfing"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790755469.71779,
+        "ts": 1790755447.365674,
+        "timeframe": "1h",
+        "msg_id": 1700,
+        "updates": [
+          {
+            "t": 1790755469.717799,
+            "kind": "open",
+            "px": 1.1353315114974976
+          },
+          {
+            "t": 1790848109.410984,
+            "kind": "SL",
+            "px": 1.13079019,
+            "pct": -0.4
+          }
+        ],
+        "exit": 1.13079019,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1790848109.411009
+      },
+      {
+        "symbol": "USDJPY",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 158.0489959716797,
+        "sl": 158.68119196,
+        "tp_levels": [
+          157.38519019,
+          156.9110432,
+          156.43689621,
+          156.15240802
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1790320778.2068422,
+        "ts": 1790320773.4882119,
+        "timeframe": "1h",
+        "msg_id": 1616,
+        "updates": [
+          {
+            "t": 1790320778.206845,
+            "kind": "open",
+            "px": 158.0489959716797
+          },
+          {
+            "t": 1790342067.97936,
+            "kind": "TP1",
+            "px": 157.38519019,
+            "pct": 0.42
+          },
+          {
+            "t": 1790583958.2907982,
+            "kind": "TP2",
+            "px": 156.9110432,
+            "pct": 0.72
+          },
+          {
+            "t": 1790848108.0658948,
+            "kind": "BE",
+            "px": 158.0489959716797,
+            "pct": -0.0
+          }
+        ],
+        "exit": 158.0489959716797,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1790848108.0659158
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.5687634944915771,
+        "sl": 0.57103855,
+        "tp_levels": [
+          0.56637469,
+          0.5646684,
+          0.56296211,
+          0.56193833
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "donchian",
+          "vol_expansion"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1790169061.146305,
+        "ts": 1790169058.862829,
+        "timeframe": "1h",
+        "msg_id": 1554,
+        "updates": [
+          {
+            "t": 1790169061.1463108,
+            "kind": "open",
+            "px": 0.5687634944915771
+          },
+          {
+            "t": 1790183156.4397829,
+            "kind": "TP1",
+            "px": 0.56637469,
+            "pct": 0.42
+          },
+          {
+            "t": 1790688801.1101089,
+            "kind": "TP2",
+            "px": 0.5646684,
+            "pct": 0.72
+          },
+          {
+            "t": 1790700417.027801,
+            "kind": "TP3",
+            "px": 0.56296211,
+            "pct": 1.02
+          },
+          {
+            "t": 1790848107.038826,
+            "kind": "TP4",
+            "px": 0.56193833,
+            "pct": 1.2
+          }
+        ],
+        "exit": 0.56193833,
+        "reason": "TP4",
+        "pct": 1.2,
+        "r_multiple": 3.0,
+        "closed_ts": 1790848107.038839
+      },
       {
         "symbol": "US500",
         "side": "LONG",
@@ -3735,169 +3820,6 @@
         "pct": 0.0,
         "r_multiple": 0.0,
         "closed_ts": 1790342575.859463
-      },
-      {
-        "symbol": "ETHUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 2731.889892578125,
-        "sl": 2780.93344966,
-        "tp_levels": [
-          2680.39415765,
-          2643.61148984,
-          2606.82882203,
-          2584.75922134
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790157169.9987829,
-        "ts": 1790157166.831159,
-        "timeframe": "1h",
-        "msg_id": 1538,
-        "updates": [
-          {
-            "t": 1790157169.998786,
-            "kind": "open",
-            "px": 2731.889892578125
-          },
-          {
-            "t": 1790172792.597072,
-            "kind": "TP1",
-            "px": 2680.39415765,
-            "pct": 1.88
-          },
-          {
-            "t": 1790179392.979316,
-            "kind": "TP2",
-            "px": 2643.61148984,
-            "pct": 3.23
-          },
-          {
-            "t": 1790334524.625387,
-            "kind": "BE",
-            "px": 2731.889892578125,
-            "pct": -0.0
-          }
-        ],
-        "exit": 2731.889892578125,
-        "reason": "BE",
-        "pct": -0.0,
-        "r_multiple": -0.0,
-        "closed_ts": 1790334524.625411
-      },
-      {
-        "symbol": "US100",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 30651.5,
-        "sl": 30912.76968988,
-        "tp_levels": [
-          30377.16682563,
-          30181.21455822,
-          29985.2622908,
-          29867.69093036
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch",
-          "vol_expansion",
-          "pat_star"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790273582.61951,
-        "ts": 1790273580.055968,
-        "timeframe": "1h",
-        "msg_id": 1614,
-        "updates": [
-          {
-            "t": 1790273582.6195142,
-            "kind": "open",
-            "px": 30651.5
-          },
-          {
-            "t": 1790325524.698434,
-            "kind": "SL",
-            "px": 30912.76968988,
-            "pct": -0.85
-          }
-        ],
-        "exit": 30912.76968988,
-        "reason": "SL",
-        "pct": -0.852,
-        "r_multiple": -1.0,
-        "closed_ts": 1790325524.698453
-      },
-      {
-        "symbol": "US500",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 7738.75,
-        "sl": 7769.705,
-        "tp_levels": [
-          7706.24725,
-          7683.031,
-          7659.81475,
-          7645.885
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1790233225.596589,
-        "ts": 1790233220.426545,
-        "timeframe": "1h",
-        "msg_id": 1587,
-        "updates": [
-          {
-            "t": 1790233225.596608,
-            "kind": "open",
-            "px": 7738.75
-          },
-          {
-            "t": 1790268469.193915,
-            "kind": "SL",
-            "px": 7769.705,
-            "pct": -0.4
-          }
-        ],
-        "exit": 7769.705,
-        "reason": "SL",
-        "pct": -0.4,
-        "r_multiple": -1.0,
-        "closed_ts": 1790268469.193939
       }
     ]
   },
@@ -3972,11 +3894,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1427.34,
+    "balance": 1438.69,
     "currency": "$",
-    "total_return_pct": 42.73,
-    "closed": 435,
-    "wins": 114,
+    "total_return_pct": 43.87,
+    "closed": 438,
+    "wins": 115,
     "peak": 1736.75
   }
 }
