@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790858822.016292,
+  "updated_ts": 1790858964.0235462,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 58,
+      "loop_n": 59,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790858822.015394
+      "heartbeat_ts": 1790858964.0224488
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -484.19,
-    "unrealized_pnl": -8.3,
-    "net_pnl": -492.49
+    "unrealized_pnl": -10.73,
+    "net_pnl": -494.92
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83550.7,
+      "BTC/USDT": 83591.2,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83550.7,
-      "upnl": -8.3,
-      "u_r": -0.39
+      "price": 83591.2,
+      "upnl": -10.73,
+      "u_r": -0.5
     }
   ],
   "recent_trades": [
@@ -2474,6 +2474,43 @@
             "t": 1790848630.365769,
             "kind": "open",
             "px": 60.86000061035156
+          }
+        ]
+      },
+      {
+        "symbol": "US30",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 51472.0,
+        "sl": 51130.14122985,
+        "tp_levels": [
+          51830.95170865,
+          52087.34578626,
+          52343.73986387,
+          52497.57631044
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790858903.143444,
+        "ts": 1790858901.075903,
+        "timeframe": "1h",
+        "msg_id": 1736,
+        "updates": [
+          {
+            "t": 1790858903.143445,
+            "kind": "open",
+            "px": 51472.0
           }
         ]
       }
