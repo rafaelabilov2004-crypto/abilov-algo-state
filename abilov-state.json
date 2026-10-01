@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790802668.294452,
+  "updated_ts": 1790848095.975012,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 119,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790802668.2900832
+      "heartbeat_ts": 1790848095.97439
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -484.19,
-    "unrealized_pnl": -14.16,
-    "net_pnl": -498.35
+    "unrealized_pnl": 0.0,
+    "net_pnl": -484.19
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83648.4,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83648.4,
-      "upnl": -14.16,
-      "u_r": -0.66
+      "price": 83412.16884,
+      "upnl": -0.0,
+      "u_r": -0.0
     }
   ],
   "recent_trades": [
@@ -1240,7 +1240,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 71,
+      "index": 74,
       "label": "Codicia",
       "bias": 0
     },
@@ -1250,17 +1250,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-09-30",
-      "end": "2026-10-01",
-      "trades": 4,
+      "start": "2026-10-01",
+      "end": "2026-10-02",
+      "trades": 0,
       "wins": 0,
-      "losses": 4,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -144.36,
-      "avg_r": -1.524,
-      "best_r": -1.453,
-      "worst_r": -1.576,
-      "fees": 40.06
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -1278,17 +1278,17 @@
     },
     "month": {
       "period": "month",
-      "start": "2026-09-01",
-      "end": "2026-10-01",
-      "trades": 29,
-      "wins": 7,
-      "losses": 22,
-      "win_rate": 0.241,
-      "pnl": -529.7,
-      "avg_r": -0.65,
-      "best_r": 2.042,
-      "worst_r": -1.649,
-      "fees": 290.29
+      "start": "2026-10-01",
+      "end": "2026-11-01",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "attribution": [
       {
@@ -3903,11 +3903,26 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 71,
+      "index": 74,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
         "source": "CoinDesk",
@@ -3922,32 +3937,17 @@
         "title": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto Long & Short: What will the AI agents run on?",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Cardano tapped by Brazil\u2019s state oil giant to track cleaner jet fuel and diesel",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4189.1001,
-      "XAGUSD": 60.755,
-      "EURUSD": 1.1334,
-      "GBPUSD": 1.32666,
-      "USDJPY": 157.371,
-      "AUDUSD": 0.69507,
-      "NZDUSD": 0.56386,
-      "US100": 30725.75
+      "XAUUSD": 4191.6001,
+      "XAGUSD": 60.75,
+      "EURUSD": 1.12931,
+      "GBPUSD": 1.32195,
+      "USDJPY": 158.383,
+      "AUDUSD": 0.69444,
+      "NZDUSD": 0.56098,
+      "US100": 30874.75
     },
     "period_stats": {
       "day": {
