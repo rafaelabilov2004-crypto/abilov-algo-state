@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790864250.7352278,
+  "updated_ts": 1790867441.015423,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790864250.734901
+      "heartbeat_ts": 1790867441.014604
     }
   },
   "control": {
@@ -45,8 +45,8 @@
     "open_positions": 2,
     "start_equity": 10000.0,
     "realized_pnl": -484.19,
-    "unrealized_pnl": 0.0,
-    "net_pnl": -484.19
+    "unrealized_pnl": -12.89,
+    "net_pnl": -497.08
   },
   "stats": {
     "signals": 0,
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
+      "BTC/USDT": 83627.2,
       "ETH/USDT": 0.0
     }
   },
@@ -76,9 +76,9 @@
       "sl": 83770.9488,
       "tp": 82435.9536,
       "size": 0.059925,
-      "price": 83412.16884,
-      "upnl": -0.0,
-      "u_r": -0.0
+      "price": 83627.2,
+      "upnl": -12.89,
+      "u_r": -0.6
     }
   ],
   "recent_trades": [
@@ -2006,7 +2006,7 @@
           "macd",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790587638.363783,
         "ts": 1790587636.646676,
         "timeframe": "1h",
@@ -2022,6 +2022,12 @@
             "kind": "TP1",
             "px": 7727.32777257,
             "pct": 0.43
+          },
+          {
+            "t": 1790864265.744354,
+            "kind": "TP2",
+            "px": 7703.27618154,
+            "pct": 0.74
           }
         ]
       },
@@ -3856,6 +3862,16 @@
     },
     "news": [
       {
+        "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live Updates: Bitcoin flat near $84,000 after closing out best quarter since 2024",
         "source": "CoinDesk",
         "ts": 0
@@ -3874,27 +3890,17 @@
         "title": "Synthetic tokenized stocks are bad for American investors",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4184.7998,
-      "XAGUSD": 61.205,
-      "EURUSD": 1.12918,
-      "GBPUSD": 1.32242,
-      "USDJPY": 158.07201,
-      "AUDUSD": 0.69435,
-      "NZDUSD": 0.5612,
-      "US100": 30623.5
+      "XAUUSD": 4185.8999,
+      "XAGUSD": 60.95,
+      "EURUSD": 1.12613,
+      "GBPUSD": 1.32149,
+      "USDJPY": 157.505,
+      "AUDUSD": 0.69223,
+      "NZDUSD": 0.56098,
+      "US100": 30618.25
     },
     "period_stats": {
       "day": {
