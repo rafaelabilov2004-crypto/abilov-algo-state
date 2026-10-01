@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790874269.950481,
+  "updated_ts": 1790874826.4918761,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1790874269.949621
+      "heartbeat_ts": 1790874826.490815
     }
   },
   "control": {
@@ -2476,6 +2476,45 @@
             "px": 1.1241008043289185
           }
         ]
+      },
+      {
+        "symbol": "USDJPY",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 157.697998046875,
+        "sl": 158.44486856,
+        "tp_levels": [
+          156.913784,
+          156.35363112,
+          155.79347823,
+          155.4573865
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1790874636.6264079,
+        "ts": 1790874634.5048928,
+        "timeframe": "1h",
+        "msg_id": 1744,
+        "updates": [
+          {
+            "t": 1790874636.6264162,
+            "kind": "open",
+            "px": 157.697998046875
+          }
+        ]
       }
     ],
     "closed": [
@@ -3875,45 +3914,45 @@
     },
     "news": [
       {
-        "title": "New York, Wyoming regulators sign pact to coordinate crypto oversight",
-        "source": "Cointelegraph",
+        "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
-        "source": "Cointelegraph",
+        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "NEAR Intents suffers $3.8M exploit after assistance with Bitget breach",
-        "source": "Cointelegraph",
+        "title": "Live Updates: Bitcoin holding near $84,000 ahead of Friday's U.S. jobs report",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitget\u2019s $388M hack pushes Q3 crypto security losses past $1B",
-        "source": "Cointelegraph",
+        "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "LATAM stablecoin liquidity may depend on few providers, investor says",
-        "source": "Cointelegraph",
+        "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
+        "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Stablecoins can drain from banks and nations at lightning speed",
-        "source": "Cointelegraph",
+        "title": "Synthetic tokenized stocks are bad for American investors",
+        "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4192.5,
-      "XAGUSD": 60.825,
-      "EURUSD": 1.12246,
-      "GBPUSD": 1.31888,
-      "USDJPY": 157.688,
-      "AUDUSD": 0.69199,
-      "NZDUSD": 0.56026,
-      "US100": 30594.5
+      "XAUUSD": 4195.6001,
+      "XAGUSD": 60.96,
+      "EURUSD": 1.12259,
+      "GBPUSD": 1.31865,
+      "USDJPY": 157.745,
+      "AUDUSD": 0.69185,
+      "NZDUSD": 0.56019,
+      "US100": 30623.25
     },
     "period_stats": {
       "day": {
