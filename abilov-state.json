@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1790974923.300726,
+  "updated_ts": 1791033372.891316,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 210,
+      "loop_n": 212,
       "errors_1h": 0,
-      "feed_ok": true,
-      "heartbeat_ts": 1790974923.300012
+      "feed_ok": false,
+      "heartbeat_ts": 1791033372.890976
     }
   },
   "control": {
@@ -1231,7 +1231,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 72,
+      "index": 67,
       "label": "Codicia",
       "bias": 0
     },
@@ -1241,17 +1241,17 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-10-02",
-      "end": "2026-10-03",
-      "trades": 1,
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "win_rate": 0.0,
-      "pnl": -31.52,
-      "avg_r": -1.576,
-      "best_r": -1.576,
-      "worst_r": -1.576,
-      "fees": 10.02
+      "pnl": 0.0,
+      "avg_r": 0.0,
+      "best_r": 0.0,
+      "worst_r": 0.0,
+      "fees": 0.0
     },
     "week": {
       "period": "week",
@@ -4049,14 +4049,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4165.5,
-      "XAGUSD": 60.665,
-      "EURUSD": 1.12562,
-      "GBPUSD": 1.32401,
-      "USDJPY": 157.83099,
-      "AUDUSD": 0.69585,
-      "NZDUSD": 0.56164,
-      "US100": 31049.75
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
+      "EURUSD": 0.0,
+      "GBPUSD": 0.0,
+      "USDJPY": 0.0,
+      "AUDUSD": 0.0,
+      "NZDUSD": 0.0,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
