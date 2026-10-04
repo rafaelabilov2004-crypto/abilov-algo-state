@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791122410.931147,
+  "updated_ts": 1791133040.440195,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 186,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791122410.925906
+      "heartbeat_ts": 1791133040.439049
     }
   },
   "control": {
@@ -51,11 +51,11 @@
   "stats": {
     "signals": 0,
     "entries": 0,
-    "closes": 1,
+    "closes": 0,
     "updates": 0,
     "rejections": {},
     "wins": 0,
-    "losses": 1
+    "losses": 0
   },
   "exchange": {
     "venue": "paper",
@@ -63,7 +63,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 84896.5,
+      "BTC/USDT": 0.0,
       "ETH/USDT": 0.0
     }
   },
@@ -4030,6 +4030,11 @@
     },
     "news": [
       {
+        "title": "Crypto poured years into new products. The next challenge is keeping users",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "The Clarity Act stalled. Bankers aren\u2019t hitting the brakes yet on crypto dealmaking",
         "source": "CoinDesk",
         "ts": 0
@@ -4053,11 +4058,6 @@
         "title": "Crypto's Sisyphean struggle",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BlackRock offers a glimpse of how tokenization may change your investment portfolio",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -4072,10 +4072,10 @@
     },
     "period_stats": {
       "day": {
-        "n": 3,
+        "n": 1,
         "win_rate": 0.0,
-        "total_pnl": -176.11,
-        "total_r": -4.15
+        "total_pnl": -102.51,
+        "total_r": -1.13
       },
       "week": {
         "n": 14,
