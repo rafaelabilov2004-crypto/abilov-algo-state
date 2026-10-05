@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791230457.274367,
+  "updated_ts": 1791230526.37465,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 54,
+      "loop_n": 55,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791230457.182482
+      "heartbeat_ts": 1791230526.37346
     }
   },
   "control": {
@@ -2455,6 +2455,44 @@
             "px": 376.25048828125
           }
         ]
+      },
+      {
+        "symbol": "XAGUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 61.42499923706055,
+        "sl": 62.45158707,
+        "tp_levels": [
+          60.34708201,
+          59.57714114,
+          58.80720026,
+          58.34523573
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1791230526.361783,
+        "ts": 1791230524.113549,
+        "timeframe": "1h",
+        "msg_id": 1794,
+        "updates": [
+          {
+            "t": 1791230526.36179,
+            "kind": "open",
+            "px": 61.42499923706055
+          }
+        ]
       }
     ],
     "closed": [
@@ -3906,14 +3944,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4168.5,
-      "XAGUSD": 61.46,
-      "EURUSD": 1.12221,
-      "GBPUSD": 1.32226,
-      "USDJPY": 157.96001,
-      "AUDUSD": 0.6973,
-      "NZDUSD": 0.55988,
-      "US100": 31334.5
+      "XAUUSD": 4168.1001,
+      "XAGUSD": 61.425,
+      "EURUSD": 1.12233,
+      "GBPUSD": 1.32237,
+      "USDJPY": 157.974,
+      "AUDUSD": 0.6974,
+      "NZDUSD": 0.56,
+      "US100": 31320.25
     },
     "period_stats": {
       "day": {
@@ -3923,10 +3961,10 @@
         "total_r": 0.0
       },
       "week": {
-        "n": 10,
+        "n": 9,
         "win_rate": 0.0,
-        "total_pnl": -495.72,
-        "total_r": -14.25
+        "total_pnl": -434.98,
+        "total_r": -12.98
       },
       "month": {
         "n": 33,
