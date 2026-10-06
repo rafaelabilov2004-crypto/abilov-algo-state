@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791286295.922415,
+  "updated_ts": 1791286362.0108218,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 90,
+      "loop_n": 91,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791286295.913768
+      "heartbeat_ts": 1791286362.009862
     }
   },
   "control": {
@@ -2157,7 +2157,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790962554.954407,
         "ts": 1790962552.860424,
         "timeframe": "1h",
@@ -2173,6 +2173,12 @@
             "kind": "TP1",
             "px": 7821.3303666,
             "pct": 0.66
+          },
+          {
+            "t": 1791286359.8883479,
+            "kind": "TP2",
+            "px": 7857.81634274,
+            "pct": 1.13
           }
         ]
       },
@@ -3914,6 +3920,11 @@
     },
     "news": [
       {
+        "title": "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: A drop below $84,000 could put $80,000 in play for bitcoin",
         "source": "CoinDesk",
         "ts": 0
@@ -3937,22 +3948,17 @@
         "title": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S. scraps proposed $10,000 reporting rule for for crypto sent to private wallets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4192.5,
-      "XAGUSD": 61.54,
-      "EURUSD": 1.12676,
-      "GBPUSD": 1.32675,
-      "USDJPY": 158.092,
+      "XAUUSD": 4192.3999,
+      "XAGUSD": 61.65,
+      "EURUSD": 1.12663,
+      "GBPUSD": 1.32691,
+      "USDJPY": 158.064,
       "AUDUSD": 0.69837,
       "NZDUSD": 0.5617,
-      "US100": 31494.5
+      "US100": 31508.25
     },
     "period_stats": {
       "day": {
