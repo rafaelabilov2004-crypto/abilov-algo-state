@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791369548.482949,
+  "updated_ts": 1791371584.926594,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791369548.482136
+      "heartbeat_ts": 1791371584.9264262
     }
   },
   "control": {
@@ -1527,7 +1527,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1790337341.2591228,
         "ts": 1790337338.767141,
         "timeframe": "1h",
@@ -1549,6 +1549,12 @@
             "kind": "TP2",
             "px": 2627.72847934,
             "pct": 3.31
+          },
+          {
+            "t": 1791369557.1021922,
+            "kind": "TP3",
+            "px": 2590.19031725,
+            "pct": 4.7
           }
         ]
       },
@@ -3932,6 +3938,11 @@
     },
     "news": [
       {
+        "title": "Live updates: Bitcoin slides under $84,000 as $550 million in bets get liquidated",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin\u2019s recovery stalls just short of rescuing its last underwater cohort",
         "source": "CoinDesk",
         "ts": 0
@@ -3955,22 +3966,17 @@
         "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S. government moves over $100 million in BTC and BNB. A sale hasn't been confirmed",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4141.8999,
-      "XAGUSD": 60.4,
-      "EURUSD": 1.1197,
-      "GBPUSD": 1.32293,
-      "USDJPY": 158.30099,
-      "AUDUSD": 0.69667,
-      "NZDUSD": 0.56066,
-      "US100": 31347.75
+      "XAUUSD": 4143.6001,
+      "XAGUSD": 60.245,
+      "EURUSD": 1.11932,
+      "GBPUSD": 1.32184,
+      "USDJPY": 158.32401,
+      "AUDUSD": 0.69604,
+      "NZDUSD": 0.56016,
+      "US100": 31266.25
     },
     "period_stats": {
       "day": {
