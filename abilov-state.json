@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791343704.632715,
+  "updated_ts": 1791345895.9482722,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791343704.631878
+      "heartbeat_ts": 1791345895.9475682
     }
   },
   "control": {
@@ -1366,58 +1366,6 @@
         ]
       },
       {
-        "symbol": "ETHUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 2628.47998046875,
-        "sl": 2576.08959837,
-        "tp_levels": [
-          2683.48988167,
-          2722.78266825,
-          2762.07545483,
-          2785.65112677
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "vol_expansion",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1789768989.4373271,
-        "ts": 1789768986.899576,
-        "timeframe": "1h",
-        "msg_id": 1461,
-        "updates": [
-          {
-            "t": 1789768989.437344,
-            "kind": "open",
-            "px": 2628.47998046875
-          },
-          {
-            "t": 1789950731.435536,
-            "kind": "TP1",
-            "px": 2683.48988167,
-            "pct": 2.09
-          },
-          {
-            "t": 1789994723.357172,
-            "kind": "TP2",
-            "px": 2722.78266825,
-            "pct": 3.59
-          }
-        ]
-      },
-      {
         "symbol": "GBPUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -1579,7 +1527,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790337341.2591228,
         "ts": 1790337338.767141,
         "timeframe": "1h",
@@ -1595,6 +1543,12 @@
             "kind": "TP1",
             "px": 2665.26664143,
             "pct": 1.93
+          },
+          {
+            "t": 1791343709.1065369,
+            "kind": "TP2",
+            "px": 2627.72847934,
+            "pct": 3.31
           }
         ]
       },
@@ -2483,6 +2437,69 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "ETHUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 2628.47998046875,
+        "sl": 2576.08959837,
+        "tp_levels": [
+          2683.48988167,
+          2722.78266825,
+          2762.07545483,
+          2785.65112677
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "macd",
+          "vol_expansion",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1789768989.4373271,
+        "ts": 1789768986.899576,
+        "timeframe": "1h",
+        "msg_id": 1461,
+        "updates": [
+          {
+            "t": 1789768989.437344,
+            "kind": "open",
+            "px": 2628.47998046875
+          },
+          {
+            "t": 1789950731.435536,
+            "kind": "TP1",
+            "px": 2683.48988167,
+            "pct": 2.09
+          },
+          {
+            "t": 1789994723.357172,
+            "kind": "TP2",
+            "px": 2722.78266825,
+            "pct": 3.59
+          },
+          {
+            "t": 1791343708.863273,
+            "kind": "BE",
+            "px": 2628.47998046875,
+            "pct": 0.0
+          }
+        ],
+        "exit": 2628.47998046875,
+        "reason": "BE",
+        "pct": 0.0,
+        "r_multiple": 0.0,
+        "closed_ts": 1791343708.8632908
+      },
       {
         "symbol": "USDJPY",
         "side": "SHORT",
@@ -3823,67 +3840,6 @@
         "pct": -0.4,
         "r_multiple": -1.0,
         "closed_ts": 1790848109.411009
-      },
-      {
-        "symbol": "USDJPY",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 158.0489959716797,
-        "sl": 158.68119196,
-        "tp_levels": [
-          157.38519019,
-          156.9110432,
-          156.43689621,
-          156.15240802
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790320778.2068422,
-        "ts": 1790320773.4882119,
-        "timeframe": "1h",
-        "msg_id": 1616,
-        "updates": [
-          {
-            "t": 1790320778.206845,
-            "kind": "open",
-            "px": 158.0489959716797
-          },
-          {
-            "t": 1790342067.97936,
-            "kind": "TP1",
-            "px": 157.38519019,
-            "pct": 0.42
-          },
-          {
-            "t": 1790583958.2907982,
-            "kind": "TP2",
-            "px": 156.9110432,
-            "pct": 0.72
-          },
-          {
-            "t": 1790848108.0658948,
-            "kind": "BE",
-            "px": 158.0489959716797,
-            "pct": -0.0
-          }
-        ],
-        "exit": 158.0489959716797,
-        "reason": "BE",
-        "pct": -0.0,
-        "r_multiple": -0.0,
-        "closed_ts": 1790848108.0659158
       }
     ]
   },
@@ -3894,6 +3850,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Peter Thiel-backed Founders Fund leads a $5 million token buy in crypto collateral protocol Anvil",
         "source": "CoinDesk",
@@ -3918,22 +3879,17 @@
         "title": "Self-styled 'Godfather' gets 6 years in prison for $37 million Meta fraud scheme",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4165.8999,
-      "XAGUSD": 61.01,
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
       "EURUSD": 1.1241,
-      "GBPUSD": 1.32552,
-      "USDJPY": 158.39799,
-      "AUDUSD": 0.69745,
-      "NZDUSD": 0.56107,
-      "US100": 31462.5
+      "GBPUSD": 1.32528,
+      "USDJPY": 158.44299,
+      "AUDUSD": 0.69764,
+      "NZDUSD": 0.5611,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
@@ -3961,7 +3917,7 @@
     "balance": 1529.29,
     "currency": "$",
     "total_return_pct": 52.93,
-    "closed": 465,
+    "closed": 466,
     "wins": 120,
     "peak": 1736.75
   }
