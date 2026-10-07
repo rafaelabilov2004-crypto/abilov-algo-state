@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791358729.2082229,
+  "updated_ts": 1791360578.5095081,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 7,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791358729.2042081
+      "heartbeat_ts": 1791360578.509257
     }
   },
   "control": {
@@ -2434,6 +2434,43 @@
             "pct": 1.21
           }
         ]
+      },
+      {
+        "symbol": "AUDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.69730144739151,
+        "sl": 0.70009065,
+        "tp_levels": [
+          0.69437278,
+          0.69228088,
+          0.69018897,
+          0.68893383
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1791358741.270995,
+        "ts": 1791358737.8976588,
+        "timeframe": "1h",
+        "msg_id": 1822,
+        "updates": [
+          {
+            "t": 1791358741.270997,
+            "kind": "open",
+            "px": 0.69730144739151
+          }
+        ]
       }
     ],
     "closed": [
@@ -3851,6 +3888,11 @@
     },
     "news": [
       {
+        "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. government moves over $100 million in BTC and BNB. A sale hasn't been confirmed",
         "source": "CoinDesk",
         "ts": 0
@@ -3874,22 +3916,17 @@
         "title": "Peter Thiel-backed Founders Fund leads a $5 million token buy in crypto collateral protocol Anvil",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto is expanding the boundaries of what can be priced",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4160.7998,
-      "XAGUSD": 60.91,
-      "EURUSD": 1.12095,
-      "GBPUSD": 1.32452,
-      "USDJPY": 158.295,
-      "AUDUSD": 0.6973,
-      "NZDUSD": 0.56095,
-      "US100": 31448.75
+      "XAUUSD": 4159.1001,
+      "XAGUSD": 60.785,
+      "EURUSD": 1.11894,
+      "GBPUSD": 1.32357,
+      "USDJPY": 157.974,
+      "AUDUSD": 0.69682,
+      "NZDUSD": 0.56066,
+      "US100": 31429.25
     },
     "period_stats": {
       "day": {
