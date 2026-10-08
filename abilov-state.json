@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791479932.210315,
+  "updated_ts": 1791483835.1610181,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 406,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791479932.209478
+      "heartbeat_ts": 1791483835.160751
     }
   },
   "control": {
@@ -1842,52 +1842,6 @@
         ]
       },
       {
-        "symbol": "NVDA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 236.77479553222656,
-        "sl": 231.74591975,
-        "tp_levels": [
-          242.0551151,
-          245.82677193,
-          249.59842876,
-          251.86142286
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_8",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1791207288.281288,
-        "ts": 1791207285.890083,
-        "timeframe": "1h",
-        "msg_id": 1786,
-        "updates": [
-          {
-            "t": 1791207288.2812932,
-            "kind": "open",
-            "px": 236.77479553222656
-          },
-          {
-            "t": 1791293482.6112,
-            "kind": "TP1",
-            "px": 242.0551151,
-            "pct": 2.23
-          }
-        ]
-      },
-      {
         "symbol": "TSLA",
         "side": "LONG",
         "strategy": "confluence",
@@ -2222,7 +2176,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1791380395.749469,
         "ts": 1791380393.683882,
         "timeframe": "1h",
@@ -2232,6 +2186,12 @@
             "t": 1791380395.749475,
             "kind": "open",
             "px": 379.1549987792969
+          },
+          {
+            "t": 1791479937.527043,
+            "kind": "TP1",
+            "px": 370.83192198,
+            "pct": 2.2
           }
         ]
       },
@@ -2561,6 +2521,63 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 236.77479553222656,
+        "sl": 231.74591975,
+        "tp_levels": [
+          242.0551151,
+          245.82677193,
+          249.59842876,
+          251.86142286
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_8",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "macd",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 1,
+        "opened_ts": 1791207288.281288,
+        "ts": 1791207285.890083,
+        "timeframe": "1h",
+        "msg_id": 1786,
+        "updates": [
+          {
+            "t": 1791207288.2812932,
+            "kind": "open",
+            "px": 236.77479553222656
+          },
+          {
+            "t": 1791293482.6112,
+            "kind": "TP1",
+            "px": 242.0551151,
+            "pct": 2.23
+          },
+          {
+            "t": 1791479937.256456,
+            "kind": "SL",
+            "px": 231.74591975,
+            "pct": -2.12
+          }
+        ],
+        "exit": 231.74591975,
+        "reason": "SL",
+        "pct": -2.124,
+        "r_multiple": -1.0,
+        "closed_ts": 1791479937.256476
+      },
       {
         "symbol": "US100",
         "side": "SHORT",
@@ -3942,73 +3959,6 @@
         "pct": 6.586,
         "r_multiple": 3.0,
         "closed_ts": 1791208597.168483
-      },
-      {
-        "symbol": "NVDA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 224.41000366210938,
-        "sl": 220.36844169,
-        "tp_levels": [
-          228.65364373,
-          231.68481521,
-          234.71598669,
-          236.53468957
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1790269041.384369,
-        "ts": 1790269038.901856,
-        "timeframe": "1h",
-        "msg_id": 1612,
-        "updates": [
-          {
-            "t": 1790269041.3843782,
-            "kind": "open",
-            "px": 224.41000366210938
-          },
-          {
-            "t": 1790611972.6877298,
-            "kind": "TP1",
-            "px": 228.65364373,
-            "pct": 1.89
-          },
-          {
-            "t": 1790612746.6568892,
-            "kind": "TP2",
-            "px": 231.68481521,
-            "pct": 3.24
-          },
-          {
-            "t": 1790961510.3448231,
-            "kind": "TP3",
-            "px": 234.71598669,
-            "pct": 4.59
-          },
-          {
-            "t": 1791207282.520969,
-            "kind": "TP4",
-            "px": 236.53468957,
-            "pct": 5.4
-          }
-        ],
-        "exit": 236.53468957,
-        "reason": "TP4",
-        "pct": 5.403,
-        "r_multiple": 3.0,
-        "closed_ts": 1791207282.520992
       }
     ]
   },
@@ -4019,6 +3969,16 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Crypto crumbles as anniversary of flash crash nears",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "NFL joins pushback against prediction markets as U.S. Supreme Court asked to act",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated",
         "source": "CoinDesk",
@@ -4038,27 +3998,17 @@
         "title": "\u2018Bunker mode\u2019 is a far greater challenge for institutions than individual crypto holders",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Over 6 million bitcoin sit behind exposed public keys as AI warnings mount",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4157.2002,
-      "XAGUSD": 59.275,
-      "EURUSD": 1.12208,
-      "GBPUSD": 1.32333,
-      "USDJPY": 157.724,
-      "AUDUSD": 0.69633,
-      "NZDUSD": 0.56088,
-      "US100": 30953.5
+      "XAUUSD": 4151.6001,
+      "XAGUSD": 59.24,
+      "EURUSD": 1.12045,
+      "GBPUSD": 1.32184,
+      "USDJPY": 157.90199,
+      "AUDUSD": 0.69551,
+      "NZDUSD": 0.56007,
+      "US100": 30928.75
     },
     "period_stats": {
       "day": {
@@ -4083,10 +4033,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1674.72,
+    "balance": 1639.15,
     "currency": "$",
-    "total_return_pct": 67.47,
-    "closed": 479,
+    "total_return_pct": 63.92,
+    "closed": 480,
     "wins": 125,
     "peak": 1736.75
   }
