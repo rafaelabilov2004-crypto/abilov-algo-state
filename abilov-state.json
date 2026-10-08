@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791451742.159467,
+  "updated_ts": 1791452444.677592,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791451742.158375
+      "heartbeat_ts": 1791452444.6770098
     }
   },
   "control": {
@@ -1786,50 +1786,6 @@
         ]
       },
       {
-        "symbol": "US30",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 51460.0,
-        "sl": 51090.42184923,
-        "tp_levels": [
-          51848.05705831,
-          52125.24067139,
-          52402.42428448,
-          52568.73445232
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "stoch",
-          "supertrend",
-          "pat_star"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1790962037.25212,
-        "ts": 1790962035.3480508,
-        "timeframe": "1h",
-        "msg_id": 1756,
-        "updates": [
-          {
-            "t": 1790962037.2521238,
-            "kind": "open",
-            "px": 51460.0
-          },
-          {
-            "t": 1791280432.344388,
-            "kind": "TP1",
-            "px": 51848.05705831,
-            "pct": 0.75
-          }
-        ]
-      },
-      {
         "symbol": "AUDUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2625,9 +2581,101 @@
             "px": 1.1199462413787842
           }
         ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4149.39990234375,
+        "sl": 4114.81612666,
+        "tp_levels": [
+          4185.71286681,
+          4211.65069857,
+          4237.58853034,
+          4253.15122939
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "stoch"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1791451750.4848902,
+        "ts": 1791451748.370392,
+        "timeframe": "1h",
+        "msg_id": 1852,
+        "updates": [
+          {
+            "t": 1791451750.4849,
+            "kind": "open",
+            "px": 4149.39990234375
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "US30",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 51460.0,
+        "sl": 51090.42184923,
+        "tp_levels": [
+          51848.05705831,
+          52125.24067139,
+          52402.42428448,
+          52568.73445232
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "stoch",
+          "supertrend",
+          "pat_star"
+        ],
+        "tp_idx": 1,
+        "opened_ts": 1790962037.25212,
+        "ts": 1790962035.3480508,
+        "timeframe": "1h",
+        "msg_id": 1756,
+        "updates": [
+          {
+            "t": 1790962037.2521238,
+            "kind": "open",
+            "px": 51460.0
+          },
+          {
+            "t": 1791280432.344388,
+            "kind": "TP1",
+            "px": 51848.05705831,
+            "pct": 0.75
+          },
+          {
+            "t": 1791451747.154287,
+            "kind": "SL",
+            "px": 51090.42184923,
+            "pct": -0.72
+          }
+        ],
+        "exit": 51090.42184923,
+        "reason": "SL",
+        "pct": -0.718,
+        "r_multiple": -1.0,
+        "closed_ts": 1791451747.154305
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -3972,67 +4020,6 @@
         "pct": -0.0,
         "r_multiple": -0.0,
         "closed_ts": 1790961511.9029682
-      },
-      {
-        "symbol": "TSLA",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 371.1499938964844,
-        "sl": 381.35323288,
-        "tp_levels": [
-          360.43659297,
-          352.78416373,
-          345.1317345,
-          340.54027696
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1790343225.7675462,
-        "ts": 1790343223.278762,
-        "timeframe": "1h",
-        "msg_id": 1631,
-        "updates": [
-          {
-            "t": 1790343225.767554,
-            "kind": "open",
-            "px": 371.1499938964844
-          },
-          {
-            "t": 1790611973.320222,
-            "kind": "TP1",
-            "px": 360.43659297,
-            "pct": 2.89
-          },
-          {
-            "t": 1790689063.347488,
-            "kind": "TP2",
-            "px": 352.78416373,
-            "pct": 4.95
-          },
-          {
-            "t": 1790961511.365122,
-            "kind": "BE",
-            "px": 371.1499938964844,
-            "pct": -0.0
-          }
-        ],
-        "exit": 371.1499938964844,
-        "reason": "BE",
-        "pct": -0.0,
-        "r_multiple": -0.0,
-        "closed_ts": 1790961511.3652658
       }
     ]
   },
@@ -4043,6 +4030,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "Standard Chartered to expand institutional crypto and RWA custody to Singapore",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Greece prepares to levy 10% capital gains tax on cryptocurrency",
         "source": "CoinDesk",
@@ -4067,22 +4059,17 @@
         "title": "Bitcoin loans are paying for tuition and working capital, not just trades, lenders say",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum\u2019s Glamsterdam test runs near 200 million gas per block after upgrade",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4148.8999,
-      "XAGUSD": 59.18,
-      "EURUSD": 1.11919,
-      "GBPUSD": 1.31956,
-      "USDJPY": 158.22301,
-      "AUDUSD": 0.69585,
-      "NZDUSD": 0.55953,
-      "US100": 31232.5
+      "XAUUSD": 4146.8999,
+      "XAGUSD": 59.16,
+      "EURUSD": 1.11932,
+      "GBPUSD": 1.31957,
+      "USDJPY": 158.192,
+      "AUDUSD": 0.69575,
+      "NZDUSD": 0.55938,
+      "US100": 31244.25
     },
     "period_stats": {
       "day": {
@@ -4107,10 +4094,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1563.01,
+    "balance": 1551.78,
     "currency": "$",
-    "total_return_pct": 56.3,
-    "closed": 471,
+    "total_return_pct": 55.18,
+    "closed": 472,
     "wins": 121,
     "peak": 1736.75
   }
