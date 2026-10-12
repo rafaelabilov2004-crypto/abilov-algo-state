@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791812584.708435,
+  "updated_ts": 1791812651.3657,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 59,
+      "loop_n": 60,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791812584.707288
+      "heartbeat_ts": 1791812651.3648288
     }
   },
   "control": {
@@ -2082,7 +2082,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1791384265.865238,
         "ts": 1791384263.6339068,
         "timeframe": "1h",
@@ -2104,6 +2104,12 @@
             "kind": "TP2",
             "px": 230.71882641,
             "pct": 3.01
+          },
+          {
+            "t": 1791812648.6155672,
+            "kind": "TP3",
+            "px": 227.73917278,
+            "pct": 4.26
           }
         ]
       },
@@ -2444,7 +2450,7 @@
           "supertrend",
           "pat_engulfing"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1791550181.691602,
         "ts": 1791550179.564242,
         "timeframe": "1h",
@@ -2454,6 +2460,12 @@
             "t": 1791550181.6916091,
             "kind": "open",
             "px": 31174.5
+          },
+          {
+            "t": 1791812649.767467,
+            "kind": "TP1",
+            "px": 30970.59998957,
+            "pct": 0.65
           }
         ]
       },
@@ -3974,7 +3986,7 @@
         "ts": 0
       },
       {
-        "title": "Ledger claims CryptoBilis cases are limited as up to $93M is traced, $10M frozen",
+        "title": "Ledger claims CryptoBilis cases are limited as up to $93 million is traced, $10 million frozen",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -4000,14 +4012,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4198.5,
-      "XAGUSD": 60.85,
-      "EURUSD": 1.11819,
-      "GBPUSD": 1.32303,
-      "USDJPY": 158.616,
-      "AUDUSD": 0.69696,
-      "NZDUSD": 0.55963,
-      "US100": 31019.25
+      "XAUUSD": 4195.0,
+      "XAGUSD": 60.76,
+      "EURUSD": 1.11832,
+      "GBPUSD": 1.32345,
+      "USDJPY": 158.593,
+      "AUDUSD": 0.69706,
+      "NZDUSD": 0.55979,
+      "US100": 30957.75
     },
     "period_stats": {
       "day": {
