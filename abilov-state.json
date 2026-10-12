@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791753581.918154,
+  "updated_ts": 1791798124.535007,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 62,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791753581.917444
+      "heartbeat_ts": 1791798124.534687
     }
   },
   "control": {
@@ -1243,7 +1243,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 61,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
@@ -1253,8 +1253,8 @@
   "phase5": {
     "day": {
       "period": "day",
-      "start": "2026-10-11",
-      "end": "2026-10-12",
+      "start": "2026-10-12",
+      "end": "2026-10-13",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -1267,8 +1267,8 @@
     },
     "week": {
       "period": "week",
-      "start": "2026-10-05",
-      "end": "2026-10-12",
+      "start": "2026-10-12",
+      "end": "2026-10-19",
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -4055,11 +4055,31 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 61,
+      "index": 69,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Why a bug that could have threatened XRP's 100 billion supply cap stayed hidden for years",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ledger says unauthorized implant found in at least one device sold by CryptoBilis",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
         "source": "CoinDesk",
@@ -4069,37 +4089,17 @@
         "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "IMF finds demand for tokenized stocks, says the market is still volatile, illiquid",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Tokenized commodities look beyond gold as lending and oil open new markets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "XAGUSD": 0.0,
-      "EURUSD": 1.12057,
-      "GBPUSD": 1.32331,
-      "USDJPY": 158.246,
-      "AUDUSD": 0.69876,
-      "NZDUSD": 0.5612,
-      "US100": 0.0
+      "XAUUSD": 4199.2002,
+      "XAGUSD": 60.97,
+      "EURUSD": 1.11894,
+      "GBPUSD": 1.32349,
+      "USDJPY": 158.567,
+      "AUDUSD": 0.69735,
+      "NZDUSD": 0.56022,
+      "US100": 31102.0
     },
     "period_stats": {
       "day": {
@@ -4115,10 +4115,10 @@
         "total_r": 0.0
       },
       "month": {
-        "n": 28,
-        "win_rate": 0.179,
-        "total_pnl": -686.43,
-        "total_r": -23.82
+        "n": 26,
+        "win_rate": 0.154,
+        "total_pnl": -649.89,
+        "total_r": -23.16
       }
     }
   },
