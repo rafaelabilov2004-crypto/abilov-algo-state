@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791883444.3946712,
+  "updated_ts": 1791883517.398637,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791883444.3941052
+      "heartbeat_ts": 1791883517.396263
     }
   },
   "control": {
@@ -2519,6 +2519,45 @@
             "t": 1791876175.5643961,
             "kind": "open",
             "px": 92.4000015258789
+          }
+        ]
+      },
+      {
+        "symbol": "ETHUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 2508.75,
+        "sl": 2558.41742779,
+        "tp_levels": [
+          2456.59920082,
+          2419.34862997,
+          2382.09805913,
+          2359.74771662
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "stoch",
+          "vol_expansion"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1791883457.192672,
+        "ts": 1791883454.953391,
+        "timeframe": "1h",
+        "msg_id": 1925,
+        "updates": [
+          {
+            "t": 1791883457.192676,
+            "kind": "open",
+            "px": 2508.75
           }
         ]
       }
