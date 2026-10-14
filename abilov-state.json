@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791940299.9133508,
+  "updated_ts": 1791951051.866904,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791940299.9128408
+      "heartbeat_ts": 1791951051.866346
     }
   },
   "control": {
@@ -1624,7 +1624,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790962294.256275,
         "ts": 1790962292.77245,
         "timeframe": "1h",
@@ -1640,6 +1640,12 @@
             "kind": "TP1",
             "px": 0.69774871,
             "pct": 0.42
+          },
+          {
+            "t": 1791950747.1032262,
+            "kind": "TP2",
+            "px": 0.6998332,
+            "pct": 0.72
           }
         ]
       },
@@ -3970,6 +3976,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin climbs toward $84,000 after Fed\u2019s Williams sees no rate hikes in 2027",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
         "source": "CoinDesk",
         "ts": 0
@@ -3993,22 +4004,17 @@
         "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4176.3999,
-      "XAGUSD": 59.235,
-      "EURUSD": 1.1207,
-      "GBPUSD": 1.32619,
-      "USDJPY": 158.472,
-      "AUDUSD": 0.69915,
-      "NZDUSD": 0.5623,
-      "US100": 30806.5
+      "XAUUSD": 4185.0,
+      "XAGUSD": 59.44,
+      "EURUSD": 1.12133,
+      "GBPUSD": 1.32742,
+      "USDJPY": 158.16,
+      "AUDUSD": 0.69994,
+      "NZDUSD": 0.56249,
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
