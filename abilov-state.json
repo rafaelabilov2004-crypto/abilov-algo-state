@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791986457.404043,
+  "updated_ts": 1791986528.0790908,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 94,
+      "loop_n": 95,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791986457.403587
+      "heartbeat_ts": 1791986528.0784361
     }
   },
   "control": {
@@ -2088,7 +2088,7 @@
           "supertrend",
           "pat_engulfing"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1791981172.215774,
         "ts": 1791981170.173413,
         "timeframe": "1h",
@@ -2098,6 +2098,12 @@
             "t": 1791981172.215777,
             "kind": "open",
             "px": 0.6988608837127686
+          },
+          {
+            "t": 1791986524.307431,
+            "kind": "TP1",
+            "px": 0.69592567,
+            "pct": 0.42
           }
         ]
       },
