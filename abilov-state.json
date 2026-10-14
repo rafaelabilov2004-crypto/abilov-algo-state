@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791935476.67606,
+  "updated_ts": 1791940299.9133508,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791935476.6758049
+      "heartbeat_ts": 1791940299.9128408
     }
   },
   "control": {
@@ -1243,7 +1243,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 57,
+      "index": 62,
       "label": "Codicia",
       "bias": 0
     },
@@ -3964,11 +3964,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 57,
+      "index": 62,
       "label": "Codicia",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
         "source": "CoinDesk",
@@ -3993,22 +3998,17 @@
         "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4179.1001,
-      "XAGUSD": 59.2,
-      "EURUSD": 1.12032,
-      "GBPUSD": 1.32571,
-      "USDJPY": 158.314,
-      "AUDUSD": 0.69857,
-      "NZDUSD": 0.56145,
-      "US100": 30776.25
+      "XAUUSD": 4176.3999,
+      "XAGUSD": 59.235,
+      "EURUSD": 1.1207,
+      "GBPUSD": 1.32619,
+      "USDJPY": 158.472,
+      "AUDUSD": 0.69915,
+      "NZDUSD": 0.5623,
+      "US100": 30806.5
     },
     "period_stats": {
       "day": {
