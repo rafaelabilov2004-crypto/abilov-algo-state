@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791983445.8616378,
+  "updated_ts": 1791983513.531693,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 48,
+      "loop_n": 49,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791983445.8609018
+      "heartbeat_ts": 1791983513.531059
     }
   },
   "control": {
@@ -2255,7 +2255,7 @@
           "donchian",
           "vol_expansion"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1791981692.597861,
         "ts": 1791981690.820031,
         "timeframe": "1h",
@@ -2265,6 +2265,12 @@
             "t": 1791981692.597866,
             "kind": "open",
             "px": 58.334999084472656
+          },
+          {
+            "t": 1791983510.390622,
+            "kind": "TP1",
+            "px": 57.35148979,
+            "pct": 1.69
           }
         ]
       },
@@ -3708,6 +3714,11 @@
     },
     "news": [
       {
+        "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
         "source": "CoinDesk",
         "ts": 0
@@ -3731,22 +3742,17 @@
         "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin tumbles more than 1% after disappointing inflation report",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4119.7998,
-      "XAGUSD": 57.715,
-      "EURUSD": 1.11284,
-      "GBPUSD": 1.31954,
-      "USDJPY": 158.845,
-      "AUDUSD": 0.69633,
-      "NZDUSD": 0.55822,
-      "US100": 30563.75
+      "XAUUSD": 4109.8999,
+      "XAGUSD": 57.255,
+      "EURUSD": 1.11247,
+      "GBPUSD": 1.3195,
+      "USDJPY": 158.886,
+      "AUDUSD": 0.69677,
+      "NZDUSD": 0.55853,
+      "US100": 30571.25
     },
     "period_stats": {
       "day": {
