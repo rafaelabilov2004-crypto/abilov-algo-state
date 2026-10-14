@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791981881.096628,
+  "updated_ts": 1791981948.027009,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 24,
+      "loop_n": 25,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791981881.095876
+      "heartbeat_ts": 1791981948.026612
     }
   },
   "control": {
@@ -2235,45 +2235,6 @@
         ]
       },
       {
-        "symbol": "US100",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 30800.5,
-        "sl": 30625.24946922,
-        "tp_levels": [
-          30984.51305732,
-          31115.95095541,
-          31247.3888535,
-          31326.25159235
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "stoch",
-          "supertrend",
-          "pat_star"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1791980402.4273121,
-        "ts": 1791980400.141421,
-        "timeframe": "1h",
-        "msg_id": 1940,
-        "updates": [
-          {
-            "t": 1791980402.427316,
-            "kind": "open",
-            "px": 30800.5
-          }
-        ]
-      },
-      {
         "symbol": "USOIL",
         "side": "LONG",
         "strategy": "confluence",
@@ -2392,6 +2353,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "US100",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 30800.5,
+        "sl": 30625.24946922,
+        "tp_levels": [
+          30984.51305732,
+          31115.95095541,
+          31247.3888535,
+          31326.25159235
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_star"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1791980402.4273121,
+        "ts": 1791980400.141421,
+        "timeframe": "1h",
+        "msg_id": 1940,
+        "updates": [
+          {
+            "t": 1791980402.427316,
+            "kind": "open",
+            "px": 30800.5
+          },
+          {
+            "t": 1791981945.469258,
+            "kind": "SL",
+            "px": 30625.24946922,
+            "pct": -0.57
+          }
+        ],
+        "exit": 30625.24946922,
+        "reason": "SL",
+        "pct": -0.569,
+        "r_multiple": -1.0,
+        "closed_ts": 1791981945.469295
+      },
       {
         "symbol": "ETHUSD",
         "side": "LONG",
@@ -3731,63 +3742,6 @@
         "pct": -0.0,
         "r_multiple": -0.0,
         "closed_ts": 1791542413.674536
-      },
-      {
-        "symbol": "NVDA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 236.77479553222656,
-        "sl": 231.74591975,
-        "tp_levels": [
-          242.0551151,
-          245.82677193,
-          249.59842876,
-          251.86142286
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_8",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "macd",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1791207288.281288,
-        "ts": 1791207285.890083,
-        "timeframe": "1h",
-        "msg_id": 1786,
-        "updates": [
-          {
-            "t": 1791207288.2812932,
-            "kind": "open",
-            "px": 236.77479553222656
-          },
-          {
-            "t": 1791293482.6112,
-            "kind": "TP1",
-            "px": 242.0551151,
-            "pct": 2.23
-          },
-          {
-            "t": 1791479937.256456,
-            "kind": "SL",
-            "px": 231.74591975,
-            "pct": -2.12
-          }
-        ],
-        "exit": 231.74591975,
-        "reason": "SL",
-        "pct": -2.124,
-        "r_multiple": -1.0,
-        "closed_ts": 1791479937.256476
       }
     ]
   },
@@ -3824,20 +3778,20 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin treading water near $83,000 ahead of U.S. inflation data",
+        "title": "Live updates: Bitcoin tumbles more than 1% after hot inflation report",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4150.5,
-      "XAGUSD": 58.305,
-      "EURUSD": 1.11383,
-      "GBPUSD": 1.32121,
-      "USDJPY": 158.83,
-      "AUDUSD": 0.69793,
-      "NZDUSD": 0.5586,
-      "US100": 30658.0
+      "XAUUSD": 4136.0,
+      "XAGUSD": 58.13,
+      "EURUSD": 1.11433,
+      "GBPUSD": 1.32139,
+      "USDJPY": 158.82201,
+      "AUDUSD": 0.69798,
+      "NZDUSD": 0.55885,
+      "US100": 30599.25
     },
     "period_stats": {
       "day": {
@@ -3862,10 +3816,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1650.42,
+    "balance": 1641.03,
     "currency": "$",
-    "total_return_pct": 65.04,
-    "closed": 504,
+    "total_return_pct": 64.1,
+    "closed": 505,
     "wins": 129,
     "peak": 1736.75
   }
