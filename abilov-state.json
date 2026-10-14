@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791990532.3383198,
+  "updated_ts": 1791990601.860457,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 156,
+      "loop_n": 157,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791990532.337481
+      "heartbeat_ts": 1791990601.859951
     }
   },
   "control": {
@@ -1398,7 +1398,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1790158701.9995809,
         "ts": 1790158699.705378,
         "timeframe": "1h",
@@ -1420,6 +1420,12 @@
             "kind": "TP2",
             "px": 1.31861706,
             "pct": 0.72
+          },
+          {
+            "t": 1791990595.261963,
+            "kind": "TP3",
+            "px": 1.31463252,
+            "pct": 1.02
           }
         ]
       },
@@ -1502,7 +1508,7 @@
           "supertrend",
           "pat_pin_bar"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1790848113.7725692,
         "ts": 1790848111.268867,
         "timeframe": "1h",
@@ -1518,6 +1524,12 @@
             "kind": "TP1",
             "px": 0.55862224,
             "pct": 0.42
+          },
+          {
+            "t": 1791990596.23013,
+            "kind": "TP2",
+            "px": 0.55693931,
+            "pct": 0.72
           }
         ]
       },
@@ -3710,6 +3722,11 @@
     },
     "news": [
       {
+        "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares",
         "source": "CoinDesk",
         "ts": 0
@@ -3733,22 +3750,17 @@
         "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4113.0,
-      "XAGUSD": 56.35,
-      "EURUSD": 1.1121,
-      "GBPUSD": 1.31486,
-      "USDJPY": 158.90401,
-      "AUDUSD": 0.69585,
-      "NZDUSD": 0.55707,
-      "US100": 30461.25
+      "XAUUSD": 4115.3999,
+      "XAGUSD": 56.425,
+      "EURUSD": 1.11185,
+      "GBPUSD": 1.31458,
+      "USDJPY": 158.923,
+      "AUDUSD": 0.69556,
+      "NZDUSD": 0.55682,
+      "US100": 30488.5
     },
     "period_stats": {
       "day": {
