@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1791957979.911819,
+  "updated_ts": 1791980388.803318,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1791957979.911186
+      "heartbeat_ts": 1791980388.803137
     }
   },
   "control": {
@@ -2249,7 +2249,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1791564150.7921169,
         "ts": 1791564148.622833,
         "timeframe": "1h",
@@ -2259,6 +2259,12 @@
             "t": 1791564150.792127,
             "kind": "open",
             "px": 4212.10009765625
+          },
+          {
+            "t": 1791957985.453295,
+            "kind": "TP1",
+            "px": 4176.46519351,
+            "pct": 0.85
           }
         ]
       },
@@ -3976,45 +3982,45 @@
     },
     "news": [
       {
-        "title": "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
+        "title": "Here's how analysts see U.S. inflation influencing bitcoin",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Ripple adds Stripe-owned wallets to XRP Ledger as AI payments pass 14 million",
+        "title": "Dutch central bank grants Qivalis e-money license for MiCA-compliant euro token",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+        "title": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Bitcoin climbs toward $84,000 after Fed\u2019s Williams sees no rate hikes in 2027",
+        "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+        "title": "Live updates: Bitcoin treading water near $83,000 ahead of U.S. inflation data",
         "source": "CoinDesk",
         "ts": 0
       },
       {
-        "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
+        "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4174.7002,
-      "XAGUSD": 59.07,
-      "EURUSD": 1.12082,
-      "GBPUSD": 1.32702,
-      "USDJPY": 158.27699,
-      "AUDUSD": 0.70008,
-      "NZDUSD": 0.56199,
-      "US100": 30759.75
+      "XAUUSD": 4168.8999,
+      "XAGUSD": 58.835,
+      "EURUSD": 1.11957,
+      "GBPUSD": 1.32681,
+      "USDJPY": 158.47301,
+      "AUDUSD": 0.70121,
+      "NZDUSD": 0.5617,
+      "US100": 30796.5
     },
     "period_stats": {
       "day": {
