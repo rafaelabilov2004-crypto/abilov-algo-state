@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792058760.689525,
+  "updated_ts": 1792058827.3457322,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1206,
+      "loop_n": 1207,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792058760.6890519
+      "heartbeat_ts": 1792058827.34541
     }
   },
   "control": {
@@ -1693,7 +1693,7 @@
           "supertrend",
           "pat_engulfing"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1791981172.215774,
         "ts": 1791981170.173413,
         "timeframe": "1h",
@@ -1715,6 +1715,12 @@
             "kind": "TP2",
             "px": 0.69382909,
             "pct": 0.72
+          },
+          {
+            "t": 1792058823.659304,
+            "kind": "TP3",
+            "px": 0.6917325,
+            "pct": 1.02
           }
         ]
       },
@@ -2255,6 +2261,44 @@
             "t": 1792054503.957459,
             "kind": "open",
             "px": 4172.0
+          }
+        ]
+      },
+      {
+        "symbol": "XAGUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 56.974998474121094,
+        "sl": 56.01521409,
+        "tp_levels": [
+          57.98277207,
+          58.70261036,
+          59.42244865,
+          59.85435162
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1792058827.3409972,
+        "ts": 1792058825.379463,
+        "timeframe": "1h",
+        "msg_id": 2014,
+        "updates": [
+          {
+            "t": 1792058827.341001,
+            "kind": "open",
+            "px": 56.974998474121094
           }
         ]
       }
@@ -3712,6 +3756,11 @@
     },
     "news": [
       {
+        "title": "Hyperliquid founder wants U.S. oversight of trading platforms, not his blockchain",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Australia\u2019s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
         "source": "CoinDesk",
         "ts": 0
@@ -3735,22 +3784,17 @@
         "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4178.6001,
-      "XAGUSD": 56.93,
-      "EURUSD": 1.12208,
-      "GBPUSD": 1.32614,
-      "USDJPY": 157.67999,
-      "AUDUSD": 0.69175,
-      "NZDUSD": 0.56114,
-      "US100": 29852.5
+      "XAUUSD": 4181.0,
+      "XAGUSD": 56.975,
+      "EURUSD": 1.12183,
+      "GBPUSD": 1.32573,
+      "USDJPY": 157.72301,
+      "AUDUSD": 0.69171,
+      "NZDUSD": 0.56107,
+      "US100": 29848.25
     },
     "period_stats": {
       "day": {
