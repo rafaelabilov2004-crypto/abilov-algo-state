@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792281312.7962859,
+  "updated_ts": 1792286447.80464,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 263,
+      "loop_n": 264,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792281312.79552
+      "heartbeat_ts": 1792286447.80386
     }
   },
   "control": {
@@ -1243,8 +1243,8 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 55,
-      "label": "Codicia",
+      "index": 53,
+      "label": "Neutral",
       "bias": 0
     },
     "scale_in_loaded": true,
@@ -3886,11 +3886,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 55,
-      "label": "Codicia",
+      "index": 53,
+      "label": "Neutral",
       "bias": 0
     },
     "news": [
+      {
+        "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
         "source": "CoinDesk",
@@ -3915,11 +3920,6 @@
         "title": "\u2018Wow, it\u2019s a real discovery\u2019: Claude cracks a 25-year NSA number mystery",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -3928,7 +3928,7 @@
       "EURUSD": 1.12435,
       "GBPUSD": 1.333,
       "USDJPY": 157.987,
-      "AUDUSD": 0.0,
+      "AUDUSD": 0.69493,
       "NZDUSD": 0.56545,
       "US100": 29391.5
     },
