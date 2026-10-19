@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792421941.774842,
+  "updated_ts": 1792423218.672499,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 117,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792421941.771137
+      "heartbeat_ts": 1792423218.6719959
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 16,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 14
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 82561.3,
-      "ETH/USDT": 2399.82
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3918,6 +3916,11 @@
     },
     "news": [
       {
+        "title": "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Cardano founder Charles Hoskinson is building a new programming language for the network",
         "source": "CoinDesk",
         "ts": 0
@@ -3928,7 +3931,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin edges higher as U.S. stocks rebound early Monday",
+        "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3941,22 +3944,17 @@
         "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4163.1001,
-      "XAGUSD": 57.25,
+      "XAUUSD": 4165.7002,
+      "XAGUSD": 57.28,
       "EURUSD": 1.12196,
-      "GBPUSD": 1.33189,
-      "USDJPY": 158.42599,
-      "AUDUSD": 0.69881,
-      "NZDUSD": 0.56721,
-      "US100": 29854.75
+      "GBPUSD": 1.33129,
+      "USDJPY": 158.436,
+      "AUDUSD": 0.69823,
+      "NZDUSD": 0.56683,
+      "US100": 29881.0
     },
     "period_stats": {
       "day": {
