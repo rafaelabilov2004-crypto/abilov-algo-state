@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792484007.20466,
+  "updated_ts": 1792486083.092107,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792484007.204442
+      "heartbeat_ts": 1792486083.08702
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 81748.6,
+      "ETH/USDT": 2292.26
     }
   },
   "open_positions": [],
@@ -3975,6 +3977,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
         "source": "CoinDesk",
         "ts": 0
@@ -3998,22 +4005,17 @@
         "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4140.3999,
-      "XAGUSD": 57.37,
-      "EURUSD": 1.12322,
-      "GBPUSD": 1.33501,
-      "USDJPY": 158.14301,
-      "AUDUSD": 0.69979,
-      "NZDUSD": 0.56886,
-      "US100": 29612.5
+      "XAUUSD": 4142.2002,
+      "XAGUSD": 57.6,
+      "EURUSD": 1.1236,
+      "GBPUSD": 1.33531,
+      "USDJPY": 158.162,
+      "AUDUSD": 0.70008,
+      "NZDUSD": 0.5688,
+      "US100": 29685.25
     },
     "period_stats": {
       "day": {
