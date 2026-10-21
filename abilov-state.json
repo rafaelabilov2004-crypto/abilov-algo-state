@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792583511.0121632,
+  "updated_ts": 1792583577.0329878,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 44,
+      "loop_n": 45,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792583511.0103412
+      "heartbeat_ts": 1792583577.028411
     }
   },
   "control": {
@@ -1979,51 +1979,6 @@
         ]
       },
       {
-        "symbol": "BTCUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 82561.4375,
-        "sl": 83449.05264543,
-        "tp_levels": [
-          81629.4415973,
-          80963.73023822,
-          80298.01887915,
-          79898.5920637
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1792415303.031254,
-        "ts": 1792415301.910387,
-        "timeframe": "1h",
-        "msg_id": 2103,
-        "updates": [
-          {
-            "t": 1792415303.031256,
-            "kind": "open",
-            "px": 82561.4375
-          },
-          {
-            "t": 1792455529.042783,
-            "kind": "TP1",
-            "px": 81629.4415973,
-            "pct": 1.13
-          }
-        ]
-      },
-      {
         "symbol": "TSLA",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2500,6 +2455,62 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "BTCUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 82561.4375,
+        "sl": 83449.05264543,
+        "tp_levels": [
+          81629.4415973,
+          80963.73023822,
+          80298.01887915,
+          79898.5920637
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure"
+        ],
+        "tp_idx": 1,
+        "opened_ts": 1792415303.031254,
+        "ts": 1792415301.910387,
+        "timeframe": "1h",
+        "msg_id": 2103,
+        "updates": [
+          {
+            "t": 1792415303.031256,
+            "kind": "open",
+            "px": 82561.4375
+          },
+          {
+            "t": 1792455529.042783,
+            "kind": "TP1",
+            "px": 81629.4415973,
+            "pct": 1.13
+          },
+          {
+            "t": 1792583574.792057,
+            "kind": "SL",
+            "px": 83449.05264543,
+            "pct": -1.08
+          }
+        ],
+        "exit": 83449.05264543,
+        "reason": "SL",
+        "pct": -1.075,
+        "r_multiple": -1.0,
+        "closed_ts": 1792583574.792087
+      },
       {
         "symbol": "US500",
         "side": "SHORT",
@@ -3832,56 +3843,6 @@
         "pct": -0.651,
         "r_multiple": -1.0,
         "closed_ts": 1792171397.559246
-      },
-      {
-        "symbol": "US500",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 7779.75,
-        "sl": 7729.52047775,
-        "tp_levels": [
-          7832.49099837,
-          7870.16314006,
-          7907.83528175,
-          7930.43856676
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1792091400.1517818,
-        "ts": 1792091392.153523,
-        "timeframe": "1h",
-        "msg_id": 2034,
-        "updates": [
-          {
-            "t": 1792091400.1517901,
-            "kind": "open",
-            "px": 7779.75
-          },
-          {
-            "t": 1792169969.6086102,
-            "kind": "SL",
-            "px": 7729.52047775,
-            "pct": -0.65
-          }
-        ],
-        "exit": 7729.52047775,
-        "reason": "SL",
-        "pct": -0.646,
-        "r_multiple": -1.0,
-        "closed_ts": 1792169969.608622
       }
     ]
   },
@@ -3956,10 +3917,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1600.5,
+    "balance": 1583.29,
     "currency": "$",
-    "total_return_pct": 60.05,
-    "closed": 565,
+    "total_return_pct": 58.33,
+    "closed": 566,
     "wins": 143,
     "peak": 1785.08
   }
