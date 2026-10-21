@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792556744.758176,
+  "updated_ts": 1792564012.974648,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 72,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792556744.757149
+      "heartbeat_ts": 1792564012.9742799
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 8
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 79711.4,
-      "ETH/USDT": 2447.15
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3849,6 +3847,16 @@
     },
     "news": [
       {
+        "title": "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Solana\u2019s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
         "source": "CoinDesk",
         "ts": 0
@@ -3867,27 +3875,17 @@
         "title": "OKX-ICE co-chair Andrew Cuomo calls corporate objections a \u2018natural response\u2019 to tokenized stock plans",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The Coinbase allegations expose Bitcoin's corporate governance gap",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4138.3999,
-      "XAGUSD": 57.535,
-      "EURUSD": 1.12309,
-      "GBPUSD": 1.33772,
-      "USDJPY": 158.11301,
-      "AUDUSD": 0.70151,
-      "NZDUSD": 0.56763,
-      "US100": 29905.0
+      "XAUUSD": 4135.2998,
+      "XAGUSD": 57.43,
+      "EURUSD": 1.12221,
+      "GBPUSD": 1.33717,
+      "USDJPY": 158.181,
+      "AUDUSD": 0.70171,
+      "NZDUSD": 0.56767,
+      "US100": 29846.0
     },
     "period_stats": {
       "day": {
