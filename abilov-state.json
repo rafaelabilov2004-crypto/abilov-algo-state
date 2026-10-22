@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792680070.99246,
+  "updated_ts": 1792680137.0463328,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1239,
+      "loop_n": 1240,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792680070.991134
+      "heartbeat_ts": 1792680137.041717
     }
   },
   "control": {
@@ -2370,7 +2370,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1792652691.774432,
         "ts": 1792652691.0405362,
         "timeframe": "1h",
@@ -2380,6 +2380,12 @@
             "t": 1792652691.774432,
             "kind": "open",
             "px": 7731.75
+          },
+          {
+            "t": 1792680135.43791,
+            "kind": "TP1",
+            "px": 7691.3407721,
+            "pct": 0.52
           }
         ]
       },
@@ -3895,6 +3901,11 @@
     },
     "news": [
       {
+        "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto is making a splash in U.S. elections \u2014 but chiefly in jabs about industry influence",
         "source": "CoinDesk",
         "ts": 0
@@ -3918,22 +3929,17 @@
         "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4065.6001,
-      "XAGUSD": 55.37,
-      "EURUSD": 1.11957,
-      "GBPUSD": 1.33615,
-      "USDJPY": 157.233,
-      "AUDUSD": 0.70053,
-      "NZDUSD": 0.56699,
-      "US100": 29353.25
+      "XAUUSD": 4067.0,
+      "XAGUSD": 55.375,
+      "EURUSD": 1.12007,
+      "GBPUSD": 1.3364,
+      "USDJPY": 157.181,
+      "AUDUSD": 0.70111,
+      "NZDUSD": 0.56741,
+      "US100": 29318.25
     },
     "period_stats": {
       "day": {
