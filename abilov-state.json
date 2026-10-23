@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792765322.1633039,
+  "updated_ts": 1792765389.189215,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 24,
+      "loop_n": 25,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792765322.162704
+      "heartbeat_ts": 1792765389.188591
     }
   },
   "control": {
@@ -1965,7 +1965,7 @@
           "donchian",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1792652691.774432,
         "ts": 1792652691.0405362,
         "timeframe": "1h",
@@ -1981,6 +1981,12 @@
             "kind": "TP1",
             "px": 7691.3407721,
             "pct": 0.52
+          },
+          {
+            "t": 1792765386.0112278,
+            "kind": "TP2",
+            "px": 7662.47703789,
+            "pct": 0.9
           }
         ]
       },
@@ -3785,7 +3791,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin holds above $81,000 as markets calm, oil continues to gain",
+        "title": "Live updates: Bitcoin dips back to $81,000 as oil prices hit six-month high",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3801,14 +3807,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4027.6001,
-      "XAGUSD": 53.935,
-      "EURUSD": 1.1207,
-      "GBPUSD": 1.33747,
-      "USDJPY": 156.742,
-      "AUDUSD": 0.70274,
-      "NZDUSD": 0.56987,
-      "US100": 29171.25
+      "XAUUSD": 4023.19995,
+      "XAGUSD": 53.84,
+      "EURUSD": 1.12082,
+      "GBPUSD": 1.33792,
+      "USDJPY": 156.746,
+      "AUDUSD": 0.70269,
+      "NZDUSD": 0.56993,
+      "US100": 29152.25
     },
     "period_stats": {
       "day": {
