@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1792816002.9928179,
+  "updated_ts": 1792833233.2063842,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 463,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1792816002.991481
+      "heartbeat_ts": 1792833233.206016
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 65,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 63
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 81156.8,
-      "ETH/USDT": 2394.34
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3778,6 +3776,11 @@
     },
     "news": [
       {
+        "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
         "source": "CoinDesk",
         "ts": 0
@@ -3801,22 +3804,17 @@
         "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin appears to have decoupled from midterm cycle bottom history",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4010.0,
-      "XAGUSD": 53.96,
+      "XAUUSD": 4007.8999,
+      "XAGUSD": 53.949,
       "EURUSD": 1.12045,
       "GBPUSD": 1.33749,
       "USDJPY": 156.814,
       "AUDUSD": 0.70378,
       "NZDUSD": 0.57013,
-      "US100": 29175.0
+      "US100": 29117.75
     },
     "period_stats": {
       "day": {
