@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793007146.0062778,
+  "updated_ts": 1793007211.854192,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 949,
+      "loop_n": 950,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793007146.0054898
+      "heartbeat_ts": 1793007211.853632
     }
   },
   "control": {
@@ -1967,46 +1967,6 @@
         ]
       },
       {
-        "symbol": "USDJPY",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 156.67100524902344,
-        "sl": 157.3254486,
-        "tp_levels": [
-          155.98383973,
-          155.49300722,
-          155.0021747,
-          154.70767519
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1792746850.365064,
-        "ts": 1792746849.588581,
-        "timeframe": "1h",
-        "msg_id": 2220,
-        "updates": [
-          {
-            "t": 1792746850.3650649,
-            "kind": "open",
-            "px": 156.67100524902344
-          }
-        ]
-      },
-      {
         "symbol": "US30",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2490,6 +2450,57 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "USDJPY",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 156.67100524902344,
+        "sl": 157.3254486,
+        "tp_levels": [
+          155.98383973,
+          155.49300722,
+          155.0021747,
+          154.70767519
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "stoch",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1792746850.365064,
+        "ts": 1792746849.588581,
+        "timeframe": "1h",
+        "msg_id": 2220,
+        "updates": [
+          {
+            "t": 1792746850.3650649,
+            "kind": "open",
+            "px": 156.67100524902344
+          },
+          {
+            "t": 1793007209.834454,
+            "kind": "SL",
+            "px": 157.3254486,
+            "pct": -0.42
+          }
+        ],
+        "exit": 157.3254486,
+        "reason": "SL",
+        "pct": -0.418,
+        "r_multiple": -1.0,
+        "closed_ts": 1793007209.834497
+      },
       {
         "symbol": "GBPUSD",
         "side": "LONG",
@@ -3853,55 +3864,6 @@
         "pct": 0.0,
         "r_multiple": 0.0,
         "closed_ts": 1792647993.2984571
-      },
-      {
-        "symbol": "US100",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 29880.75,
-        "sl": 29562.14304145,
-        "tp_levels": [
-          30215.28730648,
-          30454.24252539,
-          30693.1977443,
-          30836.57087565
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "donchian",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1792507268.421699,
-        "ts": 1792507267.566696,
-        "timeframe": "1h",
-        "msg_id": 2144,
-        "updates": [
-          {
-            "t": 1792507268.4217,
-            "kind": "open",
-            "px": 29880.75
-          },
-          {
-            "t": 1792647741.766138,
-            "kind": "SL",
-            "px": 29562.14304145,
-            "pct": -1.07
-          }
-        ],
-        "exit": 29562.14304145,
-        "reason": "SL",
-        "pct": -1.066,
-        "r_multiple": -1.0,
-        "closed_ts": 1792647741.766156
       }
     ]
   },
@@ -3944,14 +3906,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4027.80005,
-      "XAGUSD": 54.04,
-      "EURUSD": 1.12183,
-      "GBPUSD": 1.33495,
-      "USDJPY": 157.319,
-      "AUDUSD": 0.70403,
-      "NZDUSD": 0.56925,
-      "US100": 29193.0
+      "XAUUSD": 4027.5,
+      "XAGUSD": 54.045,
+      "EURUSD": 1.12145,
+      "GBPUSD": 1.33463,
+      "USDJPY": 157.336,
+      "AUDUSD": 0.70383,
+      "NZDUSD": 0.56915,
+      "US100": 29192.5
     },
     "period_stats": {
       "day": {
@@ -3976,10 +3938,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1600.38,
+    "balance": 1593.69,
     "currency": "$",
-    "total_return_pct": 60.04,
-    "closed": 598,
+    "total_return_pct": 59.37,
+    "closed": 599,
     "wins": 151,
     "peak": 1785.08
   }
