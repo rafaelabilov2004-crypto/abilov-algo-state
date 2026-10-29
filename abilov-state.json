@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793301408.145569,
+  "updated_ts": 1793308506.650024,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 232,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793301408.144833
+      "heartbeat_ts": 1793308506.649784
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 34,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 32
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 83719.0,
-      "ETH/USDT": 2411.01
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3875,6 +3873,11 @@
     },
     "news": [
       {
+        "title": "Potential multi-billion Binance hack hitting crypto markets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Polymarket suspends trading after third-party breach leads to user losses",
         "source": "CoinDesk",
         "ts": 0
@@ -3898,22 +3901,17 @@
         "title": "Crypto exchange HTX exits the UK after settling with the FCA",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4024.5,
-      "XAGUSD": 52.135,
-      "EURUSD": 1.11669,
-      "GBPUSD": 1.33647,
-      "USDJPY": 157.929,
-      "AUDUSD": 0.70328,
-      "NZDUSD": 0.56303,
-      "US100": 29476.25
+      "XAUUSD": 4033.30005,
+      "XAGUSD": 52.22,
+      "EURUSD": 1.11794,
+      "GBPUSD": 1.33763,
+      "USDJPY": 157.62,
+      "AUDUSD": 0.70338,
+      "NZDUSD": 0.56357,
+      "US100": 29218.25
     },
     "period_stats": {
       "day": {
