@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793241318.970135,
+  "updated_ts": 1793241384.814806,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 526,
+      "loop_n": 527,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793241318.9691808
+      "heartbeat_ts": 1793241384.813241
     }
   },
   "control": {
@@ -1926,51 +1926,6 @@
         ]
       },
       {
-        "symbol": "ETHUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 2333.139892578125,
-        "sl": 2292.19912502,
-        "tp_levels": [
-          2376.12769851,
-          2406.83327418,
-          2437.53884985,
-          2455.96219525
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "stoch",
-          "pat_engulfing",
-          "pat_structure"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1793015819.391088,
-        "ts": 1793015818.621578,
-        "timeframe": "1h",
-        "msg_id": 2304,
-        "updates": [
-          {
-            "t": 1793015819.391089,
-            "kind": "open",
-            "px": 2333.139892578125
-          },
-          {
-            "t": 1793176557.328574,
-            "kind": "TP1",
-            "px": 2376.12769851,
-            "pct": 1.84
-          }
-        ]
-      },
-      {
         "symbol": "AAPL",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2520,6 +2475,62 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "ETHUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 2333.139892578125,
+        "sl": 2292.19912502,
+        "tp_levels": [
+          2376.12769851,
+          2406.83327418,
+          2437.53884985,
+          2455.96219525
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_engulfing",
+          "pat_structure"
+        ],
+        "tp_idx": 1,
+        "opened_ts": 1793015819.391088,
+        "ts": 1793015818.621578,
+        "timeframe": "1h",
+        "msg_id": 2304,
+        "updates": [
+          {
+            "t": 1793015819.391089,
+            "kind": "open",
+            "px": 2333.139892578125
+          },
+          {
+            "t": 1793176557.328574,
+            "kind": "TP1",
+            "px": 2376.12769851,
+            "pct": 1.84
+          },
+          {
+            "t": 1793241383.696,
+            "kind": "SL",
+            "px": 2292.19912502,
+            "pct": -1.75
+          }
+        ],
+        "exit": 2292.19912502,
+        "reason": "SL",
+        "pct": -1.755,
+        "r_multiple": -1.0,
+        "closed_ts": 1793241383.69602
+      },
       {
         "symbol": "US100",
         "side": "LONG",
@@ -3813,57 +3824,6 @@
         "pct": -3.494,
         "r_multiple": -1.0,
         "closed_ts": 1793021449.981139
-      },
-      {
-        "symbol": "USDJPY",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 156.67100524902344,
-        "sl": 157.3254486,
-        "tp_levels": [
-          155.98383973,
-          155.49300722,
-          155.0021747,
-          154.70767519
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "stoch",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1792746850.365064,
-        "ts": 1792746849.588581,
-        "timeframe": "1h",
-        "msg_id": 2220,
-        "updates": [
-          {
-            "t": 1792746850.3650649,
-            "kind": "open",
-            "px": 156.67100524902344
-          },
-          {
-            "t": 1793007209.834454,
-            "kind": "SL",
-            "px": 157.3254486,
-            "pct": -0.42
-          }
-        ],
-        "exit": 157.3254486,
-        "reason": "SL",
-        "pct": -0.418,
-        "r_multiple": -1.0,
-        "closed_ts": 1793007209.834497
       }
     ]
   },
@@ -3938,10 +3898,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1344.59,
+    "balance": 1321.0,
     "currency": "$",
-    "total_return_pct": 34.46,
-    "closed": 623,
+    "total_return_pct": 32.1,
+    "closed": 624,
     "wins": 154,
     "peak": 1785.08
   }
