@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793310382.549658,
+  "updated_ts": 1793310445.390314,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793310382.5488892
+      "heartbeat_ts": 1793310445.389642
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 2,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 80300.0,
+      "ETH/USDT": 2319.62
     }
   },
   "open_positions": [],
@@ -3807,7 +3809,7 @@
     },
     "news": [
       {
-        "title": "Multi-billion Binance hack hitting crypto markets",
+        "title": "Binance loses $5.7 billion in largest crypto hack to date",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3841,10 +3843,10 @@
       "XAUUSD": 4033.30005,
       "XAGUSD": 52.22,
       "EURUSD": 1.11782,
-      "GBPUSD": 1.33767,
-      "USDJPY": 157.668,
-      "AUDUSD": 0.70353,
-      "NZDUSD": 0.56357,
+      "GBPUSD": 1.33774,
+      "USDJPY": 157.66499,
+      "AUDUSD": 0.70343,
+      "NZDUSD": 0.56363,
       "US100": 29218.25
     },
     "period_stats": {
