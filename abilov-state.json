@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793367908.252852,
+  "updated_ts": 1793367977.799478,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 598,
+      "loop_n": 599,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793367908.2522109
+      "heartbeat_ts": 1793367977.7983732
     }
   },
   "control": {
@@ -1794,7 +1794,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1793257909.3668401,
         "ts": 1793257908.261454,
         "timeframe": "1h",
@@ -1816,6 +1816,12 @@
             "kind": "TP2",
             "px": 7686.31660826,
             "pct": 0.97
+          },
+          {
+            "t": 1793367911.9694898,
+            "kind": "TP3",
+            "px": 7654.99019503,
+            "pct": 1.37
           }
         ]
       },
@@ -1845,7 +1851,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1793258685.7160928,
         "ts": 1793258685.001921,
         "timeframe": "1h",
@@ -1867,6 +1873,12 @@
             "kind": "TP2",
             "px": 3973.23883174,
             "pct": 1.79
+          },
+          {
+            "t": 1793367912.565723,
+            "kind": "TP3",
+            "px": 3943.08830427,
+            "pct": 2.53
           }
         ]
       },
@@ -2256,6 +2268,43 @@
             "t": 1793367259.9402041,
             "kind": "open",
             "px": 388.75
+          }
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 344.2850036621094,
+        "sl": 349.42541717,
+        "tp_levels": [
+          338.88756948,
+          335.03225935,
+          331.17694923,
+          328.86376315
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793367917.455264,
+        "ts": 1793367916.6048589,
+        "timeframe": "1h",
+        "msg_id": 2492,
+        "updates": [
+          {
+            "t": 1793367917.455265,
+            "kind": "open",
+            "px": 344.2850036621094
           }
         ]
       }
