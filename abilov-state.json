@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793379255.864285,
+  "updated_ts": 1793379330.239041,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793379255.864089
+      "heartbeat_ts": 1793379330.238239
     }
   },
   "control": {
@@ -1448,7 +1448,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1792507007.7694468,
         "ts": 1792507007.044995,
         "timeframe": "1h",
@@ -1470,6 +1470,12 @@
             "kind": "TP2",
             "px": 208.1569014,
             "pct": 4.23
+          },
+          {
+            "t": 1793379265.5462332,
+            "kind": "TP3",
+            "px": 204.32644111,
+            "pct": 5.99
           }
         ]
       },
@@ -2254,6 +2260,45 @@
             "t": 1793374955.300406,
             "kind": "open",
             "px": 399.5450134277344
+          }
+        ]
+      },
+      {
+        "symbol": "GBPUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 1.3394770622253418,
+        "sl": 1.34483497,
+        "tp_levels": [
+          1.33385126,
+          1.32983283,
+          1.3258144,
+          1.32340334
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "macd",
+          "stoch",
+          "supertrend",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793379269.960057,
+        "ts": 1793379269.041713,
+        "timeframe": "1h",
+        "msg_id": 2504,
+        "updates": [
+          {
+            "t": 1793379269.960059,
+            "kind": "open",
+            "px": 1.3394770622253418
           }
         ]
       }
