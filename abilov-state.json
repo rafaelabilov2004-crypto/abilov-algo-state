@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793377946.294793,
+  "updated_ts": 1793379255.864285,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 752,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793377946.2942631
+      "heartbeat_ts": 1793379255.864089
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 107,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 106
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77606.8,
-      "ETH/USDT": 2228.97
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3692,6 +3690,11 @@
     },
     "news": [
       {
+        "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
         "source": "CoinDesk",
         "ts": 0
@@ -3715,22 +3718,17 @@
         "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3906.19995,
-      "XAGUSD": 49.265,
-      "EURUSD": 1.11669,
-      "GBPUSD": 1.33975,
-      "USDJPY": 157.494,
-      "AUDUSD": 0.70373,
-      "NZDUSD": 0.56379,
-      "US100": 28606.25
+      "XAUUSD": 3904.8999,
+      "XAGUSD": 49.255,
+      "EURUSD": 1.11595,
+      "GBPUSD": 1.33948,
+      "USDJPY": 157.46001,
+      "AUDUSD": 0.70368,
+      "NZDUSD": 0.56386,
+      "US100": 28613.75
     },
     "period_stats": {
       "day": {
