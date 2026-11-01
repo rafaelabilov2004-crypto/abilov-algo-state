@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793490969.539134,
+  "updated_ts": 1793520892.8775082,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 792,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793490969.5377789
+      "heartbeat_ts": 1793520892.876703
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 110,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 108
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77522.4,
-      "ETH/USDT": 2255.04
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -1245,7 +1243,7 @@
   ],
   "phase4": {
     "sentiment": {
-      "index": 30,
+      "index": 34,
       "label": "Miedo",
       "bias": 0
     },
@@ -3903,11 +3901,16 @@
   },
   "market_extras": {
     "sentiment": {
-      "index": 30,
+      "index": 34,
       "label": "Miedo",
       "bias": 0
     },
     "news": [
+      {
+        "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
         "source": "CoinDesk",
@@ -3932,22 +3935,17 @@
         "title": "Institutions embrace crypto staking despite shrinking yields",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3898.8999,
-      "XAGUSD": 49.276,
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
       "EURUSD": 1.11657,
       "GBPUSD": 1.33894,
       "USDJPY": 157.519,
       "AUDUSD": 0.70353,
       "NZDUSD": 0.56325,
-      "US100": 28534.0
+      "US100": 0.0
     },
     "period_stats": {
       "day": {
