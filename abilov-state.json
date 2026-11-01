@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793520892.8775082,
+  "updated_ts": 1793529785.8568199,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793520892.876703
+      "heartbeat_ts": 1793529785.8560388
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 8,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 6
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 77776.9,
+      "ETH/USDT": 2270.52
     }
   },
   "open_positions": [],
@@ -3907,6 +3909,11 @@
     },
     "news": [
       {
+        "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
         "source": "CoinDesk",
         "ts": 0
@@ -3928,11 +3935,6 @@
       },
       {
         "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Institutions embrace crypto staking despite shrinking yields",
         "source": "CoinDesk",
         "ts": 0
       }
