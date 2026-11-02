@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793609636.2217128,
+  "updated_ts": 1793609701.9436128,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 677,
+      "loop_n": 678,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793609636.220858
+      "heartbeat_ts": 1793609701.943325
     }
   },
   "control": {
@@ -1645,7 +1645,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1793199836.016347,
         "ts": 1793199834.98013,
         "timeframe": "1h",
@@ -1667,6 +1667,12 @@
             "kind": "TP2",
             "px": 1.33987837,
             "pct": 0.72
+          },
+          {
+            "t": 1793609698.686411,
+            "kind": "TP3",
+            "px": 1.34386927,
+            "pct": 1.02
           }
         ]
       },
@@ -3896,6 +3902,11 @@
     },
     "news": [
       {
+        "title": "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
         "source": "CoinDesk",
         "ts": 0
@@ -3919,22 +3930,17 @@
         "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3907.3999,
-      "XAGUSD": 50.355,
-      "EURUSD": 1.12233,
+      "XAUUSD": 3910.1001,
+      "XAGUSD": 50.38,
+      "EURUSD": 1.12259,
       "GBPUSD": 1.34394,
-      "USDJPY": 157.632,
-      "AUDUSD": 0.70304,
-      "NZDUSD": 0.56392,
-      "US100": 28755.0
+      "USDJPY": 157.653,
+      "AUDUSD": 0.70294,
+      "NZDUSD": 0.56395,
+      "US100": 28760.25
     },
     "period_stats": {
       "day": {
