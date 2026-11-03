@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793714358.145746,
+  "updated_ts": 1793714944.888214,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793714358.145416
+      "heartbeat_ts": 1793714944.8877819
     }
   },
   "control": {
@@ -49,7 +49,7 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 2,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -2080,7 +2080,7 @@
           "vol_expansion",
           "supertrend"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1793627312.123729,
         "ts": 1793627311.363307,
         "timeframe": "1h",
@@ -2090,6 +2090,12 @@
             "t": 1793627312.123729,
             "kind": "open",
             "px": 97.33999633789062
+          },
+          {
+            "t": 1793714941.141651,
+            "kind": "TP1",
+            "px": 94.98254084,
+            "pct": 2.42
           }
         ]
       },
@@ -2432,45 +2438,6 @@
         ]
       },
       {
-        "symbol": "USOIL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 98.05999755859375,
-        "sl": 95.96408381,
-        "tp_levels": [
-          100.26070699,
-          101.83264231,
-          103.40457762,
-          104.3477388
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "stoch",
-          "pat_star",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793705031.656684,
-        "ts": 1793705030.852988,
-        "timeframe": "1h",
-        "msg_id": 2618,
-        "updates": [
-          {
-            "t": 1793705031.656685,
-            "kind": "open",
-            "px": 98.05999755859375
-          }
-        ]
-      },
-      {
         "symbol": "BTCUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2548,9 +2515,96 @@
             "px": 28221.5
           }
         ]
+      },
+      {
+        "symbol": "XAGUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 50.53499984741211,
+        "sl": 49.45628252,
+        "tp_levels": [
+          51.66765305,
+          52.47669105,
+          53.28572904,
+          53.77115184
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793714944.881975,
+        "ts": 1793714943.543832,
+        "timeframe": "1h",
+        "msg_id": 2624,
+        "updates": [
+          {
+            "t": 1793714944.881977,
+            "kind": "open",
+            "px": 50.53499984741211
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 98.05999755859375,
+        "sl": 95.96408381,
+        "tp_levels": [
+          100.26070699,
+          101.83264231,
+          103.40457762,
+          104.3477388
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793705031.656684,
+        "ts": 1793705030.852988,
+        "timeframe": "1h",
+        "msg_id": 2618,
+        "updates": [
+          {
+            "t": 1793705031.656685,
+            "kind": "open",
+            "px": 98.05999755859375
+          },
+          {
+            "t": 1793714942.615277,
+            "kind": "SL",
+            "px": 95.96408381,
+            "pct": -2.14
+          }
+        ],
+        "exit": 95.96408381,
+        "reason": "SL",
+        "pct": -2.137,
+        "r_multiple": -1.0,
+        "closed_ts": 1793714942.615297
+      },
       {
         "symbol": "XAGUSD",
         "side": "LONG",
@@ -3900,55 +3954,6 @@
         "pct": 2.981,
         "r_multiple": 3.0,
         "closed_ts": 1793369473.8203058
-      },
-      {
-        "symbol": "NVDA",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 216.052001953125,
-        "sl": 211.33476892,
-        "tp_levels": [
-          221.00509664,
-          224.54302142,
-          228.08094619,
-          230.20370106
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793025960.3588018,
-        "ts": 1793025959.572274,
-        "timeframe": "1h",
-        "msg_id": 2314,
-        "updates": [
-          {
-            "t": 1793025960.3588018,
-            "kind": "open",
-            "px": 216.052001953125
-          },
-          {
-            "t": 1793367117.3178492,
-            "kind": "SL",
-            "px": 211.33476892,
-            "pct": -2.18
-          }
-        ],
-        "exit": 211.33476892,
-        "reason": "SL",
-        "pct": -2.183,
-        "r_multiple": -1.0,
-        "closed_ts": 1793367117.317863
       }
     ]
   },
@@ -3959,6 +3964,11 @@
       "bias": 0
     },
     "news": [
+      {
+        "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
+        "source": "CoinDesk",
+        "ts": 0
+      },
       {
         "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
         "source": "CoinDesk",
@@ -3983,22 +3993,17 @@
         "title": "Liquid\u2019s bitcoin IOUs are fully backed again after a $320 million exploit",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3974.8999,
-      "XAGUSD": 50.43,
-      "EURUSD": 1.11982,
-      "GBPUSD": 1.34225,
-      "USDJPY": 158.11301,
-      "AUDUSD": 0.6994,
-      "NZDUSD": 0.56211,
-      "US100": 28335.0
+      "XAUUSD": 3974.3999,
+      "XAGUSD": 50.545,
+      "EURUSD": 1.11894,
+      "GBPUSD": 1.3419,
+      "USDJPY": 158.185,
+      "AUDUSD": 0.69876,
+      "NZDUSD": 0.56164,
+      "US100": 28327.25
     },
     "period_stats": {
       "day": {
@@ -4023,10 +4028,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1318.51,
+    "balance": 1290.33,
     "currency": "$",
-    "total_return_pct": 31.85,
-    "closed": 668,
+    "total_return_pct": 29.03,
+    "closed": 669,
     "wins": 162,
     "peak": 1785.08
   }
