@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793813512.629577,
+  "updated_ts": 1793813580.0228748,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 314,
+      "loop_n": 315,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793813512.6283882
+      "heartbeat_ts": 1793813580.022403
     }
   },
   "control": {
@@ -2192,6 +2192,46 @@
             "t": 1793810857.597738,
             "kind": "open",
             "px": 90.11000061035156
+          }
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 388.2200012207031,
+        "sl": 374.86521743,
+        "tp_levels": [
+          402.2425242,
+          412.25861204,
+          422.27469988,
+          428.28435259
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "stoch",
+          "vol_expansion",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793813580.018601,
+        "ts": 1793813579.039096,
+        "timeframe": "1h",
+        "msg_id": 2716,
+        "updates": [
+          {
+            "t": 1793813580.018602,
+            "kind": "open",
+            "px": 388.2200012207031
           }
         ]
       }
