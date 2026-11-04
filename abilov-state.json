@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793777281.475093,
+  "updated_ts": 1793784118.332017,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 767,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793777281.450594
+      "heartbeat_ts": 1793784118.330614
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 104,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 102
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77130.7,
-      "ETH/USDT": 2265.3
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3672,7 +3670,12 @@
     },
     "news": [
       {
-        "title": "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades",
+        "title": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3695,22 +3698,17 @@
         "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4030.69995,
-      "XAGUSD": 51.79,
-      "EURUSD": 1.12372,
-      "GBPUSD": 1.34707,
-      "USDJPY": 158.08,
-      "AUDUSD": 0.69915,
-      "NZDUSD": 0.56104,
-      "US100": 28224.5
+      "XAUUSD": 4055.30005,
+      "XAGUSD": 51.95,
+      "EURUSD": 1.12575,
+      "GBPUSD": 1.34889,
+      "USDJPY": 158.28101,
+      "AUDUSD": 0.70082,
+      "NZDUSD": 0.56325,
+      "US100": 28377.25
     },
     "period_stats": {
       "day": {
