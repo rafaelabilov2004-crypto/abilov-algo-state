@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793784118.332017,
+  "updated_ts": 1793786202.347556,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793784118.330614
+      "heartbeat_ts": 1793786202.347001
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 3,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 1
+    },
     "wins": 0,
     "losses": 0
   },
@@ -64,7 +66,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "ETH/USDT": 2284.62
     }
   },
   "open_positions": [],
@@ -3670,6 +3672,11 @@
     },
     "news": [
       {
+        "title": "Morgan Stanley says it is among the first banks to tokenize real world assets",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
         "source": "CoinDesk",
         "ts": 0
@@ -3693,22 +3700,17 @@
         "title": "South Korea's ruling party wants to delay its crypto tax again",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4055.30005,
-      "XAGUSD": 51.95,
-      "EURUSD": 1.12575,
-      "GBPUSD": 1.34889,
-      "USDJPY": 158.28101,
-      "AUDUSD": 0.70082,
-      "NZDUSD": 0.56325,
-      "US100": 28377.25
+      "XAUUSD": 4056.19995,
+      "XAGUSD": 52.06,
+      "EURUSD": 1.12651,
+      "GBPUSD": 1.34949,
+      "USDJPY": 158.40199,
+      "AUDUSD": 0.70175,
+      "NZDUSD": 0.56398,
+      "US100": 28462.25
     },
     "period_stats": {
       "day": {
