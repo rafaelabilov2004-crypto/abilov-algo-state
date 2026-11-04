@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793802547.111626,
+  "updated_ts": 1793802611.881962,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 150,
+      "loop_n": 151,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793802547.111043
+      "heartbeat_ts": 1793802611.881611
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 22,
+    "signals": 24,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 20
+      "max_drawdown:0.151>=0.15": 22
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 77314.7,
-      "ETH/USDT": 2374.21
+      "BTC/USDT": 77321.6,
+      "ETH/USDT": 2372.53
     }
   },
   "open_positions": [],
@@ -3825,6 +3825,11 @@
     },
     "news": [
       {
+        "title": "The election changes Washington. The work on crypto continues",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
         "source": "CoinDesk",
         "ts": 0
@@ -3848,22 +3853,17 @@
         "title": "Here's how analysts are reacting to the new blue Congress",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4052.5,
-      "XAGUSD": 52.03,
-      "EURUSD": 1.12651,
-      "GBPUSD": 1.34893,
-      "USDJPY": 158.39,
-      "AUDUSD": 0.70205,
-      "NZDUSD": 0.56395,
-      "US100": 28421.25
+      "XAUUSD": 4049.19995,
+      "XAGUSD": 51.925,
+      "EURUSD": 1.12625,
+      "GBPUSD": 1.34854,
+      "USDJPY": 158.437,
+      "AUDUSD": 0.702,
+      "NZDUSD": 0.56379,
+      "US100": 28448.5
     },
     "period_stats": {
       "day": {
