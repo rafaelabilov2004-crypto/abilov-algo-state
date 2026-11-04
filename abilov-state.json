@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793804154.44928,
+  "updated_ts": 1793804221.559835,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 174,
+      "loop_n": 175,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793804154.448735
+      "heartbeat_ts": 1793804221.559245
     }
   },
   "control": {
@@ -2067,45 +2067,6 @@
         ]
       },
       {
-        "symbol": "US500",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 7659.0,
-        "sl": 7730.04724316,
-        "tp_levels": [
-          7584.40039468,
-          7531.11496231,
-          7477.82952994,
-          7445.85827051
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "ema_trend",
-          "adx_strong",
-          "stoch",
-          "vol_expansion",
-          "pat_star"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793795069.014122,
-        "ts": 1793795066.9075918,
-        "timeframe": "1h",
-        "msg_id": 2684,
-        "updates": [
-          {
-            "t": 1793795069.014124,
-            "kind": "open",
-            "px": 7659.0
-          }
-        ]
-      },
-      {
         "symbol": "EURUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2187,6 +2148,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7659.0,
+        "sl": 7730.04724316,
+        "tp_levels": [
+          7584.40039468,
+          7531.11496231,
+          7477.82952994,
+          7445.85827051
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "ema_trend",
+          "adx_strong",
+          "stoch",
+          "vol_expansion",
+          "pat_star"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793795069.014122,
+        "ts": 1793795066.9075918,
+        "timeframe": "1h",
+        "msg_id": 2684,
+        "updates": [
+          {
+            "t": 1793795069.014124,
+            "kind": "open",
+            "px": 7659.0
+          },
+          {
+            "t": 1793804218.5053298,
+            "kind": "SL",
+            "px": 7730.04724316,
+            "pct": -0.93
+          }
+        ],
+        "exit": 7730.04724316,
+        "reason": "SL",
+        "pct": -0.928,
+        "r_multiple": -1.0,
+        "closed_ts": 1793804218.5053592
+      },
       {
         "symbol": "US100",
         "side": "SHORT",
@@ -3593,56 +3604,6 @@
         "pct": -0.943,
         "r_multiple": -1.0,
         "closed_ts": 1793754991.5428748
-      },
-      {
-        "symbol": "GBPUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 1.3394770622253418,
-        "sl": 1.34483497,
-        "tp_levels": [
-          1.33385126,
-          1.32983283,
-          1.3258144,
-          1.32340334
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793379269.960057,
-        "ts": 1793379269.041713,
-        "timeframe": "1h",
-        "msg_id": 2504,
-        "updates": [
-          {
-            "t": 1793379269.960059,
-            "kind": "open",
-            "px": 1.3394770622253418
-          },
-          {
-            "t": 1793754327.2740638,
-            "kind": "SL",
-            "px": 1.34483497,
-            "pct": -0.4
-          }
-        ],
-        "exit": 1.34483497,
-        "reason": "SL",
-        "pct": -0.4,
-        "r_multiple": -1.0,
-        "closed_ts": 1793754327.274071
       }
     ]
   },
@@ -3659,7 +3620,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
+        "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3685,14 +3646,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4057.1001,
-      "XAGUSD": 52.295,
-      "EURUSD": 1.12511,
-      "GBPUSD": 1.34735,
-      "USDJPY": 158.54201,
-      "AUDUSD": 0.70185,
-      "NZDUSD": 0.56287,
-      "US100": 28768.5
+      "XAUUSD": 4055.5,
+      "XAGUSD": 52.29,
+      "EURUSD": 1.12524,
+      "GBPUSD": 1.34776,
+      "USDJPY": 158.479,
+      "AUDUSD": 0.7019,
+      "NZDUSD": 0.5629,
+      "US100": 28851.75
     },
     "period_stats": {
       "day": {
@@ -3717,10 +3678,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1277.39,
+    "balance": 1265.54,
     "currency": "$",
-    "total_return_pct": 27.74,
-    "closed": 699,
+    "total_return_pct": 26.55,
+    "closed": 700,
     "wins": 170,
     "peak": 1785.08
   }
