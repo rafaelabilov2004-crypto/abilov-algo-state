@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793891961.2012439,
+  "updated_ts": 1793892024.249156,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 24,
+      "loop_n": 25,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793891961.200617
+      "heartbeat_ts": 1793892024.248756
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 2,
+    "signals": 3,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 78583.4,
+      "ETH/USDT": 2395.35
     }
   },
   "open_positions": [],
@@ -3812,14 +3814,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4121.2998,
-      "XAGUSD": 52.29,
+      "XAUUSD": 4127.7002,
+      "XAGUSD": 52.39,
       "EURUSD": 1.12221,
-      "GBPUSD": 1.34662,
-      "USDJPY": 158.047,
-      "AUDUSD": 0.69764,
-      "NZDUSD": 0.56202,
-      "US100": 27488.0
+      "GBPUSD": 1.3468,
+      "USDJPY": 157.998,
+      "AUDUSD": 0.69759,
+      "NZDUSD": 0.56199,
+      "US100": 27372.5
     },
     "period_stats": {
       "day": {
