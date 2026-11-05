@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1793889860.001892,
+  "updated_ts": 1793890268.4964879,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 800,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1793889860.00136
+      "heartbeat_ts": 1793890268.4962869
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 113,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 111
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 78567.0,
-      "ETH/USDT": 2400.97
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3913,6 +3911,11 @@
     },
     "news": [
       {
+        "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
         "source": "CoinDesk",
         "ts": 0
@@ -3936,22 +3939,17 @@
         "title": "Bitcoin is resilient, but leverage is missing and demand still tepid",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4143.6001,
-      "XAGUSD": 53.06,
-      "EURUSD": 1.12108,
-      "GBPUSD": 1.34628,
-      "USDJPY": 158.26801,
-      "AUDUSD": 0.69857,
-      "NZDUSD": 0.56145,
-      "US100": 28027.5
+      "XAUUSD": 4127.6001,
+      "XAGUSD": 52.535,
+      "EURUSD": 1.12171,
+      "GBPUSD": 1.34669,
+      "USDJPY": 158.12399,
+      "AUDUSD": 0.69871,
+      "NZDUSD": 0.56202,
+      "US100": 27792.5
     },
     "period_stats": {
       "day": {
