@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794141683.640586,
+  "updated_ts": 1794147290.024396,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794141683.640291
+      "heartbeat_ts": 1794147290.024081
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 6,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 4
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75933.0,
-      "ETH/USDT": 2240.68
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3916,6 +3914,11 @@
     },
     "news": [
       {
+        "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
         "source": "CoinDesk",
         "ts": 0
@@ -3939,11 +3942,6 @@
         "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -3951,7 +3949,7 @@
       "XAGUSD": 0.0,
       "EURUSD": 1.11433,
       "GBPUSD": 1.33558,
-      "USDJPY": 0.0,
+      "USDJPY": 158.425,
       "AUDUSD": 0.68681,
       "NZDUSD": 0.55475,
       "US100": 0.0
