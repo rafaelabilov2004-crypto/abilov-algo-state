@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794229218.84179,
+  "updated_ts": 1794229287.0199401,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 28,
+      "loop_n": 29,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794229218.838356
+      "heartbeat_ts": 1794229287.0170639
     }
   },
   "control": {
@@ -1712,44 +1712,6 @@
         ]
       },
       {
-        "symbol": "USOIL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 89.93000030517578,
-        "sl": 87.72211598,
-        "tp_levels": [
-          92.24827885,
-          93.9041921,
-          95.56010535,
-          96.55365329
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793884673.409227,
-        "ts": 1793884672.660544,
-        "timeframe": "1h",
-        "msg_id": 2735,
-        "updates": [
-          {
-            "t": 1793884673.409228,
-            "kind": "open",
-            "px": 89.93000030517578
-          }
-        ]
-      },
-      {
         "symbol": "TSLA",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2502,6 +2464,55 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 89.93000030517578,
+        "sl": 87.72211598,
+        "tp_levels": [
+          92.24827885,
+          93.9041921,
+          95.56010535,
+          96.55365329
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1793884673.409227,
+        "ts": 1793884672.660544,
+        "timeframe": "1h",
+        "msg_id": 2735,
+        "updates": [
+          {
+            "t": 1793884673.409228,
+            "kind": "open",
+            "px": 89.93000030517578
+          },
+          {
+            "t": 1794229283.642621,
+            "kind": "SL",
+            "px": 87.72211598,
+            "pct": -2.46
+          }
+        ],
+        "exit": 87.72211598,
+        "reason": "SL",
+        "pct": -2.455,
+        "r_multiple": -1.0,
+        "closed_ts": 1794229283.642634
+      },
       {
         "symbol": "XAGUSD",
         "side": "SHORT",
@@ -3869,55 +3880,6 @@
         "pct": 0.0,
         "r_multiple": 0.0,
         "closed_ts": 1793891137.3567219
-      },
-      {
-        "symbol": "US30",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 53780.0,
-        "sl": 53445.41229685,
-        "tp_levels": [
-          54131.31708831,
-          54382.25786567,
-          54633.19864304,
-          54783.76310945
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "ema_trend",
-          "adx_strong",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793870515.5573099,
-        "ts": 1793870514.963509,
-        "timeframe": "1h",
-        "msg_id": 2732,
-        "updates": [
-          {
-            "t": 1793870515.557311,
-            "kind": "open",
-            "px": 53780.0
-          },
-          {
-            "t": 1793890437.0387,
-            "kind": "SL",
-            "px": 53445.41229685,
-            "pct": -0.62
-          }
-        ],
-        "exit": 53445.41229685,
-        "reason": "SL",
-        "pct": -0.622,
-        "r_multiple": -1.0,
-        "closed_ts": 1793890437.038732
       }
     ]
   },
@@ -3992,10 +3954,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1604.7,
+    "balance": 1565.3,
     "currency": "$",
-    "total_return_pct": 60.47,
-    "closed": 734,
+    "total_return_pct": 56.53,
+    "closed": 735,
     "wins": 182,
     "peak": 1788.24
   }
