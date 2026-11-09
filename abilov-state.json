@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794226930.110483,
+  "updated_ts": 1794227464.088106,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 103,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794226930.108866
+      "heartbeat_ts": 1794227464.087758
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 9
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 74664.6,
-      "ETH/USDT": 2193.84
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3931,6 +3929,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin bulls can't rely on ETF flows",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Nvidia-led tech selloff weighs on crypto majors",
         "source": "CoinDesk",
         "ts": 0
@@ -3954,22 +3957,17 @@
         "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4118.3999,
-      "XAGUSD": 52.73,
-      "EURUSD": 1.11932,
-      "GBPUSD": 1.34142,
-      "USDJPY": 157.912,
-      "AUDUSD": 0.68975,
-      "NZDUSD": 0.56123,
-      "US100": 27231.25
+      "XAUUSD": 4122.0,
+      "XAGUSD": 52.76,
+      "EURUSD": 1.11907,
+      "GBPUSD": 1.34156,
+      "USDJPY": 157.92999,
+      "AUDUSD": 0.6898,
+      "NZDUSD": 0.56126,
+      "US100": 27214.5
     },
     "period_stats": {
       "day": {
