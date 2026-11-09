@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794251180.525124,
+  "updated_ts": 1794256902.299542,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 366,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794251180.52387
+      "heartbeat_ts": 1794256902.299316
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 48,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 46
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 74739.3,
-      "ETH/USDT": 2124.62
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3837,6 +3835,11 @@
     },
     "news": [
       {
+        "title": "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
         "source": "CoinDesk",
         "ts": 0
@@ -3860,22 +3863,17 @@
         "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4115.5,
-      "XAGUSD": 52.835,
-      "EURUSD": 1.12082,
-      "GBPUSD": 1.34244,
-      "USDJPY": 158.03,
-      "AUDUSD": 0.69147,
-      "NZDUSD": 0.5624,
-      "US100": 27973.0
+      "XAUUSD": 4153.2998,
+      "XAGUSD": 53.465,
+      "EURUSD": 1.12259,
+      "GBPUSD": 1.34421,
+      "USDJPY": 157.84399,
+      "AUDUSD": 0.69324,
+      "NZDUSD": 0.56351,
+      "US100": 28101.5
     },
     "period_stats": {
       "day": {
