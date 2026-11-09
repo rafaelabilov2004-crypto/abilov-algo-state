@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794204137.009676,
+  "updated_ts": 1794220367.347604,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 845,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794204137.008598
+      "heartbeat_ts": 1794220367.3468149
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 115,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 114
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 74836.3,
-      "ETH/USDT": 2221.76
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3699,6 +3697,26 @@
     },
     "news": [
       {
+        "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
         "source": "CoinDesk",
         "ts": 0
@@ -3707,37 +3725,17 @@
         "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "What the election results mean for crypto: State of Crypto",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Stablecoin growth has stalled. The payments boom hasn't",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4131.6001,
-      "XAGUSD": 52.93,
-      "EURUSD": 1.11632,
-      "GBPUSD": 1.33804,
-      "USDJPY": 158.24001,
-      "AUDUSD": 0.68904,
-      "NZDUSD": 0.55991,
-      "US100": 27131.25
+      "XAUUSD": 4108.7998,
+      "XAGUSD": 52.61,
+      "EURUSD": 1.1197,
+      "GBPUSD": 1.34228,
+      "USDJPY": 157.98,
+      "AUDUSD": 0.69056,
+      "NZDUSD": 0.56129,
+      "US100": 27164.0
     },
     "period_stats": {
       "day": {
