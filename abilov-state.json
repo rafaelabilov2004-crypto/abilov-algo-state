@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794220819.5792158,
+  "updated_ts": 1794220884.750413,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 8,
+      "loop_n": 9,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794220819.5781708
+      "heartbeat_ts": 1794220884.7495968
     }
   },
   "control": {
@@ -2343,6 +2343,44 @@
             "t": 1794220630.384429,
             "kind": "open",
             "px": 1.342065691947937
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 4104.10009765625,
+        "sl": 4146.68296006,
+        "tp_levels": [
+          4059.38809213,
+          4027.45094533,
+          3995.51379853,
+          3976.35151045
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794220884.74293,
+        "ts": 1794220883.749801,
+        "timeframe": "1h",
+        "msg_id": 2845,
+        "updates": [
+          {
+            "t": 1794220884.74293,
+            "kind": "open",
+            "px": 4104.10009765625
           }
         ]
       }
