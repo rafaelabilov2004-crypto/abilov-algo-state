@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794317958.1908832,
+  "updated_ts": 1794318023.3256261,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 78,
+      "loop_n": 79,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794317958.1897228
+      "heartbeat_ts": 1794318023.325165
     }
   },
   "control": {
@@ -2435,6 +2435,45 @@
             "px": 0.5620819926261902
           }
         ]
+      },
+      {
+        "symbol": "US100",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 27785.25,
+        "sl": 28126.33151111,
+        "tp_levels": [
+          27427.11441333,
+          27171.30328,
+          26915.49214666,
+          26762.00546666
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "donchian",
+          "stoch",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794318023.319423,
+        "ts": 1794318022.5286798,
+        "timeframe": "1h",
+        "msg_id": 2881,
+        "updates": [
+          {
+            "t": 1794318023.319424,
+            "kind": "open",
+            "px": 27785.25
+          }
+        ]
       }
     ],
     "closed": [
@@ -3822,20 +3861,20 @@
         "ts": 0
       },
       {
-        "title": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
+        "title": "Live news: Bitcoin adds to losses after disappointing inflation data",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4077.8999,
-      "XAGUSD": 52.14,
-      "EURUSD": 1.11882,
-      "GBPUSD": 1.33967,
-      "USDJPY": 158.39999,
-      "AUDUSD": 0.68766,
-      "NZDUSD": 0.56155,
-      "US100": 27916.25
+      "XAUUSD": 4054.69995,
+      "XAGUSD": 51.735,
+      "EURUSD": 1.11894,
+      "GBPUSD": 1.3398,
+      "USDJPY": 158.46001,
+      "AUDUSD": 0.68781,
+      "NZDUSD": 0.56183,
+      "US100": 27764.25
     },
     "period_stats": {
       "day": {
