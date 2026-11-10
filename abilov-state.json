@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794317572.0415208,
+  "updated_ts": 1794317636.8630311,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 72,
+      "loop_n": 73,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794317572.040162
+      "heartbeat_ts": 1794317636.86199
     }
   },
   "control": {
@@ -2343,7 +2343,7 @@
           "macd",
           "pat_star"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1794305139.959566,
         "ts": 1794305139.178957,
         "timeframe": "1h",
@@ -2353,6 +2353,12 @@
             "t": 1794305139.9595678,
             "kind": "open",
             "px": 0.69146728515625
+          },
+          {
+            "t": 1794317636.524857,
+            "kind": "TP1",
+            "px": 0.68856312,
+            "pct": 0.42
           }
         ]
       },
@@ -3848,6 +3854,11 @@
     },
     "news": [
       {
+        "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
         "source": "CoinDesk",
         "ts": 0
@@ -3871,22 +3882,17 @@
         "title": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "The crypto wallet that grew up inside Telegram is striking out on its own",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4083.1001,
+      "XAUUSD": 4081.0,
       "XAGUSD": 52.29,
-      "EURUSD": 1.11857,
-      "GBPUSD": 1.33939,
-      "USDJPY": 158.409,
-      "AUDUSD": 0.69085,
-      "NZDUSD": 0.56297,
-      "US100": 27884.0
+      "EURUSD": 1.11907,
+      "GBPUSD": 1.34009,
+      "USDJPY": 158.347,
+      "AUDUSD": 0.68842,
+      "NZDUSD": 0.56192,
+      "US100": 27921.25
     },
     "period_stats": {
       "day": {
