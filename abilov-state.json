@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794287216.1694221,
+  "updated_ts": 1794288534.346373,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794287216.169185
+      "heartbeat_ts": 1794288534.345778
     }
   },
   "control": {
@@ -49,7 +49,7 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 2,
     "entries": 0,
     "closes": 0,
     "updates": 0,
@@ -3673,6 +3673,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
         "source": "CoinDesk",
         "ts": 0
@@ -3696,22 +3701,17 @@
         "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Google\u2019s AI chip push adds more pressure on Nvidia",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 0.0,
-      "XAGUSD": 0.0,
-      "EURUSD": 0.0,
-      "GBPUSD": 1.34497,
-      "USDJPY": 157.94701,
-      "AUDUSD": 0.69266,
-      "NZDUSD": 0.56411,
-      "US100": 27987.25
+      "XAUUSD": 4126.0,
+      "XAGUSD": 53.255,
+      "EURUSD": 1.12322,
+      "GBPUSD": 1.34508,
+      "USDJPY": 157.933,
+      "AUDUSD": 0.69271,
+      "NZDUSD": 0.56414,
+      "US100": 27993.0
     },
     "period_stats": {
       "day": {
