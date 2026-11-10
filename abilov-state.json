@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794277592.636489,
+  "updated_ts": 1794287216.1694221,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 323,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794277592.6359522
+      "heartbeat_ts": 1794287216.169185
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 44,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 42
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75421.0,
-      "ETH/USDT": 2126.7
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3675,6 +3673,16 @@
     },
     "news": [
       {
+        "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
         "source": "CoinDesk",
         "ts": 0
@@ -3693,27 +3701,17 @@
         "title": "Google\u2019s AI chip push adds more pressure on Nvidia",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4132.3999,
-      "XAGUSD": 53.2,
-      "EURUSD": 1.12259,
-      "GBPUSD": 1.34461,
-      "USDJPY": 158.013,
-      "AUDUSD": 0.69252,
-      "NZDUSD": 0.56367,
-      "US100": 28037.0
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
+      "EURUSD": 0.0,
+      "GBPUSD": 1.34497,
+      "USDJPY": 157.94701,
+      "AUDUSD": 0.69266,
+      "NZDUSD": 0.56411,
+      "US100": 27987.25
     },
     "period_stats": {
       "day": {
