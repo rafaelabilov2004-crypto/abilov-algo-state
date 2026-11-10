@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794311700.399025,
+  "updated_ts": 1794312971.0631301,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794311700.398598
+      "heartbeat_ts": 1794312971.06288
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 8
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75179.1,
-      "ETH/USDT": 2101.44
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3761,6 +3759,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
         "source": "CoinDesk",
         "ts": 0
@@ -3784,22 +3787,17 @@
         "title": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4082.0,
-      "XAGUSD": 52.4,
-      "EURUSD": 0.0,
-      "GBPUSD": 1.3428,
-      "USDJPY": 158.231,
-      "AUDUSD": 0.69128,
-      "NZDUSD": 0.56325,
-      "US100": 27919.5
+      "XAUUSD": 4083.8999,
+      "XAGUSD": 52.41,
+      "EURUSD": 1.12221,
+      "GBPUSD": 1.34298,
+      "USDJPY": 158.201,
+      "AUDUSD": 0.69132,
+      "NZDUSD": 0.56329,
+      "US100": 27928.5
     },
     "period_stats": {
       "day": {
