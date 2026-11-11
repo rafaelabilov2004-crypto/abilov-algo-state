@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794411712.299778,
+  "updated_ts": 1794420809.373235,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 216,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794411712.298708
+      "heartbeat_ts": 1794420809.3729112
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 32,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 30
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 73815.7,
-      "ETH/USDT": 2069.21
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3761,6 +3759,11 @@
     },
     "news": [
       {
+        "title": "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
         "source": "CoinDesk",
         "ts": 0
@@ -3784,22 +3787,17 @@
         "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4015.5,
-      "XAGUSD": 52.305,
-      "EURUSD": 1.10951,
-      "GBPUSD": 1.328,
-      "USDJPY": 159.82201,
+      "XAUUSD": 3998.30005,
+      "XAGUSD": 51.99,
+      "EURUSD": 1.10963,
+      "GBPUSD": 1.32784,
+      "USDJPY": 159.85001,
       "AUDUSD": 0.68526,
-      "NZDUSD": 0.55661,
-      "US100": 28368.5
+      "NZDUSD": 0.55673,
+      "US100": 28617.0
     },
     "period_stats": {
       "day": {
