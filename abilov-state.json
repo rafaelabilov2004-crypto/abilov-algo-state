@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794408296.742572,
+  "updated_ts": 1794408366.401143,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 164,
+      "loop_n": 165,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794408296.7374349
+      "heartbeat_ts": 1794408366.399873
     }
   },
   "control": {
@@ -2292,44 +2292,6 @@
         ]
       },
       {
-        "symbol": "XAUUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 4063.5,
-        "sl": 4030.84853726,
-        "tp_levels": [
-          4097.78403587,
-          4122.27263292,
-          4146.76122997,
-          4161.45438821
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "macd",
-          "stoch",
-          "pat_star",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1794396506.645108,
-        "ts": 1794396505.429069,
-        "timeframe": "1h",
-        "msg_id": 2913,
-        "updates": [
-          {
-            "t": 1794396506.645109,
-            "kind": "open",
-            "px": 4063.5
-          }
-        ]
-      },
-      {
         "symbol": "GBPUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2371,6 +2333,55 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 4063.5,
+        "sl": 4030.84853726,
+        "tp_levels": [
+          4097.78403587,
+          4122.27263292,
+          4146.76122997,
+          4161.45438821
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_4",
+          "macd",
+          "stoch",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794396506.645108,
+        "ts": 1794396505.429069,
+        "timeframe": "1h",
+        "msg_id": 2913,
+        "updates": [
+          {
+            "t": 1794396506.645109,
+            "kind": "open",
+            "px": 4063.5
+          },
+          {
+            "t": 1794408302.935755,
+            "kind": "SL",
+            "px": 4030.84853726,
+            "pct": -0.8
+          }
+        ],
+        "exit": 4030.84853726,
+        "reason": "SL",
+        "pct": -0.804,
+        "r_multiple": -1.0,
+        "closed_ts": 1794408302.935781
+      },
       {
         "symbol": "NZDUSD",
         "side": "LONG",
@@ -3695,57 +3706,6 @@
         "pct": -1.147,
         "r_multiple": -1.0,
         "closed_ts": 1794188221.580138
-      },
-      {
-        "symbol": "NZDUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 0.5549081563949585,
-        "sl": 0.55712779,
-        "tp_levels": [
-          0.55257754,
-          0.55091282,
-          0.54924809,
-          0.54824926
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "macd",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1793953860.71468,
-        "ts": 1793953859.8788218,
-        "timeframe": "1h",
-        "msg_id": 2807,
-        "updates": [
-          {
-            "t": 1793953860.714682,
-            "kind": "open",
-            "px": 0.5549081563949585
-          },
-          {
-            "t": 1794186175.007822,
-            "kind": "SL",
-            "px": 0.55712779,
-            "pct": -0.4
-          }
-        ],
-        "exit": 0.55712779,
-        "reason": "SL",
-        "pct": -0.4,
-        "r_multiple": -1.0,
-        "closed_ts": 1794186175.007841
       }
     ]
   },
@@ -3820,10 +3780,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1606.59,
+    "balance": 1593.69,
     "currency": "$",
-    "total_return_pct": 60.66,
-    "closed": 756,
+    "total_return_pct": 59.37,
+    "closed": 757,
     "wins": 185,
     "peak": 1788.24
   }
