@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794393757.818059,
+  "updated_ts": 1794396239.860503,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794393757.817675
+      "heartbeat_ts": 1794396239.8601239
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 3,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 1
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -66,7 +64,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 0.0,
-      "ETH/USDT": 2056.15
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3714,6 +3712,16 @@
     },
     "news": [
       {
+        "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin holds steady as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
         "source": "CoinDesk",
         "ts": 0
@@ -3732,27 +3740,17 @@
         "title": "Crypto is now teamed up with U.S. government in two legal battles over perps",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Will stablecoins survive once the banks catch up?",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4058.69995,
-      "XAGUSD": 53.0,
-      "EURUSD": 1.11445,
-      "GBPUSD": 1.33246,
-      "USDJPY": 158.94299,
-      "AUDUSD": 0.68714,
-      "NZDUSD": 0.55919,
-      "US100": 28315.75
+      "XAUUSD": 4061.3999,
+      "XAGUSD": 52.965,
+      "EURUSD": 1.11396,
+      "GBPUSD": 1.33138,
+      "USDJPY": 159.117,
+      "AUDUSD": 0.68733,
+      "NZDUSD": 0.5595,
+      "US100": 28350.0
     },
     "period_stats": {
       "day": {
