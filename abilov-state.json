@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794398963.059274,
+  "updated_ts": 1794400482.819208,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 43,
+      "loop_n": 44,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794398963.0578911
+      "heartbeat_ts": 1794400482.818654
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 5,
+    "signals": 9,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 3
+      "max_drawdown:0.151>=0.15": 7
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 73811.6,
-      "ETH/USDT": 2058.5
+      "BTC/USDT": 73824.4,
+      "ETH/USDT": 2056.74
     }
   },
   "open_positions": [],
@@ -3764,6 +3764,16 @@
     },
     "news": [
       {
+        "title": "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
         "source": "CoinDesk",
         "ts": 0
@@ -3782,27 +3792,17 @@
         "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 4054.3999,
-      "XAGUSD": 52.795,
-      "EURUSD": 1.11383,
-      "GBPUSD": 1.33096,
-      "USDJPY": 159.12801,
-      "AUDUSD": 0.68648,
-      "NZDUSD": 0.55878,
-      "US100": 28370.25
+      "XAUUSD": 4052.80005,
+      "XAGUSD": 52.89,
+      "EURUSD": 1.11371,
+      "GBPUSD": 1.33117,
+      "USDJPY": 159.164,
+      "AUDUSD": 0.6862,
+      "NZDUSD": 0.55869,
+      "US100": 28363.0
     },
     "period_stats": {
       "day": {
