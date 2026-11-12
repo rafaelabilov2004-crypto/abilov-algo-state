@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794485428.1614652,
+  "updated_ts": 1794485494.783348,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 57,
+      "loop_n": 58,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794485428.161057
+      "heartbeat_ts": 1794485494.781842
     }
   },
   "control": {
@@ -2306,6 +2306,43 @@
             "px": 28235.0
           }
         ]
+      },
+      {
+        "symbol": "US500",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 7608.25,
+        "sl": 7643.47162772,
+        "tp_levels": [
+          7571.2672909,
+          7544.85107011,
+          7518.43484932,
+          7502.58511684
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794485494.773488,
+        "ts": 1794485493.960632,
+        "timeframe": "1h",
+        "msg_id": 2942,
+        "updates": [
+          {
+            "t": 1794485494.773489,
+            "kind": "open",
+            "px": 7608.25
+          }
+        ]
       }
     ],
     "closed": [
@@ -3723,6 +3760,11 @@
     },
     "news": [
       {
+        "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
         "source": "CoinDesk",
         "ts": 0
@@ -3746,22 +3788,17 @@
         "title": "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3949.6001,
+      "XAUUSD": 3950.19995,
       "XAGUSD": 50.96,
-      "EURUSD": 1.10939,
-      "GBPUSD": 1.32679,
-      "USDJPY": 159.60201,
-      "AUDUSD": 0.68283,
-      "NZDUSD": 0.55642,
-      "US100": 28222.0
+      "EURUSD": 1.10914,
+      "GBPUSD": 1.3267,
+      "USDJPY": 159.651,
+      "AUDUSD": 0.68292,
+      "NZDUSD": 0.55645,
+      "US100": 28206.75
     },
     "period_stats": {
       "day": {
