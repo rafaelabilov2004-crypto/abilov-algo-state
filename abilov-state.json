@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794494815.690689,
+  "updated_ts": 1794494882.2851,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 201,
+      "loop_n": 202,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794494815.690175
+      "heartbeat_ts": 1794494882.284798
     }
   },
   "control": {
@@ -2027,7 +2027,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1794402448.024411,
         "ts": 1794402447.227704,
         "timeframe": "1h",
@@ -2037,6 +2037,12 @@
             "t": 1794402448.024412,
             "kind": "open",
             "px": 1.3309199810028076
+          },
+          {
+            "t": 1794494879.221303,
+            "kind": "TP1",
+            "px": 1.32533012,
+            "pct": 0.42
           }
         ]
       },
@@ -3835,6 +3841,11 @@
     },
     "news": [
       {
+        "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
         "source": "CoinDesk",
         "ts": 0
@@ -3858,22 +3869,17 @@
         "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3903.1001,
-      "XAGUSD": 50.355,
-      "EURUSD": 1.10865,
-      "GBPUSD": 1.32564,
-      "USDJPY": 159.77699,
-      "AUDUSD": 0.68264,
-      "NZDUSD": 0.55593,
-      "US100": 28193.5
+      "XAUUSD": 3902.8999,
+      "XAGUSD": 50.435,
+      "EURUSD": 1.10791,
+      "GBPUSD": 1.32526,
+      "USDJPY": 159.83701,
+      "AUDUSD": 0.68222,
+      "NZDUSD": 0.55556,
+      "US100": 28308.5
     },
     "period_stats": {
       "day": {
