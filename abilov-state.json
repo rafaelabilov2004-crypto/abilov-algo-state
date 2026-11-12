@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794495341.291292,
+  "updated_ts": 1794499052.163711,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 209,
+      "loop_n": 210,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794495341.290572
+      "heartbeat_ts": 1794499052.159384
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 32,
+    "signals": 36,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 30
+      "max_drawdown:0.151>=0.15": 34
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75317.1,
-      "ETH/USDT": 2000.0
+      "BTC/USDT": 72277.2,
+      "ETH/USDT": 2001.98
     }
   },
   "open_positions": [],
@@ -3841,6 +3841,11 @@
     },
     "news": [
       {
+        "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
         "source": "CoinDesk",
         "ts": 0
@@ -3851,7 +3856,7 @@
         "ts": 0
       },
       {
-        "title": "Nvidia shares plunge 10% to June 2025 levels as Jensen Huang resigns",
+        "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3864,22 +3869,17 @@
         "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3892.6001,
-      "XAGUSD": 50.29,
-      "EURUSD": 1.10816,
-      "GBPUSD": 1.32528,
-      "USDJPY": 159.815,
-      "AUDUSD": 0.6825,
-      "NZDUSD": 0.55549,
-      "US100": 28327.0
+      "XAUUSD": 3876.80005,
+      "XAGUSD": 49.96,
+      "EURUSD": 1.10681,
+      "GBPUSD": 1.32349,
+      "USDJPY": 159.864,
+      "AUDUSD": 0.6812,
+      "NZDUSD": 0.55494,
+      "US100": 28351.75
     },
     "period_stats": {
       "day": {
