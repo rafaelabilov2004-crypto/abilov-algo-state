@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794485814.584136,
+  "updated_ts": 1794485877.348712,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 63,
+      "loop_n": 64,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794485814.583654
+      "heartbeat_ts": 1794485877.3481631
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 12,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 8
+      "max_drawdown:0.151>=0.15": 10
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75390.6,
-      "ETH/USDT": 2040.82
+      "BTC/USDT": 75383.3,
+      "ETH/USDT": 2039.03
     }
   },
   "open_positions": [],
@@ -3760,6 +3760,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin weakness erases September's bullish signal",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
         "source": "CoinDesk",
         "ts": 0
@@ -3783,22 +3788,17 @@
         "title": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3952.69995,
-      "XAGUSD": 50.995,
+      "XAUUSD": 3951.0,
+      "XAGUSD": 50.975,
       "EURUSD": 1.10939,
-      "GBPUSD": 1.32695,
-      "USDJPY": 159.661,
-      "AUDUSD": 0.68306,
-      "NZDUSD": 0.55648,
-      "US100": 28213.0
+      "GBPUSD": 1.32698,
+      "USDJPY": 159.66901,
+      "AUDUSD": 0.68315,
+      "NZDUSD": 0.55651,
+      "US100": 28216.75
     },
     "period_stats": {
       "day": {
