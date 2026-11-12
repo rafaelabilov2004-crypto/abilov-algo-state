@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794472410.884922,
+  "updated_ts": 1794479927.8743181,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 454,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794472410.8845341
+      "heartbeat_ts": 1794479927.873632
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 71,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 69
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 75492.5,
-      "ETH/USDT": 2050.83
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3695,6 +3693,21 @@
     },
     "news": [
       {
+        "title": "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
         "source": "CoinDesk",
         "ts": 0
@@ -3708,32 +3721,17 @@
         "title": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Ripple\u2019s bank-lending system moves closer to launch on the XRP Ledger",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3956.0,
-      "XAGUSD": 51.31,
-      "EURUSD": 1.10951,
-      "GBPUSD": 1.32728,
-      "USDJPY": 159.743,
-      "AUDUSD": 0.68245,
-      "NZDUSD": 0.55562,
-      "US100": 28214.5
+      "XAUUSD": 3953.1001,
+      "XAGUSD": 51.125,
+      "EURUSD": 1.11025,
+      "GBPUSD": 1.32765,
+      "USDJPY": 159.62,
+      "AUDUSD": 0.68362,
+      "NZDUSD": 0.55664,
+      "US100": 28290.0
     },
     "period_stats": {
       "day": {
