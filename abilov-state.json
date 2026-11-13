@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794545055.05421,
+  "updated_ts": 1794557185.0015402,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 142,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794545055.053959
+      "heartbeat_ts": 1794557184.936245
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 24,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 23
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 71948.0,
-      "ETH/USDT": 2000.0
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3730,6 +3728,26 @@
     },
     "news": [
       {
+        "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
         "source": "CoinDesk",
         "ts": 0
@@ -3738,37 +3756,17 @@
         "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3914.19995,
-      "XAGUSD": 50.23,
-      "EURUSD": 1.10619,
-      "GBPUSD": 1.32303,
-      "USDJPY": 159.905,
-      "AUDUSD": 0.68055,
-      "NZDUSD": 0.0,
-      "US100": 28366.75
+      "XAUUSD": 3906.0,
+      "XAGUSD": 50.065,
+      "EURUSD": 1.10632,
+      "GBPUSD": 1.32345,
+      "USDJPY": 159.89,
+      "AUDUSD": 0.67976,
+      "NZDUSD": 0.55405,
+      "US100": 28344.25
     },
     "period_stats": {
       "day": {
