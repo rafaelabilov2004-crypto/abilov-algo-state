@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794596136.711929,
+  "updated_ts": 1794598630.934409,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 90,
+      "loop_n": 91,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794596136.711282
+      "heartbeat_ts": 1794598630.933959
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 12,
+    "signals": 15,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 10
+      "max_drawdown:0.151>=0.15": 13
     },
     "wins": 0,
     "losses": 0
@@ -65,7 +65,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 68984.8,
+      "BTC/USDT": 68971.5,
       "ETH/USDT": 2000.0
     }
   },
@@ -3861,6 +3861,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
         "source": "CoinDesk",
         "ts": 0
@@ -3884,22 +3889,17 @@
         "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3884.1001,
-      "XAGUSD": 48.995,
-      "EURUSD": 1.10314,
-      "GBPUSD": 1.32102,
-      "USDJPY": 159.672,
-      "AUDUSD": 0.67829,
-      "NZDUSD": 0.55279,
-      "US100": 27974.25
+      "XAUUSD": 3882.1001,
+      "XAGUSD": 48.93,
+      "EURUSD": 1.1029,
+      "GBPUSD": 1.32116,
+      "USDJPY": 159.74699,
+      "AUDUSD": 0.67769,
+      "NZDUSD": 0.55258,
+      "US100": 28035.25
     },
     "period_stats": {
       "day": {
