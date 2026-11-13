@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794586051.646739,
+  "updated_ts": 1794586119.999514,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 208,
+      "loop_n": 209,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794586051.646065
+      "heartbeat_ts": 1794586119.9991958
     }
   },
   "control": {
@@ -2429,6 +2429,46 @@
             "t": 1794583521.905532,
             "kind": "open",
             "px": 68605.5390625
+          }
+        ]
+      },
+      {
+        "symbol": "BTCUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 68693.421875,
+        "sl": 67103.07990858,
+        "tp_levels": [
+          70363.28093974,
+          71556.03741456,
+          72748.79388938,
+          73464.44777426
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "macd",
+          "stoch",
+          "pat_pin_bar",
+          "pat_hammer",
+          "pat_structure",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794586119.996087,
+        "ts": 1794586118.979705,
+        "timeframe": "1h",
+        "msg_id": 2999,
+        "updates": [
+          {
+            "t": 1794586119.996087,
+            "kind": "open",
+            "px": 68693.421875
           }
         ]
       }
