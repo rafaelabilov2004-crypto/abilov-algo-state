@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794535647.095902,
+  "updated_ts": 1794542984.773498,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 141,
+      "loop_n": 142,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794535647.0954418
+      "heartbeat_ts": 1794542984.7728589
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 21,
+    "signals": 24,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 19
+      "max_drawdown:0.151>=0.15": 23
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 72015.4,
-      "ETH/USDT": 2013.41
+      "BTC/USDT": 71948.0,
+      "ETH/USDT": 2000.0
     }
   },
   "open_positions": [],
@@ -3770,6 +3770,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
         "source": "CoinDesk",
         "ts": 0
@@ -3793,22 +3798,17 @@
         "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto for Advisors: The blockchain built to run financial markets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3914.8999,
-      "XAGUSD": 50.65,
-      "EURUSD": 1.10644,
-      "GBPUSD": 1.32368,
-      "USDJPY": 159.883,
-      "AUDUSD": 0.68143,
-      "NZDUSD": 0.55457,
-      "US100": 28568.0
+      "XAUUSD": 3924.80005,
+      "XAGUSD": 0.0,
+      "EURUSD": 1.10607,
+      "GBPUSD": 1.32293,
+      "USDJPY": 159.91701,
+      "AUDUSD": 0.68032,
+      "NZDUSD": 0.5542,
+      "US100": 28348.75
     },
     "period_stats": {
       "day": {
