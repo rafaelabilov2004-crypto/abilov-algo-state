@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794625547.641218,
+  "updated_ts": 1794634780.418199,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 22,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794625547.640933
+      "heartbeat_ts": 1794634780.417963
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 4,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 2
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 68364.4,
-      "ETH/USDT": 1901.42
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3913,6 +3911,11 @@
     },
     "news": [
       {
+        "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
         "source": "CoinDesk",
         "ts": 0
@@ -3936,22 +3939,17 @@
         "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3887.6001,
+      "XAUUSD": 3886.30005,
       "XAGUSD": 48.65,
-      "EURUSD": 0.0,
+      "EURUSD": 1.10278,
       "GBPUSD": 1.3209,
       "USDJPY": 159.686,
-      "AUDUSD": 0.67742,
+      "AUDUSD": 0.0,
       "NZDUSD": 0.55252,
-      "US100": 27927.25
+      "US100": 28034.75
     },
     "period_stats": {
       "day": {
