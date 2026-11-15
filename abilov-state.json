@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794770665.834548,
+  "updated_ts": 1794773890.293702,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 94,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794770665.8337631
+      "heartbeat_ts": 1794773890.2931688
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 12,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 10
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64686.3,
-      "ETH/USDT": 1814.3
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3960,6 +3958,11 @@
     },
     "news": [
       {
+        "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
         "source": "CoinDesk",
         "ts": 0
@@ -3981,11 +3984,6 @@
       },
       {
         "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
         "source": "CoinDesk",
         "ts": 0
       }
