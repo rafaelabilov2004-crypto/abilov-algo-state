@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794847634.066855,
+  "updated_ts": 1794847697.0482812,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 86,
+      "loop_n": 87,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794847634.065701
+      "heartbeat_ts": 1794847697.047143
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 11,
+    "signals": 13,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 10
+      "max_drawdown:0.151>=0.15": 11
     },
     "wins": 0,
     "losses": 0
@@ -66,7 +66,7 @@
     "coins": [],
     "prices": {
       "BTC/USDT": 64651.0,
-      "ETH/USDT": 1813.89
+      "ETH/USDT": 1815.75
     }
   },
   "open_positions": [],
@@ -4018,6 +4018,11 @@
     },
     "news": [
       {
+        "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
         "source": "CoinDesk",
         "ts": 0
@@ -4041,22 +4046,17 @@
         "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3860.19995,
+      "XAUUSD": 3860.0,
       "XAGUSD": 46.85,
-      "EURUSD": 1.10108,
-      "GBPUSD": 1.31865,
-      "USDJPY": 159.638,
-      "AUDUSD": 0.67508,
+      "EURUSD": 1.1012,
+      "GBPUSD": 1.31888,
+      "USDJPY": 159.63499,
+      "AUDUSD": 0.67517,
       "NZDUSD": 0.55099,
-      "US100": 27594.5
+      "US100": 27545.75
     },
     "period_stats": {
       "day": {
