@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794841220.364403,
+  "updated_ts": 1794841321.6611211,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794841219.952555
+      "heartbeat_ts": 1794841321.65988
     }
   },
   "control": {
@@ -1995,7 +1995,7 @@
           "stoch",
           "supertrend"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1794499067.888881,
         "ts": 1794499065.052997,
         "timeframe": "1h",
@@ -2011,6 +2011,12 @@
             "kind": "TP1",
             "px": 0.55260823,
             "pct": 0.42
+          },
+          {
+            "t": 1794841247.4387488,
+            "kind": "TP2",
+            "px": 0.55094341,
+            "pct": 0.72
           }
         ]
       },
@@ -2276,7 +2282,7 @@
           "pat_hammer",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1794603474.013758,
         "ts": 1794603472.830004,
         "timeframe": "1h",
@@ -2286,6 +2292,12 @@
             "t": 1794603474.01376,
             "kind": "open",
             "px": 390.3599853515625
+          },
+          {
+            "t": 1794841248.1095738,
+            "kind": "TP1",
+            "px": 377.46329051,
+            "pct": 3.3
           }
         ]
       },
@@ -2561,6 +2573,45 @@
             "t": 1794834920.374936,
             "kind": "open",
             "px": 1.3201146125793457
+          }
+        ]
+      },
+      {
+        "symbol": "XAUUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 3890.39990234375,
+        "sl": 3846.20786824,
+        "tp_levels": [
+          3936.80153815,
+          3969.94556373,
+          4003.0895893,
+          4022.97600465
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_engulfing",
+          "pat_structure",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794841261.297209,
+        "ts": 1794841251.540134,
+        "timeframe": "1h",
+        "msg_id": 3048,
+        "updates": [
+          {
+            "t": 1794841261.29723,
+            "kind": "open",
+            "px": 3890.39990234375
           }
         ]
       }
