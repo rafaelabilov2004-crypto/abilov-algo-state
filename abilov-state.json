@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794842353.881388,
+  "updated_ts": 1794842419.884375,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 18,
+      "loop_n": 19,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794842353.880785
+      "heartbeat_ts": 1794842419.8838458
     }
   },
   "control": {
@@ -2160,64 +2160,6 @@
         ]
       },
       {
-        "symbol": "XAGUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 49.525001525878906,
-        "sl": 50.40762032,
-        "tp_levels": [
-          48.59825179,
-          47.93628769,
-          47.2743236,
-          46.87714514
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "donchian",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1794579628.650733,
-        "ts": 1794579627.8065531,
-        "timeframe": "1h",
-        "msg_id": 2989,
-        "updates": [
-          {
-            "t": 1794579628.6507351,
-            "kind": "open",
-            "px": 49.525001525878906
-          },
-          {
-            "t": 1794606130.1055439,
-            "kind": "TP1",
-            "px": 48.59825179,
-            "pct": 1.87
-          },
-          {
-            "t": 1794792838.4662259,
-            "kind": "TP2",
-            "px": 47.93628769,
-            "pct": 3.21
-          },
-          {
-            "t": 1794824583.695439,
-            "kind": "TP3",
-            "px": 47.2743236,
-            "pct": 4.54
-          }
-        ]
-      },
-      {
         "symbol": "US500",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2626,9 +2568,118 @@
             "px": 3890.39990234375
           }
         ]
+      },
+      {
+        "symbol": "XAGUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 46.7400016784668,
+        "sl": 47.78680194,
+        "tp_levels": [
+          45.64086141,
+          44.85576121,
+          44.07066102,
+          43.5996009
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_7",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "donchian",
+          "vol_expansion",
+          "supertrend"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794842419.8782,
+        "ts": 1794842419.0364,
+        "timeframe": "1h",
+        "msg_id": 3052,
+        "updates": [
+          {
+            "t": 1794842419.8782022,
+            "kind": "open",
+            "px": 46.7400016784668
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "XAGUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 49.525001525878906,
+        "sl": 50.40762032,
+        "tp_levels": [
+          48.59825179,
+          47.93628769,
+          47.2743236,
+          46.87714514
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "rsi",
+          "donchian",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 3,
+        "opened_ts": 1794579628.650733,
+        "ts": 1794579627.8065531,
+        "timeframe": "1h",
+        "msg_id": 2989,
+        "updates": [
+          {
+            "t": 1794579628.6507351,
+            "kind": "open",
+            "px": 49.525001525878906
+          },
+          {
+            "t": 1794606130.1055439,
+            "kind": "TP1",
+            "px": 48.59825179,
+            "pct": 1.87
+          },
+          {
+            "t": 1794792838.4662259,
+            "kind": "TP2",
+            "px": 47.93628769,
+            "pct": 3.21
+          },
+          {
+            "t": 1794824583.695439,
+            "kind": "TP3",
+            "px": 47.2743236,
+            "pct": 4.54
+          },
+          {
+            "t": 1794842418.2054222,
+            "kind": "TP4",
+            "px": 46.87714514,
+            "pct": 5.35
+          }
+        ],
+        "exit": 46.87714514,
+        "reason": "TP4",
+        "pct": 5.347,
+        "r_multiple": 3.0,
+        "closed_ts": 1794842418.20544
+      },
       {
         "symbol": "AUDUSD",
         "side": "SHORT",
@@ -3998,55 +4049,6 @@
         "pct": -2.623,
         "r_multiple": -1.0,
         "closed_ts": 1794491846.423689
-      },
-      {
-        "symbol": "ETHUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 2076.60009765625,
-        "sl": 2034.4417222,
-        "tp_levels": [
-          2120.86639188,
-          2152.48517347,
-          2184.10395506,
-          2203.07522402
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_4",
-          "rsi",
-          "macd",
-          "donchian",
-          "pat_engulfing"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1794411321.2753532,
-        "ts": 1794411320.471494,
-        "timeframe": "1h",
-        "msg_id": 2926,
-        "updates": [
-          {
-            "t": 1794411321.2753532,
-            "kind": "open",
-            "px": 2076.60009765625
-          },
-          {
-            "t": 1794483152.2990248,
-            "kind": "SL",
-            "px": 2034.4417222,
-            "pct": -2.03
-          }
-        ],
-        "exit": 2034.4417222,
-        "reason": "SL",
-        "pct": -2.03,
-        "r_multiple": -1.0,
-        "closed_ts": 1794483152.29905
       }
     ]
   },
@@ -4083,20 +4085,20 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Bitcoin rises just a bit from worst levels early in U.S. session",
+        "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq sinks 2%",
         "source": "CoinDesk",
         "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3882.1001,
-      "XAGUSD": 46.915,
+      "XAUUSD": 3876.8999,
+      "XAGUSD": 46.74,
       "EURUSD": 1.10181,
       "GBPUSD": 1.31978,
-      "USDJPY": 159.435,
-      "AUDUSD": 0.6749,
-      "NZDUSD": 0.55078,
-      "US100": 27403.5
+      "USDJPY": 159.474,
+      "AUDUSD": 0.67499,
+      "NZDUSD": 0.55093,
+      "US100": 27421.25
     },
     "period_stats": {
       "day": {
@@ -4121,11 +4123,11 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1842.57,
+    "balance": 1941.08,
     "currency": "$",
-    "total_return_pct": 84.26,
-    "closed": 786,
-    "wins": 197,
+    "total_return_pct": 94.11,
+    "closed": 787,
+    "wins": 198,
     "peak": 1954.84
   }
 }
