@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794825543.753227,
+  "updated_ts": 1794828148.0880032,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794825543.7526278
+      "heartbeat_ts": 1794828148.0868511
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 6,
+    "signals": 10,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 4
+      "max_drawdown:0.151>=0.15": 8
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64779.1,
-      "ETH/USDT": 1798.57
+      "BTC/USDT": 64759.2,
+      "ETH/USDT": 1804.69
     }
   },
   "open_positions": [],
@@ -3978,6 +3978,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
         "source": "CoinDesk",
         "ts": 0
@@ -4001,22 +4006,17 @@
         "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3863.5,
-      "XAGUSD": 47.55,
-      "EURUSD": 1.10156,
-      "GBPUSD": 1.31973,
-      "USDJPY": 159.64,
-      "AUDUSD": 0.67604,
-      "NZDUSD": 0.55188,
-      "US100": 27787.75
+      "XAUUSD": 3876.6001,
+      "XAGUSD": 47.695,
+      "EURUSD": 1.10072,
+      "GBPUSD": 1.31867,
+      "USDJPY": 159.632,
+      "AUDUSD": 0.67554,
+      "NZDUSD": 0.55136,
+      "US100": 27775.5
     },
     "period_stats": {
       "day": {
