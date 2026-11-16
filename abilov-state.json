@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794831228.499499,
+  "updated_ts": 1794831294.135296,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 50,
+      "loop_n": 51,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794831228.498328
+      "heartbeat_ts": 1794831294.134457
     }
   },
   "control": {
@@ -2124,7 +2124,7 @@
           "pat_star",
           "pat_structure"
         ],
-        "tp_idx": 1,
+        "tp_idx": 2,
         "opened_ts": 1794560771.7399092,
         "ts": 1794560770.539861,
         "timeframe": "1h",
@@ -2140,6 +2140,12 @@
             "kind": "TP1",
             "px": 27934.15143297,
             "pct": 1.19
+          },
+          {
+            "t": 1794831291.903129,
+            "kind": "TP2",
+            "px": 27694.43817081,
+            "pct": 2.04
           }
         ]
       },
@@ -3952,6 +3958,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
         "source": "CoinDesk",
         "ts": 0
@@ -3975,22 +3986,17 @@
         "title": "JPMorgan and DBS let clients move dollars across borders on weekends",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Vitalik Buterin flips to \u2018total bull\u2019 on a faster route to quantum-safe Ethereum",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3876.8999,
-      "XAGUSD": 47.605,
-      "EURUSD": 1.10132,
-      "GBPUSD": 1.31963,
-      "USDJPY": 159.47501,
-      "AUDUSD": 0.67563,
-      "NZDUSD": 0.55182,
-      "US100": 27710.75
+      "XAUUSD": 3874.8999,
+      "XAGUSD": 47.6,
+      "EURUSD": 1.10156,
+      "GBPUSD": 1.32004,
+      "USDJPY": 159.485,
+      "AUDUSD": 0.67581,
+      "NZDUSD": 0.55209,
+      "US100": 27678.25
     },
     "period_stats": {
       "day": {
