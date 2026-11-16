@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794802614.802866,
+  "updated_ts": 1794803650.057781,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794802614.407906
+      "heartbeat_ts": 1794803650.0572438
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 64881.8,
+      "ETH/USDT": 1823.54
     }
   },
   "open_positions": [],
@@ -3970,6 +3972,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
         "source": "CoinDesk",
         "ts": 0
@@ -3993,22 +4000,17 @@
         "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3874.6001,
-      "XAGUSD": 47.485,
-      "EURUSD": 1.10193,
-      "GBPUSD": 1.32053,
-      "USDJPY": 159.632,
-      "AUDUSD": 0.67677,
-      "NZDUSD": 0.55221,
-      "US100": 27852.75
+      "XAUUSD": 0.0,
+      "XAGUSD": 0.0,
+      "EURUSD": 0.0,
+      "GBPUSD": 1.32127,
+      "USDJPY": 159.479,
+      "AUDUSD": 0.67613,
+      "NZDUSD": 0.55243,
+      "US100": 27804.0
     },
     "period_stats": {
       "day": {
