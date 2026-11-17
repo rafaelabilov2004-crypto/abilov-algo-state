@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794914194.687825,
+  "updated_ts": 1794915291.632544,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1120,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794914194.686653
+      "heartbeat_ts": 1794915291.6323462
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 140,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 138
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 64704.7,
-      "ETH/USDT": 1876.08
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -4048,6 +4046,16 @@
     },
     "news": [
       {
+        "title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
         "source": "CoinDesk",
         "ts": 0
@@ -4066,27 +4074,17 @@
         "title": "Nvidia faces first earnings test without Jensen Huang as AI stocks slide",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3859.3999,
-      "XAGUSD": 47.39,
-      "EURUSD": 1.09938,
-      "GBPUSD": 1.31898,
-      "USDJPY": 159.15401,
-      "AUDUSD": 0.67413,
+      "XAUUSD": 3861.69995,
+      "XAGUSD": 47.42,
+      "EURUSD": 1.09951,
+      "GBPUSD": 1.31919,
+      "USDJPY": 159.142,
+      "AUDUSD": 0.67435,
       "NZDUSD": 0.54993,
-      "US100": 27222.75
+      "US100": 27261.5
     },
     "period_stats": {
       "day": {
