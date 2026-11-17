@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1794922109.592963,
+  "updated_ts": 1794922753.958194,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 92,
+      "loop_n": 93,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1794922109.5910668
+      "heartbeat_ts": 1794922753.9573948
     }
   },
   "control": {
@@ -2113,7 +2113,7 @@
           "supertrend",
           "pat_structure"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1794830519.890461,
         "ts": 1794830518.7894778,
         "timeframe": "1h",
@@ -2123,6 +2123,12 @@
             "t": 1794830519.890472,
             "kind": "open",
             "px": 0.6754018664360046
+          },
+          {
+            "t": 1794922751.131613,
+            "kind": "TP1",
+            "px": 0.67256518,
+            "pct": 0.42
           }
         ]
       },
@@ -2521,45 +2527,6 @@
         ]
       },
       {
-        "symbol": "NZDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.5506607890129089,
-        "sl": 0.54845815,
-        "tp_levels": [
-          0.55297356,
-          0.55462555,
-          0.55627753,
-          0.55726872
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "pat_engulfing",
-          "pat_structure",
-          "sentiment"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1794905304.0069098,
-        "ts": 1794905303.254545,
-        "timeframe": "1h",
-        "msg_id": 3077,
-        "updates": [
-          {
-            "t": 1794905304.006911,
-            "kind": "open",
-            "px": 0.5506607890129089
-          }
-        ]
-      },
-      {
         "symbol": "USOIL",
         "side": "LONG",
         "strategy": "confluence",
@@ -2600,6 +2567,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "NZDUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 0.5506607890129089,
+        "sl": 0.54845815,
+        "tp_levels": [
+          0.55297356,
+          0.55462555,
+          0.55627753,
+          0.55726872
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_engulfing",
+          "pat_structure",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1794905304.0069098,
+        "ts": 1794905303.254545,
+        "timeframe": "1h",
+        "msg_id": 3077,
+        "updates": [
+          {
+            "t": 1794905304.006911,
+            "kind": "open",
+            "px": 0.5506607890129089
+          },
+          {
+            "t": 1794922752.563137,
+            "kind": "SL",
+            "px": 0.54845815,
+            "pct": -0.4
+          }
+        ],
+        "exit": 0.54845815,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1794922752.563165
+      },
       {
         "symbol": "USOIL",
         "side": "LONG",
@@ -4026,56 +4043,6 @@
         "pct": -1.922,
         "r_multiple": -1.0,
         "closed_ts": 1794545053.3154
-      },
-      {
-        "symbol": "NZDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.5562354326248169,
-        "sl": 0.55401049,
-        "tp_levels": [
-          0.55857162,
-          0.56024033,
-          0.56190903,
-          0.56291026
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1794488868.630573,
-        "ts": 1794488867.650167,
-        "timeframe": "1h",
-        "msg_id": 2943,
-        "updates": [
-          {
-            "t": 1794488868.630574,
-            "kind": "open",
-            "px": 0.5562354326248169
-          },
-          {
-            "t": 1794531438.135474,
-            "kind": "SL",
-            "px": 0.55401049,
-            "pct": -0.4
-          }
-        ],
-        "exit": 0.55401049,
-        "reason": "SL",
-        "pct": -0.4,
-        "r_multiple": -1.0,
-        "closed_ts": 1794531438.135487
       }
     ]
   },
@@ -4118,14 +4085,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3860.80005,
-      "XAGUSD": 47.57,
-      "EURUSD": 1.0989,
-      "GBPUSD": 1.31898,
-      "USDJPY": 159.351,
-      "AUDUSD": 0.67317,
-      "NZDUSD": 0.5493,
-      "US100": 27400.0
+      "XAUUSD": 3861.69995,
+      "XAGUSD": 47.53,
+      "EURUSD": 1.09733,
+      "GBPUSD": 1.31771,
+      "USDJPY": 159.45399,
+      "AUDUSD": 0.67254,
+      "NZDUSD": 0.54846,
+      "US100": 27411.25
     },
     "period_stats": {
       "day": {
@@ -4150,10 +4117,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1981.08,
+    "balance": 1973.16,
     "currency": "$",
-    "total_return_pct": 98.11,
-    "closed": 796,
+    "total_return_pct": 97.32,
+    "closed": 797,
     "wins": 201,
     "peak": 2069.07
   }
