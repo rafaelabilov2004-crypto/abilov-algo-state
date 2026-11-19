@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795101554.251652,
+  "updated_ts": 1795101620.537632,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1002,
+      "loop_n": 1003,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795101554.250245
+      "heartbeat_ts": 1795101620.535033
     }
   },
   "control": {
@@ -2398,45 +2398,6 @@
         ]
       },
       {
-        "symbol": "GBPUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 1.3167943954467773,
-        "sl": 1.31152722,
-        "tp_levels": [
-          1.32232493,
-          1.32627532,
-          1.3302257,
-          1.33259593
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "supertrend",
-          "pat_structure",
-          "sentiment"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1795084891.721866,
-        "ts": 1795084891.0140622,
-        "timeframe": "1h",
-        "msg_id": 3144,
-        "updates": [
-          {
-            "t": 1795084891.721866,
-            "kind": "open",
-            "px": 1.3167943954467773
-          }
-        ]
-      },
-      {
         "symbol": "AUDUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2556,6 +2517,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "GBPUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.3167943954467773,
+        "sl": 1.31152722,
+        "tp_levels": [
+          1.32232493,
+          1.32627532,
+          1.3302257,
+          1.33259593
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "supertrend",
+          "pat_structure",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795084891.721866,
+        "ts": 1795084891.0140622,
+        "timeframe": "1h",
+        "msg_id": 3144,
+        "updates": [
+          {
+            "t": 1795084891.721866,
+            "kind": "open",
+            "px": 1.3167943954467773
+          },
+          {
+            "t": 1795101619.3466082,
+            "kind": "SL",
+            "px": 1.31152722,
+            "pct": -0.4
+          }
+        ],
+        "exit": 1.31152722,
+        "reason": "SL",
+        "pct": -0.4,
+        "r_multiple": -1.0,
+        "closed_ts": 1795101619.346643
+      },
       {
         "symbol": "US30",
         "side": "LONG",
@@ -3879,57 +3890,6 @@
         "pct": -2.059,
         "r_multiple": -1.0,
         "closed_ts": 1794900047.3080661
-      },
-      {
-        "symbol": "XAGUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 46.7400016784668,
-        "sl": 47.78680194,
-        "tp_levels": [
-          45.64086141,
-          44.85576121,
-          44.07066102,
-          43.5996009
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_7",
-          "ema_trend",
-          "adx_strong",
-          "rsi",
-          "donchian",
-          "vol_expansion",
-          "supertrend"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1794842419.8782,
-        "ts": 1794842419.0364,
-        "timeframe": "1h",
-        "msg_id": 3052,
-        "updates": [
-          {
-            "t": 1794842419.8782022,
-            "kind": "open",
-            "px": 46.7400016784668
-          },
-          {
-            "t": 1794894213.9794052,
-            "kind": "SL",
-            "px": 47.78680194,
-            "pct": -2.24
-          }
-        ],
-        "exit": 47.78680194,
-        "reason": "SL",
-        "pct": -2.24,
-        "r_multiple": -1.0,
-        "closed_ts": 1794894213.979491
       }
     ]
   },
@@ -4004,10 +3964,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 1834.3,
+    "balance": 1826.96,
     "currency": "$",
-    "total_return_pct": 83.43,
-    "closed": 819,
+    "total_return_pct": 82.7,
+    "closed": 820,
     "wins": 207,
     "peak": 2069.07
   }
