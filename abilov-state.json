@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795233658.588854,
+  "updated_ts": 1795255340.8354712,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 1577,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795233658.5885
+      "heartbeat_ts": 1795255340.8350668
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 217,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 215
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 58913.8,
-      "ETH/USDT": 1615.39
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3714,6 +3712,21 @@
     },
     "news": [
       {
+        "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Kalshi races to get ahead of New York order that could shut down exchange",
         "source": "CoinDesk",
         "ts": 0
@@ -3727,32 +3740,17 @@
         "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3539.0,
-      "XAGUSD": 41.08,
+      "XAUUSD": 3515.3999,
+      "XAGUSD": 41.07,
       "EURUSD": 1.09745,
       "GBPUSD": 1.30818,
       "USDJPY": 158.51199,
       "AUDUSD": 0.6619,
       "NZDUSD": 0.54705,
-      "US100": 25291.0
+      "US100": 25126.5
     },
     "period_stats": {
       "day": {
