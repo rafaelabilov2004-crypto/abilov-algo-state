@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795354795.093376,
+  "updated_ts": 1795358318.831476,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 78,
+      "loop_n": 79,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795354795.091785
+      "heartbeat_ts": 1795358318.8307562
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 14,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 8
+      "max_drawdown:0.151>=0.15": 12
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 60783.9,
-      "ETH/USDT": 1704.74
+      "BTC/USDT": 60784.0,
+      "ETH/USDT": 1704.88
     }
   },
   "open_positions": [],
@@ -3787,6 +3787,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
         "source": "CoinDesk",
         "ts": 0
@@ -3808,11 +3813,6 @@
       },
       {
         "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
         "source": "CoinDesk",
         "ts": 0
       }
