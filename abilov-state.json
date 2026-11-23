@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795452052.683726,
+  "updated_ts": 1795452118.7422311,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 72,
+      "loop_n": 73,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795452052.6828558
+      "heartbeat_ts": 1795452118.741694
     }
   },
   "control": {
@@ -1671,7 +1671,7 @@
           "macd",
           "vol_expansion"
         ],
-        "tp_idx": 2,
+        "tp_idx": 3,
         "opened_ts": 1795176160.014675,
         "ts": 1795176159.311167,
         "timeframe": "1h",
@@ -1693,6 +1693,12 @@
             "kind": "TP2",
             "px": 0.5453447,
             "pct": 0.72
+          },
+          {
+            "t": 1795452114.950409,
+            "kind": "TP3",
+            "px": 0.5436968,
+            "pct": 1.02
           }
         ]
       },
@@ -3818,6 +3824,11 @@
     },
     "news": [
       {
+        "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Binance hackers push $247 million through transactions designed to cloud the source",
         "source": "CoinDesk",
         "ts": 0
@@ -3841,22 +3852,17 @@
         "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Live updates: Bitcoin climbs above $63,000 as Nasdaq soars 6% on Huang return",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3672.5,
-      "XAGUSD": 43.6,
-      "EURUSD": 1.09004,
-      "GBPUSD": 1.302,
-      "USDJPY": 159.311,
-      "AUDUSD": 0.66265,
-      "NZDUSD": 0.54416,
-      "US100": 26889.5
+      "XAUUSD": 3673.8999,
+      "XAGUSD": 43.595,
+      "EURUSD": 1.08968,
+      "GBPUSD": 1.30164,
+      "USDJPY": 159.228,
+      "AUDUSD": 0.66181,
+      "NZDUSD": 0.54369,
+      "US100": 26854.75
     },
     "period_stats": {
       "day": {
