@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795436126.8221598,
+  "updated_ts": 1795437297.768184,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795436126.821644
+      "heartbeat_ts": 1795437297.7676768
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 3,
+    "signals": 5,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 2
+      "max_drawdown:0.151>=0.15": 3
     },
     "wins": 0,
     "losses": 0
@@ -65,7 +65,7 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61369.0,
+      "BTC/USDT": 61369.3,
       "ETH/USDT": 1726.01
     }
   },
@@ -4065,6 +4065,16 @@
     },
     "news": [
       {
+        "title": "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
         "source": "CoinDesk",
         "ts": 0
@@ -4083,27 +4093,17 @@
         "title": "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3619.6001,
-      "XAGUSD": 42.325,
+      "XAUUSD": 3614.19995,
+      "XAGUSD": 42.205,
       "EURUSD": 1.09661,
-      "GBPUSD": 1.30938,
-      "USDJPY": 159.035,
-      "AUDUSD": 0.66322,
-      "NZDUSD": 0.54639,
-      "US100": 25987.5
+      "GBPUSD": 1.30972,
+      "USDJPY": 158.992,
+      "AUDUSD": 0.66287,
+      "NZDUSD": 0.54627,
+      "US100": 25891.5
     },
     "period_stats": {
       "day": {
