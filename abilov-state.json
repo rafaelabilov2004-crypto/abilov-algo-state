@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795457295.883451,
+  "updated_ts": 1795460259.06177,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 153,
+      "loop_n": 154,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795457295.882905
+      "heartbeat_ts": 1795460259.061383
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 22,
+    "signals": 26,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 20
+      "max_drawdown:0.151>=0.15": 24
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61432.4,
-      "ETH/USDT": 1765.56
+      "BTC/USDT": 61449.7,
+      "ETH/USDT": 1758.53
     }
   },
   "open_positions": [],
@@ -3870,6 +3870,16 @@
     },
     "news": [
       {
+        "title": "New York judge declines to block Kalshi from operating in the state for now",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
         "source": "CoinDesk",
         "ts": 0
@@ -3888,27 +3898,17 @@
         "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Nvidia soars as Jensen Huang returns to lead company",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3653.1001,
-      "XAGUSD": 43.155,
-      "EURUSD": 1.08897,
-      "GBPUSD": 1.30181,
-      "USDJPY": 159.24001,
-      "AUDUSD": 0.66243,
-      "NZDUSD": 0.54401,
-      "US100": 26824.75
+      "XAUUSD": 3649.6001,
+      "XAGUSD": 43.0,
+      "EURUSD": 1.08932,
+      "GBPUSD": 1.30249,
+      "USDJPY": 159.092,
+      "AUDUSD": 0.66287,
+      "NZDUSD": 0.54475,
+      "US100": 26762.5
     },
     "period_stats": {
       "day": {
