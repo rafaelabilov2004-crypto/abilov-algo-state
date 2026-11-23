@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795444214.656539,
+  "updated_ts": 1795444424.7654788,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 81,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795444214.655951
+      "heartbeat_ts": 1795444424.76524
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 19,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 17
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61327.6,
-      "ETH/USDT": 1723.78
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -1783,46 +1781,6 @@
         ]
       },
       {
-        "symbol": "TSLA",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 352.5799865722656,
-        "sl": 367.51133007,
-        "tp_levels": [
-          336.9020759,
-          325.70356827,
-          314.50506065,
-          307.78595607
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "macd",
-          "donchian",
-          "vol_expansion",
-          "supertrend",
-          "pat_structure"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1795194236.712202,
-        "ts": 1795194235.935238,
-        "timeframe": "1h",
-        "msg_id": 3223,
-        "updates": [
-          {
-            "t": 1795194236.712202,
-            "kind": "open",
-            "px": 352.5799865722656
-          }
-        ]
-      },
-      {
         "symbol": "USOIL",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2244,9 +2202,99 @@
             "px": 1840.489990234375
           }
         ]
+      },
+      {
+        "symbol": "NVDA",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 162.27000427246094,
+        "sl": 154.15650406,
+        "tp_levels": [
+          170.7891795,
+          176.87430466,
+          182.95942982,
+          186.61050491
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "donchian",
+          "supertrend",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795444405.937212,
+        "ts": 1795444405.360815,
+        "timeframe": "1h",
+        "msg_id": 3309,
+        "updates": [
+          {
+            "t": 1795444405.937212,
+            "kind": "open",
+            "px": 162.27000427246094
+          }
+        ]
       }
     ],
     "closed": [
+      {
+        "symbol": "TSLA",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 352.5799865722656,
+        "sl": 367.51133007,
+        "tp_levels": [
+          336.9020759,
+          325.70356827,
+          314.50506065,
+          307.78595607
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "macd",
+          "donchian",
+          "vol_expansion",
+          "supertrend",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795194236.712202,
+        "ts": 1795194235.935238,
+        "timeframe": "1h",
+        "msg_id": 3223,
+        "updates": [
+          {
+            "t": 1795194236.712202,
+            "kind": "open",
+            "px": 352.5799865722656
+          },
+          {
+            "t": 1795444323.44695,
+            "kind": "SL",
+            "px": 367.51133007,
+            "pct": -4.23
+          }
+        ],
+        "exit": 367.51133007,
+        "reason": "SL",
+        "pct": -4.235,
+        "r_multiple": -1.0,
+        "closed_ts": 1795444323.446968
+      },
       {
         "symbol": "ETHUSD",
         "side": "LONG",
@@ -3575,63 +3623,6 @@
         "pct": -1.777,
         "r_multiple": -1.0,
         "closed_ts": 1795199922.2441301
-      },
-      {
-        "symbol": "US30",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 49159.0,
-        "sl": 48758.93685496,
-        "tp_levels": [
-          49579.06630229,
-          49879.11366108,
-          50179.16101986,
-          50359.18943513
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "macd",
-          "stoch",
-          "pat_engulfing",
-          "pat_pin_bar",
-          "pat_hammer",
-          "sentiment"
-        ],
-        "tp_idx": 1,
-        "opened_ts": 1795166476.2316291,
-        "ts": 1795166475.499639,
-        "timeframe": "1h",
-        "msg_id": 3195,
-        "updates": [
-          {
-            "t": 1795166476.2316291,
-            "kind": "open",
-            "px": 49159.0
-          },
-          {
-            "t": 1795187872.877536,
-            "kind": "TP1",
-            "px": 49579.06630229,
-            "pct": 0.85
-          },
-          {
-            "t": 1795197466.962878,
-            "kind": "SL",
-            "px": 48758.93685496,
-            "pct": -0.81
-          }
-        ],
-        "exit": 48758.93685496,
-        "reason": "SL",
-        "pct": -0.814,
-        "r_multiple": -1.0,
-        "closed_ts": 1795197466.9629052
       }
     ]
   },
@@ -3653,7 +3644,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Nasdaq jumps nearly 7% as Nvidia brings back Jensen Huang",
+        "title": "Live updates: Bitcoin climbs back to $64,000 as Nasdaq soars 7% on Huang return",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3674,13 +3665,13 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3669.69995,
-      "XAGUSD": 43.545,
-      "EURUSD": 1.09457,
-      "GBPUSD": 1.30765,
-      "USDJPY": 159.31799,
-      "AUDUSD": 0.66525,
-      "NZDUSD": 0.54615,
+      "XAUUSD": 3682.5,
+      "XAGUSD": 43.73,
+      "EURUSD": 1.09433,
+      "GBPUSD": 1.30745,
+      "USDJPY": 159.388,
+      "AUDUSD": 0.6652,
+      "NZDUSD": 0.54624,
       "US100": 26878.5
     },
     "period_stats": {
@@ -3706,10 +3697,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 2400.8,
+    "balance": 2299.13,
     "currency": "$",
-    "total_return_pct": 140.08,
-    "closed": 869,
+    "total_return_pct": 129.91,
+    "closed": 870,
     "wins": 221,
     "peak": 2838.55
   }
