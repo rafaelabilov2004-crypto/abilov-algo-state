@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795446168.618069,
+  "updated_ts": 1795447435.908191,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 26,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795446168.6174982
+      "heartbeat_ts": 1795447435.9079318
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 4,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 2
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61345.7,
-      "ETH/USDT": 1769.27
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3676,6 +3674,11 @@
     },
     "news": [
       {
+        "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
         "source": "CoinDesk",
         "ts": 0
@@ -3699,22 +3702,17 @@
         "title": "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3669.6001,
-      "XAGUSD": 43.57,
-      "EURUSD": 1.09302,
-      "GBPUSD": 1.30467,
-      "USDJPY": 159.33299,
-      "AUDUSD": 0.66401,
-      "NZDUSD": 0.54558,
-      "US100": 26658.5
+      "XAUUSD": 3660.69995,
+      "XAGUSD": 43.405,
+      "EURUSD": 1.09111,
+      "GBPUSD": 1.30371,
+      "USDJPY": 159.31,
+      "AUDUSD": 0.663,
+      "NZDUSD": 0.54457,
+      "US100": 26854.5
     },
     "period_stats": {
       "day": {
