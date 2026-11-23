@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795437297.768184,
+  "updated_ts": 1795439235.152871,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 3,
+      "loop_n": 4,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795437297.7676768
+      "heartbeat_ts": 1795439235.1524951
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 5,
+    "signals": 9,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 3
+      "max_drawdown:0.151>=0.15": 7
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61369.3,
-      "ETH/USDT": 1726.01
+      "BTC/USDT": 61356.0,
+      "ETH/USDT": 1721.26
     }
   },
   "open_positions": [],
@@ -4065,6 +4065,11 @@
     },
     "news": [
       {
+        "title": "Live news: Tech futures rebound more than 3% as dollar index tops 104, a 20-month high",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
         "source": "CoinDesk",
         "ts": 0
@@ -4088,22 +4093,17 @@
         "title": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3614.19995,
-      "XAGUSD": 42.205,
-      "EURUSD": 1.09661,
-      "GBPUSD": 1.30972,
-      "USDJPY": 158.992,
-      "AUDUSD": 0.66287,
-      "NZDUSD": 0.54627,
-      "US100": 25891.5
+      "XAUUSD": 3615.5,
+      "XAGUSD": 42.085,
+      "EURUSD": 1.09457,
+      "GBPUSD": 1.30782,
+      "USDJPY": 159.04201,
+      "AUDUSD": 0.66208,
+      "NZDUSD": 0.54526,
+      "US100": 25893.5
     },
     "period_stats": {
       "day": {
