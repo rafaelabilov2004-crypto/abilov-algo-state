@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795455161.874354,
+  "updated_ts": 1795455224.399356,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 120,
+      "loop_n": 121,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795455161.873405
+      "heartbeat_ts": 1795455224.398807
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 16,
+    "signals": 18,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 14
+      "max_drawdown:0.151>=0.15": 16
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61412.3,
-      "ETH/USDT": 1771.12
+      "BTC/USDT": 61419.8,
+      "ETH/USDT": 1769.49
     }
   },
   "open_positions": [],
@@ -3824,6 +3824,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
         "source": "CoinDesk",
         "ts": 0
@@ -3847,22 +3852,17 @@
         "title": "Nvidia soars as Jensen Huang returns to lead company",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3667.0,
-      "XAGUSD": 43.49,
-      "EURUSD": 1.08873,
-      "GBPUSD": 1.30196,
-      "USDJPY": 159.304,
-      "AUDUSD": 0.66238,
-      "NZDUSD": 0.54395,
-      "US100": 26842.25
+      "XAUUSD": 3662.5,
+      "XAGUSD": 43.38,
+      "EURUSD": 1.08897,
+      "GBPUSD": 1.3022,
+      "USDJPY": 159.311,
+      "AUDUSD": 0.66269,
+      "NZDUSD": 0.54404,
+      "US100": 26812.75
     },
     "period_stats": {
       "day": {
