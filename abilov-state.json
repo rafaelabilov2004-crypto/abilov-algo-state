@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795443823.01716,
+  "updated_ts": 1795443890.996566,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 75,
+      "loop_n": 76,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795443823.016556
+      "heartbeat_ts": 1795443890.9959989
     }
   },
   "control": {
@@ -2048,58 +2048,6 @@
         ]
       },
       {
-        "symbol": "AUDUSD",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 0.6649377942085266,
-        "sl": 0.66759755,
-        "tp_levels": [
-          0.66214506,
-          0.66015024,
-          0.65815543,
-          0.65695854
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_6",
-          "ema_trend",
-          "adx_strong",
-          "vol_expansion",
-          "supertrend",
-          "pat_pin_bar",
-          "pat_hammer"
-        ],
-        "tp_idx": 2,
-        "opened_ts": 1795419318.5617468,
-        "ts": 1795419317.768575,
-        "timeframe": "1h",
-        "msg_id": 3274,
-        "updates": [
-          {
-            "t": 1795419318.561748,
-            "kind": "open",
-            "px": 0.6649377942085266
-          },
-          {
-            "t": 1795439241.26997,
-            "kind": "TP1",
-            "px": 0.66214506,
-            "pct": 0.42
-          },
-          {
-            "t": 1795442066.856094,
-            "kind": "TP2",
-            "px": 0.66015024,
-            "pct": 0.72
-          }
-        ]
-      },
-      {
         "symbol": "XAUUSD",
         "side": "SHORT",
         "strategy": "confluence",
@@ -2304,6 +2252,69 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "AUDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.6649377942085266,
+        "sl": 0.66759755,
+        "tp_levels": [
+          0.66214506,
+          0.66015024,
+          0.65815543,
+          0.65695854
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_6",
+          "ema_trend",
+          "adx_strong",
+          "vol_expansion",
+          "supertrend",
+          "pat_pin_bar",
+          "pat_hammer"
+        ],
+        "tp_idx": 2,
+        "opened_ts": 1795419318.5617468,
+        "ts": 1795419317.768575,
+        "timeframe": "1h",
+        "msg_id": 3274,
+        "updates": [
+          {
+            "t": 1795419318.561748,
+            "kind": "open",
+            "px": 0.6649377942085266
+          },
+          {
+            "t": 1795439241.26997,
+            "kind": "TP1",
+            "px": 0.66214506,
+            "pct": 0.42
+          },
+          {
+            "t": 1795442066.856094,
+            "kind": "TP2",
+            "px": 0.66015024,
+            "pct": 0.72
+          },
+          {
+            "t": 1795443887.753827,
+            "kind": "BE",
+            "px": 0.6649377942085266,
+            "pct": -0.0
+          }
+        ],
+        "exit": 0.6649377942085266,
+        "reason": "BE",
+        "pct": -0.0,
+        "r_multiple": -0.0,
+        "closed_ts": 1795443887.753844
+      },
       {
         "symbol": "US30",
         "side": "SHORT",
@@ -3609,74 +3620,6 @@
         "pct": -2.236,
         "r_multiple": -1.0,
         "closed_ts": 1795195273.181204
-      },
-      {
-        "symbol": "TSLA",
-        "side": "SHORT",
-        "strategy": "confluence",
-        "entry": 390.3599853515625,
-        "sl": 402.64255187,
-        "tp_levels": [
-          377.46329051,
-          368.25136562,
-          359.03944073,
-          353.51228579
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "macd",
-          "stoch",
-          "pat_pin_bar",
-          "pat_hammer",
-          "pat_structure"
-        ],
-        "tp_idx": 3,
-        "opened_ts": 1794603474.013758,
-        "ts": 1794603472.830004,
-        "timeframe": "1h",
-        "msg_id": 3004,
-        "updates": [
-          {
-            "t": 1794603474.01376,
-            "kind": "open",
-            "px": 390.3599853515625
-          },
-          {
-            "t": 1794841248.1095738,
-            "kind": "TP1",
-            "px": 377.46329051,
-            "pct": 3.3
-          },
-          {
-            "t": 1795185171.6612852,
-            "kind": "TP2",
-            "px": 368.25136562,
-            "pct": 5.66
-          },
-          {
-            "t": 1795191999.1102872,
-            "kind": "TP3",
-            "px": 359.03944073,
-            "pct": 8.02
-          },
-          {
-            "t": 1795194232.800322,
-            "kind": "TP4",
-            "px": 353.51228579,
-            "pct": 9.44
-          }
-        ],
-        "exit": 353.51228579,
-        "reason": "TP4",
-        "pct": 9.439,
-        "r_multiple": 3.0,
-        "closed_ts": 1795194232.8003469
       }
     ]
   },
@@ -3698,7 +3641,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Nvidia shares surge 27% as Jensen Huang returns as CEO",
+        "title": "Live updates: Nasdaq jumps nearly 7% as Nvidia brings back Jensen Huang",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3719,14 +3662,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3658.69995,
-      "XAGUSD": 43.275,
-      "EURUSD": 1.09385,
-      "GBPUSD": 1.3071,
-      "USDJPY": 159.375,
-      "AUDUSD": 0.6641,
-      "NZDUSD": 0.54564,
-      "US100": 26791.5
+      "XAUUSD": 3667.5,
+      "XAGUSD": 43.465,
+      "EURUSD": 1.09457,
+      "GBPUSD": 1.30765,
+      "USDJPY": 159.33,
+      "AUDUSD": 0.66498,
+      "NZDUSD": 0.54624,
+      "US100": 26819.75
     },
     "period_stats": {
       "day": {
@@ -3754,7 +3697,7 @@
     "balance": 2146.2,
     "currency": "$",
     "total_return_pct": 114.62,
-    "closed": 867,
+    "closed": 868,
     "wins": 220,
     "peak": 2838.55
   }
