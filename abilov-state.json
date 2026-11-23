@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795442646.4674199,
+  "updated_ts": 1795442714.104769,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 57,
+      "loop_n": 58,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795442646.4661682
+      "heartbeat_ts": 1795442714.1041868
     }
   },
   "control": {
@@ -1959,45 +1959,6 @@
         ]
       },
       {
-        "symbol": "USOIL",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 82.6500015258789,
-        "sl": 80.81145332,
-        "tp_levels": [
-          84.58047714,
-          85.9593883,
-          87.33829945,
-          88.16564614
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "stoch",
-          "pat_hammer",
-          "sentiment"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1795199149.856831,
-        "ts": 1795199148.931584,
-        "timeframe": "1h",
-        "msg_id": 3230,
-        "updates": [
-          {
-            "t": 1795199149.856832,
-            "kind": "open",
-            "px": 82.6500015258789
-          }
-        ]
-      },
-      {
         "symbol": "ETHUSD",
         "side": "LONG",
         "strategy": "confluence",
@@ -2473,6 +2434,56 @@
       }
     ],
     "closed": [
+      {
+        "symbol": "USOIL",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 82.6500015258789,
+        "sl": 80.81145332,
+        "tp_levels": [
+          84.58047714,
+          85.9593883,
+          87.33829945,
+          88.16564614
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_hammer",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795199149.856831,
+        "ts": 1795199148.931584,
+        "timeframe": "1h",
+        "msg_id": 3230,
+        "updates": [
+          {
+            "t": 1795199149.856832,
+            "kind": "open",
+            "px": 82.6500015258789
+          },
+          {
+            "t": 1795442710.8036668,
+            "kind": "SL",
+            "px": 80.81145332,
+            "pct": -2.22
+          }
+        ],
+        "exit": 80.81145332,
+        "reason": "SL",
+        "pct": -2.224,
+        "r_multiple": -1.0,
+        "closed_ts": 1795442710.8036869
+      },
       {
         "symbol": "BTCUSD",
         "side": "SHORT",
@@ -3816,56 +3827,6 @@
         "pct": 8.815,
         "r_multiple": 3.0,
         "closed_ts": 1795189680.6050618
-      },
-      {
-        "symbol": "AUDUSD",
-        "side": "LONG",
-        "strategy": "confluence",
-        "entry": 0.6682258248329163,
-        "sl": 0.66555292,
-        "tp_levels": [
-          0.67103237,
-          0.67303705,
-          0.67504173,
-          0.67624453
-        ],
-        "tp_sizes": [
-          0.25,
-          0.25,
-          0.2,
-          0.3
-        ],
-        "reasons": [
-          "confluence_5",
-          "rsi",
-          "macd",
-          "pat_pin_bar",
-          "pat_hammer",
-          "sentiment"
-        ],
-        "tp_idx": 0,
-        "opened_ts": 1795159122.619154,
-        "ts": 1795159121.907934,
-        "timeframe": "1h",
-        "msg_id": 3190,
-        "updates": [
-          {
-            "t": 1795159122.619155,
-            "kind": "open",
-            "px": 0.6682258248329163
-          },
-          {
-            "t": 1795188002.0817401,
-            "kind": "SL",
-            "px": 0.66555292,
-            "pct": -0.4
-          }
-        ],
-        "exit": 0.66555292,
-        "reason": "SL",
-        "pct": -0.4,
-        "r_multiple": -1.0,
-        "closed_ts": 1795188002.0818071
       }
     ]
   },
@@ -3882,7 +3843,7 @@
         "ts": 0
       },
       {
-        "title": "Live updates: Tech futures rebound more than 3% as dollar index tops 104, a 20-month high",
+        "title": "Live updates: Nvidia shares surge 27% as Jensen Huang returns as CEO",
         "source": "CoinDesk",
         "ts": 0
       },
@@ -3908,14 +3869,14 @@
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3616.5,
-      "XAGUSD": 41.94,
-      "EURUSD": 1.09302,
-      "GBPUSD": 1.30656,
-      "USDJPY": 159.37,
-      "AUDUSD": 0.663,
-      "NZDUSD": 0.54505,
-      "US100": 25875.5
+      "XAUUSD": 3616.8999,
+      "XAGUSD": 41.95,
+      "EURUSD": 1.09361,
+      "GBPUSD": 1.30734,
+      "USDJPY": 159.338,
+      "AUDUSD": 0.6641,
+      "NZDUSD": 0.5457,
+      "US100": 25880.5
     },
     "period_stats": {
       "day": {
@@ -3940,10 +3901,10 @@
   },
   "challenge": {
     "start": 1000.0,
-    "balance": 2278.39,
+    "balance": 2227.71,
     "currency": "$",
-    "total_return_pct": 127.84,
-    "closed": 863,
+    "total_return_pct": 122.77,
+    "closed": 864,
     "wins": 220,
     "peak": 2838.55
   }
