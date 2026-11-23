@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795433195.59267,
+  "updated_ts": 1795434178.667566,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 4,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795433195.5923991
+      "heartbeat_ts": 1795434178.667367
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 5,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 4
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61351.8,
-      "ETH/USDT": 1724.41
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -4065,6 +4063,16 @@
     },
     "news": [
       {
+        "title": "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad",
         "source": "CoinDesk",
         "ts": 0
@@ -4083,27 +4091,17 @@
         "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Cardano holders are turning down a $4 million request for running its flagship event",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3622.19995,
-      "XAGUSD": 42.445,
-      "EURUSD": 1.09685,
-      "GBPUSD": 1.31038,
-      "USDJPY": 159.067,
-      "AUDUSD": 0.66401,
-      "NZDUSD": 0.54669,
-      "US100": 25998.5
+      "XAUUSD": 3620.69995,
+      "XAGUSD": 42.415,
+      "EURUSD": 1.09637,
+      "GBPUSD": 1.30983,
+      "USDJPY": 159.091,
+      "AUDUSD": 0.66357,
+      "NZDUSD": 0.5466,
+      "US100": 26015.75
     },
     "period_stats": {
       "day": {
