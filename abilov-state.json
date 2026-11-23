@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795434178.667566,
+  "updated_ts": 1795436126.8221598,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795434178.667367
+      "heartbeat_ts": 1795436126.821644
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 3,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 61369.0,
+      "ETH/USDT": 1726.01
     }
   },
   "open_positions": [],
@@ -4063,6 +4065,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income",
         "source": "CoinDesk",
         "ts": 0
@@ -4086,22 +4093,17 @@
         "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3620.69995,
-      "XAGUSD": 42.415,
-      "EURUSD": 1.09637,
-      "GBPUSD": 1.30983,
-      "USDJPY": 159.091,
-      "AUDUSD": 0.66357,
-      "NZDUSD": 0.5466,
-      "US100": 26015.75
+      "XAUUSD": 3619.6001,
+      "XAGUSD": 42.325,
+      "EURUSD": 1.09661,
+      "GBPUSD": 1.30938,
+      "USDJPY": 159.035,
+      "AUDUSD": 0.66322,
+      "NZDUSD": 0.54639,
+      "US100": 25987.5
     },
     "period_stats": {
       "day": {
