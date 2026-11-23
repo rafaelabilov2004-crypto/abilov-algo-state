@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795425163.041708,
+  "updated_ts": 1795427141.363539,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795425163.0414689
+      "heartbeat_ts": 1795427141.36292
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 61319.0,
+      "ETH/USDT": 1727.92
     }
   },
   "open_positions": [],
@@ -2500,6 +2502,45 @@
             "px": 3624.300048828125
           }
         ]
+      },
+      {
+        "symbol": "US30",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 49136.0,
+        "sl": 48530.42783967,
+        "tp_levels": [
+          49771.85076835,
+          50226.0298886,
+          50680.20900884,
+          50952.71648099
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "pat_pin_bar",
+          "pat_hammer",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795425177.7849312,
+        "ts": 1795425176.686323,
+        "timeframe": "1h",
+        "msg_id": 3279,
+        "updates": [
+          {
+            "t": 1795425177.7849338,
+            "kind": "open",
+            "px": 49136.0
+          }
+        ]
       }
     ],
     "closed": [
@@ -3945,6 +3986,11 @@
     },
     "news": [
       {
+        "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
         "source": "CoinDesk",
         "ts": 0
@@ -3968,22 +4014,17 @@
         "title": "Market rout kills 50 basis points December Fed rate hike bets",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "More on the pending oversight hearings: State of Crypto",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3613.1001,
-      "XAGUSD": 42.44,
-      "EURUSD": 1.09866,
-      "GBPUSD": 1.31266,
-      "USDJPY": 159.16701,
-      "AUDUSD": 0.66542,
-      "NZDUSD": 0.54762,
-      "US100": 25982.5
+      "XAUUSD": 3614.19995,
+      "XAGUSD": 42.48,
+      "EURUSD": 1.0983,
+      "GBPUSD": 1.31211,
+      "USDJPY": 159.114,
+      "AUDUSD": 0.66529,
+      "NZDUSD": 0.54777,
+      "US100": 25994.5
     },
     "period_stats": {
       "day": {
