@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795428280.2850509,
+  "updated_ts": 1795430076.5654762,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 5,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795428280.284054
+      "heartbeat_ts": 1795430076.565263
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 6,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 4
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61326.1,
-      "ETH/USDT": 1727.15
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3986,6 +3984,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
         "source": "CoinDesk",
         "ts": 0
@@ -4009,22 +4012,17 @@
         "title": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Market rout kills 50 basis points December Fed rate hike bets",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3615.80005,
-      "XAGUSD": 42.455,
-      "EURUSD": 1.09769,
-      "GBPUSD": 1.31135,
-      "USDJPY": 159.104,
+      "XAUUSD": 3617.1001,
+      "XAGUSD": 42.43,
+      "EURUSD": 1.09745,
+      "GBPUSD": 1.31108,
+      "USDJPY": 159.099,
       "AUDUSD": 0.66476,
-      "NZDUSD": 0.54732,
-      "US100": 25960.5
+      "NZDUSD": 0.54714,
+      "US100": 26005.5
     },
     "period_stats": {
       "day": {
