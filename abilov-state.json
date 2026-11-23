@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795414108.880853,
+  "updated_ts": 1795415548.766183,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 103,
+      "loop_n": 104,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795414108.8802838
+      "heartbeat_ts": 1795415548.766005
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 16,
+    "signals": 20,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 14
+      "max_drawdown:0.151>=0.15": 18
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61226.3,
-      "ETH/USDT": 1727.19
+      "BTC/USDT": 61241.2,
+      "ETH/USDT": 1729.87
     }
   },
   "open_positions": [],
@@ -3672,6 +3672,11 @@
     },
     "news": [
       {
+        "title": "Cardano holders are turning down a $4 million request for running its flagship event",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
         "source": "CoinDesk",
         "ts": 0
@@ -3695,22 +3700,17 @@
         "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3615.69995,
-      "XAGUSD": 42.49,
+      "XAUUSD": 3614.0,
+      "XAGUSD": 42.375,
       "EURUSD": 1.09999,
-      "GBPUSD": 1.31249,
-      "USDJPY": 158.92799,
-      "AUDUSD": 0.66467,
-      "NZDUSD": 0.54786,
-      "US100": 25880.75
+      "GBPUSD": 1.31258,
+      "USDJPY": 158.946,
+      "AUDUSD": 0.66454,
+      "NZDUSD": 0.5478,
+      "US100": 25836.0
     },
     "period_stats": {
       "day": {
