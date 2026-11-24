@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795513459.714237,
+  "updated_ts": 1795516713.325459,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 2,
+      "loop_n": 3,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795513459.713566
+      "heartbeat_ts": 1795516713.3249002
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 4,
+    "signals": 8,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 2
+      "max_drawdown:0.151>=0.15": 6
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 60983.8,
-      "ETH/USDT": 1693.94
+      "BTC/USDT": 60973.7,
+      "ETH/USDT": 1687.42
     }
   },
   "open_positions": [],
@@ -2372,7 +2372,7 @@
           "pat_pin_bar",
           "pat_hammer"
         ],
-        "tp_idx": 0,
+        "tp_idx": 1,
         "opened_ts": 1795450440.0416021,
         "ts": 1795450439.24944,
         "timeframe": "1h",
@@ -2382,6 +2382,12 @@
             "t": 1795450440.041603,
             "kind": "open",
             "px": 43.404998779296875
+          },
+          {
+            "t": 1795513464.7866619,
+            "kind": "TP1",
+            "px": 41.84155466,
+            "pct": 3.6
           }
         ]
       },
@@ -2578,6 +2584,43 @@
             "t": 1795480617.975966,
             "kind": "open",
             "px": 1701.52001953125
+          }
+        ]
+      },
+      {
+        "symbol": "GBPUSD",
+        "side": "LONG",
+        "strategy": "confluence",
+        "entry": 1.3060798645019531,
+        "sl": 1.30085555,
+        "tp_levels": [
+          1.3115654,
+          1.31548364,
+          1.31940188,
+          1.32175282
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_3",
+          "rsi",
+          "macd",
+          "sentiment"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795513467.050836,
+        "ts": 1795513465.954252,
+        "timeframe": "1h",
+        "msg_id": 3337,
+        "updates": [
+          {
+            "t": 1795513467.050838,
+            "kind": "open",
+            "px": 1.3060798645019531
           }
         ]
       }
@@ -3968,6 +4011,16 @@
     },
     "news": [
       {
+        "title": "South Korea regulator backs bank-controlled stablecoins after months of dispute",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin falls below $60,000 as rally on Jensen Huang\u2019s Nvidia return fades",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
         "source": "CoinDesk",
         "ts": 0
@@ -3986,27 +4039,17 @@
         "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Binance hackers push $247 million through transactions designed to cloud the source",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3621.30005,
-      "XAGUSD": 41.76,
-      "EURUSD": 1.09218,
-      "GBPUSD": 1.30608,
-      "USDJPY": 159.354,
-      "AUDUSD": 0.66313,
-      "NZDUSD": 0.54511,
-      "US100": 26588.5
+      "XAUUSD": 3619.6001,
+      "XAGUSD": 41.81,
+      "EURUSD": 1.09314,
+      "GBPUSD": 1.30632,
+      "USDJPY": 159.49001,
+      "AUDUSD": 0.66287,
+      "NZDUSD": 0.54546,
+      "US100": 26502.5
     },
     "period_stats": {
       "day": {
