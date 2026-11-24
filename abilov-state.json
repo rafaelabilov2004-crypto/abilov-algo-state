@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795480168.177323,
+  "updated_ts": 1795480231.602447,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795480168.1762419
+      "heartbeat_ts": 1795480231.601841
     }
   },
   "control": {
@@ -49,12 +49,12 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 4,
+    "signals": 5,
     "entries": 0,
     "closes": 0,
     "updates": 0,
     "rejections": {
-      "max_drawdown:0.151>=0.15": 2
+      "max_drawdown:0.151>=0.15": 4
     },
     "wins": 0,
     "losses": 0
@@ -65,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 61373.2,
-      "ETH/USDT": 1714.09
+      "BTC/USDT": 61366.9,
+      "ETH/USDT": 1710.74
     }
   },
   "open_positions": [],
@@ -3929,6 +3929,11 @@
     },
     "news": [
       {
+        "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "New York judge declines to block Kalshi from operating in the state for now",
         "source": "CoinDesk",
         "ts": 0
@@ -3952,22 +3957,17 @@
         "title": "Binance hackers push $247 million through transactions designed to cloud the source",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
-      "XAUUSD": 3637.19995,
-      "XAGUSD": 43.2,
-      "EURUSD": 1.09087,
-      "GBPUSD": 1.30332,
-      "USDJPY": 158.967,
-      "AUDUSD": 0.66265,
-      "NZDUSD": 0.54484,
-      "US100": 26786.0
+      "XAUUSD": 3636.3999,
+      "XAGUSD": 43.175,
+      "EURUSD": 1.09075,
+      "GBPUSD": 1.30334,
+      "USDJPY": 159.024,
+      "AUDUSD": 0.66282,
+      "NZDUSD": 0.54496,
+      "US100": 26787.25
     },
     "period_stats": {
       "day": {
