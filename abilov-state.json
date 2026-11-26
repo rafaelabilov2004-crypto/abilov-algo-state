@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795689409.026992,
+  "updated_ts": 1795689950.7995,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 59,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795689409.026416
+      "heartbeat_ts": 1795689950.7992089
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 12,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 10
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 58418.6,
-      "ETH/USDT": 1703.89
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3962,6 +3960,11 @@
     },
     "news": [
       {
+        "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "$7 billion of bitcoin options expire Friday, and the biggest bets look starkly different from October",
         "source": "CoinDesk",
         "ts": 0
@@ -3985,11 +3988,6 @@
         "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
@@ -3997,9 +3995,9 @@
       "XAGUSD": 42.085,
       "EURUSD": 1.09782,
       "GBPUSD": 1.31127,
-      "USDJPY": 159.287,
-      "AUDUSD": 0.66313,
-      "NZDUSD": 0.5481,
+      "USDJPY": 159.30299,
+      "AUDUSD": 0.66304,
+      "NZDUSD": 0.54807,
       "US100": 26389.75
     },
     "period_stats": {
