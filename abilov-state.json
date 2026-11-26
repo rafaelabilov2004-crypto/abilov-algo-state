@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795694575.017215,
+  "updated_ts": 1795698141.794304,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 72,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795694575.015452
+      "heartbeat_ts": 1795698141.7938938
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 10,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 8
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 58461.6,
-      "ETH/USDT": 1698.03
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3962,6 +3960,16 @@
     },
     "news": [
       {
+        "title": "Standard Chartered's Zodia Custody suffers data breach, exposing client information",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Hong Kong-based crypto trading firm Auros is winding down operations",
         "source": "CoinDesk",
         "ts": 0
@@ -3980,26 +3988,16 @@
         "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "$7 billion of bitcoin options expire Friday, and the biggest bets look starkly different from October",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Zcash developers want users to move $300 million out of an older privacy system",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 3620.3999,
       "XAGUSD": 42.085,
-      "EURUSD": 1.09733,
-      "GBPUSD": 1.30989,
-      "USDJPY": 159.278,
-      "AUDUSD": 0.66304,
-      "NZDUSD": 0.54771,
+      "EURUSD": 1.09782,
+      "GBPUSD": 1.31053,
+      "USDJPY": 159.26199,
+      "AUDUSD": 0.66383,
+      "NZDUSD": 0.54807,
       "US100": 26389.75
     },
     "period_stats": {
