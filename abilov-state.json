@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795691842.509546,
+  "updated_ts": 1795691905.1727622,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 30,
+      "loop_n": 31,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795691842.507943
+      "heartbeat_ts": 1795691905.169413
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 2,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 58439.0,
+      "ETH/USDT": 1698.76
     }
   },
   "open_positions": [],
@@ -3960,6 +3962,11 @@
     },
     "news": [
       {
+        "title": "Bitcoin little changed, DeFi tokens lead the bounce as U.S. marks Thanksgiving",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
         "source": "CoinDesk",
         "ts": 0
@@ -3983,21 +3990,16 @@
         "title": "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 3620.3999,
       "XAGUSD": 42.085,
-      "EURUSD": 1.09757,
-      "GBPUSD": 1.31084,
-      "USDJPY": 159.25101,
-      "AUDUSD": 0.66326,
-      "NZDUSD": 0.5481,
+      "EURUSD": 1.09733,
+      "GBPUSD": 1.31065,
+      "USDJPY": 159.286,
+      "AUDUSD": 0.66322,
+      "NZDUSD": 0.54798,
       "US100": 26389.75
     },
     "period_stats": {
