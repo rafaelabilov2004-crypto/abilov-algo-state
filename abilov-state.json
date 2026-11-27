@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795784954.805265,
+  "updated_ts": 1795785022.790859,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 149,
+      "loop_n": 150,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795784954.803884
+      "heartbeat_ts": 1795785022.789919
     }
   },
   "control": {
@@ -2486,6 +2486,45 @@
             "t": 1795684127.069514,
             "kind": "open",
             "px": 149.27000427246094
+          }
+        ]
+      },
+      {
+        "symbol": "NZDUSD",
+        "side": "SHORT",
+        "strategy": "confluence",
+        "entry": 0.5482456088066101,
+        "sl": 0.55043859,
+        "tp_levels": [
+          0.54594298,
+          0.54429824,
+          0.5426535,
+          0.54166666
+        ],
+        "tp_sizes": [
+          0.25,
+          0.25,
+          0.2,
+          0.3
+        ],
+        "reasons": [
+          "confluence_5",
+          "rsi",
+          "macd",
+          "stoch",
+          "pat_star",
+          "pat_structure"
+        ],
+        "tp_idx": 0,
+        "opened_ts": 1795785022.7808971,
+        "ts": 1795785021.530768,
+        "timeframe": "1h",
+        "msg_id": 3414,
+        "updates": [
+          {
+            "t": 1795785022.7809,
+            "kind": "open",
+            "px": 0.5482456088066101
           }
         ]
       }
