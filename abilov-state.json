@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795749736.130861,
+  "updated_ts": 1795754486.477049,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 799,
+      "loop_n": 0,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795749736.1276212
+      "heartbeat_ts": 1795754486.476816
     }
   },
   "control": {
@@ -49,13 +49,11 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 92,
+    "signals": 0,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {
-      "max_drawdown:0.151>=0.15": 90
-    },
+    "rejections": {},
     "wins": 0,
     "losses": 0
   },
@@ -65,8 +63,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 60724.6,
-      "ETH/USDT": 1708.53
+      "BTC/USDT": 0.0,
+      "ETH/USDT": 0.0
     }
   },
   "open_positions": [],
@@ -3880,6 +3878,11 @@
     },
     "news": [
       {
+        "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
         "source": "CoinDesk",
         "ts": 0
@@ -3903,21 +3906,16 @@
         "title": "Standard Chartered's Zodia Custody suffers data breach, exposing client information",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 3620.3999,
       "XAGUSD": 42.085,
-      "EURUSD": 1.0983,
-      "GBPUSD": 1.31247,
-      "USDJPY": 159.228,
-      "AUDUSD": 0.66689,
-      "NZDUSD": 0.54975,
+      "EURUSD": 1.09757,
+      "GBPUSD": 1.3118,
+      "USDJPY": 159.258,
+      "AUDUSD": 0.66636,
+      "NZDUSD": 0.54855,
       "US100": 26389.75
     },
     "period_stats": {
