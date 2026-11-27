@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795772114.588947,
+  "updated_ts": 1795775393.01735,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 2,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795772114.58874
+      "heartbeat_ts": 1795775393.016754
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 60881.8,
+      "ETH/USDT": 1732.06
     }
   },
   "open_positions": [],
@@ -3878,6 +3880,16 @@
     },
     "news": [
       {
+        "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
+        "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why",
         "source": "CoinDesk",
         "ts": 0
@@ -3896,26 +3908,16 @@
         "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
-        "source": "CoinDesk",
-        "ts": 0
-      },
-      {
-        "title": "Bitcoin\u2019s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 3620.3999,
       "XAGUSD": 42.085,
-      "EURUSD": 1.09637,
-      "GBPUSD": 1.31249,
-      "USDJPY": 159.481,
-      "AUDUSD": 0.66774,
-      "NZDUSD": 0.54855,
+      "EURUSD": 1.09625,
+      "GBPUSD": 1.31282,
+      "USDJPY": 159.55901,
+      "AUDUSD": 0.66742,
+      "NZDUSD": 0.54831,
       "US100": 26389.75
     },
     "period_stats": {
