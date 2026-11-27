@@ -1,5 +1,5 @@
 {
-  "updated_ts": 1795754486.477049,
+  "updated_ts": 1795756149.889826,
   "meta": {
     "mode": "paper",
     "post_mode": "bot",
@@ -8,10 +8,10 @@
     "broker": "paper",
     "paused": false,
     "health": {
-      "loop_n": 0,
+      "loop_n": 1,
       "errors_1h": 0,
       "feed_ok": true,
-      "heartbeat_ts": 1795754486.476816
+      "heartbeat_ts": 1795756149.889466
     }
   },
   "control": {
@@ -49,11 +49,13 @@
     "net_pnl": -691.82
   },
   "stats": {
-    "signals": 0,
+    "signals": 4,
     "entries": 0,
     "closes": 0,
     "updates": 0,
-    "rejections": {},
+    "rejections": {
+      "max_drawdown:0.151>=0.15": 2
+    },
     "wins": 0,
     "losses": 0
   },
@@ -63,8 +65,8 @@
     "usdt": null,
     "coins": [],
     "prices": {
-      "BTC/USDT": 0.0,
-      "ETH/USDT": 0.0
+      "BTC/USDT": 60770.0,
+      "ETH/USDT": 1722.56
     }
   },
   "open_positions": [],
@@ -3878,6 +3880,11 @@
     },
     "news": [
       {
+        "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+        "source": "CoinDesk",
+        "ts": 0
+      },
+      {
         "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
         "source": "CoinDesk",
         "ts": 0
@@ -3901,21 +3908,16 @@
         "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
         "source": "CoinDesk",
         "ts": 0
-      },
-      {
-        "title": "Standard Chartered's Zodia Custody suffers data breach, exposing client information",
-        "source": "CoinDesk",
-        "ts": 0
       }
     ],
     "fx_rates": {
       "XAUUSD": 3620.3999,
       "XAGUSD": 42.085,
-      "EURUSD": 1.09757,
-      "GBPUSD": 1.3118,
-      "USDJPY": 159.258,
-      "AUDUSD": 0.66636,
-      "NZDUSD": 0.54855,
+      "EURUSD": 1.09769,
+      "GBPUSD": 1.31211,
+      "USDJPY": 159.28999,
+      "AUDUSD": 0.66662,
+      "NZDUSD": 0.54849,
       "US100": 26389.75
     },
     "period_stats": {
